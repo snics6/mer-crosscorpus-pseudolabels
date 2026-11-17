@@ -395,84 +395,81 @@ def pf_bars(ax, x, y, w, h, vals, color, fs, X):
     ax.plot([x, x + w], [y, y], color=GREY, lw=0.4, zorder=4)
 
 
+TPS = {
+    "ja": dict(a="ラベル無しの発話 1 つへの\n3 つの分類器の確率", b="重み（分類器 × 感情）", c="疑似ラベル q",
+               sumlab="感情ごとに\n掛けて足す", strength="強さ：K 本で測る", profile="感情ごとの形：ソースで測る",
+               clf={"A": "声", "V": "顔", "T": "言葉"}, retr="AVT の分類器を，K 本と q で学び直す"),
+    "en": dict(a="Probabilities for one\nunlabelled utterance", b="Weights (classifier × emotion)", c="Pseudo-label q",
+               sumlab="weight and\nsum per\nemotion", strength="Strength: K labels", profile="Profile: source corpora",
+               clf={"A": "Audio", "V": "Visual", "T": "Text"}, retr="Retrain the AVT classifier on the K labels and q"),
+}
+
+
 def fig_prop_flow(lang="ja"):
+    """Simplified (2026-11-17 night; researcher: "図がbusy．もっとシンプルで本質的なところだけ．細かい字が多いのは良くない"):
+    probabilities of one unlabelled utterance x weight table (strength from the K labels, profile from the sources)
+    -> pseudo-label q -> retraining. No numbers on the bars; details are in the caption and Sect. 3.6."""
     setup(lang)
-    t = TPF[lang]
+    t = TPS[lang]
     Wf = W if lang == "ja" else W_EN
     k = Wf / W_EN
     X = lambda x: x * k
-    fs = FS if lang == "ja" else 7.6
-    fv = fs - 0.6                                  # values and axis letters
-    hb = [23.0, 21.0, 22.0, 18.5, 13.5]
-    gap, x0, hw = 1.2, 0.6, 21.0
-    H = sum(hb) + gap * 4 + 1.2
+    fs = FS + 0.4 if lang == "ja" else 8.0
+    H = 60
     fig, ax = canvas(H, Wf)
-    hcol = ["#EEEEEE", "#F2F2F2", "#FDF0E8", "#FDF0E8", "#ECE6F2"]
-    ecol = ["#777777", "#444444", C_PROP, C_PROP, C_SRC]
-    bands, y = [], H - 0.6
-    for h in hb:
-        bands.append((y - h, y))
-        y -= h + gap
-    for i, ((yb, yt), fc, ec) in enumerate(zip(bands, hcol, ecol)):
-        box(ax, X(x0), yb, Wf - 2 * X(x0), yt - yb, fc=fc, ec=ec, lw=0.9, r=1.0)
-        box(ax, X(x0), yb, X(hw), yt - yb, fc=ec, ec=ec, lw=0.9, r=1.0, z=2)
-        txt(ax, X(x0 + hw / 2), (yb + yt) / 2, t["heads"][i], ha="center", va="center", size=fs, color="white",
-            weight="bold", ls=1.1)
-        if i:
-            arrow(ax, (X(x0 + hw / 2), bands[i - 1][0] + 1.6), (X(x0 + hw / 2), yt - 1.6), lw=1.0, head=6, color="white", z=4)
-    cx = x0 + hw + 2.0
-    R = (Wf - X(0.6) - X(1.0)) / k                 # right edge of the contents, in English units
-    # (1) the K labels and the other candidates, and what each is used for
-    yb, yt = bands[0]
-    box(ax, X(cx), yb + 0.8, X(34.5), yt - yb - 1.6, fc="white", ec=C_K, lw=1.2, z=3)
-    txt(ax, X(cx + 1.2), (yb + yt) / 2, t["k"], va="center", size=fs, color=C_K, ls=1.12)
-    box(ax, X(cx + 36.0), yb + 0.8, X(36.5), yt - yb - 1.6, fc="white", ec=C_U, lw=1.1, ls="--", z=3)
-    txt(ax, X(cx + 37.2), (yb + yt) / 2, t["other"], va="center", size=fs, color="#333333", ls=1.12)
-    txt(ax, X(cx + 74.0), (yb + yt) / 2, t["cand"], va="center", size=fv, color=GREY, ls=1.12)
-    # (2) probabilities of the three classifiers on one other candidate
-    yb, yt = bands[1]
-    txt(ax, X(cx), (yb + yt) / 2, t["p2"], va="center", size=fs, ls=1.12)
-    x2 = cx + 30.0
-    cw = (R - x2) / 3
+    top = H - 1.0
+    # (a) three classifiers' probabilities for one unlabelled utterance
+    box(ax, X(0.6), 9.5, X(37.0), top - 9.5, fc="#F7F7F7", ec=C_U, lw=0.9, ls="--")
+    txt(ax, X(2.0), top - 1.4, t["a"], size=fs, ls=1.1)
+    bx0, bw, bh = 15.5, 19.5, 6.5
     for r, m in enumerate("AVT"):
-        bx, col = x2 + r * cw, MOD[m][0]
-        box(ax, X(bx + 0.5), yb + 0.8, X(cw - 1.0), yt - yb - 1.6, fc="white", ec=col, lw=1.0, z=3)
-        mark(ax, X(bx + 2.8), yt - 3.0, m, size=3.6)
-        txt(ax, X(bx + 4.6), yt - 3.0, t["clf"][m], va="center", size=fs, weight="bold", color=col)
-        pf_bars(ax, X(bx + 1.0), yb + 4.6, X(cw - 2.0), 8.6, PF_PROBS[m], col, fv, X)
-    # (3) the weight table: strength (K labels) + per-emotion profile (sources)
-    yb, yt = bands[2]
-    txt(ax, X(cx), (yb + yt) / 2, t["p3"], va="center", size=fs, ls=1.12)
-    gx, cwh, chh = cx + 40.0, 7.2, 4.9
-    gy = yb + 4.2
+        yb = top - 19.0 - r * 10.4
+        col = MOD[m][0]
+        mark(ax, X(3.2), yb + 2.6, m, size=3.8)
+        txt(ax, X(5.0), yb + 2.6, t["clf"][m], va="center", size=fs, color=col, weight="bold")
+        for e, v in enumerate(PF_PROBS[m]):
+            cx = bx0 + (e + 0.5) * bw / 4
+            ax.add_patch(plt.Rectangle((X(cx - 1.7), yb), X(3.4), bh * v / 0.6, fc=col, ec="none", zorder=4))
+        ax.plot([X(bx0), X(bx0 + bw)], [yb, yb], color=GREY, lw=0.5, zorder=4)
+    for e in range(4):
+        txt(ax, X(bx0 + (e + 0.5) * bw / 4), top - 19.0 - 2 * 10.4 - 0.5, "NHSA"[e], ha="center", size=fs - 0.4, color=GREY)
+    # times
+    ym = 23.5 + 1.5 * 6.4
+    txt(ax, X(40.6), ym, "×", ha="center", va="center", size=fs + 6, weight="bold", color=GREY)
+    # (b) weight table and where its two parts come from
+    gx, cwh, chh = 52.0, 7.4, 6.4
+    gy = 23.5
+    txt(ax, X(gx - 8.5), gy + 3 * chh + 6.0, t["b"], size=fs, ls=1.1)
     for r, m in enumerate("AVT"):
-        txt(ax, X(gx - 1.0), gy + (2 - r) * chh + chh / 2, t["clf"][m], ha="right", va="center", size=fv, color=MOD[m][0])
+        txt(ax, X(gx - 1.0), gy + (2 - r) * chh + chh / 2, t["clf"][m], ha="right", va="center", size=fs - 0.4,
+            color=MOD[m][0])
         for c_ in range(4):
             v = PF_OMEGA[r, c_]
-            ax.add_patch(plt.Rectangle((X(gx + c_ * cwh), gy + (2 - r) * chh), X(cwh - 0.5), chh - 0.5,
+            ax.add_patch(plt.Rectangle((X(gx + c_ * cwh), gy + (2 - r) * chh), X(cwh - 0.6), chh - 0.6,
                                        fc=plt.cm.Oranges(0.15 + 0.55 * (v - 0.8) / 0.5), ec="none", zorder=3))
-            ax.text(X(gx + c_ * cwh + (cwh - 0.5) / 2), gy + (2 - r) * chh + (chh - 0.5) / 2, f"{v:.1f}", ha="center",
-                    va="center", fontsize=fv, color="black" if v < 1.15 else "white", zorder=5)
+            ax.text(X(gx + c_ * cwh + (cwh - 0.6) / 2), gy + (2 - r) * chh + (chh - 0.6) / 2, f"{v:.1f}", ha="center",
+                    va="center", fontsize=fs - 0.4, color="black" if v < 1.15 else "white", zorder=5)
     for c_ in range(4):
-        txt(ax, X(gx + c_ * cwh + (cwh - 0.5) / 2), gy - 0.4, "NHSA"[c_], ha="center", size=fv, color=GREY)
-    xs_ = gx + 4 * cwh + 3.0
-    txt(ax, X(xs_), yt - 1.8, t["strength"], size=fs, color=C_K, ls=1.12)
-    txt(ax, X(xs_), yt - (10.2 if lang == "en" else 8.0), t["profile"], size=fs, color=C_SRC, ls=1.12)
-    # (4) fusion by the proposal -> q
-    yb, yt = bands[3]
-    txt(ax, X(cx), (yb + yt) / 2, t["p4"], va="center", size=fs, ls=1.12)
+        txt(ax, X(gx + c_ * cwh + (cwh - 0.6) / 2), gy - 0.4, "NHSA"[c_], ha="center", size=fs - 0.4, color=GREY)
+    txt(ax, X(gx - 8.5), 18.4, t["strength"], size=fs, color=C_K)
+    txt(ax, X(gx - 8.5), 14.0, t["profile"], size=fs, color=C_SRC)
+    # arrow to q
+    arrow(ax, (X(84.5), ym), (X(98.0), ym), lw=1.4, head=9, color=C_PROP)
+    txt(ax, X(91.2), ym - 2.5, t["sumlab"], ha="center", va="top", size=fs - 0.4, color=C_PROP, ls=1.05)
+    # (c) pseudo-label q
     q = pf_q()
-    qx = cx + 44.0
-    box(ax, X(qx), yb + 0.8, X(30.0), yt - yb - 1.6, fc="white", ec=C_PROP, lw=1.2, z=3)
-    pf_bars(ax, X(qx + 1.0), yb + 4.4, X(28.0), 9.0, list(q), C_PROP, fv, X)
-    txt(ax, X(qx + 32.0), (yb + yt) / 2, t["q"], va="center", size=fs, color=C_PROP, ls=1.12)
-    # (5) retrain the AVT classifier and compare
-    yb, yt = bands[4]
-    box(ax, X(cx), yb + 0.9, X(60.0), yt - yb - 1.8, fc="white", ec=C_SRC, lw=1.1, z=3)
-    txt(ax, X(cx + 1.2), (yb + yt) / 2, t["retr"], va="center", size=fs, ls=1.12)
-    box(ax, X(cx + 64.0), yb + 0.9, X(R - cx - 64.0), yt - yb - 1.8, fc="white", ec="black", lw=1.0, z=3)
-    txt(ax, X(cx + 65.2), (yb + yt) / 2, t["cmp"], va="center", size=fs, ls=1.12)
-    arrow(ax, (X(cx + 60.3), (yb + yt) / 2), (X(cx + 63.7), (yb + yt) / 2), lw=0.8, head=6)
+    box(ax, X(99.0), 20.0, X(31.6), top - 20.0, fc="#FFF4EC", ec=C_PROP, lw=1.3)
+    txt(ax, X(100.6), top - 1.4, t["c"], size=fs, weight="bold", color=C_PROP)
+    qb, qw, qh = 26.5, 26.0, 20.0
+    for e, v in enumerate(q):
+        cx = 101.8 + (e + 0.5) * qw / 4
+        ax.add_patch(plt.Rectangle((X(cx - 2.4), qb), X(4.8), qh * v, fc=C_PROP, ec="none", zorder=4))
+        txt(ax, X(cx), qb - 0.5, "NHSA"[e], ha="center", size=fs - 0.4, color=GREY)
+    ax.plot([X(101.8), X(101.8 + qw)], [qb, qb], color=GREY, lw=0.5, zorder=4)
+    # retraining
+    arrow(ax, (X(114.8), 20.0), (X(114.8), 9.6), lw=1.2, head=8, color=C_SRC)
+    box(ax, X(40.0), 1.0, X(90.6), 8.4, fc="white", ec=C_SRC, lw=1.2)
+    txt(ax, X(85.3), 5.2, t["retr"], ha="center", va="center", size=fs, weight="bold", color=C_SRC)
     rows.append(dict(figure="fig_prop_flow", lang=lang, q=";".join(f"{v:.4f}" for v in q)))
     save(fig, f"fig_v4_prop_flow_{lang}")
 
