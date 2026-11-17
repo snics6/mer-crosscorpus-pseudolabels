@@ -1,0 +1,59 @@
+{
+ "script": "tools/dai1_emotion_margin.py",
+ "script_sha256": "fe1a383e1d02f11e4128b5493565e348edf817d4ba0b1c77382d7fa0c1297e72",
+ "git": {
+  "commit": "1ad7f2859e3ade42a0f514957142bbd96bbd4bf3",
+  "dirty": false,
+  "script_status": "clean"
+ },
+ "targets": [
+  "AFEW",
+  "IEMOCAP",
+  "MOSEI",
+  "MELD"
+ ],
+ "units_commit": {
+  "AFEW": [
+   "ba98974583dfee3504d54f31a5d303ff5394562e"
+  ],
+  "IEMOCAP": [
+   "ba98974583dfee3504d54f31a5d303ff5394562e"
+  ],
+  "MOSEI": [
+   "ba98974583dfee3504d54f31a5d303ff5394562e"
+  ],
+  "MELD": [
+   "ba98974583dfee3504d54f31a5d303ff5394562e"
+  ]
+ },
+ "inputs": {
+  "teacher_types": {
+   "path": "results/dai1/stats/desc/teacher_types.csv",
+   "sha256": "7b32d02cfa8b34d541c0dfd8e50eefa87ed729f255aa720fcd0cd6ec2e42737c"
+  },
+  "families_flagged": {
+   "path": "results/dai1/stats/families_flagged.csv",
+   "sha256": "5bc07e9b384fbcd7e8751f167eb755b1ea16c8caa61dfc769ee5dfff7ecfc31d"
+  },
+  "outside_families": {
+   "path": "results/dai1/stats/desc/outside_families.csv",
+   "sha256": "48ca3cc2a3c8b547ae12d77e9591a4dbfdf62aaa79045fe4365d255f736c8824"
+  },
+  "recall": {
+   "path": "results/dai1/stats/desc/recall.csv",
+   "sha256": "6210ab07c815dda44ca78654d2247b92a0d34aa2f689c83e7bc5047738e36f90"
+  },
+  "teacher_margin": {
+   "path": "results/dai1/stats/teacher_margin.csv",
+   "sha256": "d0f3de1be86aaa5c237eca75bd8d697d7af9d783737b046fbbd47c7b607649ef"
+  },
+  "frozen": {
+   "path": "results/dai1/select/frozen.json",
+   "sha256": "6926fb3e12638dd946ddfda8a260a33f089a400094ebdefdf37132fa1329dfdc"
+  }
+ },
+ "torch": "2.11.0+cu126",
+ "numpy": "2.5.2",
+ "pandas": "3.0.6",
+ "device": "cpu"
+}

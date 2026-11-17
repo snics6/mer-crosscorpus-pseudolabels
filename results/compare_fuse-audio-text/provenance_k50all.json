@@ -1,0 +1,68 @@
+{
+ "script": "exp/compare_b1.py",
+ "argv": [
+  "--kind",
+  "fuse-audio-text",
+  "--ks",
+  "50",
+  "all",
+  "--tag",
+  "k50all"
+ ],
+ "commit": "713170788627bc8e6215b58eaa30382f988ec3b8",
+ "dirty": true,
+ "started": "2026-10-14T22:14:01+0900",
+ "targets": [
+  "IEMOCAP-impro",
+  "IEMOCAP-script",
+  "MOSEI",
+  "MELD"
+ ],
+ "map_dir": "results/fixc_map/fuse-audio-text",
+ "K": [
+  "50",
+  "all"
+ ],
+ "reps": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "CPS": [
+  0.001,
+  0.01,
+  0.1,
+  1.0
+ ],
+ "CBS": [
+  "2",
+  "8",
+  "free"
+ ],
+ "ALPHAS": [
+  0.1,
+  0.25,
+  0.5,
+  0.75,
+  0.9
+ ],
+ "O7": [
+  10,
+  0.5,
+  300,
+  0.01,
+  4,
+  256
+ ],
+ "parts": "all",
+ "tag": "k50all",
+ "O2_C": "src_only",
+ "MAX_ROWS": 6000
+}

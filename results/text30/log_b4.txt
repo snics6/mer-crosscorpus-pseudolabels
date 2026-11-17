@@ -1,0 +1,11 @@
+   test                 group    rho     p    n holds  rho_min  rho_max  n_reps
+   B4-1                 text4 -0.694 0.000 40.0  True      NaN      NaN     NaN
+B4-1 記述          text_roberta -0.685 0.014 10.0   NaN      NaN      NaN     NaN
+B4-1 記述       fuse-audio-text -0.721 0.009 10.0   NaN      NaN      NaN     NaN
+B4-1 記述       fuse-video-text -0.745 0.007 10.0   NaN      NaN      NaN     NaN
+B4-1 記述 fuse-audio-video-text -0.370 0.147 10.0   NaN      NaN      NaN     NaN
+B4-2 記述          text_roberta -0.515   NaN  NaN   NaN   -0.818    0.273    20.0
+B4-2 記述       fuse-audio-text -0.376   NaN  NaN   NaN   -0.891    0.503    20.0
+B4-2 記述       fuse-video-text -0.232   NaN  NaN   NaN   -0.721    0.588    20.0
+B4-2 記述 fuse-audio-video-text -0.196   NaN  NaN   NaN   -0.830    0.503    20.0
+B4-2 記述                 text4 -0.368   NaN  NaN   NaN   -0.710    0.094    20.0

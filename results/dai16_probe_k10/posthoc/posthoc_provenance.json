@@ -1,0 +1,20 @@
+{
+ "time": "2026-11-14 10:20:56",
+ "commit": "dff7b953b02a52093fc833a3f76baea237989bd3",
+ "dirty": false,
+ "n_units": 120,
+ "script_sha256": "243a96a9b5b393da5f1a5c3f72a35d0b5881982da69c9b6687b62cdf33dafd1b",
+ "units_commit": [
+  "0c14e4ebcc5bfcb840c15b537d6a9d4ea220ce8d"
+ ],
+ "agree_saved_min": {
+  "M_F6_K": 1.0,
+  "M_F6_ext": 1.0,
+  "M_F6_mixsel": 1.0,
+  "M_F6_orc": 1.0,
+  "M_F6n_K": 1.0,
+  "M_F6n_ext": 1.0,
+  "M_F6n_mixsel": 1.0,
+  "M_F6n_orc": 1.0
+ }
+}

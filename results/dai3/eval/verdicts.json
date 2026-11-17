@@ -1,0 +1,265 @@
+{
+ "expl1": {
+  "per_corpus": {
+   "AFEW": {
+    "n_cells": 8,
+    "n_undetermined_cells": 0,
+    "n_first": 0,
+    "n_full": 0,
+    "n_iii_above": 3,
+    "iii_below_majority": false,
+    "n_ii_supportive": 0,
+    "corpus_first": false,
+    "corpus_full": false,
+    "corpus_reject_a": false,
+    "corpus_note_b": false,
+    "per_student": {
+     "A": {
+      "first": 0,
+      "full": 0
+     },
+     "V": {
+      "first": 0,
+      "full": 0
+     },
+     "T": {
+      "first": 0,
+      "full": 0
+     },
+     "AVT": {
+      "first": 0,
+      "full": 0
+     }
+    }
+   },
+   "IEMOCAP": {
+    "n_cells": 8,
+    "n_undetermined_cells": 0,
+    "n_first": 0,
+    "n_full": 0,
+    "n_iii_above": 5,
+    "iii_below_majority": false,
+    "n_ii_supportive": 0,
+    "corpus_first": false,
+    "corpus_full": false,
+    "corpus_reject_a": true,
+    "corpus_note_b": false,
+    "per_student": {
+     "A": {
+      "first": 0,
+      "full": 0
+     },
+     "V": {
+      "first": 0,
+      "full": 0
+     },
+     "T": {
+      "first": 0,
+      "full": 0
+     },
+     "AVT": {
+      "first": 0,
+      "full": 0
+     }
+    }
+   },
+   "MOSEI": {
+    "n_cells": 8,
+    "n_undetermined_cells": 1,
+    "n_first": 0,
+    "n_full": 0,
+    "n_iii_above": 5,
+    "iii_below_majority": false,
+    "n_ii_supportive": 0,
+    "corpus_first": false,
+    "corpus_full": false,
+    "corpus_reject_a": true,
+    "corpus_note_b": false,
+    "per_student": {
+     "A": {
+      "first": 0,
+      "full": 0
+     },
+     "V": {
+      "first": 0,
+      "full": 0
+     },
+     "T": {
+      "first": 0,
+      "full": 0
+     },
+     "AVT": {
+      "first": 0,
+      "full": 0
+     }
+    }
+   },
+   "MELD": {
+    "n_cells": 8,
+    "n_undetermined_cells": 0,
+    "n_first": 0,
+    "n_full": 0,
+    "n_iii_above": 0,
+    "iii_below_majority": false,
+    "n_ii_supportive": 0,
+    "corpus_first": false,
+    "corpus_full": false,
+    "corpus_reject_a": false,
+    "corpus_note_b": false,
+    "per_student": {
+     "A": {
+      "first": 0,
+      "full": 0
+     },
+     "V": {
+      "first": 0,
+      "full": 0
+     },
+     "T": {
+      "first": 0,
+      "full": 0
+     },
+     "AVT": {
+      "first": 0,
+      "full": 0
+     }
+    }
+   }
+  },
+  "verdict": "判定できない",
+  "verdict_excl_IEMOCAP": "判定できない",
+  "note_b": false,
+  "n_corpora": 4
+ },
+ "expl2": {
+  "per_corpus": {
+   "AFEW": {
+    "n_cells": 8,
+    "n_a_above": 2,
+    "n_b_above": 0,
+    "corpus_a": false,
+    "corpus_b": false
+   },
+   "IEMOCAP": {
+    "n_cells": 8,
+    "n_a_above": 0,
+    "n_b_above": 1,
+    "corpus_a": false,
+    "corpus_b": false
+   },
+   "MOSEI": {
+    "n_cells": 8,
+    "n_a_above": 1,
+    "n_b_above": 0,
+    "corpus_a": false,
+    "corpus_b": false
+   },
+   "MELD": {
+    "n_cells": 8,
+    "n_a_above": 0,
+    "n_b_above": 5,
+    "corpus_a": false,
+    "corpus_b": true
+   }
+  },
+  "verdict": "判定できない",
+  "verdict_excl_IEMOCAP": "判定できない"
+ },
+ "expl3": {
+  "per_corpus": {
+   "AFEW": {
+    "support": false,
+    "reject": false
+   },
+   "IEMOCAP": {
+    "support": false,
+    "reject": false
+   },
+   "MOSEI": {
+    "support": false,
+    "reject": false
+   },
+   "MELD": {
+    "support": false,
+    "reject": false
+   }
+  },
+  "verdict": "判定できない"
+ },
+ "expl5": {
+  "T_pairs": {
+   "05": "判定できない",
+   "02_06": "判定できない",
+   "03_07": "判定できない"
+  },
+  "AVT_pairs": {
+   "05": "判定できない",
+   "02_06": "判定できない",
+   "03_07": "判定できない"
+  },
+  "n_above_T": 0,
+  "verdict": "言葉についての文は IEMOCAP 即興を除いて書く"
+ },
+ "descriptive_only": [
+  "説明 4",
+  "説明 6"
+ ],
+ "_meta": {
+  "commit": "ba98974583dfee3504d54f31a5d303ff5394562e",
+  "dirty": false,
+  "dai1_frozen_sha256": "6926fb3e12638dd946ddfda8a260a33f089a400094ebdefdf37132fa1329dfdc",
+  "dai3_frozen_sha256": "22efe108ce44cf244c2e872fd7c6cf50972912793cc76041c24e4824e3a5319a",
+  "time": "2026-11-05 04:03:48",
+  "targets": [
+   "AFEW",
+   "IEMOCAP",
+   "MOSEI",
+   "MELD"
+  ],
+  "rule": "DAI/docs/実験3_設計.md 3 節（判定の規則）．族 5 の外の数に p 値を付けない"
+ },
+ "family5": {
+  "AFEW": {
+   "n_cells": 24,
+   "n_holm_sig": 0,
+   "verdicts": {
+    "判定できない": 21,
+    "上回る": 3
+   }
+  },
+  "IEMOCAP": {
+   "n_cells": 24,
+   "n_holm_sig": 1,
+   "verdicts": {
+    "上回る": 8,
+    "判定できない": 16
+   }
+  },
+  "MOSEI": {
+   "n_cells": 24,
+   "n_holm_sig": 11,
+   "verdicts": {
+    "上回る": 9,
+    "判定できない": 10,
+    "下回る": 5
+   }
+  },
+  "MELD": {
+   "n_cells": 24,
+   "n_holm_sig": 0,
+   "verdicts": {
+    "上回る": 8,
+    "判定できない": 15,
+    "下回る": 1
+   }
+  }
+ },
+ "notes": [
+  "族 5 は「対の切片を当て直した後の UAR の差」を検定している．確かめ 2 が合格でない (コーパス，生徒) では「方向」の語を使わない（wording_direction）",
+  "説明 1 の (iv) が上回っても「別のモダリティの予測が方向を直した」とは書かず「積の予測で学ぶと方向が良くなった」と書く",
+  "説明 1 の (ii) は切片だけの版が 2 点から，比較の基準が 14 点から選ぶ（支持しにくい向きの偏り）",
+  "説明 4・6 は記述だけ．「支持」「退ける」の語を使わない．説明 4 の (c) は第 2 のエンコーダの評価の回で同じ段を流すまで「確かめていない」",
+  "IEMOCAP の顔の再現できる度合いにはマーカーの手がかりが入りうる",
+  "族 5 の p 値と説明の判定は確認ではない（同じ 4 コーパスの前の結果から立てた仮説）"
+ ]
+}

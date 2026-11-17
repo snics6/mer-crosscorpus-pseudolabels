@@ -1,0 +1,18 @@
+# {"script": "exp/reanalysis_e75.py", "started": "2026-11-01T06:19:09+0900", "commit": "c452b3808b5106039b1d4a625a937e19f003e9c0", "dirty": true, "script_status": "", "script_sha256": "5a03b5ccd4ed4dbc236edcf6da72d3b7759787db855875a93c2e75ed9f3c6d0f", "argv": [], "seed": 0, "file": "gaps.csv"}
+item,kind,what,expected,found,detail
+3,text_roberta,excl_same_corpus kstar_naive_nonIEMOCAP の組が少ない,8,6,
+3,text_roberta,all_pairs kstar_naive_nonIEMOCAP の組が少ない,8,6,
+3,fuse-audio-text,excl_same_corpus kstar_naive_nonIEMOCAP の組が少ない,8,6,
+3,fuse-audio-text,all_pairs kstar_naive_nonIEMOCAP の組が少ない,8,6,
+3,fuse-video-text,excl_same_corpus kstar_naive_nonIEMOCAP の組が少ない,8,6,
+3,fuse-video-text,all_pairs kstar_naive_nonIEMOCAP の組が少ない,8,6,
+3,fuse-audio-video-text,excl_same_corpus kstar_naive_nonIEMOCAP の組が少ない,8,6,
+3,fuse-audio-video-text,all_pairs kstar_naive_nonIEMOCAP の組が少ない,8,6,
+4,text_roberta,反復の数が 30 でない組 × K の数（cv_map）,30,72,見つかった反復の数：[5]
+4,fuse-audio-text,反復の数が 30 でない組 × K の数（cv_map）,30,72,見つかった反復の数：[5]
+4,fuse-video-text,反復の数が 30 でない組 × K の数（cv_map）,30,72,見つかった反復の数：[5]
+4,fuse-audio-video-text,反復の数が 30 でない組 × K の数（cv_map）,30,72,見つかった反復の数：[5]
+7,text_roberta,tgt_only の点数が無い,1,0,/home/snics/MER-DA/results/tgt_scores_text_roberta
+7,fuse-audio-text,tgt_only の点数が無い,1,0,/home/snics/MER-DA/results/tgt_scores_fuse-audio-text
+7,fuse-video-text,tgt_only の点数が無い,1,0,/home/snics/MER-DA/results/tgt_scores_fuse-video-text
+7,fuse-audio-video-text,tgt_only の点数が無い,1,0,/home/snics/MER-DA/results/tgt_scores_fuse-audio-video-text

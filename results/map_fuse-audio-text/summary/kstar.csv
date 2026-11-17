@@ -1,0 +1,13 @@
+target,source,K_star,n_rep,status
+IEMOCAP-impro,IEMOCAP-script,1,5,iemocap_interval_undecided
+IEMOCAP-impro,MELD,none,5,iemocap_interval_undecided
+IEMOCAP-impro,MOSEI,none,5,iemocap_interval_undecided
+IEMOCAP-script,IEMOCAP-impro,5,5,iemocap_interval_undecided
+IEMOCAP-script,MELD,1,5,iemocap_interval_undecided
+IEMOCAP-script,MOSEI,1,5,iemocap_interval_undecided
+MELD,IEMOCAP-impro,25,5,provisional
+MELD,IEMOCAP-script,25,5,provisional
+MELD,MOSEI,10,5,provisional
+MOSEI,IEMOCAP-impro,5,5,provisional
+MOSEI,IEMOCAP-script,none,5,provisional
+MOSEI,MELD,5,5,provisional

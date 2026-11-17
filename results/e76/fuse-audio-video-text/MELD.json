@@ -1,0 +1,275 @@
+{
+ "commit": "a14d43662536b2d91672e58b68e7a31fa657b69d",
+ "code_hash": "9891f06688489b66ee97f5b04814f87a7f888454f1bcbb0eda15b969671b7ee6",
+ "code_files": [
+  "exp/interventions.py",
+  "exp/logreg.py",
+  "exp/map.py",
+  "exp/pair_table.py",
+  "exp/relearn_e76.py",
+  "features/common.py",
+  "measure/ablate.py",
+  "measure/data.py",
+  "measure/shift.py",
+  "measure/split.py"
+ ],
+ "code_dirty": false,
+ "code_status": [],
+ "tree_dirty": true,
+ "settings": {
+  "reps": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "K": [
+   "1",
+   "5",
+   "10",
+   "25",
+   "50",
+   "all"
+  ],
+  "hands": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "merged_all_c": false,
+  "sources": null,
+  "C_grid": [
+   0.01,
+   0.1,
+   1.0,
+   10.0
+  ],
+  "K_hands": [
+   "1",
+   "5",
+   "10"
+  ],
+  "src_cv_seed": 0,
+  "n_test_folds": 5,
+  "n_cv_folds": 3,
+  "solver": {
+   "tol": 1e-06,
+   "max_iter": 20000,
+   "history": 10,
+   "dtype": "torch.float64"
+  },
+  "ablate_l2": 0.01,
+  "alphas": [
+   0.1,
+   0.25,
+   0.5,
+   0.75,
+   0.9
+  ],
+  "hand_spec": {
+   "common": "C ＝ 同じ反復の ② の C．学習データで標準化（手 9 はソースの統計），感情を均等にする重み（手 10 は下）．中心合わせはターゲットの全発話（テストを含む．ラベルは使わない）の平均と，使うソースの行の平均を引く",
+   "h2": "中心合わせしたソースのみ．logreg.fit（E25 と同じ）．冷えた出発点",
+   "h3": "中心合わせ＋合併．fit_batch．冷えた出発点（E25 と同じ）",
+   "h4": "② の点数 ＋ K 本で解いた切片のずらし（fit_class_bias，l2 = ABLATE_L2，ずらしの和は 0）",
+   "h5": "h2 の点数 ＋ K 本で解いた切片のずらし（同上）",
+   "h6": "特徴の末尾に「ターゲットか」の列（ターゲット 1，ソース 0）を足した合併．その列も C の罰則を受ける．冷えた出発点",
+   "h7": "仮説転移：K 本だけ．罰則 ‖W − W_②‖²/(2CS)（C′ ＝ C），切片は罰則なし（Cb なし），出発点 ＝ ② の解．中心合わせなし",
+   "h8": "CORAL＋合併：ソースの標準化した空間で，共分散に単位行列を足してターゲットの全発話の共分散に合わせる．平均は動かさない．冷えた出発点",
+   "h9": "AUGMENT（Daumé 2007．E31 の O2 と同じ）：② の統計で標準化した z から，ソースは [z, z, 0]，ターゲットは [z, 0, z]．切片は共通で罰則なし．C ＝ ② の C．冷えた出発点．保存する係数はターゲット側（共通 ＋ ターゲット用）",
+   "h10": "WEIGHTED（E31 の O1 と同じ）：K 本の重みの和を α S，ソースの重みの和を (1 − α) S（どちらも中で感情を均等．S は使う行の数）．α ∈ ALPHAS をすべて解いて残す（α は計算の後に仮のターゲットで選ぶ）．② の解から温め直す．中心合わせなし",
+   "h11": "中心合わせ＋仮説転移：中心合わせした K 本だけ．罰則の中心 ＝ h2 の解，C′ ＝ C，切片は罰則なし，出発点 ＝ h2 の解．E31 の P3 とは中心（P3 は候補の平均）と C′・C_b が違う"
+  },
+  "mem_fraction": 0.6
+ },
+ "started": "2026-11-01T06:29:35+0900",
+ "kind": "fuse-audio-video-text",
+ "target": "MELD",
+ "sources": [
+  "IEMOCAP-impro",
+  "IEMOCAP-script",
+  "MOSEI"
+ ],
+ "elapsed_sec": 1017.8309709511232,
+ "timing_sec": {
+  "tgt_only": 434.068568949122,
+  "src_only": 0.1647578238043934,
+  "merged": 111.50844653067179,
+  "h2": 0.07396181393414736,
+  "h3": 82.52745070727542,
+  "h4": 0.2438525641337037,
+  "h5": 0.27809902001172304,
+  "h6": 94.1052168617025,
+  "h7": 16.225028079003096,
+  "h8": 86.23537081596442,
+  "h9": 66.21711433096789,
+  "h10": 104.59107867302373,
+  "h11": 16.79111489211209
+ },
+ "gpu_peak_alloc_gib": 3.16322660446167,
+ "check": {
+  "h10": {
+   "n": 450,
+   "n_ref": 450,
+   "max_abs_diff": 0.0014534883720929703,
+   "n_over_exact": 14,
+   "n_over_tol": 0,
+   "max_diff_over_tol": 0.4999999999999818,
+   "n_not_converged": 0
+  },
+  "h11": {
+   "n": 90,
+   "n_ref": 0,
+   "max_abs_diff": null,
+   "n_over_exact": 0,
+   "n_over_tol": 0,
+   "max_diff_over_tol": null,
+   "n_not_converged": 0
+  },
+  "h2": {
+   "n": 30,
+   "n_ref": 30,
+   "max_abs_diff": 5.551115123125783e-17,
+   "n_over_exact": 0,
+   "n_over_tol": 0,
+   "max_diff_over_tol": 2.7755575615628914e-14,
+   "n_not_converged": 0
+  },
+  "h3": {
+   "n": 90,
+   "n_ref": 90,
+   "max_abs_diff": 0.0002134927412468235,
+   "n_over_exact": 2,
+   "n_over_tol": 0,
+   "max_diff_over_tol": 0.0926558497011214,
+   "n_not_converged": 0
+  },
+  "h4": {
+   "n": 90,
+   "n_ref": 90,
+   "max_abs_diff": 0.0006097560975610317,
+   "n_over_exact": 1,
+   "n_over_tol": 0,
+   "max_diff_over_tol": 0.18170731707318744
+  },
+  "h5": {
+   "n": 90,
+   "n_ref": 90,
+   "max_abs_diff": 5.551115123125783e-17,
+   "n_over_exact": 0,
+   "n_over_tol": 0,
+   "max_diff_over_tol": 2.7755575615628914e-14
+  },
+  "h6": {
+   "n": 90,
+   "n_ref": 90,
+   "max_abs_diff": 0.0006067961165048263,
+   "n_over_exact": 2,
+   "n_over_tol": 0,
+   "max_diff_over_tol": 0.20873786407766026,
+   "n_not_converged": 0
+  },
+  "h7": {
+   "n": 90,
+   "n_ref": 90,
+   "max_abs_diff": 0.0005668934240363188,
+   "n_over_exact": 4,
+   "n_over_tol": 0,
+   "max_diff_over_tol": 0.19135802469137608,
+   "n_not_converged": 0
+  },
+  "h8": {
+   "n": 90,
+   "n_ref": 90,
+   "max_abs_diff": 0.00015346838551255626,
+   "n_over_exact": 1,
+   "n_over_tol": 0,
+   "max_diff_over_tol": 0.06660527931244942,
+   "n_not_converged": 0
+  },
+  "h9": {
+   "n": 90,
+   "n_ref": 90,
+   "max_abs_diff": 0.0005720823798627817,
+   "n_over_exact": 6,
+   "n_over_tol": 0,
+   "max_diff_over_tol": 0.24828375286044724,
+   "n_not_converged": 0
+  },
+  "merged": {
+   "n": 180,
+   "n_ref": 180,
+   "max_abs_diff": 0.001436781609195359,
+   "n_over_exact": 5,
+   "n_over_tol": 0,
+   "max_diff_over_tol": 0.4999999999999849,
+   "C_mismatch": 0,
+   "n_not_converged": 0
+  },
+  "src_only": {
+   "n": 30,
+   "n_ref": 30,
+   "max_abs_diff": 5.551115123125783e-17,
+   "n_over_exact": 0,
+   "n_over_tol": 0,
+   "max_diff_over_tol": 2.7755575615628914e-14,
+   "C_mismatch": 0,
+   "rule_mismatch": 0,
+   "max_abs_diff_allC": 0.0017793594306049765,
+   "n_allC_over_exact": 20,
+   "max_allC_over_tol": 0.7639654149360353,
+   "n_not_converged": 0
+  },
+  "tgt_only": {
+   "n": 60,
+   "n_ref": 60,
+   "max_abs_diff": 5.551115123125783e-17,
+   "n_over_exact": 0,
+   "n_over_tol": 0,
+   "max_diff_over_tol": 2.7755575615628914e-14,
+   "C_mismatch": 0,
+   "rule_mismatch": 0,
+   "max_abs_diff_allC": 0.00020096463022512,
+   "n_allC_over_exact": 1,
+   "max_allC_over_tol": 0.06913183279744128,
+   "n_not_converged": 0
+  },
+  "old_scores": {
+   "merged": {
+    "n": 90,
+    "max_abs": 0.0021076202392578125,
+    "agree_min": 0.9995269631031221
+   },
+   "src_only": {
+    "n": 30,
+    "max_abs": 0.0005130767822265625,
+    "agree_min": 1.0
+   }
+  }
+ },
+ "coef_check": {
+  "max_abs": 4.289164905912912e-06,
+  "agree_min": 1.0
+ },
+ "check_failed": [],
+ "ref": {
+  "map": "/home/snics/MER-DA/results/fixc_map/fuse-audio-video-text/MELD.csv",
+  "e25": "/home/snics/MER-DA/results/interventions_fuse-audio-video-text",
+  "e31": "/home/snics/MER-DA/results/compare_fuse-audio-video-text",
+  "old_merged": "/home/snics/MER-DA/results/fixc_text/merged_scores_fuse-audio-video-text/MELD.npz",
+  "old_tgt": null
+ },
+ "keys_doc": "npz の鍵（r は反復，K は K の文字列，s はソースの群の名前，j はソースの行の版．C の並びは C_GRID）\n  sample_id, speaker_group, y                ターゲットの全発話（`data.load_any` の順．sample_id で並ぶ）\n  reps                                       反復の一覧\n  test_idx_r{r}                              テストの行番号（上の並びの中の位置）\n  kidx_r{r}_K{K}                             K 本の行番号（K=all は無い：テスト以外の全部）\n  t_logit_r{r}                               ① (len(K), 4 C, テストの数, 4) float32\n  t_C_r{r}, t_rule_r{r}, t_cv_r{r}           ① 選んだ C，規則（cv/tie/fixed），交差検証の UAR (len(K), 4 C)\n  t_A_r{r}, t_a0_r{r}                        ① 生の特徴の上の係数 (len(K), 4 C, 4, d) float32 と切片 (len(K), 4 C, 4)\n  s_{s}__ver                                 ② 反復ごとの版 j（反復の一覧と同じ順．IEMOCAP 同士の組だけ反復で版が変わる）\n  s_{s}__v{j}_logit                          ② ターゲットの全発話の点数 (4 C, 全発話, 4) float32\n  s_{s}__v{j}_C, _rule, _cv, _A, _a0         ② 選んだ C，規則，交差検証の UAR (4 C)，係数 (4 C, 4, d)，切片 (4 C, 4)\n  m_{s}_r{r}_logit                           ③ (len(K), テストの数, 4)．C ＝ ソースのみの C（--merged-all-c なら (len(K), 4 C, …)）\n  m_{s}_r{r}_A, _a0                          ③ 係数 (len(K), 4, d)，切片 (len(K), 4)\n  mean_t                                     ターゲットの全発話の平均（中心合わせ）\n  h2_{s}__v{j}_logit, _A, _a0, mean_s        手 2：中心合わせしたソースのみ．全発話の点数 = (X − mean_t) A^T + a0\n  h4_{s}_r{r}_b, h5_{s}_r{r}_b               手 4・5：K 本で解いた切片のずらし (len(K_HANDS), 4)．点数 = ソースのみ（手 5 は手 2）+ b\n  h{3,6,7,8,9,11}_{s}_r{r}_logit, _A, _a0   手 3・6・7・8・9・11：テストの点数 (len(K_HANDS), テストの数, 4) と係数\n                                             （手 3・11 は中心合わせした特徴の上，手 6 は特徴の末尾に「ターゲットか」の 1 列を足した特徴の上，\n                                             手 9 はターゲット側の係数（生の特徴の上．点数 = X A^T + a0））\n  h10_{s}_r{r}_logit, _A, _a0                手 10：(len(ALPHAS), len(K_HANDS), テストの数, 4) と係数（α の並びは ALPHAS）\n  coef_check                                 係数から作り直した点数と保存した点数の差の最大（ターゲットのテストで）\n"
+}

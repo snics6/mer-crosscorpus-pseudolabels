@@ -1,0 +1,25 @@
+{
+ "kind": "text_roberta",
+ "rule": "researchvision.md 6.5.1 共通の決まり 6",
+ "pad_saturated": 1.9,
+ "raw": {
+  "pairs": 12,
+  "unsaturated": 12,
+  "zero_pad_median": 0.0323333333333333,
+  "pad_median": 1.5018333333333334
+ },
+ "pca64": {
+  "pairs": 12,
+  "unsaturated": 12,
+  "zero_pad_median": 0.0248333333333333,
+  "pad_median": 1.4284999999999997
+ },
+ "logit": {
+  "pairs": 12,
+  "unsaturated": 12,
+  "zero_pad_median": 0.0168333333333333,
+  "pad_median": 0.39716666666666656
+ },
+ "choice": "logit",
+ "decided": "2026-09-30T16:30:18+0900"
+}

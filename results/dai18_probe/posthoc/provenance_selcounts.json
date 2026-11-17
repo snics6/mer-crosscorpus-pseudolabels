@@ -1,0 +1,139 @@
+{
+ "script": "DAI/docs/tools_pending/dai18_posthoc_selcounts.py",
+ "script_sha256": "55eede85ba2cf5fdfa444b8226ae142cb8ade7cfec903f54b55ca0c140076095",
+ "time": "2026-11-15 00:08:21",
+ "head_commit_when_run": "3dfd8f3ba66fc16dfc1c5e94bf17312ca8e8273f",
+ "dai18_probe_sha256": "290bf037bd1976216535fae1d5c20e8b069ebaeb00f2560365b7920b5e008cb0",
+ "sel_sha256": "577819d65843ed1bffd99670f10e7c63ac74c6cbd20efd6af2a7af309e86a4da",
+ "n_unit_files": 300,
+ "n_student_files": 300,
+ "device": "cpu",
+ "natural": {
+  "n": 105,
+  "n_changed": 15,
+  "by_version": {
+   "MN_F2K_sel": [
+    2,
+    18
+   ],
+   "MN_F6K_sel": [
+    5,
+    18
+   ],
+   "MN_eq_sel": [
+    6,
+    18
+   ],
+   "MS_eq_sel": [
+    1,
+    18
+   ],
+   "M_F6_mixsel": [
+    1,
+    15
+   ],
+   "N_eq_sel": [
+    0,
+    18
+   ]
+  }
+ },
+ "dependency": {
+  "n_r5_versions": 285,
+  "n_changed_r5_versions": 89,
+  "by_version": {
+   "MN_F2K_sel": [
+    23,
+    75
+   ],
+   "MN_F6K_sel": [
+    27,
+    75
+   ],
+   "MN_eq_sel": [
+    29,
+    75
+   ],
+   "MS_eq_sel": [
+    6,
+    75
+   ],
+   "M_F6_mixsel": [
+    10,
+    60
+   ]
+  }
+ },
+ "mix2_vs_mix3": {
+  "n_arrays": 2250,
+  "n_arrays_with_diff": 0,
+  "n_utterances": 6398330,
+  "n_utterances_diff": 0
+ },
+ "fusion_selection_units": {
+  "prod": {
+   "AFEW": {
+    "AV": 10,
+    "AVT": 30
+   },
+   "IEMOCAP": {
+    "AV": 10,
+    "AVT": 30
+   },
+   "MOSEI": {
+    "AV": 10,
+    "AVT": 30
+   },
+   "MELD": {
+    "AV": 10,
+    "AVT": 30
+   },
+   "CREMA-D": {
+    "AVT": 40
+   }
+  },
+  "M_F6_mixsel": {
+   "AFEW": {
+    "AV": 10,
+    "AVT": 30
+   },
+   "IEMOCAP": {
+    "AV": 10,
+    "AVT": 30
+   },
+   "MOSEI": {
+    "AV": 10,
+    "AVT": 30
+   },
+   "MELD": {
+    "AV": 10,
+    "AVT": 30
+   },
+   "CREMA-D": {
+    "AVT": 40
+   }
+  },
+  "MN_F6K_sel": {
+   "AFEW": {
+    "AV": 10,
+    "AVT": 30
+   },
+   "IEMOCAP": {
+    "AV": 10,
+    "AVT": 30
+   },
+   "MOSEI": {
+    "AV": 10,
+    "AVT": 30
+   },
+   "MELD": {
+    "AV": 10,
+    "AVT": 30
+   },
+   "CREMA-D": {
+    "AVT": 40
+   }
+  }
+ },
+ "sec": 5.72258734703064
+}

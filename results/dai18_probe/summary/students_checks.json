@@ -1,0 +1,5 @@
+{
+ "n_units": 300,
+ "teacher_agree_min": 1.0,
+ "grad_max": 9.999999789256684e-07
+}

@@ -1,0 +1,1432 @@
+run,target,student,role,K,fixname,wave,method,param,meff,seedmode,note
+audio_wavlm,IEMOCAP-impro,audio_wavlm,kind,0,massbal,e77,massbal,-,0,,
+audio_wavlm,IEMOCAP-impro,audio_wavlm,kind,0,saerens,e77,saerens,-,0,,
+audio_wavlm,IEMOCAP-impro,audio_wavlm,kind,0,t3a_fix,e77,t3a,Mall,0,,
+audio_wavlm,IEMOCAP-impro,audio_wavlm,kind,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+audio_wavlm,IEMOCAP-impro,audio_wavlm,kind,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+audio_wavlm,IEMOCAP-impro,audio_wavlm,kind,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+audio_wavlm,IEMOCAP-impro,audio_wavlm,kind,0,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+audio_wavlm,IEMOCAP-impro,audio_wavlm,kind,0,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+audio_wavlm,IEMOCAP-impro,audio_wavlm,kind,0,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+audio_wavlm,IEMOCAP-impro,audio_wavlm,kind,5,massbal,e77,massbal,-,0,,
+audio_wavlm,IEMOCAP-impro,audio_wavlm,kind,5,saerens,e77,saerens,-,0,,
+audio_wavlm,IEMOCAP-impro,audio_wavlm,kind,5,t3a_fix,e77,t3a,Mall,0,,
+audio_wavlm,IEMOCAP-impro,audio_wavlm,kind,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+audio_wavlm,IEMOCAP-impro,audio_wavlm,kind,5,lp_fix,e77,lp,k50a0.99hard,n,,
+audio_wavlm,IEMOCAP-impro,audio_wavlm,kind,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+audio_wavlm,IEMOCAP-impro,audio_wavlm,kind,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+audio_wavlm,IEMOCAP-impro,audio_wavlm,kind,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+audio_wavlm,IEMOCAP-impro,audio_wavlm,kind,5,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+audio_wavlm,IEMOCAP-impro,audio_wavlm,kind,5,mapctl_match_mme,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+audio_wavlm,IEMOCAP-impro,audio_wavlm,kind,5,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+audio_wavlm,IEMOCAP-impro,audio_wavlm,kind,25,massbal,e77,massbal,-,0,,
+audio_wavlm,IEMOCAP-impro,audio_wavlm,kind,25,saerens,e77,saerens,-,0,,
+audio_wavlm,IEMOCAP-impro,audio_wavlm,kind,25,t3a_fix,e77,t3a,Mall,0,,
+audio_wavlm,IEMOCAP-impro,audio_wavlm,kind,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+audio_wavlm,IEMOCAP-impro,audio_wavlm,kind,25,lp_fix,e77,lp,k50a0.99hard,n,,
+audio_wavlm,IEMOCAP-impro,audio_wavlm,kind,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+audio_wavlm,IEMOCAP-impro,audio_wavlm,kind,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+audio_wavlm,IEMOCAP-impro,audio_wavlm,kind,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+audio_wavlm,IEMOCAP-impro,audio_wavlm,kind,25,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+audio_wavlm,IEMOCAP-impro,audio_wavlm,kind,25,mapctl_match_mme,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+audio_wavlm,IEMOCAP-impro,audio_wavlm,kind,25,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+audio_wavlm,IEMOCAP-script,audio_wavlm,kind,0,massbal,e77,massbal,-,0,,
+audio_wavlm,IEMOCAP-script,audio_wavlm,kind,0,saerens,e77,saerens,-,0,,
+audio_wavlm,IEMOCAP-script,audio_wavlm,kind,0,t3a_fix,e77,t3a,Mall,0,,
+audio_wavlm,IEMOCAP-script,audio_wavlm,kind,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+audio_wavlm,IEMOCAP-script,audio_wavlm,kind,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+audio_wavlm,IEMOCAP-script,audio_wavlm,kind,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+audio_wavlm,IEMOCAP-script,audio_wavlm,kind,0,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+audio_wavlm,IEMOCAP-script,audio_wavlm,kind,0,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+audio_wavlm,IEMOCAP-script,audio_wavlm,kind,0,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+audio_wavlm,IEMOCAP-script,audio_wavlm,kind,5,massbal,e77,massbal,-,0,,
+audio_wavlm,IEMOCAP-script,audio_wavlm,kind,5,saerens,e77,saerens,-,0,,
+audio_wavlm,IEMOCAP-script,audio_wavlm,kind,5,t3a_fix,e77,t3a,Mall,0,,
+audio_wavlm,IEMOCAP-script,audio_wavlm,kind,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+audio_wavlm,IEMOCAP-script,audio_wavlm,kind,5,lp_fix,e77,lp,k50a0.99hard,n,,
+audio_wavlm,IEMOCAP-script,audio_wavlm,kind,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+audio_wavlm,IEMOCAP-script,audio_wavlm,kind,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+audio_wavlm,IEMOCAP-script,audio_wavlm,kind,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+audio_wavlm,IEMOCAP-script,audio_wavlm,kind,5,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+audio_wavlm,IEMOCAP-script,audio_wavlm,kind,5,mapctl_match_mme,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+audio_wavlm,IEMOCAP-script,audio_wavlm,kind,5,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+audio_wavlm,IEMOCAP-script,audio_wavlm,kind,25,massbal,e77,massbal,-,0,,
+audio_wavlm,IEMOCAP-script,audio_wavlm,kind,25,saerens,e77,saerens,-,0,,
+audio_wavlm,IEMOCAP-script,audio_wavlm,kind,25,t3a_fix,e77,t3a,Mall,0,,
+audio_wavlm,IEMOCAP-script,audio_wavlm,kind,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+audio_wavlm,IEMOCAP-script,audio_wavlm,kind,25,lp_fix,e77,lp,k50a0.99hard,n,,
+audio_wavlm,IEMOCAP-script,audio_wavlm,kind,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+audio_wavlm,IEMOCAP-script,audio_wavlm,kind,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+audio_wavlm,IEMOCAP-script,audio_wavlm,kind,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+audio_wavlm,IEMOCAP-script,audio_wavlm,kind,25,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+audio_wavlm,IEMOCAP-script,audio_wavlm,kind,25,mapctl_match_mme,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+audio_wavlm,IEMOCAP-script,audio_wavlm,kind,25,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+audio_wavlm,MOSEI,audio_wavlm,kind,0,massbal,e77,massbal,-,0,,
+audio_wavlm,MOSEI,audio_wavlm,kind,0,saerens,e77,saerens,-,0,,
+audio_wavlm,MOSEI,audio_wavlm,kind,0,t3a_fix,e77,t3a,Mall,0,,
+audio_wavlm,MOSEI,audio_wavlm,kind,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+audio_wavlm,MOSEI,audio_wavlm,kind,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+audio_wavlm,MOSEI,audio_wavlm,kind,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+audio_wavlm,MOSEI,audio_wavlm,kind,0,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+audio_wavlm,MOSEI,audio_wavlm,kind,0,mapctl_match_mme,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+audio_wavlm,MOSEI,audio_wavlm,kind,0,coral_fix,e78,coral,r64rho1.0cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+audio_wavlm,MOSEI,audio_wavlm,kind,5,massbal,e77,massbal,-,0,,
+audio_wavlm,MOSEI,audio_wavlm,kind,5,saerens,e77,saerens,-,0,,
+audio_wavlm,MOSEI,audio_wavlm,kind,5,t3a_fix,e77,t3a,Mall,0,,
+audio_wavlm,MOSEI,audio_wavlm,kind,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+audio_wavlm,MOSEI,audio_wavlm,kind,5,lp_fix,e77,lp,k50a0.99hard,n,,
+audio_wavlm,MOSEI,audio_wavlm,kind,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+audio_wavlm,MOSEI,audio_wavlm,kind,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+audio_wavlm,MOSEI,audio_wavlm,kind,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+audio_wavlm,MOSEI,audio_wavlm,kind,5,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+audio_wavlm,MOSEI,audio_wavlm,kind,5,mapctl_match_mme,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+audio_wavlm,MOSEI,audio_wavlm,kind,5,coral_fix,e78,coral,r64rho1.0cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+audio_wavlm,MOSEI,audio_wavlm,kind,25,massbal,e77,massbal,-,0,,
+audio_wavlm,MOSEI,audio_wavlm,kind,25,saerens,e77,saerens,-,0,,
+audio_wavlm,MOSEI,audio_wavlm,kind,25,t3a_fix,e77,t3a,Mall,0,,
+audio_wavlm,MOSEI,audio_wavlm,kind,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+audio_wavlm,MOSEI,audio_wavlm,kind,25,lp_fix,e77,lp,k50a0.99hard,n,,
+audio_wavlm,MOSEI,audio_wavlm,kind,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+audio_wavlm,MOSEI,audio_wavlm,kind,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+audio_wavlm,MOSEI,audio_wavlm,kind,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+audio_wavlm,MOSEI,audio_wavlm,kind,25,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+audio_wavlm,MOSEI,audio_wavlm,kind,25,mapctl_match_mme,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+audio_wavlm,MOSEI,audio_wavlm,kind,25,coral_fix,e78,coral,r64rho1.0cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+audio_wavlm,MELD,audio_wavlm,kind,0,massbal,e77,massbal,-,0,,
+audio_wavlm,MELD,audio_wavlm,kind,0,saerens,e77,saerens,-,0,,
+audio_wavlm,MELD,audio_wavlm,kind,0,t3a_fix,e77,t3a,Mall,0,,
+audio_wavlm,MELD,audio_wavlm,kind,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+audio_wavlm,MELD,audio_wavlm,kind,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+audio_wavlm,MELD,audio_wavlm,kind,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+audio_wavlm,MELD,audio_wavlm,kind,0,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+audio_wavlm,MELD,audio_wavlm,kind,0,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+audio_wavlm,MELD,audio_wavlm,kind,0,coral_fix,e78,coral,r64rho1.0cp0.003cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+audio_wavlm,MELD,audio_wavlm,kind,5,massbal,e77,massbal,-,0,,
+audio_wavlm,MELD,audio_wavlm,kind,5,saerens,e77,saerens,-,0,,
+audio_wavlm,MELD,audio_wavlm,kind,5,t3a_fix,e77,t3a,Mall,0,,
+audio_wavlm,MELD,audio_wavlm,kind,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+audio_wavlm,MELD,audio_wavlm,kind,5,lp_fix,e77,lp,k50a0.99hard,n,,
+audio_wavlm,MELD,audio_wavlm,kind,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+audio_wavlm,MELD,audio_wavlm,kind,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+audio_wavlm,MELD,audio_wavlm,kind,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+audio_wavlm,MELD,audio_wavlm,kind,5,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+audio_wavlm,MELD,audio_wavlm,kind,5,mapctl_match_mme,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+audio_wavlm,MELD,audio_wavlm,kind,5,coral_fix,e78,coral,r64rho1.0cp0.003cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+audio_wavlm,MELD,audio_wavlm,kind,25,massbal,e77,massbal,-,0,,
+audio_wavlm,MELD,audio_wavlm,kind,25,saerens,e77,saerens,-,0,,
+audio_wavlm,MELD,audio_wavlm,kind,25,t3a_fix,e77,t3a,Mall,0,,
+audio_wavlm,MELD,audio_wavlm,kind,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+audio_wavlm,MELD,audio_wavlm,kind,25,lp_fix,e77,lp,k50a0.99hard,n,,
+audio_wavlm,MELD,audio_wavlm,kind,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+audio_wavlm,MELD,audio_wavlm,kind,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+audio_wavlm,MELD,audio_wavlm,kind,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+audio_wavlm,MELD,audio_wavlm,kind,25,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+audio_wavlm,MELD,audio_wavlm,kind,25,mapctl_match_mme,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+audio_wavlm,MELD,audio_wavlm,kind,25,coral_fix,e78,coral,r64rho1.0cp0.003cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+audio_wavlm,AFEW,audio_wavlm,kind,0,massbal,e77,massbal,-,0,,
+audio_wavlm,AFEW,audio_wavlm,kind,0,saerens,e77,saerens,-,0,,
+audio_wavlm,AFEW,audio_wavlm,kind,0,t3a_fix,e77,t3a,Mall,0,,
+audio_wavlm,AFEW,audio_wavlm,kind,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+audio_wavlm,AFEW,audio_wavlm,kind,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+audio_wavlm,AFEW,audio_wavlm,kind,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+audio_wavlm,AFEW,audio_wavlm,kind,0,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+audio_wavlm,AFEW,audio_wavlm,kind,0,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+audio_wavlm,AFEW,audio_wavlm,kind,0,coral_fix,e78,coral,r64rho1.0cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+audio_wavlm,AFEW,audio_wavlm,kind,5,massbal,e77,massbal,-,0,,
+audio_wavlm,AFEW,audio_wavlm,kind,5,saerens,e77,saerens,-,0,,
+audio_wavlm,AFEW,audio_wavlm,kind,5,t3a_fix,e77,t3a,Mall,0,,
+audio_wavlm,AFEW,audio_wavlm,kind,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+audio_wavlm,AFEW,audio_wavlm,kind,5,lp_fix,e77,lp,k50a0.99hard,n,,
+audio_wavlm,AFEW,audio_wavlm,kind,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+audio_wavlm,AFEW,audio_wavlm,kind,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+audio_wavlm,AFEW,audio_wavlm,kind,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+audio_wavlm,AFEW,audio_wavlm,kind,5,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+audio_wavlm,AFEW,audio_wavlm,kind,5,mapctl_match_mme,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+audio_wavlm,AFEW,audio_wavlm,kind,5,coral_fix,e78,coral,r64rho1.0cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+audio_wavlm,AFEW,audio_wavlm,kind,25,massbal,e77,massbal,-,0,,
+audio_wavlm,AFEW,audio_wavlm,kind,25,saerens,e77,saerens,-,0,,
+audio_wavlm,AFEW,audio_wavlm,kind,25,t3a_fix,e77,t3a,Mall,0,,
+audio_wavlm,AFEW,audio_wavlm,kind,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+audio_wavlm,AFEW,audio_wavlm,kind,25,lp_fix,e77,lp,k50a0.99hard,n,,
+audio_wavlm,AFEW,audio_wavlm,kind,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+audio_wavlm,AFEW,audio_wavlm,kind,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+audio_wavlm,AFEW,audio_wavlm,kind,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+audio_wavlm,AFEW,audio_wavlm,kind,25,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+audio_wavlm,AFEW,audio_wavlm,kind,25,mapctl_match_mme,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+audio_wavlm,AFEW,audio_wavlm,kind,25,coral_fix,e78,coral,r64rho1.0cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+audio_wavlm,RAVDESS,audio_wavlm,kind,0,massbal,e77,massbal,-,0,,
+audio_wavlm,RAVDESS,audio_wavlm,kind,0,saerens,e77,saerens,-,0,,
+audio_wavlm,RAVDESS,audio_wavlm,kind,0,t3a_fix,e77,t3a,Mall,0,,
+audio_wavlm,RAVDESS,audio_wavlm,kind,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+audio_wavlm,RAVDESS,audio_wavlm,kind,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+audio_wavlm,RAVDESS,audio_wavlm,kind,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+audio_wavlm,RAVDESS,audio_wavlm,kind,0,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+audio_wavlm,RAVDESS,audio_wavlm,kind,0,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+audio_wavlm,RAVDESS,audio_wavlm,kind,0,coral_fix,e78,coral,r64rho0.97cp0.003cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+audio_wavlm,RAVDESS,audio_wavlm,kind,5,massbal,e77,massbal,-,0,,
+audio_wavlm,RAVDESS,audio_wavlm,kind,5,saerens,e77,saerens,-,0,,
+audio_wavlm,RAVDESS,audio_wavlm,kind,5,t3a_fix,e77,t3a,Mall,0,,
+audio_wavlm,RAVDESS,audio_wavlm,kind,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+audio_wavlm,RAVDESS,audio_wavlm,kind,5,lp_fix,e77,lp,k50a0.99hard,n,,
+audio_wavlm,RAVDESS,audio_wavlm,kind,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+audio_wavlm,RAVDESS,audio_wavlm,kind,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+audio_wavlm,RAVDESS,audio_wavlm,kind,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+audio_wavlm,RAVDESS,audio_wavlm,kind,5,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+audio_wavlm,RAVDESS,audio_wavlm,kind,5,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+audio_wavlm,RAVDESS,audio_wavlm,kind,5,coral_fix,e78,coral,r64rho0.97cp0.003cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+audio_wavlm,RAVDESS,audio_wavlm,kind,25,massbal,e77,massbal,-,0,,
+audio_wavlm,RAVDESS,audio_wavlm,kind,25,saerens,e77,saerens,-,0,,
+audio_wavlm,RAVDESS,audio_wavlm,kind,25,t3a_fix,e77,t3a,Mall,0,,
+audio_wavlm,RAVDESS,audio_wavlm,kind,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+audio_wavlm,RAVDESS,audio_wavlm,kind,25,lp_fix,e77,lp,k50a0.99hard,n,,
+audio_wavlm,RAVDESS,audio_wavlm,kind,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+audio_wavlm,RAVDESS,audio_wavlm,kind,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+audio_wavlm,RAVDESS,audio_wavlm,kind,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+audio_wavlm,RAVDESS,audio_wavlm,kind,25,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+audio_wavlm,RAVDESS,audio_wavlm,kind,25,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+audio_wavlm,RAVDESS,audio_wavlm,kind,25,coral_fix,e78,coral,r64rho0.97cp0.003cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+audio_wavlm,CREMA-D,audio_wavlm,kind,0,massbal,e77,massbal,-,0,,
+audio_wavlm,CREMA-D,audio_wavlm,kind,0,saerens,e77,saerens,-,0,,
+audio_wavlm,CREMA-D,audio_wavlm,kind,0,t3a_fix,e77,t3a,Mall,0,,
+audio_wavlm,CREMA-D,audio_wavlm,kind,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+audio_wavlm,CREMA-D,audio_wavlm,kind,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+audio_wavlm,CREMA-D,audio_wavlm,kind,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+audio_wavlm,CREMA-D,audio_wavlm,kind,0,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+audio_wavlm,CREMA-D,audio_wavlm,kind,0,mapctl_match_mme,e78,mapctl,lr0.001it200mu1.0,-,s0,
+audio_wavlm,CREMA-D,audio_wavlm,kind,0,coral_fix,e78,coral,r64rho1.0cp0.003cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+audio_wavlm,CREMA-D,audio_wavlm,kind,5,massbal,e77,massbal,-,0,,
+audio_wavlm,CREMA-D,audio_wavlm,kind,5,saerens,e77,saerens,-,0,,
+audio_wavlm,CREMA-D,audio_wavlm,kind,5,t3a_fix,e77,t3a,Mall,0,,
+audio_wavlm,CREMA-D,audio_wavlm,kind,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+audio_wavlm,CREMA-D,audio_wavlm,kind,5,lp_fix,e77,lp,k50a0.99hard,n,,
+audio_wavlm,CREMA-D,audio_wavlm,kind,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+audio_wavlm,CREMA-D,audio_wavlm,kind,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+audio_wavlm,CREMA-D,audio_wavlm,kind,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+audio_wavlm,CREMA-D,audio_wavlm,kind,5,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+audio_wavlm,CREMA-D,audio_wavlm,kind,5,mapctl_match_mme,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+audio_wavlm,CREMA-D,audio_wavlm,kind,5,coral_fix,e78,coral,r64rho1.0cp0.003cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+audio_wavlm,CREMA-D,audio_wavlm,kind,25,massbal,e77,massbal,-,0,,
+audio_wavlm,CREMA-D,audio_wavlm,kind,25,saerens,e77,saerens,-,0,,
+audio_wavlm,CREMA-D,audio_wavlm,kind,25,t3a_fix,e77,t3a,Mall,0,,
+audio_wavlm,CREMA-D,audio_wavlm,kind,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+audio_wavlm,CREMA-D,audio_wavlm,kind,25,lp_fix,e77,lp,k50a0.99hard,n,,
+audio_wavlm,CREMA-D,audio_wavlm,kind,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+audio_wavlm,CREMA-D,audio_wavlm,kind,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+audio_wavlm,CREMA-D,audio_wavlm,kind,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+audio_wavlm,CREMA-D,audio_wavlm,kind,25,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+audio_wavlm,CREMA-D,audio_wavlm,kind,25,mapctl_match_mme,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+audio_wavlm,CREMA-D,audio_wavlm,kind,25,coral_fix,e78,coral,r64rho1.0cp0.003cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+video,IEMOCAP-impro,video,kind,0,massbal,e77,massbal,-,0,,
+video,IEMOCAP-impro,video,kind,0,saerens,e77,saerens,-,0,,
+video,IEMOCAP-impro,video,kind,0,t3a_fix,e77,t3a,Mall,0,,
+video,IEMOCAP-impro,video,kind,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+video,IEMOCAP-impro,video,kind,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+video,IEMOCAP-impro,video,kind,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+video,IEMOCAP-impro,video,kind,0,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+video,IEMOCAP-impro,video,kind,0,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+video,IEMOCAP-impro,video,kind,0,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+video,IEMOCAP-impro,video,kind,5,massbal,e77,massbal,-,0,,
+video,IEMOCAP-impro,video,kind,5,saerens,e77,saerens,-,0,,
+video,IEMOCAP-impro,video,kind,5,t3a_fix,e77,t3a,Mall,0,,
+video,IEMOCAP-impro,video,kind,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+video,IEMOCAP-impro,video,kind,5,lp_fix,e77,lp,k50a0.99hard,n,,
+video,IEMOCAP-impro,video,kind,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+video,IEMOCAP-impro,video,kind,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+video,IEMOCAP-impro,video,kind,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+video,IEMOCAP-impro,video,kind,5,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+video,IEMOCAP-impro,video,kind,5,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+video,IEMOCAP-impro,video,kind,5,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+video,IEMOCAP-impro,video,kind,25,massbal,e77,massbal,-,0,,
+video,IEMOCAP-impro,video,kind,25,saerens,e77,saerens,-,0,,
+video,IEMOCAP-impro,video,kind,25,t3a_fix,e77,t3a,Mall,0,,
+video,IEMOCAP-impro,video,kind,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+video,IEMOCAP-impro,video,kind,25,lp_fix,e77,lp,k50a0.99hard,n,,
+video,IEMOCAP-impro,video,kind,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+video,IEMOCAP-impro,video,kind,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+video,IEMOCAP-impro,video,kind,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+video,IEMOCAP-impro,video,kind,25,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+video,IEMOCAP-impro,video,kind,25,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+video,IEMOCAP-impro,video,kind,25,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+video,IEMOCAP-script,video,kind,0,massbal,e77,massbal,-,0,,
+video,IEMOCAP-script,video,kind,0,saerens,e77,saerens,-,0,,
+video,IEMOCAP-script,video,kind,0,t3a_fix,e77,t3a,Mall,0,,
+video,IEMOCAP-script,video,kind,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+video,IEMOCAP-script,video,kind,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+video,IEMOCAP-script,video,kind,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+video,IEMOCAP-script,video,kind,0,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+video,IEMOCAP-script,video,kind,0,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+video,IEMOCAP-script,video,kind,0,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+video,IEMOCAP-script,video,kind,5,massbal,e77,massbal,-,0,,
+video,IEMOCAP-script,video,kind,5,saerens,e77,saerens,-,0,,
+video,IEMOCAP-script,video,kind,5,t3a_fix,e77,t3a,Mall,0,,
+video,IEMOCAP-script,video,kind,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+video,IEMOCAP-script,video,kind,5,lp_fix,e77,lp,k50a0.99hard,n,,
+video,IEMOCAP-script,video,kind,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+video,IEMOCAP-script,video,kind,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+video,IEMOCAP-script,video,kind,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+video,IEMOCAP-script,video,kind,5,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+video,IEMOCAP-script,video,kind,5,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+video,IEMOCAP-script,video,kind,5,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+video,IEMOCAP-script,video,kind,25,massbal,e77,massbal,-,0,,
+video,IEMOCAP-script,video,kind,25,saerens,e77,saerens,-,0,,
+video,IEMOCAP-script,video,kind,25,t3a_fix,e77,t3a,Mall,0,,
+video,IEMOCAP-script,video,kind,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+video,IEMOCAP-script,video,kind,25,lp_fix,e77,lp,k50a0.99hard,n,,
+video,IEMOCAP-script,video,kind,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+video,IEMOCAP-script,video,kind,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+video,IEMOCAP-script,video,kind,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+video,IEMOCAP-script,video,kind,25,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+video,IEMOCAP-script,video,kind,25,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+video,IEMOCAP-script,video,kind,25,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+video,MOSEI,video,kind,0,massbal,e77,massbal,-,0,,
+video,MOSEI,video,kind,0,saerens,e77,saerens,-,0,,
+video,MOSEI,video,kind,0,t3a_fix,e77,t3a,Mall,0,,
+video,MOSEI,video,kind,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+video,MOSEI,video,kind,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+video,MOSEI,video,kind,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+video,MOSEI,video,kind,0,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+video,MOSEI,video,kind,0,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+video,MOSEI,video,kind,0,coral_fix,e78,coral,r64rho0.9cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+video,MOSEI,video,kind,5,massbal,e77,massbal,-,0,,
+video,MOSEI,video,kind,5,saerens,e77,saerens,-,0,,
+video,MOSEI,video,kind,5,t3a_fix,e77,t3a,Mall,0,,
+video,MOSEI,video,kind,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+video,MOSEI,video,kind,5,lp_fix,e77,lp,k50a0.99hard,n,,
+video,MOSEI,video,kind,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+video,MOSEI,video,kind,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+video,MOSEI,video,kind,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+video,MOSEI,video,kind,5,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+video,MOSEI,video,kind,5,mapctl_match_mme,e78,mapctl,lr0.01it1000mu10.0,-,s0,
+video,MOSEI,video,kind,5,coral_fix,e78,coral,r64rho0.9cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+video,MOSEI,video,kind,25,massbal,e77,massbal,-,0,,
+video,MOSEI,video,kind,25,saerens,e77,saerens,-,0,,
+video,MOSEI,video,kind,25,t3a_fix,e77,t3a,Mall,0,,
+video,MOSEI,video,kind,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+video,MOSEI,video,kind,25,lp_fix,e77,lp,k50a0.99hard,n,,
+video,MOSEI,video,kind,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+video,MOSEI,video,kind,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+video,MOSEI,video,kind,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+video,MOSEI,video,kind,25,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+video,MOSEI,video,kind,25,mapctl_match_mme,e78,mapctl,lr0.001it200mu1.0,-,s0,
+video,MOSEI,video,kind,25,coral_fix,e78,coral,r64rho0.9cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+video,MELD,video,kind,0,massbal,e77,massbal,-,0,,
+video,MELD,video,kind,0,saerens,e77,saerens,-,0,,
+video,MELD,video,kind,0,t3a_fix,e77,t3a,Mall,0,,
+video,MELD,video,kind,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+video,MELD,video,kind,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+video,MELD,video,kind,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+video,MELD,video,kind,0,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+video,MELD,video,kind,0,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+video,MELD,video,kind,0,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+video,MELD,video,kind,5,massbal,e77,massbal,-,0,,
+video,MELD,video,kind,5,saerens,e77,saerens,-,0,,
+video,MELD,video,kind,5,t3a_fix,e77,t3a,Mall,0,,
+video,MELD,video,kind,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+video,MELD,video,kind,5,lp_fix,e77,lp,k50a0.99hard,n,,
+video,MELD,video,kind,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+video,MELD,video,kind,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+video,MELD,video,kind,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+video,MELD,video,kind,5,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+video,MELD,video,kind,5,mapctl_match_mme,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+video,MELD,video,kind,5,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+video,MELD,video,kind,25,massbal,e77,massbal,-,0,,
+video,MELD,video,kind,25,saerens,e77,saerens,-,0,,
+video,MELD,video,kind,25,t3a_fix,e77,t3a,Mall,0,,
+video,MELD,video,kind,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+video,MELD,video,kind,25,lp_fix,e77,lp,k50a0.99hard,n,,
+video,MELD,video,kind,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+video,MELD,video,kind,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+video,MELD,video,kind,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+video,MELD,video,kind,25,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+video,MELD,video,kind,25,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+video,MELD,video,kind,25,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+video,AFEW,video,kind,0,massbal,e77,massbal,-,0,,
+video,AFEW,video,kind,0,saerens,e77,saerens,-,0,,
+video,AFEW,video,kind,0,t3a_fix,e77,t3a,Mall,0,,
+video,AFEW,video,kind,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+video,AFEW,video,kind,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+video,AFEW,video,kind,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+video,AFEW,video,kind,0,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+video,AFEW,video,kind,0,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+video,AFEW,video,kind,0,coral_fix,e78,coral,r64rho0.9cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+video,AFEW,video,kind,5,massbal,e77,massbal,-,0,,
+video,AFEW,video,kind,5,saerens,e77,saerens,-,0,,
+video,AFEW,video,kind,5,t3a_fix,e77,t3a,Mall,0,,
+video,AFEW,video,kind,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+video,AFEW,video,kind,5,lp_fix,e77,lp,k50a0.99hard,n,,
+video,AFEW,video,kind,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+video,AFEW,video,kind,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+video,AFEW,video,kind,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+video,AFEW,video,kind,5,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+video,AFEW,video,kind,5,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+video,AFEW,video,kind,5,coral_fix,e78,coral,r64rho0.9cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+video,AFEW,video,kind,25,massbal,e77,massbal,-,0,,
+video,AFEW,video,kind,25,saerens,e77,saerens,-,0,,
+video,AFEW,video,kind,25,t3a_fix,e77,t3a,Mall,0,,
+video,AFEW,video,kind,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+video,AFEW,video,kind,25,lp_fix,e77,lp,k50a0.99hard,n,,
+video,AFEW,video,kind,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+video,AFEW,video,kind,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+video,AFEW,video,kind,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+video,AFEW,video,kind,25,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+video,AFEW,video,kind,25,mapctl_match_mme,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+video,AFEW,video,kind,25,coral_fix,e78,coral,r64rho0.9cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+video,CREMA-D,video,kind,0,massbal,e77,massbal,-,0,,
+video,CREMA-D,video,kind,0,saerens,e77,saerens,-,0,,
+video,CREMA-D,video,kind,0,t3a_fix,e77,t3a,Mall,0,,
+video,CREMA-D,video,kind,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+video,CREMA-D,video,kind,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+video,CREMA-D,video,kind,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+video,CREMA-D,video,kind,0,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+video,CREMA-D,video,kind,0,mapctl_match_mme,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+video,CREMA-D,video,kind,0,coral_fix,e78,coral,r64rho0.9cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+video,CREMA-D,video,kind,5,massbal,e77,massbal,-,0,,
+video,CREMA-D,video,kind,5,saerens,e77,saerens,-,0,,
+video,CREMA-D,video,kind,5,t3a_fix,e77,t3a,Mall,0,,
+video,CREMA-D,video,kind,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+video,CREMA-D,video,kind,5,lp_fix,e77,lp,k50a0.99hard,n,,
+video,CREMA-D,video,kind,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+video,CREMA-D,video,kind,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+video,CREMA-D,video,kind,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+video,CREMA-D,video,kind,5,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+video,CREMA-D,video,kind,5,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+video,CREMA-D,video,kind,5,coral_fix,e78,coral,r64rho0.9cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+video,CREMA-D,video,kind,25,massbal,e77,massbal,-,0,,
+video,CREMA-D,video,kind,25,saerens,e77,saerens,-,0,,
+video,CREMA-D,video,kind,25,t3a_fix,e77,t3a,Mall,0,,
+video,CREMA-D,video,kind,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+video,CREMA-D,video,kind,25,lp_fix,e77,lp,k50a0.99hard,n,,
+video,CREMA-D,video,kind,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+video,CREMA-D,video,kind,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+video,CREMA-D,video,kind,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+video,CREMA-D,video,kind,25,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+video,CREMA-D,video,kind,25,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+video,CREMA-D,video,kind,25,coral_fix,e78,coral,r64rho0.9cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+text_roberta,IEMOCAP-impro,text_roberta,kind,0,massbal,e77,massbal,-,0,,
+text_roberta,IEMOCAP-impro,text_roberta,kind,0,saerens,e77,saerens,-,0,,
+text_roberta,IEMOCAP-impro,text_roberta,kind,0,t3a_fix,e77,t3a,Mall,0,,
+text_roberta,IEMOCAP-impro,text_roberta,kind,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+text_roberta,IEMOCAP-impro,text_roberta,kind,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+text_roberta,IEMOCAP-impro,text_roberta,kind,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+text_roberta,IEMOCAP-impro,text_roberta,kind,0,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+text_roberta,IEMOCAP-impro,text_roberta,kind,0,mapctl_match_mme,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+text_roberta,IEMOCAP-impro,text_roberta,kind,0,coral_fix,e78,coral,r64rho0.9cp0.01cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+text_roberta,IEMOCAP-impro,text_roberta,kind,5,massbal,e77,massbal,-,0,,
+text_roberta,IEMOCAP-impro,text_roberta,kind,5,saerens,e77,saerens,-,0,,
+text_roberta,IEMOCAP-impro,text_roberta,kind,5,t3a_fix,e77,t3a,Mall,0,,
+text_roberta,IEMOCAP-impro,text_roberta,kind,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+text_roberta,IEMOCAP-impro,text_roberta,kind,5,lp_fix,e77,lp,k50a0.99hard,n,,
+text_roberta,IEMOCAP-impro,text_roberta,kind,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+text_roberta,IEMOCAP-impro,text_roberta,kind,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+text_roberta,IEMOCAP-impro,text_roberta,kind,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+text_roberta,IEMOCAP-impro,text_roberta,kind,5,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+text_roberta,IEMOCAP-impro,text_roberta,kind,5,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+text_roberta,IEMOCAP-impro,text_roberta,kind,5,coral_fix,e78,coral,r64rho0.9cp0.01cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+text_roberta,IEMOCAP-impro,text_roberta,kind,25,massbal,e77,massbal,-,0,,
+text_roberta,IEMOCAP-impro,text_roberta,kind,25,saerens,e77,saerens,-,0,,
+text_roberta,IEMOCAP-impro,text_roberta,kind,25,t3a_fix,e77,t3a,Mall,0,,
+text_roberta,IEMOCAP-impro,text_roberta,kind,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+text_roberta,IEMOCAP-impro,text_roberta,kind,25,lp_fix,e77,lp,k50a0.99hard,n,,
+text_roberta,IEMOCAP-impro,text_roberta,kind,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+text_roberta,IEMOCAP-impro,text_roberta,kind,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+text_roberta,IEMOCAP-impro,text_roberta,kind,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+text_roberta,IEMOCAP-impro,text_roberta,kind,25,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+text_roberta,IEMOCAP-impro,text_roberta,kind,25,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+text_roberta,IEMOCAP-impro,text_roberta,kind,25,coral_fix,e78,coral,r64rho0.9cp0.01cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+text_roberta,IEMOCAP-script,text_roberta,kind,0,massbal,e77,massbal,-,0,,
+text_roberta,IEMOCAP-script,text_roberta,kind,0,saerens,e77,saerens,-,0,,
+text_roberta,IEMOCAP-script,text_roberta,kind,0,t3a_fix,e77,t3a,Mall,0,,
+text_roberta,IEMOCAP-script,text_roberta,kind,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+text_roberta,IEMOCAP-script,text_roberta,kind,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+text_roberta,IEMOCAP-script,text_roberta,kind,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+text_roberta,IEMOCAP-script,text_roberta,kind,0,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+text_roberta,IEMOCAP-script,text_roberta,kind,0,mapctl_match_mme,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+text_roberta,IEMOCAP-script,text_roberta,kind,0,coral_fix,e78,coral,r64rho0.9cp0.01cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+text_roberta,IEMOCAP-script,text_roberta,kind,5,massbal,e77,massbal,-,0,,
+text_roberta,IEMOCAP-script,text_roberta,kind,5,saerens,e77,saerens,-,0,,
+text_roberta,IEMOCAP-script,text_roberta,kind,5,t3a_fix,e77,t3a,Mall,0,,
+text_roberta,IEMOCAP-script,text_roberta,kind,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+text_roberta,IEMOCAP-script,text_roberta,kind,5,lp_fix,e77,lp,k50a0.99hard,n,,
+text_roberta,IEMOCAP-script,text_roberta,kind,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+text_roberta,IEMOCAP-script,text_roberta,kind,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+text_roberta,IEMOCAP-script,text_roberta,kind,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+text_roberta,IEMOCAP-script,text_roberta,kind,5,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+text_roberta,IEMOCAP-script,text_roberta,kind,5,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+text_roberta,IEMOCAP-script,text_roberta,kind,5,coral_fix,e78,coral,r64rho0.9cp0.01cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+text_roberta,IEMOCAP-script,text_roberta,kind,25,massbal,e77,massbal,-,0,,
+text_roberta,IEMOCAP-script,text_roberta,kind,25,saerens,e77,saerens,-,0,,
+text_roberta,IEMOCAP-script,text_roberta,kind,25,t3a_fix,e77,t3a,Mall,0,,
+text_roberta,IEMOCAP-script,text_roberta,kind,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+text_roberta,IEMOCAP-script,text_roberta,kind,25,lp_fix,e77,lp,k50a0.99hard,n,,
+text_roberta,IEMOCAP-script,text_roberta,kind,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+text_roberta,IEMOCAP-script,text_roberta,kind,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+text_roberta,IEMOCAP-script,text_roberta,kind,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+text_roberta,IEMOCAP-script,text_roberta,kind,25,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+text_roberta,IEMOCAP-script,text_roberta,kind,25,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+text_roberta,IEMOCAP-script,text_roberta,kind,25,coral_fix,e78,coral,r64rho0.9cp0.01cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+text_roberta,MOSEI,text_roberta,kind,0,massbal,e77,massbal,-,0,,
+text_roberta,MOSEI,text_roberta,kind,0,saerens,e77,saerens,-,0,,
+text_roberta,MOSEI,text_roberta,kind,0,t3a_fix,e77,t3a,Mall,0,,
+text_roberta,MOSEI,text_roberta,kind,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+text_roberta,MOSEI,text_roberta,kind,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+text_roberta,MOSEI,text_roberta,kind,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+text_roberta,MOSEI,text_roberta,kind,0,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+text_roberta,MOSEI,text_roberta,kind,0,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+text_roberta,MOSEI,text_roberta,kind,0,coral_fix,e78,coral,r64rho0.9cp0.03cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+text_roberta,MOSEI,text_roberta,kind,5,massbal,e77,massbal,-,0,,
+text_roberta,MOSEI,text_roberta,kind,5,saerens,e77,saerens,-,0,,
+text_roberta,MOSEI,text_roberta,kind,5,t3a_fix,e77,t3a,Mall,0,,
+text_roberta,MOSEI,text_roberta,kind,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+text_roberta,MOSEI,text_roberta,kind,5,lp_fix,e77,lp,k50a0.99hard,n,,
+text_roberta,MOSEI,text_roberta,kind,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+text_roberta,MOSEI,text_roberta,kind,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+text_roberta,MOSEI,text_roberta,kind,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+text_roberta,MOSEI,text_roberta,kind,5,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+text_roberta,MOSEI,text_roberta,kind,5,mapctl_match_mme,e78,mapctl,lr0.001it200mu1.0,-,s0,
+text_roberta,MOSEI,text_roberta,kind,5,coral_fix,e78,coral,r64rho0.9cp0.03cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+text_roberta,MOSEI,text_roberta,kind,25,massbal,e77,massbal,-,0,,
+text_roberta,MOSEI,text_roberta,kind,25,saerens,e77,saerens,-,0,,
+text_roberta,MOSEI,text_roberta,kind,25,t3a_fix,e77,t3a,Mall,0,,
+text_roberta,MOSEI,text_roberta,kind,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+text_roberta,MOSEI,text_roberta,kind,25,lp_fix,e77,lp,k50a0.99hard,n,,
+text_roberta,MOSEI,text_roberta,kind,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+text_roberta,MOSEI,text_roberta,kind,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+text_roberta,MOSEI,text_roberta,kind,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+text_roberta,MOSEI,text_roberta,kind,25,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+text_roberta,MOSEI,text_roberta,kind,25,mapctl_match_mme,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+text_roberta,MOSEI,text_roberta,kind,25,coral_fix,e78,coral,r64rho0.9cp0.03cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+text_roberta,MELD,text_roberta,kind,0,massbal,e77,massbal,-,0,,
+text_roberta,MELD,text_roberta,kind,0,saerens,e77,saerens,-,0,,
+text_roberta,MELD,text_roberta,kind,0,t3a_fix,e77,t3a,Mall,0,,
+text_roberta,MELD,text_roberta,kind,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+text_roberta,MELD,text_roberta,kind,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+text_roberta,MELD,text_roberta,kind,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+text_roberta,MELD,text_roberta,kind,0,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+text_roberta,MELD,text_roberta,kind,0,mapctl_match_mme,e78,mapctl,lr0.001it200mu1.0,-,s0,
+text_roberta,MELD,text_roberta,kind,0,coral_fix,e78,coral,r64rho0.97cp0.03cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+text_roberta,MELD,text_roberta,kind,5,massbal,e77,massbal,-,0,,
+text_roberta,MELD,text_roberta,kind,5,saerens,e77,saerens,-,0,,
+text_roberta,MELD,text_roberta,kind,5,t3a_fix,e77,t3a,Mall,0,,
+text_roberta,MELD,text_roberta,kind,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+text_roberta,MELD,text_roberta,kind,5,lp_fix,e77,lp,k50a0.99hard,n,,
+text_roberta,MELD,text_roberta,kind,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+text_roberta,MELD,text_roberta,kind,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+text_roberta,MELD,text_roberta,kind,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+text_roberta,MELD,text_roberta,kind,5,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+text_roberta,MELD,text_roberta,kind,5,mapctl_match_mme,e78,mapctl,lr0.001it200mu1.0,-,s0,
+text_roberta,MELD,text_roberta,kind,5,coral_fix,e78,coral,r64rho0.97cp0.03cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+text_roberta,MELD,text_roberta,kind,25,massbal,e77,massbal,-,0,,
+text_roberta,MELD,text_roberta,kind,25,saerens,e77,saerens,-,0,,
+text_roberta,MELD,text_roberta,kind,25,t3a_fix,e77,t3a,Mall,0,,
+text_roberta,MELD,text_roberta,kind,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+text_roberta,MELD,text_roberta,kind,25,lp_fix,e77,lp,k50a0.99hard,n,,
+text_roberta,MELD,text_roberta,kind,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+text_roberta,MELD,text_roberta,kind,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+text_roberta,MELD,text_roberta,kind,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+text_roberta,MELD,text_roberta,kind,25,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+text_roberta,MELD,text_roberta,kind,25,mapctl_match_mme,e78,mapctl,lr0.001it200mu1.0,-,s0,
+text_roberta,MELD,text_roberta,kind,25,coral_fix,e78,coral,r64rho0.97cp0.03cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,IEMOCAP-impro,audio_wavlm,uni,0,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,IEMOCAP-impro,audio_wavlm,uni,0,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,IEMOCAP-impro,audio_wavlm,uni,0,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,IEMOCAP-impro,audio_wavlm,uni,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video-text,IEMOCAP-impro,audio_wavlm,uni,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video-text,IEMOCAP-impro,audio_wavlm,uni,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,IEMOCAP-impro,audio_wavlm,uni,0,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video-text,IEMOCAP-impro,audio_wavlm,uni,0,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video-text,IEMOCAP-impro,audio_wavlm,uni,0,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,IEMOCAP-impro,audio_wavlm,uni,5,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,IEMOCAP-impro,audio_wavlm,uni,5,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,IEMOCAP-impro,audio_wavlm,uni,5,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,IEMOCAP-impro,audio_wavlm,uni,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video-text,IEMOCAP-impro,audio_wavlm,uni,5,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video-text,IEMOCAP-impro,audio_wavlm,uni,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video-text,IEMOCAP-impro,audio_wavlm,uni,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video-text,IEMOCAP-impro,audio_wavlm,uni,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,IEMOCAP-impro,audio_wavlm,uni,5,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video-text,IEMOCAP-impro,audio_wavlm,uni,5,mapctl_match_mme,e78,mapctl,lr0.001it200mu1.0,-,s0,
+fuse-audio-video-text,IEMOCAP-impro,audio_wavlm,uni,5,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,IEMOCAP-impro,audio_wavlm,uni,25,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,IEMOCAP-impro,audio_wavlm,uni,25,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,IEMOCAP-impro,audio_wavlm,uni,25,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,IEMOCAP-impro,audio_wavlm,uni,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video-text,IEMOCAP-impro,audio_wavlm,uni,25,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video-text,IEMOCAP-impro,audio_wavlm,uni,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video-text,IEMOCAP-impro,audio_wavlm,uni,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video-text,IEMOCAP-impro,audio_wavlm,uni,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,IEMOCAP-impro,audio_wavlm,uni,25,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video-text,IEMOCAP-impro,audio_wavlm,uni,25,mapctl_match_mme,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video-text,IEMOCAP-impro,audio_wavlm,uni,25,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,IEMOCAP-impro,fuse-audio-video-text,fused,0,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,IEMOCAP-impro,fuse-audio-video-text,fused,0,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,IEMOCAP-impro,fuse-audio-video-text,fused,0,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,IEMOCAP-impro,fuse-audio-video-text,fused,0,coral_fix,e78,coral,r64rho0.97cp0.01cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,IEMOCAP-impro,fuse-audio-video-text,fused,5,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,IEMOCAP-impro,fuse-audio-video-text,fused,5,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,IEMOCAP-impro,fuse-audio-video-text,fused,5,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,IEMOCAP-impro,fuse-audio-video-text,fused,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video-text,IEMOCAP-impro,fuse-audio-video-text,fused,5,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video-text,IEMOCAP-impro,fuse-audio-video-text,fused,5,coral_fix,e78,coral,r64rho0.97cp0.01cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,IEMOCAP-impro,fuse-audio-video-text,fused,25,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,IEMOCAP-impro,fuse-audio-video-text,fused,25,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,IEMOCAP-impro,fuse-audio-video-text,fused,25,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,IEMOCAP-impro,fuse-audio-video-text,fused,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video-text,IEMOCAP-impro,fuse-audio-video-text,fused,25,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video-text,IEMOCAP-impro,fuse-audio-video-text,fused,25,coral_fix,e78,coral,r64rho0.97cp0.01cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,IEMOCAP-impro,text_roberta,uni,0,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,IEMOCAP-impro,text_roberta,uni,0,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,IEMOCAP-impro,text_roberta,uni,0,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,IEMOCAP-impro,text_roberta,uni,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video-text,IEMOCAP-impro,text_roberta,uni,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video-text,IEMOCAP-impro,text_roberta,uni,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,IEMOCAP-impro,text_roberta,uni,0,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video-text,IEMOCAP-impro,text_roberta,uni,0,mapctl_match_mme,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video-text,IEMOCAP-impro,text_roberta,uni,0,coral_fix,e78,coral,r64rho0.9cp0.01cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,IEMOCAP-impro,text_roberta,uni,5,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,IEMOCAP-impro,text_roberta,uni,5,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,IEMOCAP-impro,text_roberta,uni,5,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,IEMOCAP-impro,text_roberta,uni,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video-text,IEMOCAP-impro,text_roberta,uni,5,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video-text,IEMOCAP-impro,text_roberta,uni,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video-text,IEMOCAP-impro,text_roberta,uni,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video-text,IEMOCAP-impro,text_roberta,uni,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,IEMOCAP-impro,text_roberta,uni,5,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video-text,IEMOCAP-impro,text_roberta,uni,5,mapctl_match_mme,e78,mapctl,lr0.01it200mu10.0,-,s0,
+fuse-audio-video-text,IEMOCAP-impro,text_roberta,uni,5,coral_fix,e78,coral,r64rho0.9cp0.01cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,IEMOCAP-impro,text_roberta,uni,25,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,IEMOCAP-impro,text_roberta,uni,25,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,IEMOCAP-impro,text_roberta,uni,25,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,IEMOCAP-impro,text_roberta,uni,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video-text,IEMOCAP-impro,text_roberta,uni,25,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video-text,IEMOCAP-impro,text_roberta,uni,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video-text,IEMOCAP-impro,text_roberta,uni,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video-text,IEMOCAP-impro,text_roberta,uni,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,IEMOCAP-impro,text_roberta,uni,25,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video-text,IEMOCAP-impro,text_roberta,uni,25,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video-text,IEMOCAP-impro,text_roberta,uni,25,coral_fix,e78,coral,r64rho0.9cp0.01cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,IEMOCAP-impro,video,uni,0,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,IEMOCAP-impro,video,uni,0,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,IEMOCAP-impro,video,uni,0,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,IEMOCAP-impro,video,uni,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video-text,IEMOCAP-impro,video,uni,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video-text,IEMOCAP-impro,video,uni,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,IEMOCAP-impro,video,uni,0,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video-text,IEMOCAP-impro,video,uni,0,mapctl_match_mme,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,IEMOCAP-impro,video,uni,0,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,IEMOCAP-impro,video,uni,5,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,IEMOCAP-impro,video,uni,5,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,IEMOCAP-impro,video,uni,5,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,IEMOCAP-impro,video,uni,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video-text,IEMOCAP-impro,video,uni,5,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video-text,IEMOCAP-impro,video,uni,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video-text,IEMOCAP-impro,video,uni,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video-text,IEMOCAP-impro,video,uni,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,IEMOCAP-impro,video,uni,5,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video-text,IEMOCAP-impro,video,uni,5,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video-text,IEMOCAP-impro,video,uni,5,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,IEMOCAP-impro,video,uni,25,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,IEMOCAP-impro,video,uni,25,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,IEMOCAP-impro,video,uni,25,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,IEMOCAP-impro,video,uni,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video-text,IEMOCAP-impro,video,uni,25,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video-text,IEMOCAP-impro,video,uni,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video-text,IEMOCAP-impro,video,uni,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video-text,IEMOCAP-impro,video,uni,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,IEMOCAP-impro,video,uni,25,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video-text,IEMOCAP-impro,video,uni,25,mapctl_match_mme,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video-text,IEMOCAP-impro,video,uni,25,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,IEMOCAP-script,audio_wavlm,uni,0,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,IEMOCAP-script,audio_wavlm,uni,0,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,IEMOCAP-script,audio_wavlm,uni,0,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,IEMOCAP-script,audio_wavlm,uni,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video-text,IEMOCAP-script,audio_wavlm,uni,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video-text,IEMOCAP-script,audio_wavlm,uni,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,IEMOCAP-script,audio_wavlm,uni,0,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video-text,IEMOCAP-script,audio_wavlm,uni,0,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video-text,IEMOCAP-script,audio_wavlm,uni,0,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,IEMOCAP-script,audio_wavlm,uni,5,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,IEMOCAP-script,audio_wavlm,uni,5,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,IEMOCAP-script,audio_wavlm,uni,5,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,IEMOCAP-script,audio_wavlm,uni,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video-text,IEMOCAP-script,audio_wavlm,uni,5,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video-text,IEMOCAP-script,audio_wavlm,uni,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video-text,IEMOCAP-script,audio_wavlm,uni,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video-text,IEMOCAP-script,audio_wavlm,uni,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,IEMOCAP-script,audio_wavlm,uni,5,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video-text,IEMOCAP-script,audio_wavlm,uni,5,mapctl_match_mme,e78,mapctl,lr0.001it200mu1.0,-,s0,
+fuse-audio-video-text,IEMOCAP-script,audio_wavlm,uni,5,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,IEMOCAP-script,audio_wavlm,uni,25,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,IEMOCAP-script,audio_wavlm,uni,25,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,IEMOCAP-script,audio_wavlm,uni,25,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,IEMOCAP-script,audio_wavlm,uni,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video-text,IEMOCAP-script,audio_wavlm,uni,25,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video-text,IEMOCAP-script,audio_wavlm,uni,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video-text,IEMOCAP-script,audio_wavlm,uni,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video-text,IEMOCAP-script,audio_wavlm,uni,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,IEMOCAP-script,audio_wavlm,uni,25,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video-text,IEMOCAP-script,audio_wavlm,uni,25,mapctl_match_mme,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video-text,IEMOCAP-script,audio_wavlm,uni,25,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,IEMOCAP-script,fuse-audio-video-text,fused,0,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,IEMOCAP-script,fuse-audio-video-text,fused,0,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,IEMOCAP-script,fuse-audio-video-text,fused,0,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,IEMOCAP-script,fuse-audio-video-text,fused,0,coral_fix,e78,coral,r64rho0.97cp0.01cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,IEMOCAP-script,fuse-audio-video-text,fused,5,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,IEMOCAP-script,fuse-audio-video-text,fused,5,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,IEMOCAP-script,fuse-audio-video-text,fused,5,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,IEMOCAP-script,fuse-audio-video-text,fused,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video-text,IEMOCAP-script,fuse-audio-video-text,fused,5,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video-text,IEMOCAP-script,fuse-audio-video-text,fused,5,coral_fix,e78,coral,r64rho0.97cp0.01cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,IEMOCAP-script,fuse-audio-video-text,fused,25,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,IEMOCAP-script,fuse-audio-video-text,fused,25,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,IEMOCAP-script,fuse-audio-video-text,fused,25,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,IEMOCAP-script,fuse-audio-video-text,fused,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video-text,IEMOCAP-script,fuse-audio-video-text,fused,25,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video-text,IEMOCAP-script,fuse-audio-video-text,fused,25,coral_fix,e78,coral,r64rho0.97cp0.01cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,IEMOCAP-script,text_roberta,uni,0,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,IEMOCAP-script,text_roberta,uni,0,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,IEMOCAP-script,text_roberta,uni,0,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,IEMOCAP-script,text_roberta,uni,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video-text,IEMOCAP-script,text_roberta,uni,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video-text,IEMOCAP-script,text_roberta,uni,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,IEMOCAP-script,text_roberta,uni,0,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video-text,IEMOCAP-script,text_roberta,uni,0,mapctl_match_mme,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video-text,IEMOCAP-script,text_roberta,uni,0,coral_fix,e78,coral,r64rho0.9cp0.01cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,IEMOCAP-script,text_roberta,uni,5,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,IEMOCAP-script,text_roberta,uni,5,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,IEMOCAP-script,text_roberta,uni,5,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,IEMOCAP-script,text_roberta,uni,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video-text,IEMOCAP-script,text_roberta,uni,5,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video-text,IEMOCAP-script,text_roberta,uni,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video-text,IEMOCAP-script,text_roberta,uni,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video-text,IEMOCAP-script,text_roberta,uni,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,IEMOCAP-script,text_roberta,uni,5,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video-text,IEMOCAP-script,text_roberta,uni,5,mapctl_match_mme,e78,mapctl,lr0.01it200mu10.0,-,s0,
+fuse-audio-video-text,IEMOCAP-script,text_roberta,uni,5,coral_fix,e78,coral,r64rho0.9cp0.01cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,IEMOCAP-script,text_roberta,uni,25,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,IEMOCAP-script,text_roberta,uni,25,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,IEMOCAP-script,text_roberta,uni,25,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,IEMOCAP-script,text_roberta,uni,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video-text,IEMOCAP-script,text_roberta,uni,25,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video-text,IEMOCAP-script,text_roberta,uni,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video-text,IEMOCAP-script,text_roberta,uni,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video-text,IEMOCAP-script,text_roberta,uni,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,IEMOCAP-script,text_roberta,uni,25,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video-text,IEMOCAP-script,text_roberta,uni,25,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video-text,IEMOCAP-script,text_roberta,uni,25,coral_fix,e78,coral,r64rho0.9cp0.01cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,IEMOCAP-script,video,uni,0,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,IEMOCAP-script,video,uni,0,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,IEMOCAP-script,video,uni,0,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,IEMOCAP-script,video,uni,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video-text,IEMOCAP-script,video,uni,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video-text,IEMOCAP-script,video,uni,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,IEMOCAP-script,video,uni,0,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video-text,IEMOCAP-script,video,uni,0,mapctl_match_mme,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,IEMOCAP-script,video,uni,0,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,IEMOCAP-script,video,uni,5,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,IEMOCAP-script,video,uni,5,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,IEMOCAP-script,video,uni,5,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,IEMOCAP-script,video,uni,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video-text,IEMOCAP-script,video,uni,5,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video-text,IEMOCAP-script,video,uni,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video-text,IEMOCAP-script,video,uni,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video-text,IEMOCAP-script,video,uni,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,IEMOCAP-script,video,uni,5,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video-text,IEMOCAP-script,video,uni,5,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video-text,IEMOCAP-script,video,uni,5,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,IEMOCAP-script,video,uni,25,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,IEMOCAP-script,video,uni,25,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,IEMOCAP-script,video,uni,25,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,IEMOCAP-script,video,uni,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video-text,IEMOCAP-script,video,uni,25,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video-text,IEMOCAP-script,video,uni,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video-text,IEMOCAP-script,video,uni,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video-text,IEMOCAP-script,video,uni,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,IEMOCAP-script,video,uni,25,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video-text,IEMOCAP-script,video,uni,25,mapctl_match_mme,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video-text,IEMOCAP-script,video,uni,25,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,MOSEI,audio_wavlm,uni,0,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,MOSEI,audio_wavlm,uni,0,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,MOSEI,audio_wavlm,uni,0,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,MOSEI,audio_wavlm,uni,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video-text,MOSEI,audio_wavlm,uni,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video-text,MOSEI,audio_wavlm,uni,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,MOSEI,audio_wavlm,uni,0,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video-text,MOSEI,audio_wavlm,uni,0,mapctl_match_mme,e78,mapctl,lr0.001it200mu1.0,-,s0,
+fuse-audio-video-text,MOSEI,audio_wavlm,uni,0,coral_fix,e78,coral,r64rho1.0cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,MOSEI,audio_wavlm,uni,5,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,MOSEI,audio_wavlm,uni,5,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,MOSEI,audio_wavlm,uni,5,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,MOSEI,audio_wavlm,uni,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video-text,MOSEI,audio_wavlm,uni,5,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video-text,MOSEI,audio_wavlm,uni,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video-text,MOSEI,audio_wavlm,uni,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video-text,MOSEI,audio_wavlm,uni,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,MOSEI,audio_wavlm,uni,5,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video-text,MOSEI,audio_wavlm,uni,5,mapctl_match_mme,e78,mapctl,lr0.001it200mu1.0,-,s0,
+fuse-audio-video-text,MOSEI,audio_wavlm,uni,5,coral_fix,e78,coral,r64rho1.0cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,MOSEI,audio_wavlm,uni,25,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,MOSEI,audio_wavlm,uni,25,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,MOSEI,audio_wavlm,uni,25,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,MOSEI,audio_wavlm,uni,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video-text,MOSEI,audio_wavlm,uni,25,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video-text,MOSEI,audio_wavlm,uni,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video-text,MOSEI,audio_wavlm,uni,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video-text,MOSEI,audio_wavlm,uni,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,MOSEI,audio_wavlm,uni,25,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video-text,MOSEI,audio_wavlm,uni,25,mapctl_match_mme,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video-text,MOSEI,audio_wavlm,uni,25,coral_fix,e78,coral,r64rho1.0cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,MOSEI,fuse-audio-video-text,fused,0,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,MOSEI,fuse-audio-video-text,fused,0,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,MOSEI,fuse-audio-video-text,fused,0,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,MOSEI,fuse-audio-video-text,fused,0,coral_fix,e78,coral,r64rho1.0cp0.03cb8.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,MOSEI,fuse-audio-video-text,fused,5,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,MOSEI,fuse-audio-video-text,fused,5,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,MOSEI,fuse-audio-video-text,fused,5,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,MOSEI,fuse-audio-video-text,fused,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video-text,MOSEI,fuse-audio-video-text,fused,5,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video-text,MOSEI,fuse-audio-video-text,fused,5,coral_fix,e78,coral,r64rho1.0cp0.03cb8.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,MOSEI,fuse-audio-video-text,fused,25,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,MOSEI,fuse-audio-video-text,fused,25,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,MOSEI,fuse-audio-video-text,fused,25,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,MOSEI,fuse-audio-video-text,fused,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video-text,MOSEI,fuse-audio-video-text,fused,25,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video-text,MOSEI,fuse-audio-video-text,fused,25,coral_fix,e78,coral,r64rho1.0cp0.03cb8.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,MOSEI,text_roberta,uni,0,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,MOSEI,text_roberta,uni,0,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,MOSEI,text_roberta,uni,0,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,MOSEI,text_roberta,uni,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video-text,MOSEI,text_roberta,uni,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video-text,MOSEI,text_roberta,uni,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,MOSEI,text_roberta,uni,0,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video-text,MOSEI,text_roberta,uni,0,mapctl_match_mme,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video-text,MOSEI,text_roberta,uni,0,coral_fix,e78,coral,r64rho0.9cp0.03cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,MOSEI,text_roberta,uni,5,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,MOSEI,text_roberta,uni,5,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,MOSEI,text_roberta,uni,5,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,MOSEI,text_roberta,uni,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video-text,MOSEI,text_roberta,uni,5,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video-text,MOSEI,text_roberta,uni,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video-text,MOSEI,text_roberta,uni,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video-text,MOSEI,text_roberta,uni,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,MOSEI,text_roberta,uni,5,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video-text,MOSEI,text_roberta,uni,5,mapctl_match_mme,e78,mapctl,lr0.001it200mu1.0,-,s0,
+fuse-audio-video-text,MOSEI,text_roberta,uni,5,coral_fix,e78,coral,r64rho0.9cp0.03cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,MOSEI,text_roberta,uni,25,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,MOSEI,text_roberta,uni,25,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,MOSEI,text_roberta,uni,25,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,MOSEI,text_roberta,uni,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video-text,MOSEI,text_roberta,uni,25,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video-text,MOSEI,text_roberta,uni,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video-text,MOSEI,text_roberta,uni,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video-text,MOSEI,text_roberta,uni,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,MOSEI,text_roberta,uni,25,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video-text,MOSEI,text_roberta,uni,25,mapctl_match_mme,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,MOSEI,text_roberta,uni,25,coral_fix,e78,coral,r64rho0.9cp0.03cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,MOSEI,video,uni,0,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,MOSEI,video,uni,0,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,MOSEI,video,uni,0,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,MOSEI,video,uni,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video-text,MOSEI,video,uni,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video-text,MOSEI,video,uni,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,MOSEI,video,uni,0,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video-text,MOSEI,video,uni,0,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video-text,MOSEI,video,uni,0,coral_fix,e78,coral,r64rho0.9cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,MOSEI,video,uni,5,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,MOSEI,video,uni,5,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,MOSEI,video,uni,5,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,MOSEI,video,uni,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video-text,MOSEI,video,uni,5,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video-text,MOSEI,video,uni,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video-text,MOSEI,video,uni,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video-text,MOSEI,video,uni,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,MOSEI,video,uni,5,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video-text,MOSEI,video,uni,5,mapctl_match_mme,e78,mapctl,lr0.01it1000mu10.0,-,s0,
+fuse-audio-video-text,MOSEI,video,uni,5,coral_fix,e78,coral,r64rho0.9cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,MOSEI,video,uni,25,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,MOSEI,video,uni,25,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,MOSEI,video,uni,25,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,MOSEI,video,uni,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video-text,MOSEI,video,uni,25,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video-text,MOSEI,video,uni,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video-text,MOSEI,video,uni,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video-text,MOSEI,video,uni,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,MOSEI,video,uni,25,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video-text,MOSEI,video,uni,25,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video-text,MOSEI,video,uni,25,coral_fix,e78,coral,r64rho0.9cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,MELD,audio_wavlm,uni,0,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,MELD,audio_wavlm,uni,0,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,MELD,audio_wavlm,uni,0,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,MELD,audio_wavlm,uni,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video-text,MELD,audio_wavlm,uni,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video-text,MELD,audio_wavlm,uni,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,MELD,audio_wavlm,uni,0,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video-text,MELD,audio_wavlm,uni,0,mapctl_match_mme,e78,mapctl,lr0.01it200mu1.0,-,s0,
+fuse-audio-video-text,MELD,audio_wavlm,uni,0,coral_fix,e78,coral,r64rho1.0cp0.003cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,MELD,audio_wavlm,uni,5,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,MELD,audio_wavlm,uni,5,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,MELD,audio_wavlm,uni,5,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,MELD,audio_wavlm,uni,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video-text,MELD,audio_wavlm,uni,5,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video-text,MELD,audio_wavlm,uni,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video-text,MELD,audio_wavlm,uni,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video-text,MELD,audio_wavlm,uni,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,MELD,audio_wavlm,uni,5,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video-text,MELD,audio_wavlm,uni,5,mapctl_match_mme,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video-text,MELD,audio_wavlm,uni,5,coral_fix,e78,coral,r64rho1.0cp0.003cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,MELD,audio_wavlm,uni,25,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,MELD,audio_wavlm,uni,25,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,MELD,audio_wavlm,uni,25,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,MELD,audio_wavlm,uni,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video-text,MELD,audio_wavlm,uni,25,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video-text,MELD,audio_wavlm,uni,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video-text,MELD,audio_wavlm,uni,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video-text,MELD,audio_wavlm,uni,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,MELD,audio_wavlm,uni,25,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video-text,MELD,audio_wavlm,uni,25,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video-text,MELD,audio_wavlm,uni,25,coral_fix,e78,coral,r64rho1.0cp0.003cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,MELD,fuse-audio-video-text,fused,0,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,MELD,fuse-audio-video-text,fused,0,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,MELD,fuse-audio-video-text,fused,0,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,MELD,fuse-audio-video-text,fused,0,coral_fix,e78,coral,r64rho1.0cp0.03cb8.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,MELD,fuse-audio-video-text,fused,5,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,MELD,fuse-audio-video-text,fused,5,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,MELD,fuse-audio-video-text,fused,5,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,MELD,fuse-audio-video-text,fused,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video-text,MELD,fuse-audio-video-text,fused,5,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video-text,MELD,fuse-audio-video-text,fused,5,coral_fix,e78,coral,r64rho1.0cp0.03cb8.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,MELD,fuse-audio-video-text,fused,25,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,MELD,fuse-audio-video-text,fused,25,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,MELD,fuse-audio-video-text,fused,25,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,MELD,fuse-audio-video-text,fused,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video-text,MELD,fuse-audio-video-text,fused,25,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video-text,MELD,fuse-audio-video-text,fused,25,coral_fix,e78,coral,r64rho1.0cp0.03cb8.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,MELD,text_roberta,uni,0,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,MELD,text_roberta,uni,0,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,MELD,text_roberta,uni,0,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,MELD,text_roberta,uni,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video-text,MELD,text_roberta,uni,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video-text,MELD,text_roberta,uni,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,MELD,text_roberta,uni,0,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video-text,MELD,text_roberta,uni,0,mapctl_match_mme,e78,mapctl,lr0.001it200mu1.0,-,s0,
+fuse-audio-video-text,MELD,text_roberta,uni,0,coral_fix,e78,coral,r64rho0.97cp0.03cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,MELD,text_roberta,uni,5,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,MELD,text_roberta,uni,5,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,MELD,text_roberta,uni,5,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,MELD,text_roberta,uni,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video-text,MELD,text_roberta,uni,5,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video-text,MELD,text_roberta,uni,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video-text,MELD,text_roberta,uni,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video-text,MELD,text_roberta,uni,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,MELD,text_roberta,uni,5,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video-text,MELD,text_roberta,uni,5,mapctl_match_mme,e78,mapctl,lr0.001it200mu1.0,-,s0,
+fuse-audio-video-text,MELD,text_roberta,uni,5,coral_fix,e78,coral,r64rho0.97cp0.03cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,MELD,text_roberta,uni,25,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,MELD,text_roberta,uni,25,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,MELD,text_roberta,uni,25,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,MELD,text_roberta,uni,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video-text,MELD,text_roberta,uni,25,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video-text,MELD,text_roberta,uni,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video-text,MELD,text_roberta,uni,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video-text,MELD,text_roberta,uni,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,MELD,text_roberta,uni,25,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video-text,MELD,text_roberta,uni,25,mapctl_match_mme,e78,mapctl,lr0.001it200mu1.0,-,s0,
+fuse-audio-video-text,MELD,text_roberta,uni,25,coral_fix,e78,coral,r64rho0.97cp0.03cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,MELD,video,uni,0,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,MELD,video,uni,0,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,MELD,video,uni,0,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,MELD,video,uni,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video-text,MELD,video,uni,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video-text,MELD,video,uni,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,MELD,video,uni,0,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video-text,MELD,video,uni,0,mapctl_match_mme,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video-text,MELD,video,uni,0,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,MELD,video,uni,5,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,MELD,video,uni,5,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,MELD,video,uni,5,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,MELD,video,uni,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video-text,MELD,video,uni,5,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video-text,MELD,video,uni,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video-text,MELD,video,uni,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video-text,MELD,video,uni,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,MELD,video,uni,5,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video-text,MELD,video,uni,5,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video-text,MELD,video,uni,5,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video-text,MELD,video,uni,25,massbal,e77,massbal,-,0,,
+fuse-audio-video-text,MELD,video,uni,25,saerens,e77,saerens,-,0,,
+fuse-audio-video-text,MELD,video,uni,25,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video-text,MELD,video,uni,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video-text,MELD,video,uni,25,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video-text,MELD,video,uni,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video-text,MELD,video,uni,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video-text,MELD,video,uni,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video-text,MELD,video,uni,25,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video-text,MELD,video,uni,25,mapctl_match_mme,e78,mapctl,lr0.01it200mu10.0,-,s0,
+fuse-audio-video-text,MELD,video,uni,25,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,IEMOCAP-impro,audio_wavlm,uni,0,massbal,e77,massbal,-,0,,
+fuse-audio-video,IEMOCAP-impro,audio_wavlm,uni,0,saerens,e77,saerens,-,0,,
+fuse-audio-video,IEMOCAP-impro,audio_wavlm,uni,0,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,IEMOCAP-impro,audio_wavlm,uni,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video,IEMOCAP-impro,audio_wavlm,uni,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video,IEMOCAP-impro,audio_wavlm,uni,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video,IEMOCAP-impro,audio_wavlm,uni,0,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video,IEMOCAP-impro,audio_wavlm,uni,0,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video,IEMOCAP-impro,audio_wavlm,uni,0,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,IEMOCAP-impro,audio_wavlm,uni,5,massbal,e77,massbal,-,0,,
+fuse-audio-video,IEMOCAP-impro,audio_wavlm,uni,5,saerens,e77,saerens,-,0,,
+fuse-audio-video,IEMOCAP-impro,audio_wavlm,uni,5,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,IEMOCAP-impro,audio_wavlm,uni,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video,IEMOCAP-impro,audio_wavlm,uni,5,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video,IEMOCAP-impro,audio_wavlm,uni,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video,IEMOCAP-impro,audio_wavlm,uni,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video,IEMOCAP-impro,audio_wavlm,uni,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video,IEMOCAP-impro,audio_wavlm,uni,5,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video,IEMOCAP-impro,audio_wavlm,uni,5,mapctl_match_mme,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video,IEMOCAP-impro,audio_wavlm,uni,5,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,IEMOCAP-impro,audio_wavlm,uni,25,massbal,e77,massbal,-,0,,
+fuse-audio-video,IEMOCAP-impro,audio_wavlm,uni,25,saerens,e77,saerens,-,0,,
+fuse-audio-video,IEMOCAP-impro,audio_wavlm,uni,25,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,IEMOCAP-impro,audio_wavlm,uni,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video,IEMOCAP-impro,audio_wavlm,uni,25,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video,IEMOCAP-impro,audio_wavlm,uni,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video,IEMOCAP-impro,audio_wavlm,uni,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video,IEMOCAP-impro,audio_wavlm,uni,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video,IEMOCAP-impro,audio_wavlm,uni,25,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video,IEMOCAP-impro,audio_wavlm,uni,25,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video,IEMOCAP-impro,audio_wavlm,uni,25,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,IEMOCAP-impro,fuse-audio-video,fused,0,massbal,e77,massbal,-,0,,
+fuse-audio-video,IEMOCAP-impro,fuse-audio-video,fused,0,saerens,e77,saerens,-,0,,
+fuse-audio-video,IEMOCAP-impro,fuse-audio-video,fused,0,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,IEMOCAP-impro,fuse-audio-video,fused,0,coral_fix,e78,coral,r64rho1.0cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,IEMOCAP-impro,fuse-audio-video,fused,5,massbal,e77,massbal,-,0,,
+fuse-audio-video,IEMOCAP-impro,fuse-audio-video,fused,5,saerens,e77,saerens,-,0,,
+fuse-audio-video,IEMOCAP-impro,fuse-audio-video,fused,5,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,IEMOCAP-impro,fuse-audio-video,fused,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video,IEMOCAP-impro,fuse-audio-video,fused,5,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video,IEMOCAP-impro,fuse-audio-video,fused,5,coral_fix,e78,coral,r64rho1.0cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,IEMOCAP-impro,fuse-audio-video,fused,25,massbal,e77,massbal,-,0,,
+fuse-audio-video,IEMOCAP-impro,fuse-audio-video,fused,25,saerens,e77,saerens,-,0,,
+fuse-audio-video,IEMOCAP-impro,fuse-audio-video,fused,25,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,IEMOCAP-impro,fuse-audio-video,fused,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video,IEMOCAP-impro,fuse-audio-video,fused,25,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video,IEMOCAP-impro,fuse-audio-video,fused,25,coral_fix,e78,coral,r64rho1.0cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,IEMOCAP-impro,video,uni,0,massbal,e77,massbal,-,0,,
+fuse-audio-video,IEMOCAP-impro,video,uni,0,saerens,e77,saerens,-,0,,
+fuse-audio-video,IEMOCAP-impro,video,uni,0,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,IEMOCAP-impro,video,uni,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video,IEMOCAP-impro,video,uni,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video,IEMOCAP-impro,video,uni,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video,IEMOCAP-impro,video,uni,0,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video,IEMOCAP-impro,video,uni,0,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video,IEMOCAP-impro,video,uni,0,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,IEMOCAP-impro,video,uni,5,massbal,e77,massbal,-,0,,
+fuse-audio-video,IEMOCAP-impro,video,uni,5,saerens,e77,saerens,-,0,,
+fuse-audio-video,IEMOCAP-impro,video,uni,5,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,IEMOCAP-impro,video,uni,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video,IEMOCAP-impro,video,uni,5,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video,IEMOCAP-impro,video,uni,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video,IEMOCAP-impro,video,uni,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video,IEMOCAP-impro,video,uni,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video,IEMOCAP-impro,video,uni,5,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video,IEMOCAP-impro,video,uni,5,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video,IEMOCAP-impro,video,uni,5,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,IEMOCAP-impro,video,uni,25,massbal,e77,massbal,-,0,,
+fuse-audio-video,IEMOCAP-impro,video,uni,25,saerens,e77,saerens,-,0,,
+fuse-audio-video,IEMOCAP-impro,video,uni,25,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,IEMOCAP-impro,video,uni,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video,IEMOCAP-impro,video,uni,25,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video,IEMOCAP-impro,video,uni,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video,IEMOCAP-impro,video,uni,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video,IEMOCAP-impro,video,uni,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video,IEMOCAP-impro,video,uni,25,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video,IEMOCAP-impro,video,uni,25,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video,IEMOCAP-impro,video,uni,25,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,IEMOCAP-script,audio_wavlm,uni,0,massbal,e77,massbal,-,0,,
+fuse-audio-video,IEMOCAP-script,audio_wavlm,uni,0,saerens,e77,saerens,-,0,,
+fuse-audio-video,IEMOCAP-script,audio_wavlm,uni,0,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,IEMOCAP-script,audio_wavlm,uni,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video,IEMOCAP-script,audio_wavlm,uni,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video,IEMOCAP-script,audio_wavlm,uni,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video,IEMOCAP-script,audio_wavlm,uni,0,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video,IEMOCAP-script,audio_wavlm,uni,0,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video,IEMOCAP-script,audio_wavlm,uni,0,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,IEMOCAP-script,audio_wavlm,uni,5,massbal,e77,massbal,-,0,,
+fuse-audio-video,IEMOCAP-script,audio_wavlm,uni,5,saerens,e77,saerens,-,0,,
+fuse-audio-video,IEMOCAP-script,audio_wavlm,uni,5,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,IEMOCAP-script,audio_wavlm,uni,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video,IEMOCAP-script,audio_wavlm,uni,5,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video,IEMOCAP-script,audio_wavlm,uni,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video,IEMOCAP-script,audio_wavlm,uni,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video,IEMOCAP-script,audio_wavlm,uni,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video,IEMOCAP-script,audio_wavlm,uni,5,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video,IEMOCAP-script,audio_wavlm,uni,5,mapctl_match_mme,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video,IEMOCAP-script,audio_wavlm,uni,5,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,IEMOCAP-script,audio_wavlm,uni,25,massbal,e77,massbal,-,0,,
+fuse-audio-video,IEMOCAP-script,audio_wavlm,uni,25,saerens,e77,saerens,-,0,,
+fuse-audio-video,IEMOCAP-script,audio_wavlm,uni,25,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,IEMOCAP-script,audio_wavlm,uni,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video,IEMOCAP-script,audio_wavlm,uni,25,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video,IEMOCAP-script,audio_wavlm,uni,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video,IEMOCAP-script,audio_wavlm,uni,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video,IEMOCAP-script,audio_wavlm,uni,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video,IEMOCAP-script,audio_wavlm,uni,25,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video,IEMOCAP-script,audio_wavlm,uni,25,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video,IEMOCAP-script,audio_wavlm,uni,25,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,IEMOCAP-script,fuse-audio-video,fused,0,massbal,e77,massbal,-,0,,
+fuse-audio-video,IEMOCAP-script,fuse-audio-video,fused,0,saerens,e77,saerens,-,0,,
+fuse-audio-video,IEMOCAP-script,fuse-audio-video,fused,0,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,IEMOCAP-script,fuse-audio-video,fused,0,coral_fix,e78,coral,r64rho1.0cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,IEMOCAP-script,fuse-audio-video,fused,5,massbal,e77,massbal,-,0,,
+fuse-audio-video,IEMOCAP-script,fuse-audio-video,fused,5,saerens,e77,saerens,-,0,,
+fuse-audio-video,IEMOCAP-script,fuse-audio-video,fused,5,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,IEMOCAP-script,fuse-audio-video,fused,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video,IEMOCAP-script,fuse-audio-video,fused,5,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video,IEMOCAP-script,fuse-audio-video,fused,5,coral_fix,e78,coral,r64rho1.0cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,IEMOCAP-script,fuse-audio-video,fused,25,massbal,e77,massbal,-,0,,
+fuse-audio-video,IEMOCAP-script,fuse-audio-video,fused,25,saerens,e77,saerens,-,0,,
+fuse-audio-video,IEMOCAP-script,fuse-audio-video,fused,25,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,IEMOCAP-script,fuse-audio-video,fused,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video,IEMOCAP-script,fuse-audio-video,fused,25,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video,IEMOCAP-script,fuse-audio-video,fused,25,coral_fix,e78,coral,r64rho1.0cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,IEMOCAP-script,video,uni,0,massbal,e77,massbal,-,0,,
+fuse-audio-video,IEMOCAP-script,video,uni,0,saerens,e77,saerens,-,0,,
+fuse-audio-video,IEMOCAP-script,video,uni,0,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,IEMOCAP-script,video,uni,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video,IEMOCAP-script,video,uni,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video,IEMOCAP-script,video,uni,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video,IEMOCAP-script,video,uni,0,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video,IEMOCAP-script,video,uni,0,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video,IEMOCAP-script,video,uni,0,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,IEMOCAP-script,video,uni,5,massbal,e77,massbal,-,0,,
+fuse-audio-video,IEMOCAP-script,video,uni,5,saerens,e77,saerens,-,0,,
+fuse-audio-video,IEMOCAP-script,video,uni,5,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,IEMOCAP-script,video,uni,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video,IEMOCAP-script,video,uni,5,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video,IEMOCAP-script,video,uni,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video,IEMOCAP-script,video,uni,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video,IEMOCAP-script,video,uni,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video,IEMOCAP-script,video,uni,5,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video,IEMOCAP-script,video,uni,5,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video,IEMOCAP-script,video,uni,5,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,IEMOCAP-script,video,uni,25,massbal,e77,massbal,-,0,,
+fuse-audio-video,IEMOCAP-script,video,uni,25,saerens,e77,saerens,-,0,,
+fuse-audio-video,IEMOCAP-script,video,uni,25,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,IEMOCAP-script,video,uni,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video,IEMOCAP-script,video,uni,25,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video,IEMOCAP-script,video,uni,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video,IEMOCAP-script,video,uni,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video,IEMOCAP-script,video,uni,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video,IEMOCAP-script,video,uni,25,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video,IEMOCAP-script,video,uni,25,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video,IEMOCAP-script,video,uni,25,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,MOSEI,audio_wavlm,uni,0,massbal,e77,massbal,-,0,,
+fuse-audio-video,MOSEI,audio_wavlm,uni,0,saerens,e77,saerens,-,0,,
+fuse-audio-video,MOSEI,audio_wavlm,uni,0,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,MOSEI,audio_wavlm,uni,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video,MOSEI,audio_wavlm,uni,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video,MOSEI,audio_wavlm,uni,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video,MOSEI,audio_wavlm,uni,0,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video,MOSEI,audio_wavlm,uni,0,mapctl_match_mme,e78,mapctl,lr0.001it200mu1.0,-,s0,
+fuse-audio-video,MOSEI,audio_wavlm,uni,0,coral_fix,e78,coral,r64rho1.0cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,MOSEI,audio_wavlm,uni,5,massbal,e77,massbal,-,0,,
+fuse-audio-video,MOSEI,audio_wavlm,uni,5,saerens,e77,saerens,-,0,,
+fuse-audio-video,MOSEI,audio_wavlm,uni,5,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,MOSEI,audio_wavlm,uni,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video,MOSEI,audio_wavlm,uni,5,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video,MOSEI,audio_wavlm,uni,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video,MOSEI,audio_wavlm,uni,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video,MOSEI,audio_wavlm,uni,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video,MOSEI,audio_wavlm,uni,5,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video,MOSEI,audio_wavlm,uni,5,mapctl_match_mme,e78,mapctl,lr0.001it200mu1.0,-,s0,
+fuse-audio-video,MOSEI,audio_wavlm,uni,5,coral_fix,e78,coral,r64rho1.0cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,MOSEI,audio_wavlm,uni,25,massbal,e77,massbal,-,0,,
+fuse-audio-video,MOSEI,audio_wavlm,uni,25,saerens,e77,saerens,-,0,,
+fuse-audio-video,MOSEI,audio_wavlm,uni,25,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,MOSEI,audio_wavlm,uni,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video,MOSEI,audio_wavlm,uni,25,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video,MOSEI,audio_wavlm,uni,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video,MOSEI,audio_wavlm,uni,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video,MOSEI,audio_wavlm,uni,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video,MOSEI,audio_wavlm,uni,25,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video,MOSEI,audio_wavlm,uni,25,mapctl_match_mme,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video,MOSEI,audio_wavlm,uni,25,coral_fix,e78,coral,r64rho1.0cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,MOSEI,fuse-audio-video,fused,0,massbal,e77,massbal,-,0,,
+fuse-audio-video,MOSEI,fuse-audio-video,fused,0,saerens,e77,saerens,-,0,,
+fuse-audio-video,MOSEI,fuse-audio-video,fused,0,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,MOSEI,fuse-audio-video,fused,0,coral_fix,e78,coral,r64rho1.0cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,MOSEI,fuse-audio-video,fused,5,massbal,e77,massbal,-,0,,
+fuse-audio-video,MOSEI,fuse-audio-video,fused,5,saerens,e77,saerens,-,0,,
+fuse-audio-video,MOSEI,fuse-audio-video,fused,5,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,MOSEI,fuse-audio-video,fused,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video,MOSEI,fuse-audio-video,fused,5,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video,MOSEI,fuse-audio-video,fused,5,coral_fix,e78,coral,r64rho1.0cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,MOSEI,fuse-audio-video,fused,25,massbal,e77,massbal,-,0,,
+fuse-audio-video,MOSEI,fuse-audio-video,fused,25,saerens,e77,saerens,-,0,,
+fuse-audio-video,MOSEI,fuse-audio-video,fused,25,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,MOSEI,fuse-audio-video,fused,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video,MOSEI,fuse-audio-video,fused,25,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video,MOSEI,fuse-audio-video,fused,25,coral_fix,e78,coral,r64rho1.0cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,MOSEI,video,uni,0,massbal,e77,massbal,-,0,,
+fuse-audio-video,MOSEI,video,uni,0,saerens,e77,saerens,-,0,,
+fuse-audio-video,MOSEI,video,uni,0,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,MOSEI,video,uni,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video,MOSEI,video,uni,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video,MOSEI,video,uni,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video,MOSEI,video,uni,0,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video,MOSEI,video,uni,0,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video,MOSEI,video,uni,0,coral_fix,e78,coral,r64rho0.9cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,MOSEI,video,uni,5,massbal,e77,massbal,-,0,,
+fuse-audio-video,MOSEI,video,uni,5,saerens,e77,saerens,-,0,,
+fuse-audio-video,MOSEI,video,uni,5,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,MOSEI,video,uni,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video,MOSEI,video,uni,5,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video,MOSEI,video,uni,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video,MOSEI,video,uni,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video,MOSEI,video,uni,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video,MOSEI,video,uni,5,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video,MOSEI,video,uni,5,mapctl_match_mme,e78,mapctl,lr0.01it1000mu10.0,-,s0,
+fuse-audio-video,MOSEI,video,uni,5,coral_fix,e78,coral,r64rho0.9cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,MOSEI,video,uni,25,massbal,e77,massbal,-,0,,
+fuse-audio-video,MOSEI,video,uni,25,saerens,e77,saerens,-,0,,
+fuse-audio-video,MOSEI,video,uni,25,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,MOSEI,video,uni,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video,MOSEI,video,uni,25,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video,MOSEI,video,uni,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video,MOSEI,video,uni,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video,MOSEI,video,uni,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video,MOSEI,video,uni,25,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video,MOSEI,video,uni,25,mapctl_match_mme,e78,mapctl,lr0.001it200mu1.0,-,s0,
+fuse-audio-video,MOSEI,video,uni,25,coral_fix,e78,coral,r64rho0.9cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,MELD,audio_wavlm,uni,0,massbal,e77,massbal,-,0,,
+fuse-audio-video,MELD,audio_wavlm,uni,0,saerens,e77,saerens,-,0,,
+fuse-audio-video,MELD,audio_wavlm,uni,0,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,MELD,audio_wavlm,uni,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video,MELD,audio_wavlm,uni,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video,MELD,audio_wavlm,uni,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video,MELD,audio_wavlm,uni,0,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video,MELD,audio_wavlm,uni,0,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video,MELD,audio_wavlm,uni,0,coral_fix,e78,coral,r64rho1.0cp0.003cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,MELD,audio_wavlm,uni,5,massbal,e77,massbal,-,0,,
+fuse-audio-video,MELD,audio_wavlm,uni,5,saerens,e77,saerens,-,0,,
+fuse-audio-video,MELD,audio_wavlm,uni,5,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,MELD,audio_wavlm,uni,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video,MELD,audio_wavlm,uni,5,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video,MELD,audio_wavlm,uni,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video,MELD,audio_wavlm,uni,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video,MELD,audio_wavlm,uni,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video,MELD,audio_wavlm,uni,5,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video,MELD,audio_wavlm,uni,5,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video,MELD,audio_wavlm,uni,5,coral_fix,e78,coral,r64rho1.0cp0.003cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,MELD,audio_wavlm,uni,25,massbal,e77,massbal,-,0,,
+fuse-audio-video,MELD,audio_wavlm,uni,25,saerens,e77,saerens,-,0,,
+fuse-audio-video,MELD,audio_wavlm,uni,25,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,MELD,audio_wavlm,uni,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video,MELD,audio_wavlm,uni,25,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video,MELD,audio_wavlm,uni,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video,MELD,audio_wavlm,uni,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video,MELD,audio_wavlm,uni,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video,MELD,audio_wavlm,uni,25,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video,MELD,audio_wavlm,uni,25,mapctl_match_mme,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video,MELD,audio_wavlm,uni,25,coral_fix,e78,coral,r64rho1.0cp0.003cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,MELD,fuse-audio-video,fused,0,massbal,e77,massbal,-,0,,
+fuse-audio-video,MELD,fuse-audio-video,fused,0,saerens,e77,saerens,-,0,,
+fuse-audio-video,MELD,fuse-audio-video,fused,0,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,MELD,fuse-audio-video,fused,0,coral_fix,e78,coral,r64rho1.0cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,MELD,fuse-audio-video,fused,5,massbal,e77,massbal,-,0,,
+fuse-audio-video,MELD,fuse-audio-video,fused,5,saerens,e77,saerens,-,0,,
+fuse-audio-video,MELD,fuse-audio-video,fused,5,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,MELD,fuse-audio-video,fused,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video,MELD,fuse-audio-video,fused,5,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video,MELD,fuse-audio-video,fused,5,coral_fix,e78,coral,r64rho1.0cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,MELD,fuse-audio-video,fused,25,massbal,e77,massbal,-,0,,
+fuse-audio-video,MELD,fuse-audio-video,fused,25,saerens,e77,saerens,-,0,,
+fuse-audio-video,MELD,fuse-audio-video,fused,25,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,MELD,fuse-audio-video,fused,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video,MELD,fuse-audio-video,fused,25,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video,MELD,fuse-audio-video,fused,25,coral_fix,e78,coral,r64rho1.0cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,MELD,video,uni,0,massbal,e77,massbal,-,0,,
+fuse-audio-video,MELD,video,uni,0,saerens,e77,saerens,-,0,,
+fuse-audio-video,MELD,video,uni,0,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,MELD,video,uni,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video,MELD,video,uni,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video,MELD,video,uni,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video,MELD,video,uni,0,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video,MELD,video,uni,0,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video,MELD,video,uni,0,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,MELD,video,uni,5,massbal,e77,massbal,-,0,,
+fuse-audio-video,MELD,video,uni,5,saerens,e77,saerens,-,0,,
+fuse-audio-video,MELD,video,uni,5,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,MELD,video,uni,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video,MELD,video,uni,5,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video,MELD,video,uni,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video,MELD,video,uni,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video,MELD,video,uni,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video,MELD,video,uni,5,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video,MELD,video,uni,5,mapctl_match_mme,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video,MELD,video,uni,5,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,MELD,video,uni,25,massbal,e77,massbal,-,0,,
+fuse-audio-video,MELD,video,uni,25,saerens,e77,saerens,-,0,,
+fuse-audio-video,MELD,video,uni,25,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,MELD,video,uni,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video,MELD,video,uni,25,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video,MELD,video,uni,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video,MELD,video,uni,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video,MELD,video,uni,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video,MELD,video,uni,25,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video,MELD,video,uni,25,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video,MELD,video,uni,25,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,AFEW,audio_wavlm,uni,0,massbal,e77,massbal,-,0,,
+fuse-audio-video,AFEW,audio_wavlm,uni,0,saerens,e77,saerens,-,0,,
+fuse-audio-video,AFEW,audio_wavlm,uni,0,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,AFEW,audio_wavlm,uni,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video,AFEW,audio_wavlm,uni,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video,AFEW,audio_wavlm,uni,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video,AFEW,audio_wavlm,uni,0,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video,AFEW,audio_wavlm,uni,0,mapctl_match_mme,e78,mapctl,lr0.001it200mu1.0,-,s0,
+fuse-audio-video,AFEW,audio_wavlm,uni,0,coral_fix,e78,coral,r64rho1.0cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,AFEW,audio_wavlm,uni,5,massbal,e77,massbal,-,0,,
+fuse-audio-video,AFEW,audio_wavlm,uni,5,saerens,e77,saerens,-,0,,
+fuse-audio-video,AFEW,audio_wavlm,uni,5,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,AFEW,audio_wavlm,uni,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video,AFEW,audio_wavlm,uni,5,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video,AFEW,audio_wavlm,uni,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video,AFEW,audio_wavlm,uni,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video,AFEW,audio_wavlm,uni,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video,AFEW,audio_wavlm,uni,5,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video,AFEW,audio_wavlm,uni,5,mapctl_match_mme,e78,mapctl,lr0.001it200mu1.0,-,s0,
+fuse-audio-video,AFEW,audio_wavlm,uni,5,coral_fix,e78,coral,r64rho1.0cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,AFEW,audio_wavlm,uni,25,massbal,e77,massbal,-,0,,
+fuse-audio-video,AFEW,audio_wavlm,uni,25,saerens,e77,saerens,-,0,,
+fuse-audio-video,AFEW,audio_wavlm,uni,25,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,AFEW,audio_wavlm,uni,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video,AFEW,audio_wavlm,uni,25,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video,AFEW,audio_wavlm,uni,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video,AFEW,audio_wavlm,uni,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video,AFEW,audio_wavlm,uni,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video,AFEW,audio_wavlm,uni,25,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video,AFEW,audio_wavlm,uni,25,mapctl_match_mme,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video,AFEW,audio_wavlm,uni,25,coral_fix,e78,coral,r64rho1.0cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,AFEW,fuse-audio-video,fused,0,massbal,e77,massbal,-,0,,
+fuse-audio-video,AFEW,fuse-audio-video,fused,0,saerens,e77,saerens,-,0,,
+fuse-audio-video,AFEW,fuse-audio-video,fused,0,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,AFEW,fuse-audio-video,fused,0,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,AFEW,fuse-audio-video,fused,5,massbal,e77,massbal,-,0,,
+fuse-audio-video,AFEW,fuse-audio-video,fused,5,saerens,e77,saerens,-,0,,
+fuse-audio-video,AFEW,fuse-audio-video,fused,5,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,AFEW,fuse-audio-video,fused,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video,AFEW,fuse-audio-video,fused,5,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video,AFEW,fuse-audio-video,fused,5,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,AFEW,fuse-audio-video,fused,25,massbal,e77,massbal,-,0,,
+fuse-audio-video,AFEW,fuse-audio-video,fused,25,saerens,e77,saerens,-,0,,
+fuse-audio-video,AFEW,fuse-audio-video,fused,25,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,AFEW,fuse-audio-video,fused,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video,AFEW,fuse-audio-video,fused,25,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video,AFEW,fuse-audio-video,fused,25,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,AFEW,video,uni,0,massbal,e77,massbal,-,0,,
+fuse-audio-video,AFEW,video,uni,0,saerens,e77,saerens,-,0,,
+fuse-audio-video,AFEW,video,uni,0,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,AFEW,video,uni,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video,AFEW,video,uni,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video,AFEW,video,uni,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video,AFEW,video,uni,0,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video,AFEW,video,uni,0,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video,AFEW,video,uni,0,coral_fix,e78,coral,r64rho0.9cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,AFEW,video,uni,5,massbal,e77,massbal,-,0,,
+fuse-audio-video,AFEW,video,uni,5,saerens,e77,saerens,-,0,,
+fuse-audio-video,AFEW,video,uni,5,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,AFEW,video,uni,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video,AFEW,video,uni,5,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video,AFEW,video,uni,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video,AFEW,video,uni,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video,AFEW,video,uni,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video,AFEW,video,uni,5,mapctl_match_dann,e78,mapctl,lr0.01it1000mu10.0,-,s0,
+fuse-audio-video,AFEW,video,uni,5,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video,AFEW,video,uni,5,coral_fix,e78,coral,r64rho0.9cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,AFEW,video,uni,25,massbal,e77,massbal,-,0,,
+fuse-audio-video,AFEW,video,uni,25,saerens,e77,saerens,-,0,,
+fuse-audio-video,AFEW,video,uni,25,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,AFEW,video,uni,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video,AFEW,video,uni,25,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video,AFEW,video,uni,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video,AFEW,video,uni,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video,AFEW,video,uni,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video,AFEW,video,uni,25,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video,AFEW,video,uni,25,mapctl_match_mme,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video,AFEW,video,uni,25,coral_fix,e78,coral,r64rho0.9cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,CREMA-D,audio_wavlm,uni,0,massbal,e77,massbal,-,0,,
+fuse-audio-video,CREMA-D,audio_wavlm,uni,0,saerens,e77,saerens,-,0,,
+fuse-audio-video,CREMA-D,audio_wavlm,uni,0,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,CREMA-D,audio_wavlm,uni,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video,CREMA-D,audio_wavlm,uni,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video,CREMA-D,audio_wavlm,uni,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video,CREMA-D,audio_wavlm,uni,0,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video,CREMA-D,audio_wavlm,uni,0,mapctl_match_mme,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video,CREMA-D,audio_wavlm,uni,0,coral_fix,e78,coral,r64rho1.0cp0.003cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,CREMA-D,audio_wavlm,uni,5,massbal,e77,massbal,-,0,,
+fuse-audio-video,CREMA-D,audio_wavlm,uni,5,saerens,e77,saerens,-,0,,
+fuse-audio-video,CREMA-D,audio_wavlm,uni,5,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,CREMA-D,audio_wavlm,uni,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video,CREMA-D,audio_wavlm,uni,5,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video,CREMA-D,audio_wavlm,uni,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video,CREMA-D,audio_wavlm,uni,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video,CREMA-D,audio_wavlm,uni,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video,CREMA-D,audio_wavlm,uni,5,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video,CREMA-D,audio_wavlm,uni,5,mapctl_match_mme,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video,CREMA-D,audio_wavlm,uni,5,coral_fix,e78,coral,r64rho1.0cp0.003cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,CREMA-D,audio_wavlm,uni,25,massbal,e77,massbal,-,0,,
+fuse-audio-video,CREMA-D,audio_wavlm,uni,25,saerens,e77,saerens,-,0,,
+fuse-audio-video,CREMA-D,audio_wavlm,uni,25,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,CREMA-D,audio_wavlm,uni,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video,CREMA-D,audio_wavlm,uni,25,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video,CREMA-D,audio_wavlm,uni,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video,CREMA-D,audio_wavlm,uni,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video,CREMA-D,audio_wavlm,uni,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video,CREMA-D,audio_wavlm,uni,25,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video,CREMA-D,audio_wavlm,uni,25,mapctl_match_mme,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video,CREMA-D,audio_wavlm,uni,25,coral_fix,e78,coral,r64rho1.0cp0.003cb2.0,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,CREMA-D,fuse-audio-video,fused,0,massbal,e77,massbal,-,0,,
+fuse-audio-video,CREMA-D,fuse-audio-video,fused,0,saerens,e77,saerens,-,0,,
+fuse-audio-video,CREMA-D,fuse-audio-video,fused,0,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,CREMA-D,fuse-audio-video,fused,0,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,CREMA-D,fuse-audio-video,fused,5,massbal,e77,massbal,-,0,,
+fuse-audio-video,CREMA-D,fuse-audio-video,fused,5,saerens,e77,saerens,-,0,,
+fuse-audio-video,CREMA-D,fuse-audio-video,fused,5,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,CREMA-D,fuse-audio-video,fused,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video,CREMA-D,fuse-audio-video,fused,5,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video,CREMA-D,fuse-audio-video,fused,5,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,CREMA-D,fuse-audio-video,fused,25,massbal,e77,massbal,-,0,,
+fuse-audio-video,CREMA-D,fuse-audio-video,fused,25,saerens,e77,saerens,-,0,,
+fuse-audio-video,CREMA-D,fuse-audio-video,fused,25,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,CREMA-D,fuse-audio-video,fused,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video,CREMA-D,fuse-audio-video,fused,25,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video,CREMA-D,fuse-audio-video,fused,25,coral_fix,e78,coral,r64rho0.97cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,CREMA-D,video,uni,0,massbal,e77,massbal,-,0,,
+fuse-audio-video,CREMA-D,video,uni,0,saerens,e77,saerens,-,0,,
+fuse-audio-video,CREMA-D,video,uni,0,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,CREMA-D,video,uni,0,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video,CREMA-D,video,uni,0,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video,CREMA-D,video,uni,0,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video,CREMA-D,video,uni,0,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video,CREMA-D,video,uni,0,mapctl_match_mme,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video,CREMA-D,video,uni,0,coral_fix,e78,coral,r64rho0.9cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,CREMA-D,video,uni,5,massbal,e77,massbal,-,0,,
+fuse-audio-video,CREMA-D,video,uni,5,saerens,e77,saerens,-,0,,
+fuse-audio-video,CREMA-D,video,uni,5,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,CREMA-D,video,uni,5,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video,CREMA-D,video,uni,5,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video,CREMA-D,video,uni,5,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video,CREMA-D,video,uni,5,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video,CREMA-D,video,uni,5,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video,CREMA-D,video,uni,5,mapctl_match_dann,e78,mapctl,lr0.001it1000mu10.0,-,s0,
+fuse-audio-video,CREMA-D,video,uni,5,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video,CREMA-D,video,uni,5,coral_fix,e78,coral,r64rho0.9cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"
+fuse-audio-video,CREMA-D,video,uni,25,massbal,e77,massbal,-,0,,
+fuse-audio-video,CREMA-D,video,uni,25,saerens,e77,saerens,-,0,,
+fuse-audio-video,CREMA-D,video,uni,25,t3a_fix,e77,t3a,Mall,0,,
+fuse-audio-video,CREMA-D,video,uni,25,im_fix,e77,im,a0.1,tim,,TIM の既定値．種 0・1・2 の平均（E77 の --nc-seeds）
+fuse-audio-video,CREMA-D,video,uni,25,lp_fix,e77,lp,k50a0.99hard,n,,
+fuse-audio-video,CREMA-D,video,uni,25,dann_fix,e78,dann,lr0.001it1000lam0.1mu1.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1．λ は候補の数 n を掛けた尺度）．種 0
+fuse-audio-video,CREMA-D,video,uni,25,mme_fix,e78,mme,lr0.001it1000lam0.1mu1.0sw0.0,-,s0,原論文の既定値に近い格子の点（λ = 0.1，ソースのラベルを使わない sw = 0）．種 0
+fuse-audio-video,CREMA-D,video,uni,25,mapctl_fix,e78,mapctl,lr0.001it1000mu1.0,-,s0,
+fuse-audio-video,CREMA-D,video,uni,25,mapctl_match_dann,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video,CREMA-D,video,uni,25,mapctl_match_mme,e78,mapctl,lr0.001it200mu10.0,-,s0,
+fuse-audio-video,CREMA-D,video,uni,25,coral_fix,e78,coral,r64rho0.9cp0.003cb0.5,-,,"r = 64 と E39 の (ρ_M, C′, C_b)．E78 の 957fa35 が E39 の C′・C_b を格子に足した"

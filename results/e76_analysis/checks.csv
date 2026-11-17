@@ -1,0 +1,355 @@
+# {"script": "exp/analyze_e76.py", "commit": "e39e54a1cc9b5dae2bee4a68712b8b34a139dde9", "script_sha256": "4c51def793aa3c1fedacb71e4f1c234446bfbaaef8bb926900e8595aaebfc94a", "code_hash": "40f4f4f334add6c9f50917851b65d6defbe355e734fc1ddec5a4ff6408e776cd", "dirty": false, "B": 20000, "seed": 76, "kinds": ["audio_wavlm", "video", "text_roberta", "fuse-audio-video", "fuse-audio-text", "fuse-video-text", "fuse-audio-video-text", "audio_hubert"], "targets": null, "started": "2026-11-02T04:33:54+0900"}
+section,kind,what,value,limit,ok,note
+I,audio_wavlm,tol を超えた照合と ① の C の不一致の数（A(HuBERT) 以外は 0）,0.0,0.0,True,
+I,audio_wavlm,保存した点数から作り直した UAR と csv の uar の差の最大 IEMOCAP-impro,8.326672684688674e-17,1e-09,True,3120 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,audio_wavlm,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）IEMOCAP-impro,7.462832032900657e-07,0.0001,True,解き直しは float32 で保存した点数から
+I,audio_wavlm,mean_t と特徴の平均の差 IEMOCAP-impro,5.551115123125783e-17,1e-06,True,
+3,audio_wavlm,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）IEMOCAP-impro,5.329070518200751e-15,1e-09,True,
+I,audio_wavlm,係数から作り直した点数と保存した点数の差の最大（反復 0）IEMOCAP-impro,4.853147103744959e-06,0.001,True,係数は float32
+I,audio_wavlm,係数から作り直した点数の argmax の不一致の割合（反復 0）IEMOCAP-impro,0.0,0.001,True,
+I,audio_wavlm,保存した点数から作り直した UAR と csv の uar の差の最大 IEMOCAP-script,8.326672684688674e-17,1e-09,True,3120 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,audio_wavlm,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）IEMOCAP-script,1.2432425542385772e-06,0.0001,True,解き直しは float32 で保存した点数から
+I,audio_wavlm,mean_t と特徴の平均の差 IEMOCAP-script,2.7755575615628914e-17,1e-06,True,
+3,audio_wavlm,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）IEMOCAP-script,8.881784197001252e-16,1e-09,True,
+I,audio_wavlm,係数から作り直した点数と保存した点数の差の最大（反復 0）IEMOCAP-script,3.966211210126858e-06,0.001,True,係数は float32
+I,audio_wavlm,係数から作り直した点数の argmax の不一致の割合（反復 0）IEMOCAP-script,0.0,0.001,True,
+I,audio_wavlm,保存した点数から作り直した UAR と csv の uar の差の最大 MOSEI,8.326672684688674e-17,1e-09,True,3120 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,audio_wavlm,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）MOSEI,8.512341579391958e-07,0.0001,True,解き直しは float32 で保存した点数から
+I,audio_wavlm,mean_t と特徴の平均の差 MOSEI,2.7755575615628914e-17,1e-06,True,
+3,audio_wavlm,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）MOSEI,4.440892098500626e-16,1e-09,True,
+I,audio_wavlm,係数から作り直した点数と保存した点数の差の最大（反復 0）MOSEI,4.537158091011406e-06,0.001,True,係数は float32
+I,audio_wavlm,係数から作り直した点数の argmax の不一致の割合（反復 0）MOSEI,0.0,0.001,True,
+I,audio_wavlm,保存した点数から作り直した UAR と csv の uar の差の最大 MELD,8.326672684688674e-17,1e-09,True,3120 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,audio_wavlm,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）MELD,8.597338427840384e-07,0.0001,True,解き直しは float32 で保存した点数から
+I,audio_wavlm,mean_t と特徴の平均の差 MELD,1.3877787807814457e-17,1e-06,True,
+3,audio_wavlm,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）MELD,7.771561172376096e-16,1e-09,True,
+I,audio_wavlm,係数から作り直した点数と保存した点数の差の最大（反復 0）MELD,4.823206822379689e-06,0.001,True,係数は float32
+I,audio_wavlm,係数から作り直した点数の argmax の不一致の割合（反復 0）MELD,0.0,0.001,True,
+I,audio_wavlm,保存した点数から作り直した UAR と csv の uar の差の最大 AFEW,8.326672684688674e-17,1e-09,True,3120 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,audio_wavlm,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）AFEW,4.4612349287653785e-05,0.0001,True,解き直しは float32 で保存した点数から
+I,audio_wavlm,mean_t と特徴の平均の差 AFEW,1.1102230246251565e-16,1e-06,True,
+3,audio_wavlm,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）AFEW,4.440892098500626e-16,1e-09,True,
+I,audio_wavlm,係数から作り直した点数と保存した点数の差の最大（反復 0）AFEW,3.992764632698709e-06,0.001,True,係数は float32
+I,audio_wavlm,係数から作り直した点数の argmax の不一致の割合（反復 0）AFEW,0.0,0.001,True,
+I,audio_wavlm,保存した点数から作り直した UAR と csv の uar の差の最大 RAVDESS,8.326672684688674e-17,1e-09,True,3120 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,audio_wavlm,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）RAVDESS,4.013256663104592e-07,0.0001,True,解き直しは float32 で保存した点数から
+I,audio_wavlm,mean_t と特徴の平均の差 RAVDESS,5.551115123125783e-17,1e-06,True,
+3,audio_wavlm,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）RAVDESS,2.6645352591003757e-15,1e-09,True,
+I,audio_wavlm,係数から作り直した点数と保存した点数の差の最大（反復 0）RAVDESS,2.7166066658423915e-06,0.001,True,係数は float32
+I,audio_wavlm,係数から作り直した点数の argmax の不一致の割合（反復 0）RAVDESS,0.0,0.001,True,
+I,audio_wavlm,保存した点数から作り直した UAR と csv の uar の差の最大 CREMA-D,8.326672684688674e-17,1e-09,True,3120 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,audio_wavlm,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）CREMA-D,6.166686028485913e-07,0.0001,True,解き直しは float32 で保存した点数から
+I,audio_wavlm,mean_t と特徴の平均の差 CREMA-D,5.551115123125783e-17,1e-06,True,
+3,audio_wavlm,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）CREMA-D,2.6645352591003757e-15,1e-09,True,
+I,audio_wavlm,係数から作り直した点数と保存した点数の差の最大（反復 0）CREMA-D,3.0861576405527558e-06,0.001,True,係数は float32
+I,audio_wavlm,係数から作り直した点数の argmax の不一致の割合（反復 0）CREMA-D,0.0,0.001,True,
+1,audio_wavlm,組 × K の利得（点数から）と csv の uar から作った利得の差の最大（点）,2.5757174171303632e-14,1e-09,True,
+1,audio_wavlm,組の数（同じコーパスを除く）と設計の数の差,0.0,0.0,True,ターゲット 7
+3,audio_wavlm,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 IEMOCAP-impro,0.0,0.0,True,
+3,audio_wavlm,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 IEMOCAP-script,0.0,0.0,True,
+3,audio_wavlm,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 MOSEI,0.0,0.0,True,
+3,audio_wavlm,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 MELD,0.0,0.0,True,
+3,audio_wavlm,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 AFEW,0.0,0.0,True,
+3,audio_wavlm,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 RAVDESS,0.0,0.0,True,
+3,audio_wavlm,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 CREMA-D,0.0,0.0,True,
+I,video,tol を超えた照合と ① の C の不一致の数（A(HuBERT) 以外は 0）,0.0,0.0,True,
+I,video,保存した点数から作り直した UAR と csv の uar の差の最大 IEMOCAP-impro,8.326672684688674e-17,1e-09,True,2650 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,video,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）IEMOCAP-impro,4.5287951633277146e-07,0.0001,True,解き直しは float32 で保存した点数から
+I,video,mean_t と特徴の平均の差 IEMOCAP-impro,2.220446049250313e-16,1e-06,True,
+3,video,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）IEMOCAP-impro,4.440892098500626e-15,1e-09,True,
+I,video,係数から作り直した点数と保存した点数の差の最大（反復 0）IEMOCAP-impro,5.24223831632753e-06,0.001,True,係数は float32
+I,video,係数から作り直した点数の argmax の不一致の割合（反復 0）IEMOCAP-impro,0.0,0.001,True,
+I,video,保存した点数から作り直した UAR と csv の uar の差の最大 IEMOCAP-script,8.326672684688674e-17,1e-09,True,2650 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,video,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）IEMOCAP-script,4.738988712976733e-07,0.0001,True,解き直しは float32 で保存した点数から
+I,video,mean_t と特徴の平均の差 IEMOCAP-script,2.220446049250313e-16,1e-06,True,
+3,video,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）IEMOCAP-script,6.661338147750939e-16,1e-09,True,
+I,video,係数から作り直した点数と保存した点数の差の最大（反復 0）IEMOCAP-script,5.54014756204424e-06,0.001,True,係数は float32
+I,video,係数から作り直した点数の argmax の不一致の割合（反復 0）IEMOCAP-script,0.0,0.001,True,
+I,video,保存した点数から作り直した UAR と csv の uar の差の最大 MOSEI,8.326672684688674e-17,1e-09,True,2650 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,video,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）MOSEI,1.236071453442067e-06,0.0001,True,解き直しは float32 で保存した点数から
+I,video,mean_t と特徴の平均の差 MOSEI,4.440892098500626e-16,1e-06,True,
+3,video,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）MOSEI,6.661338147750939e-16,1e-09,True,
+I,video,係数から作り直した点数と保存した点数の差の最大（反復 0）MOSEI,1.5926594329584987e-05,0.001,True,係数は float32
+I,video,係数から作り直した点数の argmax の不一致の割合（反復 0）MOSEI,0.0,0.001,True,
+I,video,保存した点数から作り直した UAR と csv の uar の差の最大 MELD,8.326672684688674e-17,1e-09,True,2650 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,video,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）MELD,1.794465820270652e-06,0.0001,True,解き直しは float32 で保存した点数から
+I,video,mean_t と特徴の平均の差 MELD,2.220446049250313e-16,1e-06,True,
+3,video,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）MELD,6.661338147750939e-16,1e-09,True,
+I,video,係数から作り直した点数と保存した点数の差の最大（反復 0）MELD,1.1931632514006196e-05,0.001,True,係数は float32
+I,video,係数から作り直した点数の argmax の不一致の割合（反復 0）MELD,0.0,0.001,True,
+I,video,保存した点数から作り直した UAR と csv の uar の差の最大 AFEW,5.551115123125783e-17,1e-09,True,2650 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,video,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）AFEW,4.698691310478509e-07,0.0001,True,解き直しは float32 で保存した点数から
+I,video,mean_t と特徴の平均の差 AFEW,4.440892098500626e-16,1e-06,True,
+3,video,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）AFEW,1.7763568394002505e-15,1e-09,True,
+I,video,係数から作り直した点数と保存した点数の差の最大（反復 0）AFEW,1.1963193372821479e-05,0.001,True,係数は float32
+I,video,係数から作り直した点数の argmax の不一致の割合（反復 0）AFEW,0.0,0.001,True,
+I,video,保存した点数から作り直した UAR と csv の uar の差の最大 CREMA-D,5.551115123125783e-17,1e-09,True,2650 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,video,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）CREMA-D,5.867342718346436e-07,0.0001,True,解き直しは float32 で保存した点数から
+I,video,mean_t と特徴の平均の差 CREMA-D,4.440892098500626e-16,1e-06,True,
+3,video,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）CREMA-D,2.220446049250313e-15,1e-09,True,
+I,video,係数から作り直した点数と保存した点数の差の最大（反復 0）CREMA-D,1.3913404416143749e-05,0.001,True,係数は float32
+I,video,係数から作り直した点数の argmax の不一致の割合（反復 0）CREMA-D,0.0,0.001,True,
+1,video,組 × K の利得（点数から）と csv の uar から作った利得の差の最大（点）,2.220446049250313e-14,1e-09,True,
+1,video,組の数（同じコーパスを除く）と設計の数の差,0.0,0.0,True,ターゲット 6
+3,video,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 IEMOCAP-impro,0.0,0.0,True,
+3,video,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 IEMOCAP-script,0.0,0.0,True,
+3,video,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 MOSEI,0.0,0.0,True,
+3,video,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 MELD,0.0,0.0,True,
+3,video,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 AFEW,0.0,0.0,True,
+3,video,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 CREMA-D,0.0,0.0,True,
+I,text_roberta,tol を超えた照合と ① の C の不一致の数（A(HuBERT) 以外は 0）,0.0,0.0,True,
+I,text_roberta,保存した点数から作り直した UAR と csv の uar の差の最大 IEMOCAP-impro,8.326672684688674e-17,1e-09,True,1710 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,text_roberta,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）IEMOCAP-impro,4.302457825705597e-07,0.0001,True,解き直しは float32 で保存した点数から
+I,text_roberta,mean_t と特徴の平均の差 IEMOCAP-impro,8.881784197001252e-16,1e-06,True,
+3,text_roberta,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）IEMOCAP-impro,8.881784197001252e-16,1e-09,True,
+I,text_roberta,係数から作り直した点数と保存した点数の差の最大（反復 0）IEMOCAP-impro,1.915304711275212e-06,0.001,True,係数は float32
+I,text_roberta,係数から作り直した点数の argmax の不一致の割合（反復 0）IEMOCAP-impro,0.0,0.001,True,
+I,text_roberta,保存した点数から作り直した UAR と csv の uar の差の最大 IEMOCAP-script,5.551115123125783e-17,1e-09,True,1710 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,text_roberta,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）IEMOCAP-script,5.228017513764227e-07,0.0001,True,解き直しは float32 で保存した点数から
+I,text_roberta,mean_t と特徴の平均の差 IEMOCAP-script,1.1102230246251565e-16,1e-06,True,
+3,text_roberta,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）IEMOCAP-script,8.881784197001252e-16,1e-09,True,
+I,text_roberta,係数から作り直した点数と保存した点数の差の最大（反復 0）IEMOCAP-script,2.8844499055935557e-06,0.001,True,係数は float32
+I,text_roberta,係数から作り直した点数の argmax の不一致の割合（反復 0）IEMOCAP-script,0.0,0.001,True,
+I,text_roberta,保存した点数から作り直した UAR と csv の uar の差の最大 MOSEI,8.326672684688674e-17,1e-09,True,1710 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,text_roberta,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）MOSEI,4.871317451637935e-07,0.0001,True,解き直しは float32 で保存した点数から
+I,text_roberta,mean_t と特徴の平均の差 MOSEI,1.7763568394002505e-15,1e-06,True,
+3,text_roberta,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）MOSEI,4.440892098500626e-16,1e-09,True,
+I,text_roberta,係数から作り直した点数と保存した点数の差の最大（反復 0）MOSEI,4.073564824125242e-06,0.001,True,係数は float32
+I,text_roberta,係数から作り直した点数の argmax の不一致の割合（反復 0）MOSEI,0.0,0.001,True,
+I,text_roberta,保存した点数から作り直した UAR と csv の uar の差の最大 MELD,5.551115123125783e-17,1e-09,True,1710 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,text_roberta,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）MELD,3.3249854924921607e-07,0.0001,True,解き直しは float32 で保存した点数から
+I,text_roberta,mean_t と特徴の平均の差 MELD,1.7763568394002505e-15,1e-06,True,
+3,text_roberta,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）MELD,1.1102230246251565e-15,1e-09,True,
+I,text_roberta,係数から作り直した点数と保存した点数の差の最大（反復 0）MELD,3.869497170683189e-06,0.001,True,係数は float32
+I,text_roberta,係数から作り直した点数の argmax の不一致の割合（反復 0）MELD,0.0,0.001,True,
+1,text_roberta,組 × K の利得（点数から）と csv の uar から作った利得の差の最大（点）,1.7763568394002505e-14,1e-09,True,
+1,text_roberta,組の数（同じコーパスを除く）と設計の数の差,0.0,0.0,True,ターゲット 4
+3,text_roberta,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 IEMOCAP-impro,0.0,0.0,True,
+3,text_roberta,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 IEMOCAP-script,0.0,0.0,True,
+3,text_roberta,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 MOSEI,0.0,0.0,True,
+3,text_roberta,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 MELD,0.0,0.0,True,
+I,fuse-audio-video,tol を超えた照合と ① の C の不一致の数（A(HuBERT) 以外は 0）,0.0,0.0,True,
+I,fuse-audio-video,保存した点数から作り直した UAR と csv の uar の差の最大 IEMOCAP-impro,8.326672684688674e-17,1e-09,True,2650 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,fuse-audio-video,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）IEMOCAP-impro,1.1914145850999702e-06,0.0001,True,解き直しは float32 で保存した点数から
+I,fuse-audio-video,mean_t と特徴の平均の差 IEMOCAP-impro,2.220446049250313e-16,1e-06,True,
+3,fuse-audio-video,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）IEMOCAP-impro,5.329070518200751e-15,1e-09,True,
+I,fuse-audio-video,係数から作り直した点数と保存した点数の差の最大（反復 0）IEMOCAP-impro,2.1344557623592664e-06,0.001,True,係数は float32
+I,fuse-audio-video,係数から作り直した点数の argmax の不一致の割合（反復 0）IEMOCAP-impro,0.0,0.001,True,
+I,fuse-audio-video,保存した点数から作り直した UAR と csv の uar の差の最大 IEMOCAP-script,5.551115123125783e-17,1e-09,True,2650 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,fuse-audio-video,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）IEMOCAP-script,3.5604760673102476e-07,0.0001,True,解き直しは float32 で保存した点数から
+I,fuse-audio-video,mean_t と特徴の平均の差 IEMOCAP-script,2.220446049250313e-16,1e-06,True,
+3,fuse-audio-video,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）IEMOCAP-script,1.3322676295501878e-15,1e-09,True,
+I,fuse-audio-video,係数から作り直した点数と保存した点数の差の最大（反復 0）IEMOCAP-script,1.8100899410455895e-06,0.001,True,係数は float32
+I,fuse-audio-video,係数から作り直した点数の argmax の不一致の割合（反復 0）IEMOCAP-script,0.0,0.001,True,
+I,fuse-audio-video,保存した点数から作り直した UAR と csv の uar の差の最大 MOSEI,8.326672684688674e-17,1e-09,True,2650 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,fuse-audio-video,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）MOSEI,1.7712617906770478e-06,0.0001,True,解き直しは float32 で保存した点数から
+I,fuse-audio-video,mean_t と特徴の平均の差 MOSEI,1.1102230246251565e-16,1e-06,True,
+3,fuse-audio-video,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）MOSEI,8.881784197001252e-16,1e-09,True,
+I,fuse-audio-video,係数から作り直した点数と保存した点数の差の最大（反復 0）MOSEI,3.216232599356772e-06,0.001,True,係数は float32
+I,fuse-audio-video,係数から作り直した点数の argmax の不一致の割合（反復 0）MOSEI,0.0,0.001,True,
+I,fuse-audio-video,保存した点数から作り直した UAR と csv の uar の差の最大 MELD,8.326672684688674e-17,1e-09,True,2650 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,fuse-audio-video,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）MELD,2.0789177489211053e-06,0.0001,True,解き直しは float32 で保存した点数から
+I,fuse-audio-video,mean_t と特徴の平均の差 MELD,1.1102230246251565e-16,1e-06,True,
+3,fuse-audio-video,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）MELD,6.661338147750939e-16,1e-09,True,
+I,fuse-audio-video,係数から作り直した点数と保存した点数の差の最大（反復 0）MELD,3.6956837767831985e-06,0.001,True,係数は float32
+I,fuse-audio-video,係数から作り直した点数の argmax の不一致の割合（反復 0）MELD,0.0,0.001,True,
+I,fuse-audio-video,保存した点数から作り直した UAR と csv の uar の差の最大 AFEW,5.551115123125783e-17,1e-09,True,2650 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,fuse-audio-video,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）AFEW,5.889987373386418e-07,0.0001,True,解き直しは float32 で保存した点数から
+I,fuse-audio-video,mean_t と特徴の平均の差 AFEW,1.1102230246251565e-16,1e-06,True,
+3,fuse-audio-video,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）AFEW,2.6645352591003757e-15,1e-09,True,
+I,fuse-audio-video,係数から作り直した点数と保存した点数の差の最大（反復 0）AFEW,2.935904504397513e-06,0.001,True,係数は float32
+I,fuse-audio-video,係数から作り直した点数の argmax の不一致の割合（反復 0）AFEW,0.0,0.001,True,
+I,fuse-audio-video,保存した点数から作り直した UAR と csv の uar の差の最大 CREMA-D,1.1102230246251565e-16,1e-09,True,2650 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,fuse-audio-video,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）CREMA-D,5.366481988233751e-07,0.0001,True,解き直しは float32 で保存した点数から
+I,fuse-audio-video,mean_t と特徴の平均の差 CREMA-D,2.220446049250313e-16,1e-06,True,
+3,fuse-audio-video,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）CREMA-D,2.6645352591003757e-15,1e-09,True,
+I,fuse-audio-video,係数から作り直した点数と保存した点数の差の最大（反復 0）CREMA-D,2.458446139996795e-06,0.001,True,係数は float32
+I,fuse-audio-video,係数から作り直した点数の argmax の不一致の割合（反復 0）CREMA-D,0.0,0.001,True,
+1,fuse-audio-video,組 × K の利得（点数から）と csv の uar から作った利得の差の最大（点）,1.9539925233402755e-14,1e-09,True,
+1,fuse-audio-video,組の数（同じコーパスを除く）と設計の数の差,0.0,0.0,True,ターゲット 6
+3,fuse-audio-video,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 IEMOCAP-impro,0.0,0.0,True,
+3,fuse-audio-video,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 IEMOCAP-script,0.0,0.0,True,
+3,fuse-audio-video,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 MOSEI,0.0,0.0,True,
+3,fuse-audio-video,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 MELD,0.0,0.0,True,
+3,fuse-audio-video,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 AFEW,0.0,0.0,True,
+3,fuse-audio-video,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 CREMA-D,0.0,0.0,True,
+I,fuse-audio-text,tol を超えた照合と ① の C の不一致の数（A(HuBERT) 以外は 0）,0.0,0.0,True,
+I,fuse-audio-text,保存した点数から作り直した UAR と csv の uar の差の最大 IEMOCAP-impro,5.551115123125783e-17,1e-09,True,1710 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,fuse-audio-text,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）IEMOCAP-impro,3.1383911580640245e-07,0.0001,True,解き直しは float32 で保存した点数から
+I,fuse-audio-text,mean_t と特徴の平均の差 IEMOCAP-impro,1.1102230246251565e-16,1e-06,True,
+3,fuse-audio-text,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）IEMOCAP-impro,3.1086244689504383e-15,1e-09,True,
+I,fuse-audio-text,係数から作り直した点数と保存した点数の差の最大（反復 0）IEMOCAP-impro,2.390184302925036e-06,0.001,True,係数は float32
+I,fuse-audio-text,係数から作り直した点数の argmax の不一致の割合（反復 0）IEMOCAP-impro,0.0,0.001,True,
+I,fuse-audio-text,保存した点数から作り直した UAR と csv の uar の差の最大 IEMOCAP-script,5.551115123125783e-17,1e-09,True,1710 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,fuse-audio-text,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）IEMOCAP-script,3.03816250823985e-07,0.0001,True,解き直しは float32 で保存した点数から
+I,fuse-audio-text,mean_t と特徴の平均の差 IEMOCAP-script,1.1102230246251565e-16,1e-06,True,
+3,fuse-audio-text,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）IEMOCAP-script,2.220446049250313e-15,1e-09,True,
+I,fuse-audio-text,係数から作り直した点数と保存した点数の差の最大（反復 0）IEMOCAP-script,2.266757029190103e-06,0.001,True,係数は float32
+I,fuse-audio-text,係数から作り直した点数の argmax の不一致の割合（反復 0）IEMOCAP-script,0.0,0.001,True,
+I,fuse-audio-text,保存した点数から作り直した UAR と csv の uar の差の最大 MOSEI,5.551115123125783e-17,1e-09,True,1710 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,fuse-audio-text,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）MOSEI,7.234013714718657e-07,0.0001,True,解き直しは float32 で保存した点数から
+I,fuse-audio-text,mean_t と特徴の平均の差 MOSEI,1.1102230246251565e-16,1e-06,True,
+3,fuse-audio-text,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）MOSEI,6.661338147750939e-16,1e-09,True,
+I,fuse-audio-text,係数から作り直した点数と保存した点数の差の最大（反復 0）MOSEI,3.0657436447256714e-06,0.001,True,係数は float32
+I,fuse-audio-text,係数から作り直した点数の argmax の不一致の割合（反復 0）MOSEI,0.0,0.001,True,
+I,fuse-audio-text,保存した点数から作り直した UAR と csv の uar の差の最大 MELD,8.326672684688674e-17,1e-09,True,1710 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,fuse-audio-text,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）MELD,3.620716777463784e-05,0.0001,True,解き直しは float32 で保存した点数から
+I,fuse-audio-text,mean_t と特徴の平均の差 MELD,1.1102230246251565e-16,1e-06,True,
+3,fuse-audio-text,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）MELD,1.5543122344752192e-15,1e-09,True,
+I,fuse-audio-text,係数から作り直した点数と保存した点数の差の最大（反復 0）MELD,9.61768773777294e-06,0.001,True,係数は float32
+I,fuse-audio-text,係数から作り直した点数の argmax の不一致の割合（反復 0）MELD,0.0,0.001,True,
+1,fuse-audio-text,組 × K の利得（点数から）と csv の uar から作った利得の差の最大（点）,2.4868995751603507e-14,1e-09,True,
+1,fuse-audio-text,組の数（同じコーパスを除く）と設計の数の差,0.0,0.0,True,ターゲット 4
+3,fuse-audio-text,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 IEMOCAP-impro,0.0,0.0,True,
+3,fuse-audio-text,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 IEMOCAP-script,0.0,0.0,True,
+3,fuse-audio-text,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 MOSEI,0.0,0.0,True,
+3,fuse-audio-text,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 MELD,0.0,0.0,True,
+I,fuse-video-text,tol を超えた照合と ① の C の不一致の数（A(HuBERT) 以外は 0）,0.0,0.0,True,
+I,fuse-video-text,保存した点数から作り直した UAR と csv の uar の差の最大 IEMOCAP-impro,5.551115123125783e-17,1e-09,True,1710 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,fuse-video-text,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）IEMOCAP-impro,2.4759396055618055e-07,0.0001,True,解き直しは float32 で保存した点数から
+I,fuse-video-text,mean_t と特徴の平均の差 IEMOCAP-impro,2.220446049250313e-16,1e-06,True,
+3,fuse-video-text,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）IEMOCAP-impro,3.552713678800501e-15,1e-09,True,
+I,fuse-video-text,係数から作り直した点数と保存した点数の差の最大（反復 0）IEMOCAP-impro,1.549979600667939e-06,0.001,True,係数は float32
+I,fuse-video-text,係数から作り直した点数の argmax の不一致の割合（反復 0）IEMOCAP-impro,0.0,0.001,True,
+I,fuse-video-text,保存した点数から作り直した UAR と csv の uar の差の最大 IEMOCAP-script,5.551115123125783e-17,1e-09,True,1710 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,fuse-video-text,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）IEMOCAP-script,3.4811700322379124e-07,0.0001,True,解き直しは float32 で保存した点数から
+I,fuse-video-text,mean_t と特徴の平均の差 IEMOCAP-script,2.220446049250313e-16,1e-06,True,
+3,fuse-video-text,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）IEMOCAP-script,1.3322676295501878e-15,1e-09,True,
+I,fuse-video-text,係数から作り直した点数と保存した点数の差の最大（反復 0）IEMOCAP-script,1.5007843146008781e-06,0.001,True,係数は float32
+I,fuse-video-text,係数から作り直した点数の argmax の不一致の割合（反復 0）IEMOCAP-script,0.0,0.001,True,
+I,fuse-video-text,保存した点数から作り直した UAR と csv の uar の差の最大 MOSEI,8.326672684688674e-17,1e-09,True,1710 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,fuse-video-text,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）MOSEI,7.24991359432603e-07,0.0001,True,解き直しは float32 で保存した点数から
+I,fuse-video-text,mean_t と特徴の平均の差 MOSEI,1.1102230246251565e-16,1e-06,True,
+3,fuse-video-text,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）MOSEI,1.1102230246251565e-15,1e-09,True,
+I,fuse-video-text,係数から作り直した点数と保存した点数の差の最大（反復 0）MOSEI,3.4227107477136087e-06,0.001,True,係数は float32
+I,fuse-video-text,係数から作り直した点数の argmax の不一致の割合（反復 0）MOSEI,0.0,0.001,True,
+I,fuse-video-text,保存した点数から作り直した UAR と csv の uar の差の最大 MELD,5.551115123125783e-17,1e-09,True,1710 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,fuse-video-text,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）MELD,5.88874824264396e-07,0.0001,True,解き直しは float32 で保存した点数から
+I,fuse-video-text,mean_t と特徴の平均の差 MELD,1.1102230246251565e-16,1e-06,True,
+3,fuse-video-text,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）MELD,1.3322676295501878e-15,1e-09,True,
+I,fuse-video-text,係数から作り直した点数と保存した点数の差の最大（反復 0）MELD,3.290305954806172e-06,0.001,True,係数は float32
+I,fuse-video-text,係数から作り直した点数の argmax の不一致の割合（反復 0）MELD,0.0,0.001,True,
+1,fuse-video-text,組 × K の利得（点数から）と csv の uar から作った利得の差の最大（点）,1.7763568394002505e-14,1e-09,True,
+1,fuse-video-text,組の数（同じコーパスを除く）と設計の数の差,0.0,0.0,True,ターゲット 4
+3,fuse-video-text,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 IEMOCAP-impro,0.0,0.0,True,
+3,fuse-video-text,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 IEMOCAP-script,0.0,0.0,True,
+3,fuse-video-text,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 MOSEI,0.0,0.0,True,
+3,fuse-video-text,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 MELD,0.0,0.0,True,
+I,fuse-audio-video-text,tol を超えた照合と ① の C の不一致の数（A(HuBERT) 以外は 0）,0.0,0.0,True,
+I,fuse-audio-video-text,保存した点数から作り直した UAR と csv の uar の差の最大 IEMOCAP-impro,5.551115123125783e-17,1e-09,True,1710 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,fuse-audio-video-text,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）IEMOCAP-impro,6.229470820295901e-07,0.0001,True,解き直しは float32 で保存した点数から
+I,fuse-audio-video-text,mean_t と特徴の平均の差 IEMOCAP-impro,2.220446049250313e-16,1e-06,True,
+3,fuse-audio-video-text,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）IEMOCAP-impro,5.329070518200751e-15,1e-09,True,
+I,fuse-audio-video-text,係数から作り直した点数と保存した点数の差の最大（反復 0）IEMOCAP-impro,6.0917671405036344e-06,0.001,True,係数は float32
+I,fuse-audio-video-text,係数から作り直した点数の argmax の不一致の割合（反復 0）IEMOCAP-impro,0.0,0.001,True,
+I,fuse-audio-video-text,保存した点数から作り直した UAR と csv の uar の差の最大 IEMOCAP-script,5.551115123125783e-17,1e-09,True,1710 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,fuse-audio-video-text,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）IEMOCAP-script,3.2142580153049494e-07,0.0001,True,解き直しは float32 で保存した点数から
+I,fuse-audio-video-text,mean_t と特徴の平均の差 IEMOCAP-script,2.220446049250313e-16,1e-06,True,
+3,fuse-audio-video-text,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）IEMOCAP-script,1.3322676295501878e-15,1e-09,True,
+I,fuse-audio-video-text,係数から作り直した点数と保存した点数の差の最大（反復 0）IEMOCAP-script,5.25453503286144e-06,0.001,True,係数は float32
+I,fuse-audio-video-text,係数から作り直した点数の argmax の不一致の割合（反復 0）IEMOCAP-script,0.0,0.001,True,
+I,fuse-audio-video-text,保存した点数から作り直した UAR と csv の uar の差の最大 MOSEI,8.326672684688674e-17,1e-09,True,1710 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,fuse-audio-video-text,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）MOSEI,1.0490486612238503e-06,0.0001,True,解き直しは float32 で保存した点数から
+I,fuse-audio-video-text,mean_t と特徴の平均の差 MOSEI,1.1102230246251565e-16,1e-06,True,
+3,fuse-audio-video-text,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）MOSEI,1.1102230246251565e-15,1e-09,True,
+I,fuse-audio-video-text,係数から作り直した点数と保存した点数の差の最大（反復 0）MOSEI,8.558023026239425e-06,0.001,True,係数は float32
+I,fuse-audio-video-text,係数から作り直した点数の argmax の不一致の割合（反復 0）MOSEI,0.0,0.001,True,
+I,fuse-audio-video-text,保存した点数から作り直した UAR と csv の uar の差の最大 MELD,5.551115123125783e-17,1e-09,True,1710 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,fuse-audio-video-text,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）MELD,9.59680986345468e-07,0.0001,True,解き直しは float32 で保存した点数から
+I,fuse-audio-video-text,mean_t と特徴の平均の差 MELD,1.1102230246251565e-16,1e-06,True,
+3,fuse-audio-video-text,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）MELD,8.881784197001252e-16,1e-09,True,
+I,fuse-audio-video-text,係数から作り直した点数と保存した点数の差の最大（反復 0）MELD,4.688182194456658e-06,0.001,True,係数は float32
+I,fuse-audio-video-text,係数から作り直した点数の argmax の不一致の割合（反復 0）MELD,0.0,0.001,True,
+1,fuse-audio-video-text,組 × K の利得（点数から）と csv の uar から作った利得の差の最大（点）,1.5987211554602254e-14,1e-09,True,
+1,fuse-audio-video-text,組の数（同じコーパスを除く）と設計の数の差,0.0,0.0,True,ターゲット 4
+3,fuse-audio-video-text,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 IEMOCAP-impro,0.0,0.0,True,
+3,fuse-audio-video-text,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 IEMOCAP-script,0.0,0.0,True,
+3,fuse-audio-video-text,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 MOSEI,0.0,0.0,True,
+3,fuse-audio-video-text,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 MELD,0.0,0.0,True,
+I,audio_hubert,保存した点数から作り直した UAR と csv の uar の差の最大 IEMOCAP-impro,5.551115123125783e-17,1e-09,True,3120 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,audio_hubert,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）IEMOCAP-impro,7.111562013939476e-06,0.0001,True,解き直しは float32 で保存した点数から
+I,audio_hubert,mean_t と特徴の平均の差 IEMOCAP-impro,2.7755575615628914e-17,1e-06,True,
+3,audio_hubert,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）IEMOCAP-impro,3.1086244689504383e-15,1e-09,True,
+I,audio_hubert,係数から作り直した点数と保存した点数の差の最大（反復 0）IEMOCAP-impro,4.1168031259530835e-06,0.001,True,係数は float32
+I,audio_hubert,係数から作り直した点数の argmax の不一致の割合（反復 0）IEMOCAP-impro,0.0,0.001,True,
+I,audio_hubert,保存した点数から作り直した UAR と csv の uar の差の最大 IEMOCAP-script,8.326672684688674e-17,1e-09,True,3120 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,audio_hubert,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）IEMOCAP-script,4.516700562007259e-06,0.0001,True,解き直しは float32 で保存した点数から
+I,audio_hubert,mean_t と特徴の平均の差 IEMOCAP-script,2.7755575615628914e-17,1e-06,True,
+3,audio_hubert,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）IEMOCAP-script,8.881784197001252e-16,1e-09,True,
+I,audio_hubert,係数から作り直した点数と保存した点数の差の最大（反復 0）IEMOCAP-script,3.4108191755422013e-06,0.001,True,係数は float32
+I,audio_hubert,係数から作り直した点数の argmax の不一致の割合（反復 0）IEMOCAP-script,0.0,0.001,True,
+I,audio_hubert,保存した点数から作り直した UAR と csv の uar の差の最大 MOSEI,8.326672684688674e-17,1e-09,True,3120 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,audio_hubert,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）MOSEI,9.945889803891772e-05,0.0001,True,解き直しは float32 で保存した点数から
+I,audio_hubert,mean_t と特徴の平均の差 MOSEI,5.551115123125783e-17,1e-06,True,
+3,audio_hubert,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）MOSEI,4.440892098500626e-16,1e-09,True,
+I,audio_hubert,係数から作り直した点数と保存した点数の差の最大（反復 0）MOSEI,4.840348040602294e-06,0.001,True,係数は float32
+I,audio_hubert,係数から作り直した点数の argmax の不一致の割合（反復 0）MOSEI,0.0,0.001,True,
+I,audio_hubert,保存した点数から作り直した UAR と csv の uar の差の最大 MELD,8.326672684688674e-17,1e-09,True,3120 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,audio_hubert,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）MELD,9.509804455465343e-06,0.0001,True,解き直しは float32 で保存した点数から
+I,audio_hubert,mean_t と特徴の平均の差 MELD,2.7755575615628914e-17,1e-06,True,
+3,audio_hubert,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）MELD,7.771561172376096e-16,1e-09,True,
+I,audio_hubert,係数から作り直した点数と保存した点数の差の最大（反復 0）MELD,7.236545513933379e-06,0.001,True,係数は float32
+I,audio_hubert,係数から作り直した点数の argmax の不一致の割合（反復 0）MELD,8.816009873935382e-05,0.001,True,
+I,audio_hubert,保存した点数から作り直した UAR と csv の uar の差の最大 AFEW,8.326672684688674e-17,1e-09,True,3120 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,audio_hubert,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）AFEW,3.09816665780005e-05,0.0001,True,解き直しは float32 で保存した点数から
+I,audio_hubert,mean_t と特徴の平均の差 AFEW,5.551115123125783e-17,1e-06,True,
+3,audio_hubert,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）AFEW,4.440892098500626e-16,1e-09,True,
+I,audio_hubert,係数から作り直した点数と保存した点数の差の最大（反復 0）AFEW,3.6580677829078923e-06,0.001,True,係数は float32
+I,audio_hubert,係数から作り直した点数の argmax の不一致の割合（反復 0）AFEW,0.0,0.001,True,
+I,audio_hubert,保存した点数から作り直した UAR と csv の uar の差の最大 RAVDESS,8.326672684688674e-17,1e-09,True,3120 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,audio_hubert,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）RAVDESS,4.0060910920514115e-07,0.0001,True,解き直しは float32 で保存した点数から
+I,audio_hubert,mean_t と特徴の平均の差 RAVDESS,5.551115123125783e-17,1e-06,True,
+3,audio_hubert,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）RAVDESS,3.552713678800501e-15,1e-09,True,
+I,audio_hubert,係数から作り直した点数と保存した点数の差の最大（反復 0）RAVDESS,2.870430343193675e-06,0.001,True,係数は float32
+I,audio_hubert,係数から作り直した点数の argmax の不一致の割合（反復 0）RAVDESS,0.0,0.001,True,
+I,audio_hubert,保存した点数から作り直した UAR と csv の uar の差の最大 CREMA-D,5.551115123125783e-17,1e-09,True,3120 条件．float32 の点数の argmax の同点で 1 本ぶん変わりうる
+I,audio_hubert,保存した h4・h5 のずらしと l2=1e-2 で解き直した値の差の最大（反復 0）CREMA-D,3.4468388463437805e-06,0.0001,True,解き直しは float32 で保存した点数から
+I,audio_hubert,mean_t と特徴の平均の差 CREMA-D,1.1102230246251565e-16,1e-06,True,
+3,audio_hubert,重みつきの d（重み 1）と explore_synergy.d_o の差の最大（反復 0，① の K 6 × C 4）CREMA-D,1.7763568394002505e-15,1e-09,True,
+I,audio_hubert,係数から作り直した点数と保存した点数の差の最大（反復 0）CREMA-D,2.6056635391569216e-06,0.001,True,係数は float32
+I,audio_hubert,係数から作り直した点数の argmax の不一致の割合（反復 0）CREMA-D,0.0,0.001,True,
+1,audio_hubert,組 × K の利得（点数から）と csv の uar から作った利得の差の最大（点）,1.7763568394002505e-14,1e-09,True,
+1,audio_hubert,組の数（同じコーパスを除く）と設計の数の差,0.0,0.0,True,ターゲット 7
+3,audio_hubert,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 IEMOCAP-impro,0.0,0.0,True,
+3,audio_hubert,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 IEMOCAP-script,0.0,0.0,True,
+3,audio_hubert,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 MOSEI,0.0,0.0,True,
+3,audio_hubert,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 MELD,0.0,0.0,True,
+3,audio_hubert,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 AFEW,0.0,0.0,True,
+3,audio_hubert,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 RAVDESS,0.0,0.0,True,
+3,audio_hubert,q の当てはめ（まとめて解く版）と explore_direction_bound.q_fit の差 CREMA-D,0.0,0.0,True,
+U,audio_wavlm,ターゲットの数と設計の数の差,0.0,0.0,True,
+U,audio_wavlm,e76a_4_pairs の組の数（K ごとの最大）と設計の数の差,0.0,0.0,True,
+U,audio_wavlm,e76a_5_alpha の組の数（K ごとの最大）と設計の数の差,0.0,0.0,True,
+U,video,ターゲットの数と設計の数の差,0.0,0.0,True,
+U,video,e76a_4_pairs の組の数（K ごとの最大）と設計の数の差,0.0,0.0,True,
+U,video,e76a_5_alpha の組の数（K ごとの最大）と設計の数の差,0.0,0.0,True,
+U,text_roberta,ターゲットの数と設計の数の差,0.0,0.0,True,
+U,text_roberta,e76a_4_pairs の組の数（K ごとの最大）と設計の数の差,0.0,0.0,True,
+U,text_roberta,e76a_5_alpha の組の数（K ごとの最大）と設計の数の差,0.0,0.0,True,
+U,fuse-audio-video,ターゲットの数と設計の数の差,0.0,0.0,True,
+U,fuse-audio-video,e76a_4_pairs の組の数（K ごとの最大）と設計の数の差,0.0,0.0,True,
+U,fuse-audio-video,e76a_5_alpha の組の数（K ごとの最大）と設計の数の差,0.0,0.0,True,
+U,fuse-audio-text,ターゲットの数と設計の数の差,0.0,0.0,True,
+U,fuse-audio-text,e76a_4_pairs の組の数（K ごとの最大）と設計の数の差,0.0,0.0,True,
+U,fuse-audio-text,e76a_5_alpha の組の数（K ごとの最大）と設計の数の差,0.0,0.0,True,
+U,fuse-video-text,ターゲットの数と設計の数の差,0.0,0.0,True,
+U,fuse-video-text,e76a_4_pairs の組の数（K ごとの最大）と設計の数の差,0.0,0.0,True,
+U,fuse-video-text,e76a_5_alpha の組の数（K ごとの最大）と設計の数の差,0.0,0.0,True,
+U,fuse-audio-video-text,ターゲットの数と設計の数の差,0.0,0.0,True,
+U,fuse-audio-video-text,e76a_4_pairs の組の数（K ごとの最大）と設計の数の差,0.0,0.0,True,
+U,fuse-audio-video-text,e76a_5_alpha の組の数（K ごとの最大）と設計の数の差,0.0,0.0,True,
+U,audio_hubert,ターゲットの数と設計の数の差,0.0,0.0,True,
+U,audio_hubert,e76a_4_pairs の組の数（K ごとの最大）と設計の数の差,0.0,0.0,True,
+U,audio_hubert,e76a_5_alpha の組の数（K ごとの最大）と設計の数の差,0.0,0.0,True,
+U,all,性別の差の数（K=5）と設計の 22 の差,0.0,0.0,True,
+U,all,MOSEI のチャンネルの部分集合の種類の数と 8 の差,0.0,0.0,True,
+U,all,台詞の重なりの部分集合の種類の数と 4 の差,0.0,0.0,True,
+U,all,"e76a_1_pairs の gain,lo,hi,p,p_holm の NaN の数",0.0,0.0,True,
+U,all,"e76a_1_kind の mean_gain,lo,hi の NaN の数",0.0,0.0,True,
+U,all,"e76a_3_pairs の gain,lo,hi の NaN の数",0.0,0.0,True,
+U,all,"e76a_3_q_targets の q,q_lo,q_hi の NaN の数",0.0,0.0,True,
+U,all,"e76a_4_kind の mean,lo,hi の NaN の数",0.0,0.0,True,
+U,all,"e76a_5_hands の mean_diff_from_src,lo,hi の NaN の数",0.0,0.0,True,
+U,all,"e76a_5_compare の diff,lo,hi の NaN の数",0.0,0.0,True,
+U,all,"e76a_2_gender の diff_F_minus_M,diff_lo,diff_hi の NaN の数",0.0,0.0,True,
+U,all,"e76a_2_subsets の gain_full,gain_subset,subset_lo,subset_hi の NaN の数",0.0,0.0,True,

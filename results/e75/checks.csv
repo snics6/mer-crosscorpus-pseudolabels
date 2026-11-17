@@ -1,0 +1,552 @@
+# {"script": "exp/reanalysis_e75.py", "started": "2026-11-01T06:19:09+0900", "commit": "c452b3808b5106039b1d4a625a937e19f003e9c0", "dirty": true, "script_status": "", "script_sha256": "5a03b5ccd4ed4dbc236edcf6da72d3b7759787db855875a93c2e75ed9f3c6d0f", "argv": [], "seed": 0, "file": "checks.csv"}
+item,kind,what,value,tol,ok,detail
+1,audio_wavlm,素朴な t 区間の下端・上端・平均と summary/pairs.csv の差の最大,9.71445146547012e-17,1e-09,True,252 行
+1,audio_hubert,素朴な t 区間の下端・上端・平均と summary/pairs.csv の差の最大,9.974659986866641e-17,1e-09,True,252 行
+1,video,素朴な t 区間の下端・上端・平均と summary/pairs.csv の差の最大,9.80118763926896e-17,1e-09,True,180 行
+1,fuse-audio-video,素朴な t 区間の下端・上端・平均と summary/pairs.csv の差の最大,9.71445146547012e-17,1e-09,True,180 行
+1,text_roberta,素朴な t 区間の下端・上端・平均と summary/pairs.csv の差の最大,9.974659986866641e-17,1e-09,True,72 行
+1,fuse-audio-text,素朴な t 区間の下端・上端・平均と summary/pairs.csv の差の最大,9.71445146547012e-17,1e-09,True,72 行
+1,fuse-video-text,素朴な t 区間の下端・上端・平均と summary/pairs.csv の差の最大,9.8879238130678e-17,1e-09,True,72 行
+1,fuse-audio-video-text,素朴な t 区間の下端・上端・平均と summary/pairs.csv の差の最大,9.8879238130678e-17,1e-09,True,72 行
+1,audio_hubert,素朴な K* が summary/kstar.csv と食い違う組の数,0.0,0.0,True,
+1,audio_hubert,A6 の集合を単位にした K* が kstar_cluster.csv（results）と食い違う組の数,0.0,0.0,True,12 組
+1,audio_wavlm,素朴な K* が summary/kstar.csv と食い違う組の数,0.0,0.0,True,
+1,audio_wavlm,A6 の集合を単位にした K* が kstar_cluster.csv（results）と食い違う組の数,0.0,0.0,True,12 組
+1,fuse-audio-text,素朴な K* が summary/kstar.csv と食い違う組の数,0.0,0.0,True,
+1,fuse-audio-text,A6 の集合を単位にした K* が kstar_cluster.csv（text30）と食い違う組の数,0.0,0.0,True,6 組
+1,fuse-audio-video,素朴な K* が summary/kstar.csv と食い違う組の数,0.0,0.0,True,
+1,fuse-audio-video,A6 の集合を単位にした K* が kstar_cluster.csv（results）と食い違う組の数,0.0,0.0,True,10 組
+1,fuse-audio-video-text,素朴な K* が summary/kstar.csv と食い違う組の数,0.0,0.0,True,
+1,fuse-audio-video-text,A6 の集合を単位にした K* が kstar_cluster.csv（text30）と食い違う組の数,0.0,0.0,True,6 組
+1,fuse-video-text,素朴な K* が summary/kstar.csv と食い違う組の数,0.0,0.0,True,
+1,fuse-video-text,A6 の集合を単位にした K* が kstar_cluster.csv（text30）と食い違う組の数,0.0,0.0,True,6 組
+1,text_roberta,素朴な K* が summary/kstar.csv と食い違う組の数,0.0,0.0,True,
+1,text_roberta,A6 の集合を単位にした K* が kstar_cluster.csv（text30）と食い違う組の数,0.0,0.0,True,6 組
+1,video,素朴な K* が summary/kstar.csv と食い違う組の数,0.0,0.0,True,
+1,video,A6 の集合を単位にした K* が kstar_cluster.csv（results）と食い違う組の数,0.0,0.0,True,10 組
+3,"audio_wavlm,video,fuse-audio-video",gain_K1 の R²（全組）と fixc_analysis/decomp_share.csv の差の最大,1.6653345369377348e-16,1e-06,True,
+3,"audio_wavlm,video,fuse-audio-video",gain_K5 の R²（全組）と fixc_analysis/decomp_share.csv の差の最大,2.220446049250313e-16,1e-06,True,
+3,"audio_wavlm,video,fuse-audio-video",kstar_naive_nonIEMOCAP の R²（全組）と fixc_analysis/decomp_share.csv の差の最大,5.551115123125783e-17,1e-06,True,
+3,"audio_wavlm,video,fuse-audio-video,text_roberta,fuse-audio-text,fuse-video-text,fuse-audio-video-text",gain_K1 の R²（全組）と text30/decomp_share.csv の差の最大,2.220446049250313e-16,1e-06,True,
+3,"audio_wavlm,video,fuse-audio-video,text_roberta,fuse-audio-text,fuse-video-text,fuse-audio-video-text",gain_K5 の R²（全組）と text30/decomp_share.csv の差の最大,4.440892098500626e-16,1e-06,True,
+3,"audio_wavlm,video,fuse-audio-video",kstar_naive_nonIEMOCAP の R²（全組）と text30/decomp_share.csv の差の最大,5.551115123125783e-17,1e-06,True,
+4,audio_wavlm,cv_map の得の平均と交差検証の地図の summary/pairs.csv の差の最大,9.71445146547012e-17,1e-09,True,252 行
+4,audio_hubert,cv_map の得の平均と交差検証の地図の summary/pairs.csv の差の最大,9.71445146547012e-17,1e-09,True,252 行
+4,video,cv_map の得の平均と交差検証の地図の summary/pairs.csv の差の最大,9.8879238130678e-17,1e-09,True,180 行
+4,fuse-audio-video,cv_map の得の平均と交差検証の地図の summary/pairs.csv の差の最大,9.71445146547012e-17,1e-09,True,180 行
+4,text_roberta,cv_map の得の平均と交差検証の地図の summary/pairs.csv の差の最大,9.71445146547012e-17,1e-09,True,72 行
+4,fuse-audio-text,cv_map の得の平均と交差検証の地図の summary/pairs.csv の差の最大,9.71445146547012e-17,1e-09,True,72 行
+4,fuse-video-text,cv_map の得の平均と交差検証の地図の summary/pairs.csv の差の最大,9.71445146547012e-17,1e-09,True,72 行
+4,fuse-audio-video-text,cv_map の得の平均と交差検証の地図の summary/pairs.csv の差の最大,9.71445146547012e-17,1e-09,True,72 行
+5,all,今の順序の位置の分・向きの分と e29_pairs.csv の差の最大,3.552713678800501e-15,1e-06,True,528 行
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 MOSEI←IEMOCAP-impro,9.367506770274758e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 MOSEI←IEMOCAP-impro,5.551115123125783e-17,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 MELD←IEMOCAP-impro,6.071532165918825e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 MELD←IEMOCAP-impro,0.0,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 AFEW←IEMOCAP-impro,8.326672684688674e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 AFEW←IEMOCAP-impro,0.0,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 RAVDESS←IEMOCAP-impro,9.324138683375338e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 RAVDESS←IEMOCAP-impro,0.0,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 CREMA-D←IEMOCAP-impro,8.326672684688674e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 CREMA-D←IEMOCAP-impro,5.551115123125783e-17,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 MOSEI←IEMOCAP-script,9.71445146547012e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 MOSEI←IEMOCAP-script,5.551115123125783e-17,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 MELD←IEMOCAP-script,9.020562075079397e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 MELD←IEMOCAP-script,0.0,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 AFEW←IEMOCAP-script,6.591949208711867e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 AFEW←IEMOCAP-script,0.0,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 RAVDESS←IEMOCAP-script,8.326672684688674e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 RAVDESS←IEMOCAP-script,5.551115123125783e-17,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 CREMA-D←IEMOCAP-script,9.020562075079397e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 CREMA-D←IEMOCAP-script,0.0,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 IEMOCAP-impro←MOSEI,9.877081791342945e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-impro←MOSEI,5.551115123125783e-17,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 IEMOCAP-script←MOSEI,7.45931094670027e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-script←MOSEI,5.551115123125783e-17,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 MELD←MOSEI,4.85722573273506e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 MELD←MOSEI,0.0,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 AFEW←MOSEI,7.470152968425126e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 AFEW←MOSEI,0.0,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 RAVDESS←MOSEI,8.912141857830846e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 RAVDESS←MOSEI,0.0,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 CREMA-D←MOSEI,9.71445146547012e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 CREMA-D←MOSEI,0.0,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 IEMOCAP-impro←MELD,9.71445146547012e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-impro←MELD,0.0,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 IEMOCAP-script←MELD,9.627715291671279e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-script←MELD,0.0,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 MOSEI←MELD,9.535558107010011e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 MOSEI←MELD,0.0,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 AFEW←MELD,4.0657581468206416e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 AFEW←MELD,0.0,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 RAVDESS←MELD,5.551115123125783e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 RAVDESS←MELD,0.0,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 CREMA-D←MELD,8.933825901280557e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 CREMA-D←MELD,5.551115123125783e-17,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 IEMOCAP-impro←AFEW,6.938893903907228e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-impro←AFEW,0.0,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 IEMOCAP-script←AFEW,9.974659986866641e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-script←AFEW,5.551115123125783e-17,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 MOSEI←AFEW,8.326672684688674e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 MOSEI←AFEW,0.0,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 MELD←AFEW,3.5128150388530344e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 MELD←AFEW,0.0,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 RAVDESS←AFEW,8.326672684688674e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 RAVDESS←AFEW,5.551115123125783e-17,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 CREMA-D←AFEW,8.326672684688674e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 CREMA-D←AFEW,5.551115123125783e-17,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 IEMOCAP-impro←RAVDESS,6.938893903907228e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-impro←RAVDESS,5.551115123125783e-17,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 IEMOCAP-script←RAVDESS,5.551115123125783e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-script←RAVDESS,5.551115123125783e-17,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 MOSEI←RAVDESS,9.367506770274758e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 MOSEI←RAVDESS,0.0,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 MELD←RAVDESS,8.326672684688674e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 MELD←RAVDESS,0.0,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 AFEW←RAVDESS,7.979727989493313e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 AFEW←RAVDESS,0.0,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 CREMA-D←RAVDESS,9.71445146547012e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 CREMA-D←RAVDESS,5.551115123125783e-17,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 IEMOCAP-impro←CREMA-D,9.020562075079397e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-impro←CREMA-D,0.0,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 IEMOCAP-script←CREMA-D,4.163336342344337e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-script←CREMA-D,5.551115123125783e-17,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 MOSEI←CREMA-D,5.963111948670274e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 MOSEI←CREMA-D,0.0,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 MELD←CREMA-D,8.673617379884035e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 MELD←CREMA-D,5.551115123125783e-17,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 AFEW←CREMA-D,9.367506770274758e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 AFEW←CREMA-D,0.0,1e-06,True,
+6,audio_wavlm,位置の損（対ごと）と e13_pairs の差 RAVDESS←CREMA-D,8.857931749206571e-17,1e-06,True,
+6,audio_wavlm,ソースのみの UAR と labeling.csv の uar_t の差 RAVDESS←CREMA-D,0.0,1e-06,True,
+6,audio_wavlm,shift のソースのみの C（labeling.csv）と E25 のソースのみの C が違う組の数,0.0,0.0,True,40 組
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 MOSEI←IEMOCAP-impro,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 MOSEI←IEMOCAP-impro,5.551115123125783e-17,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 MELD←IEMOCAP-impro,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 MELD←IEMOCAP-impro,0.0,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 AFEW←IEMOCAP-impro,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 AFEW←IEMOCAP-impro,5.551115123125783e-17,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 RAVDESS←IEMOCAP-impro,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 RAVDESS←IEMOCAP-impro,0.0,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 CREMA-D←IEMOCAP-impro,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 CREMA-D←IEMOCAP-impro,5.551115123125783e-17,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 MOSEI←IEMOCAP-script,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 MOSEI←IEMOCAP-script,0.0,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 MELD←IEMOCAP-script,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 MELD←IEMOCAP-script,5.551115123125783e-17,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 AFEW←IEMOCAP-script,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 AFEW←IEMOCAP-script,0.0,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 RAVDESS←IEMOCAP-script,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 RAVDESS←IEMOCAP-script,0.0,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 CREMA-D←IEMOCAP-script,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 CREMA-D←IEMOCAP-script,0.0,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 IEMOCAP-impro←MOSEI,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-impro←MOSEI,0.0,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 IEMOCAP-script←MOSEI,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-script←MOSEI,5.551115123125783e-17,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 MELD←MOSEI,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 MELD←MOSEI,5.551115123125783e-17,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 AFEW←MOSEI,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 AFEW←MOSEI,5.551115123125783e-17,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 RAVDESS←MOSEI,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 RAVDESS←MOSEI,5.551115123125783e-17,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 CREMA-D←MOSEI,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 CREMA-D←MOSEI,5.551115123125783e-17,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 IEMOCAP-impro←MELD,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-impro←MELD,0.0,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 IEMOCAP-script←MELD,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-script←MELD,0.0,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 MOSEI←MELD,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 MOSEI←MELD,5.551115123125783e-17,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 AFEW←MELD,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 AFEW←MELD,0.0,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 RAVDESS←MELD,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 RAVDESS←MELD,5.551115123125783e-17,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 CREMA-D←MELD,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 CREMA-D←MELD,5.551115123125783e-17,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 IEMOCAP-impro←AFEW,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-impro←AFEW,0.0,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 IEMOCAP-script←AFEW,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-script←AFEW,5.551115123125783e-17,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 MOSEI←AFEW,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 MOSEI←AFEW,5.551115123125783e-17,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 MELD←AFEW,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 MELD←AFEW,0.0,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 RAVDESS←AFEW,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 RAVDESS←AFEW,0.0,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 CREMA-D←AFEW,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 CREMA-D←AFEW,0.0,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 IEMOCAP-impro←RAVDESS,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-impro←RAVDESS,5.551115123125783e-17,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 IEMOCAP-script←RAVDESS,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-script←RAVDESS,5.551115123125783e-17,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 MOSEI←RAVDESS,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 MOSEI←RAVDESS,5.551115123125783e-17,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 MELD←RAVDESS,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 MELD←RAVDESS,5.551115123125783e-17,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 AFEW←RAVDESS,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 AFEW←RAVDESS,5.551115123125783e-17,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 CREMA-D←RAVDESS,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 CREMA-D←RAVDESS,5.551115123125783e-17,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 IEMOCAP-impro←CREMA-D,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-impro←CREMA-D,0.0,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 IEMOCAP-script←CREMA-D,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-script←CREMA-D,0.0,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 MOSEI←CREMA-D,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 MOSEI←CREMA-D,0.0,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 MELD←CREMA-D,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 MELD←CREMA-D,0.0,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 AFEW←CREMA-D,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 AFEW←CREMA-D,5.551115123125783e-17,1e-06,True,
+6,audio_hubert,位置の損（対ごと）と e13_pairs の差 RAVDESS←CREMA-D,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+6,audio_hubert,ソースのみの UAR と labeling.csv の uar_t の差 RAVDESS←CREMA-D,0.0,1e-06,True,
+6,audio_hubert,shift のソースのみの C（labeling.csv）と E25 のソースのみの C が違う組の数,0.0,0.0,True,40 組
+6,video,位置の損（対ごと）と e13_pairs の差 MOSEI←IEMOCAP-impro,8.673617379884035e-17,1e-06,True,
+6,video,ソースのみの UAR と labeling.csv の uar_t の差 MOSEI←IEMOCAP-impro,5.551115123125783e-17,1e-06,True,
+6,video,位置の損（対ごと）と e13_pairs の差 MELD←IEMOCAP-impro,9.280770596475918e-17,1e-06,True,
+6,video,ソースのみの UAR と labeling.csv の uar_t の差 MELD←IEMOCAP-impro,5.551115123125783e-17,1e-06,True,
+6,video,位置の損（対ごと）と e13_pairs の差 AFEW←IEMOCAP-impro,7.806255641895632e-17,1e-06,True,
+6,video,ソースのみの UAR と labeling.csv の uar_t の差 AFEW←IEMOCAP-impro,0.0,1e-06,True,
+6,video,位置の損（対ごと）と e13_pairs の差 CREMA-D←IEMOCAP-impro,9.020562075079397e-17,1e-06,True,
+6,video,ソースのみの UAR と labeling.csv の uar_t の差 CREMA-D←IEMOCAP-impro,5.551115123125783e-17,1e-06,True,
+6,video,位置の損（対ごと）と e13_pairs の差 MOSEI←IEMOCAP-script,7.632783294297951e-17,1e-06,True,
+6,video,ソースのみの UAR と labeling.csv の uar_t の差 MOSEI←IEMOCAP-script,5.551115123125783e-17,1e-06,True,
+6,video,位置の損（対ごと）と e13_pairs の差 MELD←IEMOCAP-script,8.630249292984615e-17,1e-06,True,
+6,video,ソースのみの UAR と labeling.csv の uar_t の差 MELD←IEMOCAP-script,0.0,1e-06,True,
+6,video,位置の損（対ごと）と e13_pairs の差 AFEW←IEMOCAP-script,9.8879238130678e-17,1e-06,True,
+6,video,ソースのみの UAR と labeling.csv の uar_t の差 AFEW←IEMOCAP-script,0.0,1e-06,True,
+6,video,位置の損（対ごと）と e13_pairs の差 CREMA-D←IEMOCAP-script,9.71445146547012e-17,1e-06,True,
+6,video,ソースのみの UAR と labeling.csv の uar_t の差 CREMA-D←IEMOCAP-script,0.0,1e-06,True,
+6,video,位置の損（対ごと）と e13_pairs の差 IEMOCAP-impro←MOSEI,9.71445146547012e-17,1e-06,True,
+6,video,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-impro←MOSEI,5.551115123125783e-17,1e-06,True,
+6,video,位置の損（対ごと）と e13_pairs の差 IEMOCAP-script←MOSEI,7.28583859910259e-17,1e-06,True,
+6,video,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-script←MOSEI,5.551115123125783e-17,1e-06,True,
+6,video,位置の損（対ごと）と e13_pairs の差 MELD←MOSEI,8.847089727481716e-17,1e-06,True,
+6,video,ソースのみの UAR と labeling.csv の uar_t の差 MELD←MOSEI,5.551115123125783e-17,1e-06,True,
+6,video,位置の損（対ごと）と e13_pairs の差 AFEW←MOSEI,9.020562075079397e-17,1e-06,True,
+6,video,ソースのみの UAR と labeling.csv の uar_t の差 AFEW←MOSEI,0.0,1e-06,True,
+6,video,位置の損（対ごと）と e13_pairs の差 CREMA-D←MOSEI,8.803721640582296e-17,1e-06,True,
+6,video,ソースのみの UAR と labeling.csv の uar_t の差 CREMA-D←MOSEI,0.0,1e-06,True,
+6,video,位置の損（対ごと）と e13_pairs の差 IEMOCAP-impro←MELD,8.673617379884035e-17,1e-06,True,
+6,video,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-impro←MELD,5.551115123125783e-17,1e-06,True,
+6,video,位置の損（対ごと）と e13_pairs の差 IEMOCAP-script←MELD,8.326672684688674e-17,1e-06,True,
+6,video,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-script←MELD,0.0,1e-06,True,
+6,video,位置の損（対ごと）と e13_pairs の差 MOSEI←MELD,8.933825901280557e-17,1e-06,True,
+6,video,ソースのみの UAR と labeling.csv の uar_t の差 MOSEI←MELD,0.0,1e-06,True,
+6,video,位置の損（対ごと）と e13_pairs の差 AFEW←MELD,7.28583859910259e-17,1e-06,True,
+6,video,ソースのみの UAR と labeling.csv の uar_t の差 AFEW←MELD,0.0,1e-06,True,
+6,video,位置の損（対ごと）と e13_pairs の差 CREMA-D←MELD,8.500145032286355e-17,1e-06,True,
+6,video,ソースのみの UAR と labeling.csv の uar_t の差 CREMA-D←MELD,5.551115123125783e-17,1e-06,True,
+6,video,位置の損（対ごと）と e13_pairs の差 IEMOCAP-impro←AFEW,8.500145032286355e-17,1e-06,True,
+6,video,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-impro←AFEW,5.551115123125783e-17,1e-06,True,
+6,video,位置の損（対ごと）と e13_pairs の差 IEMOCAP-script←AFEW,9.020562075079397e-17,1e-06,True,
+6,video,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-script←AFEW,5.551115123125783e-17,1e-06,True,
+6,video,位置の損（対ごと）と e13_pairs の差 MOSEI←AFEW,9.8879238130678e-17,1e-06,True,
+6,video,ソースのみの UAR と labeling.csv の uar_t の差 MOSEI←AFEW,5.551115123125783e-17,1e-06,True,
+6,video,位置の損（対ごと）と e13_pairs の差 MELD←AFEW,8.391724815037804e-17,1e-06,True,
+6,video,ソースのみの UAR と labeling.csv の uar_t の差 MELD←AFEW,5.551115123125783e-17,1e-06,True,
+6,video,位置の損（対ごと）と e13_pairs の差 CREMA-D←AFEW,8.977193988179977e-17,1e-06,True,
+6,video,ソースのみの UAR と labeling.csv の uar_t の差 CREMA-D←AFEW,0.0,1e-06,True,
+6,video,位置の損（対ごと）と e13_pairs の差 IEMOCAP-impro←CREMA-D,5.811323644522304e-17,1e-06,True,
+6,video,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-impro←CREMA-D,0.0,1e-06,True,
+6,video,位置の損（対ごと）と e13_pairs の差 IEMOCAP-script←CREMA-D,9.367506770274758e-17,1e-06,True,
+6,video,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-script←CREMA-D,5.551115123125783e-17,1e-06,True,
+6,video,位置の損（対ごと）と e13_pairs の差 MOSEI←CREMA-D,8.59772322781005e-17,1e-06,True,
+6,video,ソースのみの UAR と labeling.csv の uar_t の差 MOSEI←CREMA-D,0.0,1e-06,True,
+6,video,位置の損（対ごと）と e13_pairs の差 MELD←CREMA-D,9.020562075079397e-17,1e-06,True,
+6,video,ソースのみの UAR と labeling.csv の uar_t の差 MELD←CREMA-D,0.0,1e-06,True,
+6,video,位置の損（対ごと）と e13_pairs の差 AFEW←CREMA-D,7.632783294297951e-17,1e-06,True,
+6,video,ソースのみの UAR と labeling.csv の uar_t の差 AFEW←CREMA-D,0.0,1e-06,True,
+6,video,shift のソースのみの C（labeling.csv）と E25 のソースのみの C が違う組の数,0.0,0.0,True,28 組
+6,fuse-audio-video,位置の損（対ごと）と e13_pairs の差 MOSEI←IEMOCAP-impro,9.020562075079397e-17,1e-06,True,
+6,fuse-audio-video,ソースのみの UAR と labeling.csv の uar_t の差 MOSEI←IEMOCAP-impro,5.551115123125783e-17,1e-06,True,
+6,fuse-audio-video,位置の損（対ごと）と e13_pairs の差 MELD←IEMOCAP-impro,9.478637492954523e-17,1e-06,True,
+6,fuse-audio-video,ソースのみの UAR と labeling.csv の uar_t の差 MELD←IEMOCAP-impro,0.0,1e-06,True,
+6,fuse-audio-video,位置の損（対ごと）と e13_pairs の差 AFEW←IEMOCAP-impro,4.85722573273506e-17,1e-06,True,
+6,fuse-audio-video,ソースのみの UAR と labeling.csv の uar_t の差 AFEW←IEMOCAP-impro,0.0,1e-06,True,
+6,fuse-audio-video,位置の損（対ごと）と e13_pairs の差 CREMA-D←IEMOCAP-impro,8.500145032286355e-17,1e-06,True,
+6,fuse-audio-video,ソースのみの UAR と labeling.csv の uar_t の差 CREMA-D←IEMOCAP-impro,0.0,1e-06,True,
+6,fuse-audio-video,位置の損（対ごと）と e13_pairs の差 MOSEI←IEMOCAP-script,8.001412032943023e-17,1e-06,True,
+6,fuse-audio-video,ソースのみの UAR と labeling.csv の uar_t の差 MOSEI←IEMOCAP-script,0.0,1e-06,True,
+6,fuse-audio-video,位置の損（対ごと）と e13_pairs の差 MELD←IEMOCAP-script,7.979727989493313e-17,1e-06,True,
+6,fuse-audio-video,ソースのみの UAR と labeling.csv の uar_t の差 MELD←IEMOCAP-script,0.0,1e-06,True,
+6,fuse-audio-video,位置の損（対ごと）と e13_pairs の差 AFEW←IEMOCAP-script,9.194034422677078e-17,1e-06,True,
+6,fuse-audio-video,ソースのみの UAR と labeling.csv の uar_t の差 AFEW←IEMOCAP-script,0.0,1e-06,True,
+6,fuse-audio-video,位置の損（対ごと）と e13_pairs の差 CREMA-D←IEMOCAP-script,8.413408858487514e-17,1e-06,True,
+6,fuse-audio-video,ソースのみの UAR と labeling.csv の uar_t の差 CREMA-D←IEMOCAP-script,0.0,1e-06,True,
+6,fuse-audio-video,位置の損（対ごと）と e13_pairs の差 IEMOCAP-impro←MOSEI,8.326672684688674e-17,1e-06,True,
+6,fuse-audio-video,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-impro←MOSEI,0.0,1e-06,True,
+6,fuse-audio-video,位置の損（対ごと）と e13_pairs の差 IEMOCAP-script←MOSEI,7.41594285980085e-17,1e-06,True,
+6,fuse-audio-video,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-script←MOSEI,5.551115123125783e-17,1e-06,True,
+6,fuse-audio-video,位置の損（対ごと）と e13_pairs の差 MELD←MOSEI,8.749511531958021e-17,1e-06,True,
+6,fuse-audio-video,ソースのみの UAR と labeling.csv の uar_t の差 MELD←MOSEI,0.0,1e-06,True,
+6,fuse-audio-video,位置の損（対ごと）と e13_pairs の差 AFEW←MOSEI,4.5102810375396984e-17,1e-06,True,
+6,fuse-audio-video,ソースのみの UAR と labeling.csv の uar_t の差 AFEW←MOSEI,0.0,1e-06,True,
+6,fuse-audio-video,位置の損（対ごと）と e13_pairs の差 CREMA-D←MOSEI,9.86623976961809e-17,1e-06,True,
+6,fuse-audio-video,ソースのみの UAR と labeling.csv の uar_t の差 CREMA-D←MOSEI,0.0,1e-06,True,
+6,fuse-audio-video,位置の損（対ごと）と e13_pairs の差 IEMOCAP-impro←MELD,8.933825901280557e-17,1e-06,True,
+6,fuse-audio-video,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-impro←MELD,0.0,1e-06,True,
+6,fuse-audio-video,位置の損（対ごと）と e13_pairs の差 IEMOCAP-script←MELD,6.938893903907228e-17,1e-06,True,
+6,fuse-audio-video,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-script←MELD,0.0,1e-06,True,
+6,fuse-audio-video,位置の損（対ごと）と e13_pairs の差 MOSEI←MELD,9.71445146547012e-17,1e-06,True,
+6,fuse-audio-video,ソースのみの UAR と labeling.csv の uar_t の差 MOSEI←MELD,0.0,1e-06,True,
+6,fuse-audio-video,位置の損（対ごと）と e13_pairs の差 AFEW←MELD,7.81167665275806e-17,1e-06,True,
+6,fuse-audio-video,ソースのみの UAR と labeling.csv の uar_t の差 AFEW←MELD,0.0,1e-06,True,
+6,fuse-audio-video,位置の損（対ごと）と e13_pairs の差 CREMA-D←MELD,8.326672684688674e-17,1e-06,True,
+6,fuse-audio-video,ソースのみの UAR と labeling.csv の uar_t の差 CREMA-D←MELD,0.0,1e-06,True,
+6,fuse-audio-video,位置の損（対ごと）と e13_pairs の差 IEMOCAP-impro←AFEW,8.326672684688674e-17,1e-06,True,
+6,fuse-audio-video,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-impro←AFEW,0.0,1e-06,True,
+6,fuse-audio-video,位置の損（対ごと）と e13_pairs の差 IEMOCAP-script←AFEW,8.326672684688674e-17,1e-06,True,
+6,fuse-audio-video,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-script←AFEW,0.0,1e-06,True,
+6,fuse-audio-video,位置の損（対ごと）と e13_pairs の差 MOSEI←AFEW,7.632783294297951e-17,1e-06,True,
+6,fuse-audio-video,ソースのみの UAR と labeling.csv の uar_t の差 MOSEI←AFEW,0.0,1e-06,True,
+6,fuse-audio-video,位置の損（対ごと）と e13_pairs の差 MELD←AFEW,9.183192400952223e-17,1e-06,True,
+6,fuse-audio-video,ソースのみの UAR と labeling.csv の uar_t の差 MELD←AFEW,0.0,1e-06,True,
+6,fuse-audio-video,位置の損（対ごと）と e13_pairs の差 CREMA-D←AFEW,9.367506770274758e-17,1e-06,True,
+6,fuse-audio-video,ソースのみの UAR と labeling.csv の uar_t の差 CREMA-D←AFEW,0.0,1e-06,True,
+6,fuse-audio-video,位置の損（対ごと）と e13_pairs の差 IEMOCAP-impro←CREMA-D,6.245004513516506e-17,1e-06,True,
+6,fuse-audio-video,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-impro←CREMA-D,0.0,1e-06,True,
+6,fuse-audio-video,位置の損（対ごと）と e13_pairs の差 IEMOCAP-script←CREMA-D,7.806255641895632e-17,1e-06,True,
+6,fuse-audio-video,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-script←CREMA-D,0.0,1e-06,True,
+6,fuse-audio-video,位置の損（対ごと）と e13_pairs の差 MOSEI←CREMA-D,8.586881206085195e-17,1e-06,True,
+6,fuse-audio-video,ソースのみの UAR と labeling.csv の uar_t の差 MOSEI←CREMA-D,0.0,1e-06,True,
+6,fuse-audio-video,位置の損（対ごと）と e13_pairs の差 MELD←CREMA-D,8.326672684688674e-17,1e-06,True,
+6,fuse-audio-video,ソースのみの UAR と labeling.csv の uar_t の差 MELD←CREMA-D,0.0,1e-06,True,
+6,fuse-audio-video,位置の損（対ごと）と e13_pairs の差 AFEW←CREMA-D,5.551115123125783e-17,1e-06,True,
+6,fuse-audio-video,ソースのみの UAR と labeling.csv の uar_t の差 AFEW←CREMA-D,0.0,1e-06,True,
+6,fuse-audio-video,shift のソースのみの C（labeling.csv）と E25 のソースのみの C が違う組の数,0.0,0.0,True,28 組
+6,text_roberta,位置の損（対ごと）と e13_pairs の差 MOSEI←IEMOCAP-impro,8.847089727481716e-17,1e-06,True,
+6,text_roberta,ソースのみの UAR と labeling.csv の uar_t の差 MOSEI←IEMOCAP-impro,0.0,1e-06,True,
+6,text_roberta,位置の損（対ごと）と e13_pairs の差 MELD←IEMOCAP-impro,9.020562075079397e-17,1e-06,True,
+6,text_roberta,ソースのみの UAR と labeling.csv の uar_t の差 MELD←IEMOCAP-impro,0.0,1e-06,True,
+6,text_roberta,位置の損（対ごと）と e13_pairs の差 MOSEI←IEMOCAP-script,9.627715291671279e-17,1e-06,True,
+6,text_roberta,ソースのみの UAR と labeling.csv の uar_t の差 MOSEI←IEMOCAP-script,0.0,1e-06,True,
+6,text_roberta,位置の損（対ごと）と e13_pairs の差 MELD←IEMOCAP-script,9.80118763926896e-17,1e-06,True,
+6,text_roberta,ソースのみの UAR と labeling.csv の uar_t の差 MELD←IEMOCAP-script,0.0,1e-06,True,
+6,text_roberta,位置の損（対ごと）と e13_pairs の差 IEMOCAP-impro←MOSEI,3.2959746043559335e-17,1e-06,True,
+6,text_roberta,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-impro←MOSEI,0.0,1e-06,True,
+6,text_roberta,位置の損（対ごと）と e13_pairs の差 IEMOCAP-script←MOSEI,8.500145032286355e-17,1e-06,True,
+6,text_roberta,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-script←MOSEI,5.551115123125783e-17,1e-06,True,
+6,text_roberta,位置の損（対ごと）と e13_pairs の差 MELD←MOSEI,9.020562075079397e-17,1e-06,True,
+6,text_roberta,ソースのみの UAR と labeling.csv の uar_t の差 MELD←MOSEI,0.0,1e-06,True,
+6,text_roberta,位置の損（対ごと）と e13_pairs の差 IEMOCAP-impro←MELD,8.933825901280557e-17,1e-06,True,
+6,text_roberta,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-impro←MELD,0.0,1e-06,True,
+6,text_roberta,位置の損（対ごと）と e13_pairs の差 IEMOCAP-script←MELD,8.586881206085195e-17,1e-06,True,
+6,text_roberta,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-script←MELD,5.551115123125783e-17,1e-06,True,
+6,text_roberta,位置の損（対ごと）と e13_pairs の差 MOSEI←MELD,9.80118763926896e-17,1e-06,True,
+6,text_roberta,ソースのみの UAR と labeling.csv の uar_t の差 MOSEI←MELD,0.0,1e-06,True,
+6,text_roberta,shift のソースのみの C（labeling.csv）と E25 のソースのみの C が違う組の数,0.0,0.0,True,10 組
+6,fuse-audio-text,位置の損（対ごと）と e13_pairs の差 MOSEI←IEMOCAP-impro,9.540979117872439e-17,1e-06,True,
+6,fuse-audio-text,ソースのみの UAR と labeling.csv の uar_t の差 MOSEI←IEMOCAP-impro,0.0,1e-06,True,
+6,fuse-audio-text,位置の損（対ごと）と e13_pairs の差 MELD←IEMOCAP-impro,7.632783294297951e-17,1e-06,True,
+6,fuse-audio-text,ソースのみの UAR と labeling.csv の uar_t の差 MELD←IEMOCAP-impro,0.0,1e-06,True,
+6,fuse-audio-text,位置の損（対ごと）と e13_pairs の差 MOSEI←IEMOCAP-script,9.020562075079397e-17,1e-06,True,
+6,fuse-audio-text,ソースのみの UAR と labeling.csv の uar_t の差 MOSEI←IEMOCAP-script,5.551115123125783e-17,1e-06,True,
+6,fuse-audio-text,位置の損（対ごと）と e13_pairs の差 MELD←IEMOCAP-script,8.478460988836645e-17,1e-06,True,
+6,fuse-audio-text,ソースのみの UAR と labeling.csv の uar_t の差 MELD←IEMOCAP-script,0.0,1e-06,True,
+6,fuse-audio-text,位置の損（対ごと）と e13_pairs の差 IEMOCAP-impro←MOSEI,8.500145032286355e-17,1e-06,True,
+6,fuse-audio-text,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-impro←MOSEI,0.0,1e-06,True,
+6,fuse-audio-text,位置の損（対ごと）と e13_pairs の差 IEMOCAP-script←MOSEI,9.020562075079397e-17,1e-06,True,
+6,fuse-audio-text,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-script←MOSEI,0.0,1e-06,True,
+6,fuse-audio-text,位置の損（対ごと）と e13_pairs の差 MELD←MOSEI,8.847089727481716e-17,1e-06,True,
+6,fuse-audio-text,ソースのみの UAR と labeling.csv の uar_t の差 MELD←MOSEI,0.0,1e-06,True,
+6,fuse-audio-text,位置の損（対ごと）と e13_pairs の差 IEMOCAP-impro←MELD,9.367506770274758e-17,1e-06,True,
+6,fuse-audio-text,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-impro←MELD,0.0,1e-06,True,
+6,fuse-audio-text,位置の損（対ごと）と e13_pairs の差 IEMOCAP-script←MELD,9.71445146547012e-17,1e-06,True,
+6,fuse-audio-text,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-script←MELD,5.551115123125783e-17,1e-06,True,
+6,fuse-audio-text,位置の損（対ごと）と e13_pairs の差 MOSEI←MELD,9.367506770274758e-17,1e-06,True,
+6,fuse-audio-text,ソースのみの UAR と labeling.csv の uar_t の差 MOSEI←MELD,0.0,1e-06,True,
+6,fuse-audio-text,shift のソースのみの C（labeling.csv）と E25 のソースのみの C が違う組の数,0.0,0.0,True,10 組
+6,fuse-video-text,位置の損（対ごと）と e13_pairs の差 MOSEI←IEMOCAP-impro,7.632783294297951e-17,1e-06,True,
+6,fuse-video-text,ソースのみの UAR と labeling.csv の uar_t の差 MOSEI←IEMOCAP-impro,0.0,1e-06,True,
+6,fuse-video-text,位置の損（対ごと）と e13_pairs の差 MELD←IEMOCAP-impro,9.497611030973019e-17,1e-06,True,
+6,fuse-video-text,ソースのみの UAR と labeling.csv の uar_t の差 MELD←IEMOCAP-impro,0.0,1e-06,True,
+6,fuse-video-text,位置の損（対ごと）と e13_pairs の差 MOSEI←IEMOCAP-script,7.865886761382335e-17,1e-06,True,
+6,fuse-video-text,ソースのみの UAR と labeling.csv の uar_t の差 MOSEI←IEMOCAP-script,5.551115123125783e-17,1e-06,True,
+6,fuse-video-text,位置の損（対ごと）と e13_pairs の差 MELD←IEMOCAP-script,7.806255641895632e-17,1e-06,True,
+6,fuse-video-text,ソースのみの UAR と labeling.csv の uar_t の差 MELD←IEMOCAP-script,0.0,1e-06,True,
+6,fuse-video-text,位置の損（対ごと）と e13_pairs の差 IEMOCAP-impro←MOSEI,9.367506770274758e-17,1e-06,True,
+6,fuse-video-text,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-impro←MOSEI,5.551115123125783e-17,1e-06,True,
+6,fuse-video-text,位置の損（対ごと）と e13_pairs の差 IEMOCAP-script←MOSEI,9.020562075079397e-17,1e-06,True,
+6,fuse-video-text,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-script←MOSEI,5.551115123125783e-17,1e-06,True,
+6,fuse-video-text,位置の損（対ごと）と e13_pairs の差 MELD←MOSEI,5.551115123125783e-17,1e-06,True,
+6,fuse-video-text,ソースのみの UAR と labeling.csv の uar_t の差 MELD←MOSEI,5.551115123125783e-17,1e-06,True,
+6,fuse-video-text,位置の損（対ごと）と e13_pairs の差 IEMOCAP-impro←MELD,6.938893903907228e-17,1e-06,True,
+6,fuse-video-text,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-impro←MELD,5.551115123125783e-17,1e-06,True,
+6,fuse-video-text,位置の損（対ごと）と e13_pairs の差 IEMOCAP-script←MELD,9.86623976961809e-17,1e-06,True,
+6,fuse-video-text,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-script←MELD,0.0,1e-06,True,
+6,fuse-video-text,位置の損（対ごと）と e13_pairs の差 MOSEI←MELD,9.367506770274758e-17,1e-06,True,
+6,fuse-video-text,ソースのみの UAR と labeling.csv の uar_t の差 MOSEI←MELD,5.551115123125783e-17,1e-06,True,
+6,fuse-video-text,shift のソースのみの C（labeling.csv）と E25 のソースのみの C が違う組の数,0.0,0.0,True,10 組
+6,fuse-audio-video-text,位置の損（対ごと）と e13_pairs の差 MOSEI←IEMOCAP-impro,8.044780119842443e-17,1e-06,True,
+6,fuse-audio-video-text,ソースのみの UAR と labeling.csv の uar_t の差 MOSEI←IEMOCAP-impro,5.551115123125783e-17,1e-06,True,
+6,fuse-audio-video-text,位置の損（対ごと）と e13_pairs の差 MELD←IEMOCAP-impro,7.979727989493313e-17,1e-06,True,
+6,fuse-audio-video-text,ソースのみの UAR と labeling.csv の uar_t の差 MELD←IEMOCAP-impro,0.0,1e-06,True,
+6,fuse-audio-video-text,位置の損（対ごと）と e13_pairs の差 MOSEI←IEMOCAP-script,9.606031248221569e-17,1e-06,True,
+6,fuse-audio-video-text,ソースのみの UAR と labeling.csv の uar_t の差 MOSEI←IEMOCAP-script,5.551115123125783e-17,1e-06,True,
+6,fuse-audio-video-text,位置の損（対ごと）と e13_pairs の差 MELD←IEMOCAP-script,9.367506770274758e-17,1e-06,True,
+6,fuse-audio-video-text,ソースのみの UAR と labeling.csv の uar_t の差 MELD←IEMOCAP-script,0.0,1e-06,True,
+6,fuse-audio-video-text,位置の損（対ごと）と e13_pairs の差 IEMOCAP-impro←MOSEI,9.71445146547012e-17,1e-06,True,
+6,fuse-audio-video-text,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-impro←MOSEI,0.0,1e-06,True,
+6,fuse-audio-video-text,位置の損（対ごと）と e13_pairs の差 IEMOCAP-script←MOSEI,7.134050294954619e-17,1e-06,True,
+6,fuse-audio-video-text,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-script←MOSEI,0.0,1e-06,True,
+6,fuse-audio-video-text,位置の損（対ごと）と e13_pairs の差 MELD←MOSEI,7.28583859910259e-17,1e-06,True,
+6,fuse-audio-video-text,ソースのみの UAR と labeling.csv の uar_t の差 MELD←MOSEI,0.0,1e-06,True,
+6,fuse-audio-video-text,位置の損（対ごと）と e13_pairs の差 IEMOCAP-impro←MELD,9.367506770274758e-17,1e-06,True,
+6,fuse-audio-video-text,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-impro←MELD,0.0,1e-06,True,
+6,fuse-audio-video-text,位置の損（対ごと）と e13_pairs の差 IEMOCAP-script←MELD,8.42425088021237e-17,1e-06,True,
+6,fuse-audio-video-text,ソースのみの UAR と labeling.csv の uar_t の差 IEMOCAP-script←MELD,5.551115123125783e-17,1e-06,True,
+6,fuse-audio-video-text,位置の損（対ごと）と e13_pairs の差 MOSEI←MELD,8.413408858487514e-17,1e-06,True,
+6,fuse-audio-video-text,ソースのみの UAR と labeling.csv の uar_t の差 MOSEI←MELD,5.551115123125783e-17,1e-06,True,
+6,fuse-audio-video-text,shift のソースのみの C（labeling.csv）と E25 のソースのみの C が違う組の数,0.0,0.0,True,10 組
+7,audio_hubert,ターゲットのみの d の平均と e28t9_targets.csv の dT_K の差の最大,4.440892098500626e-16,1e-09,True,21 行
+7,audio_wavlm,ターゲットのみの d の平均と e28t9_targets.csv の dT_K の差の最大,4.440892098500626e-16,1e-09,True,21 行
+7,fuse-audio-video,ターゲットのみの d の平均と e28t9_targets.csv の dT_K の差の最大,4.440892098500626e-16,1e-09,True,18 行
+7,video,ターゲットのみの d の平均と e28t9_targets.csv の dT_K の差の最大,4.440892098500626e-16,1e-09,True,18 行
+8,audio_wavlm,Δ の 2 つの半分の平均と保存済みの own_d の差 IEMOCAP-impro,1.4654943925052066e-14,1e-06,True,
+8,audio_wavlm,Δ の 2 つの半分の平均と保存済みの own_d の差 IEMOCAP-script,1.9095836023552692e-14,1e-06,True,
+8,audio_wavlm,Δ の 2 つの半分の平均と保存済みの own_d の差 MOSEI,1.4432899320127035e-15,1e-06,True,
+8,audio_wavlm,Δ の 2 つの半分の平均と保存済みの own_d の差 MELD,5.773159728050814e-15,1e-06,True,
+8,audio_wavlm,Δ の 2 つの半分の平均と保存済みの own_d の差 AFEW,4.551914400963142e-15,1e-06,True,
+8,audio_wavlm,Δ の 2 つの半分の平均と保存済みの own_d の差 RAVDESS,1.6431300764452317e-14,1e-06,True,
+8,audio_wavlm,Δ の 2 つの半分の平均と own_separation の差 RAVDESS,0.0,1e-08,True,
+8,audio_wavlm,縮小の強さと LedoitWolf.fit の shrinkage_ の差 RAVDESS,0.0,1e-12,True,
+8,audio_wavlm,Δ の 2 つの半分の平均と保存済みの own_d の差 CREMA-D,2.220446049250313e-14,1e-06,True,
+8,audio_hubert,Δ の 2 つの半分の平均と保存済みの own_d の差 IEMOCAP-impro,2.220446049250313e-16,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+8,audio_hubert,Δ の 2 つの半分の平均と保存済みの own_d の差 IEMOCAP-script,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+8,audio_hubert,Δ の 2 つの半分の平均と保存済みの own_d の差 MOSEI,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+8,audio_hubert,Δ の 2 つの半分の平均と保存済みの own_d の差 MELD,1.1102230246251565e-16,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+8,audio_hubert,Δ の 2 つの半分の平均と保存済みの own_d の差 AFEW,2.220446049250313e-16,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+8,audio_hubert,Δ の 2 つの半分の平均と保存済みの own_d の差 RAVDESS,0.0,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+8,audio_hubert,Δ の 2 つの半分の平均と own_separation の差 RAVDESS,0.0,1e-08,True,
+8,audio_hubert,縮小の強さと LedoitWolf.fit の shrinkage_ の差 RAVDESS,0.0,1e-12,True,
+8,audio_hubert,Δ の 2 つの半分の平均と保存済みの own_d の差 CREMA-D,4.440892098500626e-16,1e-06,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+8,video,Δ の 2 つの半分の平均と保存済みの own_d の差 IEMOCAP-impro,3.347322419244847e-14,1e-06,True,
+8,video,Δ の 2 つの半分の平均と保存済みの own_d の差 IEMOCAP-script,7.271960811294775e-14,1e-06,True,
+8,video,Δ の 2 つの半分の平均と保存済みの own_d の差 MOSEI,1.1324274851176597e-14,1e-06,True,
+8,video,Δ の 2 つの半分の平均と保存済みの own_d の差 MELD,4.6074255521944e-15,1e-06,True,
+8,video,Δ の 2 つの半分の平均と保存済みの own_d の差 AFEW,3.9968028886505635e-15,1e-06,True,
+8,video,Δ の 2 つの半分の平均と own_separation の差 AFEW,0.0,1e-08,True,
+8,video,縮小の強さと LedoitWolf.fit の shrinkage_ の差 AFEW,0.0,1e-12,True,
+8,video,Δ の 2 つの半分の平均と保存済みの own_d の差 CREMA-D,4.3520742565306136e-14,1e-06,True,
+8,fuse-audio-video,Δ の 2 つの半分の平均と保存済みの own_d の差 IEMOCAP-impro,2.6201263381153694e-14,1e-06,True,
+8,fuse-audio-video,Δ の 2 つの半分の平均と保存済みの own_d の差 IEMOCAP-script,1.887379141862766e-14,1e-06,True,
+8,fuse-audio-video,Δ の 2 つの半分の平均と保存済みの own_d の差 MOSEI,1.3322676295501878e-15,1e-06,True,
+8,fuse-audio-video,Δ の 2 つの半分の平均と保存済みの own_d の差 MELD,7.771561172376096e-15,1e-06,True,
+8,fuse-audio-video,Δ の 2 つの半分の平均と保存済みの own_d の差 AFEW,4.440892098500626e-15,1e-06,True,
+8,fuse-audio-video,Δ の 2 つの半分の平均と own_separation の差 AFEW,0.0,1e-08,True,
+8,fuse-audio-video,縮小の強さと LedoitWolf.fit の shrinkage_ の差 AFEW,0.0,1e-12,True,
+8,fuse-audio-video,Δ の 2 つの半分の平均と保存済みの own_d の差 CREMA-D,5.46229728115577e-14,1e-06,True,
+8,text_roberta,Δ の 2 つの半分の平均と保存済みの own_d の差 IEMOCAP-impro,2.6645352591003757e-15,1e-06,True,
+8,text_roberta,Δ の 2 つの半分の平均と保存済みの own_d の差 IEMOCAP-script,1.3322676295501878e-15,1e-06,True,
+8,text_roberta,Δ の 2 つの半分の平均と own_separation の差 IEMOCAP-script,0.0,1e-08,True,
+8,text_roberta,縮小の強さと LedoitWolf.fit の shrinkage_ の差 IEMOCAP-script,0.0,1e-12,True,
+8,text_roberta,Δ の 2 つの半分の平均と保存済みの own_d の差 MOSEI,5.551115123125783e-16,1e-06,True,
+8,text_roberta,Δ の 2 つの半分の平均と保存済みの own_d の差 MELD,8.881784197001252e-16,1e-06,True,
+8,fuse-audio-text,Δ の 2 つの半分の平均と保存済みの own_d の差 IEMOCAP-impro,1.5987211554602254e-14,1e-06,True,
+8,fuse-audio-text,Δ の 2 つの半分の平均と保存済みの own_d の差 IEMOCAP-script,9.325873406851315e-15,1e-06,True,
+8,fuse-audio-text,Δ の 2 つの半分の平均と own_separation の差 IEMOCAP-script,0.0,1e-08,True,
+8,fuse-audio-text,縮小の強さと LedoitWolf.fit の shrinkage_ の差 IEMOCAP-script,0.0,1e-12,True,
+8,fuse-audio-text,Δ の 2 つの半分の平均と保存済みの own_d の差 MOSEI,1.9984014443252818e-15,1e-06,True,
+8,fuse-audio-text,Δ の 2 つの半分の平均と保存済みの own_d の差 MELD,2.6645352591003757e-15,1e-06,True,
+8,fuse-video-text,Δ の 2 つの半分の平均と保存済みの own_d の差 IEMOCAP-impro,2.6645352591003757e-15,1e-06,True,
+8,fuse-video-text,Δ の 2 つの半分の平均と保存済みの own_d の差 IEMOCAP-script,2.220446049250313e-15,1e-06,True,
+8,fuse-video-text,Δ の 2 つの半分の平均と own_separation の差 IEMOCAP-script,0.0,1e-08,True,
+8,fuse-video-text,縮小の強さと LedoitWolf.fit の shrinkage_ の差 IEMOCAP-script,0.0,1e-12,True,
+8,fuse-video-text,Δ の 2 つの半分の平均と保存済みの own_d の差 MOSEI,5.10702591327572e-15,1e-06,True,
+8,fuse-video-text,Δ の 2 つの半分の平均と保存済みの own_d の差 MELD,3.3306690738754696e-15,1e-06,True,
+8,fuse-audio-video-text,Δ の 2 つの半分の平均と保存済みの own_d の差 IEMOCAP-impro,2.708944180085382e-14,1e-06,True,
+8,fuse-audio-video-text,Δ の 2 つの半分の平均と保存済みの own_d の差 IEMOCAP-script,1.4654943925052066e-14,1e-06,True,
+8,fuse-audio-video-text,Δ の 2 つの半分の平均と own_separation の差 IEMOCAP-script,0.0,1e-08,True,
+8,fuse-audio-video-text,縮小の強さと LedoitWolf.fit の shrinkage_ の差 IEMOCAP-script,0.0,1e-12,True,
+8,fuse-audio-video-text,Δ の 2 つの半分の平均と保存済みの own_d の差 MOSEI,1.5543122344752192e-15,1e-06,True,
+8,fuse-audio-video-text,Δ の 2 つの半分の平均と保存済みの own_d の差 MELD,4.440892098500626e-15,1e-06,True,
+8,all,P29-3（8 種類，今の順序，E29 と同じ扱い）と e29_tests.csv の差,0.0,1e-09,True,n = 176
+8,audio_wavlm,損に占める o の割合の中央値（E29 と同じ扱い）と e29_pairs.csv の差,0.0,1e-09,True,
+8,audio_hubert,損に占める o の割合の中央値（E29 と同じ扱い）と e29_pairs.csv の差,1.8596235662471372e-15,1e-09,True,
+8,video,損に占める o の割合の中央値（E29 と同じ扱い）と e29_pairs.csv の差,5.551115123125783e-17,1e-09,True,
+8,fuse-audio-video,損に占める o の割合の中央値（E29 と同じ扱い）と e29_pairs.csv の差,5.551115123125783e-17,1e-09,True,
+8,text_roberta,損に占める o の割合の中央値（E29 と同じ扱い）と e29_pairs.csv の差,1.249000902703301e-16,1e-09,True,
+8,fuse-audio-text,損に占める o の割合の中央値（E29 と同じ扱い）と e29_pairs.csv の差,5.551115123125783e-17,1e-09,True,
+8,fuse-video-text,損に占める o の割合の中央値（E29 と同じ扱い）と e29_pairs.csv の差,3.3306690738754696e-16,1e-09,True,
+8,fuse-audio-video-text,損に占める o の割合の中央値（E29 と同じ扱い）と e29_pairs.csv の差,2.7755575615628914e-16,1e-09,True,
+10,audio_wavlm,α の分 + C の選び方の分 + 学び直しの違いの分 と wt − m の差の最大,1.7763568394002505e-15,1e-09,True,
+10,audio_wavlm,E12 の gain_wt・gain_nat（K=25．e12_state.json の反復）と e12_wt.csv の差の最大,2.7755575615628914e-17,1e-09,True,42 組，126 行
+10,audio_wavlm,E12 の gain_wt・gain_nat（K=5．e12_state.json の反復）と e12_wt.csv の差の最大,9.71445146547012e-17,1e-09,True,42 組，126 行
+10,audio_wavlm,E12 の gain_wt・gain_nat（K=all．e12_state.json の反復）と e12_wt.csv の差の最大,4.85722573273506e-17,1e-09,True,42 組，126 行
+10,audio_hubert,α の分 + C の選び方の分 + 学び直しの違いの分 と wt − m の差の最大,3.552713678800501e-15,1e-09,True,
+10,audio_hubert,E12 の gain_wt・gain_nat（K=25．e12_state.json の反復）と e12_wt.csv の差の最大,5.551115123125783e-17,1e-09,True,42 組，90 行
+10,audio_hubert,E12 の gain_wt・gain_nat（K=5．e12_state.json の反復）と e12_wt.csv の差の最大,7.632783294297951e-17,1e-09,True,42 組，90 行
+10,audio_hubert,E12 の gain_wt・gain_nat（K=all．e12_state.json の反復）と e12_wt.csv の差の最大,6.678685382510707e-17,1e-09,True,42 組，90 行
+10,video,α の分 + C の選び方の分 + 学び直しの違いの分 と wt − m の差の最大,8.881784197001252e-16,1e-09,True,
+10,video,E12 の gain_wt・gain_nat（K=25．e12_state.json の反復）と e12_wt.csv の差の最大,9.194034422677078e-17,1e-09,True,30 組，90 行
+10,video,E12 の gain_wt・gain_nat（K=5．e12_state.json の反復）と e12_wt.csv の差の最大,9.367506770274758e-17,1e-09,True,30 組，90 行
+10,video,E12 の gain_wt・gain_nat（K=all．e12_state.json の反復）と e12_wt.csv の差の最大,8.673617379884035e-17,1e-09,True,30 組，90 行
+11,audio_wavlm,格子の当てはめ（まとめて解く版）と q_fit の差 AFEW,0.0,0.0,True,
+11,audio_wavlm,q_dir と e28t9_targets.csv の差 AFEW,0.0,1e-09,True,
+11,audio_wavlm,格子の当てはめ（まとめて解く版）と q_fit の差 CREMA-D,0.0,0.0,True,
+11,audio_wavlm,q_dir と e28t9_targets.csv の差 CREMA-D,3.552713678800501e-15,1e-09,True,
+11,audio_wavlm,格子の当てはめ（まとめて解く版）と q_fit の差 IEMOCAP-impro,0.0,0.0,True,
+11,audio_wavlm,q_dir と e28t9_targets.csv の差 IEMOCAP-impro,0.0,1e-09,True,
+11,audio_wavlm,格子の当てはめ（まとめて解く版）と q_fit の差 IEMOCAP-script,0.0,0.0,True,
+11,audio_wavlm,q_dir と e28t9_targets.csv の差 IEMOCAP-script,0.0,1e-09,True,
+11,audio_wavlm,格子の当てはめ（まとめて解く版）と q_fit の差 MELD,0.0,0.0,True,
+11,audio_wavlm,q_dir と e28t9_targets.csv の差 MELD,0.0,1e-09,True,
+11,audio_wavlm,格子の当てはめ（まとめて解く版）と q_fit の差 MOSEI,0.0,0.0,True,
+11,audio_wavlm,q_dir と e28t9_targets.csv の差 MOSEI,0.0,1e-09,True,
+11,audio_wavlm,格子の当てはめ（まとめて解く版）と q_fit の差 RAVDESS,0.0,0.0,True,
+11,audio_wavlm,q_dir と e28t9_targets.csv の差 RAVDESS,0.0,1e-09,True,
+11,audio_hubert,格子の当てはめ（まとめて解く版）と q_fit の差 AFEW,0.0,0.0,True,
+11,audio_hubert,q_dir と e28t9_targets.csv の差 AFEW,0.0,1e-09,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+11,audio_hubert,格子の当てはめ（まとめて解く版）と q_fit の差 CREMA-D,0.0,0.0,True,
+11,audio_hubert,q_dir と e28t9_targets.csv の差 CREMA-D,0.0,1e-09,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+11,audio_hubert,格子の当てはめ（まとめて解く版）と q_fit の差 IEMOCAP-impro,0.0,0.0,True,
+11,audio_hubert,q_dir と e28t9_targets.csv の差 IEMOCAP-impro,0.0,1e-09,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+11,audio_hubert,格子の当てはめ（まとめて解く版）と q_fit の差 IEMOCAP-script,0.0,0.0,True,
+11,audio_hubert,q_dir と e28t9_targets.csv の差 IEMOCAP-script,3.552713678800501e-15,1e-09,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+11,audio_hubert,格子の当てはめ（まとめて解く版）と q_fit の差 MELD,0.0,0.0,True,
+11,audio_hubert,q_dir と e28t9_targets.csv の差 MELD,0.0,1e-09,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+11,audio_hubert,格子の当てはめ（まとめて解く版）と q_fit の差 MOSEI,0.0,0.0,True,
+11,audio_hubert,q_dir と e28t9_targets.csv の差 MOSEI,0.0,1e-09,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+11,audio_hubert,格子の当てはめ（まとめて解く版）と q_fit の差 RAVDESS,0.0,0.0,True,
+11,audio_hubert,q_dir と e28t9_targets.csv の差 RAVDESS,1.7763568394002505e-15,1e-09,True,同じ計算どうし（HuBERT の E13 は台本の中で作る）
+11,video,格子の当てはめ（まとめて解く版）と q_fit の差 AFEW,0.0,0.0,True,
+11,video,q_dir と e28t9_targets.csv の差 AFEW,0.0,1e-09,True,
+11,video,格子の当てはめ（まとめて解く版）と q_fit の差 CREMA-D,0.0,0.0,True,
+11,video,q_dir と e28t9_targets.csv の差 CREMA-D,0.0,1e-09,True,
+11,video,格子の当てはめ（まとめて解く版）と q_fit の差 IEMOCAP-impro,0.0,0.0,True,
+11,video,q_dir と e28t9_targets.csv の差 IEMOCAP-impro,0.0,1e-09,True,
+11,video,格子の当てはめ（まとめて解く版）と q_fit の差 IEMOCAP-script,0.0,0.0,True,
+11,video,q_dir と e28t9_targets.csv の差 IEMOCAP-script,2.220446049250313e-16,1e-09,True,
+11,video,格子の当てはめ（まとめて解く版）と q_fit の差 MELD,0.0,0.0,True,
+11,video,q_dir と e28t9_targets.csv の差 MELD,0.0,1e-09,True,
+11,video,格子の当てはめ（まとめて解く版）と q_fit の差 MOSEI,0.0,0.0,True,
+11,video,q_dir と e28t9_targets.csv の差 MOSEI,0.0,1e-09,True,
+11,fuse-audio-video,格子の当てはめ（まとめて解く版）と q_fit の差 AFEW,0.0,0.0,True,
+11,fuse-audio-video,q_dir と e28t9_targets.csv の差 AFEW,0.0,1e-09,True,
+11,fuse-audio-video,格子の当てはめ（まとめて解く版）と q_fit の差 CREMA-D,0.0,0.0,True,
+11,fuse-audio-video,q_dir と e28t9_targets.csv の差 CREMA-D,0.0,1e-09,True,
+11,fuse-audio-video,格子の当てはめ（まとめて解く版）と q_fit の差 IEMOCAP-impro,0.0,0.0,True,
+11,fuse-audio-video,q_dir と e28t9_targets.csv の差 IEMOCAP-impro,4.440892098500626e-16,1e-09,True,
+11,fuse-audio-video,格子の当てはめ（まとめて解く版）と q_fit の差 IEMOCAP-script,0.0,0.0,True,
+11,fuse-audio-video,q_dir と e28t9_targets.csv の差 IEMOCAP-script,0.0,1e-09,True,
+11,fuse-audio-video,格子の当てはめ（まとめて解く版）と q_fit の差 MELD,0.0,0.0,True,
+11,fuse-audio-video,q_dir と e28t9_targets.csv の差 MELD,0.0,1e-09,True,
+11,fuse-audio-video,格子の当てはめ（まとめて解く版）と q_fit の差 MOSEI,0.0,0.0,True,
+11,fuse-audio-video,q_dir と e28t9_targets.csv の差 MOSEI,0.0,1e-09,True,
+12,audio_hubert,全反復から作り直した λ_obs と e15b_pairs.csv の lam_obs の差の最大,1.830599675733957e-07,1e-05,True,120 行
+12,audio_wavlm,全反復から作り直した λ_obs と e15b_pairs.csv の lam_obs の差の最大,1.895440283755656e-07,1e-05,True,120 行
+12,fuse-audio-video,全反復から作り直した λ_obs と e15b_pairs.csv の lam_obs の差の最大,1.3742437521280237e-07,1e-05,True,84 行
+12,video,全反復から作り直した λ_obs と e15b_pairs.csv の lam_obs の差の最大,1.9099339627903777e-07,1e-05,True,84 行
+12,audio_wavlm,K をまとめた順位相関と e15b_tests.csv の差（同じコーパスの組を含む）,0.0,1e-09,True,
+12,audio_hubert,K をまとめた順位相関と e15b_tests.csv の差（同じコーパスの組を含む）,0.0,1e-09,True,
+12,video,K をまとめた順位相関と e15b_tests.csv の差（同じコーパスの組を含む）,0.0,1e-09,True,
+12,fuse-audio-video,K をまとめた順位相関と e15b_tests.csv の差（同じコーパスの組を含む）,0.0,1e-09,True,
+12,fuse-audio-text,全反復から作り直した λ_obs と e15b_pairs.csv の lam_obs の差の最大,1.9397700028178644e-07,1e-05,True,30 行
+12,fuse-audio-video-text,全反復から作り直した λ_obs と e15b_pairs.csv の lam_obs の差の最大,1.6310628647708825e-07,1e-05,True,30 行
+12,fuse-video-text,全反復から作り直した λ_obs と e15b_pairs.csv の lam_obs の差の最大,1.0190281846123028e-07,1e-05,True,30 行
+12,text_roberta,全反復から作り直した λ_obs と e15b_pairs.csv の lam_obs の差の最大,2.125763879021192e-07,1e-05,True,30 行
+13,audio_wavlm,e と e28t9_pairs.csv の e の差の最大,1.6653345369377348e-16,1e-09,True,40 組．
+13,audio_hubert,e と e28t9_pairs.csv の e の差の最大,8.548717289613705e-15,1e-09,True,40 組．同じ計算どうし（HuBERT の E13 は台本の中で作る）
+13,video,e と e28t9_pairs.csv の e の差の最大,3.3306690738754696e-16,1e-09,True,28 組．
+13,fuse-audio-video,e と e28t9_pairs.csv の e の差の最大,2.220446049250313e-16,1e-09,True,28 組．

@@ -1,0 +1,5 @@
+T,c,corpus,n_fam3_cells,n_fam3_descriptive,n_fam3_pos_sig_tested,n_fam3_pos_sig_all,a_ok,n_xmuda9_cells,n_above9,n_below9,b_ok,c_ok,n_above9_rep,n_below9_rep,fam3_source,corpus_sentence,mode,commit,dirty
+AFEW,ALL,AFEW,12,12,0,0,False,9,3,0,False,True,3,0,/home/snics/MER-DA-eval-ba98974/results/dai1/stats/families.csv,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,12,12,0,0,False,9,3,0,False,True,3,0,/home/snics/MER-DA-eval-ba98974/results/dai1/stats/families.csv,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,12,9,0,0,False,9,3,0,False,True,3,0,/home/snics/MER-DA-eval-ba98974/results/dai1/stats/families.csv,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,12,12,0,1,False,9,7,0,True,True,7,0,/home/snics/MER-DA-eval-ba98974/results/dai1/stats/families.csv,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False

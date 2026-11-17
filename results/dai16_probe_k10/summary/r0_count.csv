@@ -1,0 +1,9 @@
+K,fam,source,n_corpora,n_hit,n_hit_noAFEW,hit3,hit2_noAFEW,n_hit_rank,n_hit_rank_noAFEW,hit3_rank,hit2_rank_noAFEW,corpora,corpora_rank
+10,M,K,4,1,1,False,False,1,1,False,False,MOSEI,MOSEI
+10,M,away,4,2,2,False,True,2,2,False,True,"IEMOCAP,MOSEI","IEMOCAP,MOSEI"
+10,M,ext,4,3,2,True,True,1,1,False,False,"AFEW,IEMOCAP,MOSEI",MOSEI
+10,M,home,4,4,3,True,True,2,2,False,True,"AFEW,IEMOCAP,MELD,MOSEI","IEMOCAP,MOSEI"
+10,S,K,4,3,2,True,True,1,1,False,False,"AFEW,IEMOCAP,MELD",IEMOCAP
+10,S,away,4,1,1,False,False,0,0,False,False,MOSEI,
+10,S,ext,4,4,3,True,True,0,0,False,False,"AFEW,IEMOCAP,MELD,MOSEI",
+10,S,home,4,3,2,True,True,1,1,False,False,"AFEW,IEMOCAP,MOSEI",MOSEI

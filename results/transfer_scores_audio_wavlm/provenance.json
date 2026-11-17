@@ -1,0 +1,32 @@
+{
+ "script": "exp/transfer_scores.py",
+ "argv": [
+  "--kind",
+  "audio_wavlm"
+ ],
+ "commit": "110065f6bf721fc028afd450f37b71d169b30058",
+ "dirty": false,
+ "started": "2026-10-10T17:50:35+0900",
+ "map_dir": "results/fixc_map/audio_wavlm",
+ "K": [
+  "1",
+  "5",
+  "10"
+ ],
+ "reps": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "solver": {
+  "tol": 1e-06,
+  "device": "cuda"
+ }
+}

@@ -1,0 +1,10 @@
+# {"script": "exp/reanalysis_e75.py", "started": "2026-11-01T06:19:09+0900", "commit": "c452b3808b5106039b1d4a625a937e19f003e9c0", "dirty": true, "script_status": "", "script_sha256": "5a03b5ccd4ed4dbc236edcf6da72d3b7759787db855875a93c2e75ed9f3c6d0f", "argv": [], "seed": 0, "file": "e75_8_delta_halves_summary.csv"}
+kind,median_abs_diff_halves,max_abs_diff_halves,n_delta_le_min
+audio_hubert,0.0872649091684986,0.6706743350340614,0
+audio_wavlm,0.10311433275225812,1.048910485047692,0
+fuse-audio-text,0.03898380518539407,0.619988307921886,0
+fuse-audio-video,0.1480965892000941,0.450445772048536,0
+fuse-audio-video-text,0.07619514648925818,0.29331032158915904,0
+fuse-video-text,0.09103699964982043,0.7017648810614985,0
+text_roberta,0.07307603172901622,0.5824404416470899,0
+video,0.10195271261560226,0.6107625971183773,2

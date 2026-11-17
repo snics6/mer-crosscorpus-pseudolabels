@@ -1,0 +1,50 @@
+  text_roberta IEMOCAP-impro：済み（テストの組 5 通り）
+  text_roberta IEMOCAP-script：済み（テストの組 7 通り）
+  text_roberta MOSEI：済み（テストの組 30 通り）
+  text_roberta MELD：済み（テストの組 25 通り）
+  fuse-audio-text IEMOCAP-impro：済み（テストの組 5 通り）
+  fuse-audio-text IEMOCAP-script：済み（テストの組 7 通り）
+  fuse-audio-text MOSEI：済み（テストの組 30 通り）
+  fuse-audio-text MELD：済み（テストの組 25 通り）
+  fuse-video-text IEMOCAP-impro：済み（テストの組 5 通り）
+  fuse-video-text IEMOCAP-script：済み（テストの組 7 通り）
+  fuse-video-text MOSEI：済み（テストの組 30 通り）
+  fuse-video-text MELD：済み（テストの組 25 通り）
+  fuse-audio-video-text IEMOCAP-impro：済み（テストの組 5 通り）
+  fuse-audio-video-text IEMOCAP-script：済み（テストの組 7 通り）
+  fuse-audio-video-text MOSEI：済み（テストの組 30 通り）
+  fuse-audio-video-text MELD：済み（テストの組 25 通り）
+ map                  kind  iemocap  n_pairs  frac_same  n_clusters_min
+fixc       fuse-audio-text    False        6      1.000              25
+fixc       fuse-audio-text     True        6      0.667               5
+fixc fuse-audio-video-text    False        6      0.833              25
+fixc fuse-audio-video-text     True        6      0.667               5
+fixc       fuse-video-text    False        6      1.000              25
+fixc       fuse-video-text     True        6      0.667               5
+fixc          text_roberta    False        6      1.000              25
+fixc          text_roberta     True        6      0.667               5
+                 kind         target         source  n_clusters K_star_naive K_star_cluster
+         text_roberta  IEMOCAP-impro IEMOCAP-script           5            5              5
+         text_roberta  IEMOCAP-impro           MELD           5           10              5
+         text_roberta  IEMOCAP-impro          MOSEI           5            1              1
+         text_roberta IEMOCAP-script  IEMOCAP-impro           7           10              5
+         text_roberta IEMOCAP-script           MELD           7           10             10
+         text_roberta IEMOCAP-script          MOSEI           7            5              5
+      fuse-audio-text  IEMOCAP-impro IEMOCAP-script           5            5              5
+      fuse-audio-text  IEMOCAP-impro           MELD           5            1              1
+      fuse-audio-text  IEMOCAP-impro          MOSEI           5            1              1
+      fuse-audio-text IEMOCAP-script  IEMOCAP-impro           7           25             10
+      fuse-audio-text IEMOCAP-script           MELD           7           10              5
+      fuse-audio-text IEMOCAP-script          MOSEI           7            1              1
+      fuse-video-text  IEMOCAP-impro IEMOCAP-script           5            5              5
+      fuse-video-text  IEMOCAP-impro           MELD           5            5              1
+      fuse-video-text  IEMOCAP-impro          MOSEI           5            5              1
+      fuse-video-text IEMOCAP-script  IEMOCAP-impro           7           10             10
+      fuse-video-text IEMOCAP-script           MELD           7           10             10
+      fuse-video-text IEMOCAP-script          MOSEI           7            5              5
+fuse-audio-video-text  IEMOCAP-impro IEMOCAP-script           5            5              1
+fuse-audio-video-text  IEMOCAP-impro           MELD           5            1              1
+fuse-audio-video-text  IEMOCAP-impro          MOSEI           5            1              1
+fuse-audio-video-text IEMOCAP-script  IEMOCAP-impro           7           10             10
+fuse-audio-video-text IEMOCAP-script           MELD           7           10             10
+fuse-audio-video-text IEMOCAP-script          MOSEI           7            5              1

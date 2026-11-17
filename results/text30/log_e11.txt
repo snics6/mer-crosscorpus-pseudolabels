@@ -1,0 +1,1 @@
+書いた: results/text30/explore_relation（反復 audio_wavlm 30, video 30, text_roberta 30, fuse-audio-video 30, fuse-audio-text 30, fuse-video-text 30, fuse-audio-video-text 30）

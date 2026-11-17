@@ -1,0 +1,32 @@
+{
+ "script": "exp/transfer_scores.py",
+ "argv": [
+  "--kind",
+  "fuse-audio-video"
+ ],
+ "commit": "c400ed3ca557a5fde33a3bbec25b792e63f50702",
+ "dirty": true,
+ "started": "2026-10-10T18:00:16+0900",
+ "map_dir": "results/fixc_map/fuse-audio-video",
+ "K": [
+  "1",
+  "5",
+  "10"
+ ],
+ "reps": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "solver": {
+  "tol": 1e-06,
+  "device": "cuda"
+ }
+}

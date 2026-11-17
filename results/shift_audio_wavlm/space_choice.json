@@ -1,0 +1,25 @@
+{
+ "kind": "audio_wavlm",
+ "rule": "researchvision.md 6.5.1 共通の決まり 6",
+ "pad_saturated": 1.9,
+ "raw": {
+  "pairs": 42,
+  "unsaturated": 14,
+  "zero_pad_median": 0.01,
+  "pad_median": 1.9773333333333332
+ },
+ "pca64": {
+  "pairs": 42,
+  "unsaturated": 20,
+  "zero_pad_median": 0.0136666666666666,
+  "pad_median": 1.9813333333333332
+ },
+ "logit": {
+  "pairs": 42,
+  "unsaturated": 42,
+  "zero_pad_median": 0.02799999999999995,
+  "pad_median": 0.7096666666666667
+ },
+ "choice": "logit",
+ "decided": "2026-09-30T16:07:26+0900"
+}

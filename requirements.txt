@@ -1,0 +1,43 @@
+# 本研究で使う唯一の Python 環境
+#
+# **版はすべて固定する．**前身では環境が 2 つあり，scikit-learn の版違いで
+# 反復解法の結果が最大 0.0067 ずれた．**版を書かないライブラリを残さない**
+# （2026-09-21 まで numpy・pandas・scikit-learn が無指定のままだった）．
+#
+# **Python 3.12.3**（WSL2 Ubuntu 24.04 の既定）．GPU は RTX A5000 24GB・CUDA 12.6．
+# 版が違うと反復解法の丸めが変わりうるので，論文にはこの組を書く。
+#
+# 作り方:
+#   python3.12 -m venv .venv
+#   ./.venv/bin/pip install -U pip
+#   ./.venv/bin/pip install torch==2.11.0 torchvision==0.26.0 \
+#       --index-url https://download.pytorch.org/whl/cu126
+#   ./.venv/bin/pip install -r requirements.txt
+
+# ---- 深層学習 ----
+torch==2.11.0
+torchvision==0.26.0
+transformers==4.44.0
+peft==0.13.2                 # E63（微調整の確認）の LoRA．2026-10-24 に足した
+accelerate==1.15.0           # peft が要る
+ultralytics==8.3.31          # 顔検出（YOLOv8n-face）
+
+# ---- 数値・表 ----
+numpy==2.5.2
+pandas==3.0.6
+scikit-learn==1.9.1          # **前身で版違いのずれを起こした．必ず固定する**
+scipy==1.18.1
+
+# ---- 媒体の読み込み ----
+opencv-python-headless==5.0.0.93
+h5py==3.16.0                 # MOSEI の感情ラベル（.csd は HDF5）
+
+# ---- トークナイザ ----
+sentencepiece==0.2.2         # DeBERTa-v3 に要る
+protobuf==7.36.2             # 同上
+
+# ---- 作図 ----
+matplotlib==3.11.2
+
+# ---- 可視化 ----
+umap-learn==0.5.9.post2      # 分布の図

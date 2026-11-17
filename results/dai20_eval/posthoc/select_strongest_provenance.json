@@ -1,0 +1,28 @@
+{
+ "script": "tools/dai20_select_strongest.py",
+ "script_sha256": "a3370e598adee28e",
+ "commit": "0ee5d4e85d6a8f65d85cbb7b647eec03100b5ce3",
+ "dirty": false,
+ "targets": [
+  "AFEW",
+  "IEMOCAP",
+  "MOSEI",
+  "MELD"
+ ],
+ "units": 200,
+ "units_commit": "341c62b",
+ "units_sha256_of_names": "c46fc93270e249f2",
+ "inputs": {
+  "results/dai20_eval/summary/effects.csv": "0e252da4fd1ee7d1",
+  "results/dai20_eval/summary/levels.csv": "dd36305e694b5593",
+  "results/dai20_eval/posthoc/strongest_from_k.csv": "b5991f393b8206bb",
+  "exp/dai20_eval.py": "3ee935fa31697b79"
+ },
+ "selfcheck_max_dev": 7.105427357601002e-15,
+ "selfcheck_avg_adj_mismatch": 0,
+ "ret_raw_argmax_float32_ties": 1,
+ "main_contrast": [
+  "prop",
+  "sel_K@adj"
+ ]
+}

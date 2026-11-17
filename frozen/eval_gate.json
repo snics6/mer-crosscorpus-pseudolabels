@@ -1,0 +1,236 @@
+{
+ "_meta": {
+  "rule": "dai1.check_eval_gate（ML の M15，漏れの L8）．評価の回の前に必須のファイルと 7 役の最新の報告の sha256 を固める",
+  "before_reorg": {
+   "required": {
+    "DAI/docs/実験1_設計.md": "2cc54c875f66ce4543c595acbf718ca490636fbf882097b5026a64ab2c90dce4",
+    "DAI/docs/実験2_設計.md": "0cb70c00187aa492c98f8ae3fc7d339afea9a5087e90431c255473a55dd0126e",
+    "DAI/docs/実験3_設計.md": "092ec877208eff16c95c110db7c11cb1f825e219e64b067b02c89f94b892bf0b",
+    "DAI/docs/計画_2026-11-04.tex": "86be4990b41311e55999de1596d23ccf05f59abc327b36bd1a48e8fa4c012bbc",
+    "DAI/frozen/dai2_frozen.json": "988557296267abeec794469579ceaf94ee5b93de7adc0cde00cf1ce171f6a69d",
+    "DAI/frozen/dai3_frozen.json": "22efe108ce44cf244c2e872fd7c6cf50972912793cc76041c24e4824e3a5319a",
+    "DAI/frozen/subsets.csv": "a5e5a59bb23d0b8141c9f0c6491367b8ce4eeae35022122cda8781f66bb49603",
+    "DAI/exp/dai1.py": "54ad8f921cc676b156c4984073b2e787c4ba2a9bc9798b7e5c78c3244cb1796d",
+    "DAI/exp/dai_solver.py": "e26d60fb439325330508c9441cc723a6afcfcd65d394398d525250a32bf6a71f",
+    "DAI/exp/dai_data.py": "f228e73baceb90e57f9f792492534d3c1199327796b3a13cb700eb8ee2dbe937",
+    "DAI/exp/dai1_select.py": "a6cc0454fb517d0a7f94438fbfd92f2d39f54578d0336a971f135d9d3f6c44a4",
+    "DAI/exp/dai1_stats.py": "221d5187864569100a44e6bf283cadf981754f15250a97003ea9a32f0e2ae8b0",
+    "DAI/exp/dai_subsets.py": "9b4c185298ef7ed4b14501c56af455e22f19d40d2938226bfd8d6dc03ff41d62",
+    "DAI/exp/dai2.py": "681f2e599d4a5da73ab1b1c0843b1964dada8b95b258e61f9cd5227a403369e5",
+    "DAI/exp/dai2_grad.py": "9a2cce20fafbf5d99d378d1d778fbba84e62055b790c32a099d2a68572aa6f8a",
+    "DAI/exp/dai2_select.py": "7cbfde8cd02ba69d4d81ed97e87c23adb74ec3d81c4d3c54ae0d4446e2aac81e",
+    "DAI/exp/dai3.py": "2ea7e193393535cccb2742b1383516738ab25b92f37e66f4c37adc9806e2e7bd",
+    "DAI_paper/reviews/comparison-design/proposal_v8.md": "673a3a8124e6f8629956e394cb826b23cf145b2a6db8a1740803e1762854924d",
+    "exp/compare_dai.py": "ae673f9ac4daf9614f047a57aab14701db1cfcc9bd74bc028834bcfd14123fda",
+    "exp/compare_dai2.py": "84af8c1384e5753ee2b43b09ff547e38c8ba0b4fbe10bdcab65828855ccdc07e",
+    "DAI/frozen/dai1_frozen.json": "6926fb3e12638dd946ddfda8a260a33f089a400094ebdefdf37132fa1329dfdc",
+    "DAI/exp/dai2_stats.py": "94a4b92e312b169b4b00498fa371f6796f8f926fc76059e524a18e80e688df21",
+    "DAI/exp/dai1_desc.py": "b7761c805edbd61ae6818cf975ef945d59b66c05069fcd56022f28d5c969c711",
+    "DAI/run/dai_eval.sh": "0a4ff6fc7016e1538860b45f4538ccb1ae494700550c418cf750559c43b1c552",
+    "DAI/run/eval_procedure.md": "f0cbe5134cc56bd8b38b96c663a649ca5df4d3407b19e037705c97b9b7051fa5",
+    "DAI/checks/DAI-1/code_v6.md": "96b60cfa038cd289a91dd9da44dbde8d2d5e9818c8595b679f05379d1eaf79fd",
+    "DAI/checks/DAI-1/compare_v5.md": "8b339bd85ddb3a3f763b90a0a967ec925bf7971a7273fb7ffb535bf9045d823e",
+    "DAI/checks/DAI-1/define_v5.md": "8600e0dc62a2361dae91ed3bdf053f47f3baf05647fbc4c766973b66dd2d944b",
+    "DAI/checks/DAI-1/leak_v5.md": "9665f8365ab6172c26c7bd6b123cb7b43d945231d2268984ae6ee8f9f98845cf",
+    "DAI/checks/DAI-1/review_affect_v4.md": "3deb662b69106446eae9eb59c0d7bfccfa9b8242665784c92633ef6fc836fbfb",
+    "DAI/checks/DAI-1/review_ml_v6.md": "e0ef990c32fd4c07fdc361c5c8ee9ad5882223af11bb73e47689a908780f5b3e",
+    "DAI/checks/DAI-1/stats_v6.md": "c58e806f0a022a58a3b715252d9f44aa88b21a8fa9163d586f2475cc2547f140",
+    "DAI/checks/DAI-2/code_v4.md": "d5766fb2736d75f855725cec1e36dbc6bc57d2f4905a74abcbdc8fab287d5cd9",
+    "DAI/checks/DAI-2_3/compare_v5.md": "ae872d8554dab4ffd8b05fcb9b0d342da8fe392299733cda7182cb7fa0d2a14d",
+    "DAI/checks/DAI-2_3/define_v5.md": "83054a2f70202b893714837a05b4d46355cc0817bc6e0f22c12e4b45c839b06e",
+    "DAI/checks/DAI-2_3/leak_v4.md": "b828c40b1657491512c1f7e56faaac58a73fe3c30b1ece04f09871ee2b06d29e",
+    "DAI/checks/DAI-2_3/review_affect_v6.md": "0995720812e880c31f7116a81fd5123b0be86ca10b1e0aa80949482331fe34fc",
+    "DAI/checks/DAI-2_3/review_ml_v5.md": "a5b6444f6e8fd6064f27e43ed1eb7e4684f049809a7376287c25d830b6cddf93",
+    "DAI/checks/DAI-2_3/stats_v4.md": "8243aefff5db749e8c5619d4dd11a06695dba7448a7c1c3eb404fd5f488254c8",
+    "DAI/checks/DAI-3/code_v2.md": "1b97463fe5d845e2c47b51acccfc77fbae1391ce6f835f0164a5a3e96eca4c96"
+   },
+   "approvals": {
+    "DAI-1": {
+     "review_ml": "DAI/checks/DAI-1/review_ml_v6.md",
+     "review_affect": "DAI/checks/DAI-1/review_affect_v4.md",
+     "stats": "DAI/checks/DAI-1/stats_v6.md",
+     "leak": "DAI/checks/DAI-1/leak_v5.md",
+     "compare": "DAI/checks/DAI-1/compare_v5.md",
+     "define": "DAI/checks/DAI-1/define_v5.md",
+     "code": "DAI/checks/DAI-1/code_v6.md"
+    },
+    "DAI-2": {
+     "review_ml": "DAI/checks/DAI-2_3/review_ml_v5.md",
+     "review_affect": "DAI/checks/DAI-2_3/review_affect_v6.md",
+     "stats": "DAI/checks/DAI-2_3/stats_v4.md",
+     "leak": "DAI/checks/DAI-2_3/leak_v4.md",
+     "compare": "DAI/checks/DAI-2_3/compare_v5.md",
+     "define": "DAI/checks/DAI-2_3/define_v5.md",
+     "code": "DAI/checks/DAI-2/code_v4.md"
+    },
+    "DAI-3": {
+     "review_ml": "DAI/checks/DAI-2_3/review_ml_v5.md",
+     "review_affect": "DAI/checks/DAI-2_3/review_affect_v6.md",
+     "stats": "DAI/checks/DAI-2_3/stats_v4.md",
+     "leak": "DAI/checks/DAI-2_3/leak_v4.md",
+     "compare": "DAI/checks/DAI-2_3/compare_v5.md",
+     "define": "DAI/checks/DAI-2_3/define_v5.md",
+     "code": "DAI/checks/DAI-3/code_v2.md"
+    }
+   }
+  },
+  "changed_after_gate": [
+   {
+    "path": "docs/設計/実験1_設計.md",
+    "old_path": "DAI/docs/実験1_設計.md",
+    "old_sha256": "2cc54c875f66ce4543c595acbf718ca490636fbf882097b5026a64ab2c90dce4",
+    "new_sha256": "8fdf82508e7108e5b3e5d6a440b5cddaebe4a307db1a851b7833142c9f536abe"
+   },
+   {
+    "path": "exp/dai1.py",
+    "old_path": "DAI/exp/dai1.py",
+    "old_sha256": "54ad8f921cc676b156c4984073b2e787c4ba2a9bc9798b7e5c78c3244cb1796d",
+    "new_sha256": "f98cb51c3bcdda5682d9c3c2fda7273c95fca46bcddbd43d9435cc9f68039372"
+   },
+   {
+    "path": "exp/dai_data.py",
+    "old_path": "DAI/exp/dai_data.py",
+    "old_sha256": "f228e73baceb90e57f9f792492534d3c1199327796b3a13cb700eb8ee2dbe937",
+    "new_sha256": "d010447ae89efa1d3b0450f3df06ab0fd55328eeeb0ead9504664cc2af2c05a7"
+   },
+   {
+    "path": "exp/dai1_select.py",
+    "old_path": "DAI/exp/dai1_select.py",
+    "old_sha256": "a6cc0454fb517d0a7f94438fbfd92f2d39f54578d0336a971f135d9d3f6c44a4",
+    "new_sha256": "8723178efce78f524a72f2d860e5b5839890da48a731c2baf632c853013d62b5"
+   },
+   {
+    "path": "exp/dai1_stats.py",
+    "old_path": "DAI/exp/dai1_stats.py",
+    "old_sha256": "221d5187864569100a44e6bf283cadf981754f15250a97003ea9a32f0e2ae8b0",
+    "new_sha256": "939057b04d737183a8e322db061dc15fbda59893b3f6b580f5e0c00a4d8f3181"
+   },
+   {
+    "path": "exp/dai_subsets.py",
+    "old_path": "DAI/exp/dai_subsets.py",
+    "old_sha256": "9b4c185298ef7ed4b14501c56af455e22f19d40d2938226bfd8d6dc03ff41d62",
+    "new_sha256": "aeed83e94a720b45b0981dda76a4a4017c8686f2216bd65f4f421fed2f2fa4c2"
+   },
+   {
+    "path": "exp/dai2.py",
+    "old_path": "DAI/exp/dai2.py",
+    "old_sha256": "681f2e599d4a5da73ab1b1c0843b1964dada8b95b258e61f9cd5227a403369e5",
+    "new_sha256": "4b4f441809f055535760c1aa2fe7f4033ea51a36ac8a963fb6f5363f54833e0f"
+   },
+   {
+    "path": "exp/dai2_grad.py",
+    "old_path": "DAI/exp/dai2_grad.py",
+    "old_sha256": "9a2cce20fafbf5d99d378d1d778fbba84e62055b790c32a099d2a68572aa6f8a",
+    "new_sha256": "b7dd2da915a8acc6118036a4b41b5d34e7a741884326bdb13cc6d3f690fee4e1"
+   },
+   {
+    "path": "exp/dai2_select.py",
+    "old_path": "DAI/exp/dai2_select.py",
+    "old_sha256": "7cbfde8cd02ba69d4d81ed97e87c23adb74ec3d81c4d3c54ae0d4446e2aac81e",
+    "new_sha256": "32eb4a3cd36c38d9f8bb2e1879ab753769df9ac20bc378f8bce9daee031a84f6"
+   },
+   {
+    "path": "exp/dai3.py",
+    "old_path": "DAI/exp/dai3.py",
+    "old_sha256": "2ea7e193393535cccb2742b1383516738ab25b92f37e66f4c37adc9806e2e7bd",
+    "new_sha256": "28d774df7f0629f96521fc4a19470beec677707c3cb7acf11a8da03576a195d2"
+   },
+   {
+    "path": "exp/dai2_stats.py",
+    "old_path": "DAI/exp/dai2_stats.py",
+    "old_sha256": "94a4b92e312b169b4b00498fa371f6796f8f926fc76059e524a18e80e688df21",
+    "new_sha256": "102ef1d492051055706b2c5b009b96bdfdf2a8aeadd14d0fafbe3354f2098a5a"
+   },
+   {
+    "path": "exp/dai1_desc.py",
+    "old_path": "DAI/exp/dai1_desc.py",
+    "old_sha256": "b7761c805edbd61ae6818cf975ef945d59b66c05069fcd56022f28d5c969c711",
+    "new_sha256": "446d5121bc7d968bbad59e2d34f4617a81b07f012710faef842270e5acb1e50a"
+   },
+   {
+    "path": "run/dai_eval.sh",
+    "old_path": "DAI/run/dai_eval.sh",
+    "old_sha256": "0a4ff6fc7016e1538860b45f4538ccb1ae494700550c418cf750559c43b1c552",
+    "new_sha256": "7bc0bf6bfd71ea854d457ce855003637ef547e3db4dcfd9d1b17b2058d69c397"
+   },
+   {
+    "path": "run/eval_procedure.md",
+    "old_path": "DAI/run/eval_procedure.md",
+    "old_sha256": "f0cbe5134cc56bd8b38b96c663a649ca5df4d3407b19e037705c97b9b7051fa5",
+    "new_sha256": "947d92c2ab4f838f1a62ae76c02f677d499ed6e7e992767262132aa425a89360"
+   }
+  ],
+  "reorg_note": "2026-11-15 の DAI の整理で置き場を変えた．鍵は DAI の直下からの相対パス．sha256 は整理の後のファイルで計算し直した．台本の差分は置き場の行だけ（docs/整理の書き換えの記録_2026-11-15.tsv，checks/整理_2026-11-15/）．docs/設計/実験1_設計.md は評価の回の後のコミット 48212d3 で 1 行直してあり，元の sha256 とは違う"
+ },
+ "required": {
+  "docs/設計/実験1_設計.md": "8fdf82508e7108e5b3e5d6a440b5cddaebe4a307db1a851b7833142c9f536abe",
+  "docs/設計/実験2_設計.md": "0cb70c00187aa492c98f8ae3fc7d339afea9a5087e90431c255473a55dd0126e",
+  "docs/設計/実験3_設計.md": "092ec877208eff16c95c110db7c11cb1f825e219e64b067b02c89f94b892bf0b",
+  "docs/計画/計画_2026-11-04.tex": "86be4990b41311e55999de1596d23ccf05f59abc327b36bd1a48e8fa4c012bbc",
+  "frozen/dai2_frozen.json": "988557296267abeec794469579ceaf94ee5b93de7adc0cde00cf1ce171f6a69d",
+  "frozen/dai3_frozen.json": "22efe108ce44cf244c2e872fd7c6cf50972912793cc76041c24e4824e3a5319a",
+  "frozen/subsets.csv": "a5e5a59bb23d0b8141c9f0c6491367b8ce4eeae35022122cda8781f66bb49603",
+  "exp/dai1.py": "f98cb51c3bcdda5682d9c3c2fda7273c95fca46bcddbd43d9435cc9f68039372",
+  "exp/dai_solver.py": "e26d60fb439325330508c9441cc723a6afcfcd65d394398d525250a32bf6a71f",
+  "exp/dai_data.py": "d010447ae89efa1d3b0450f3df06ab0fd55328eeeb0ead9504664cc2af2c05a7",
+  "exp/dai1_select.py": "8723178efce78f524a72f2d860e5b5839890da48a731c2baf632c853013d62b5",
+  "exp/dai1_stats.py": "939057b04d737183a8e322db061dc15fbda59893b3f6b580f5e0c00a4d8f3181",
+  "exp/dai_subsets.py": "aeed83e94a720b45b0981dda76a4a4017c8686f2216bd65f4f421fed2f2fa4c2",
+  "exp/dai2.py": "4b4f441809f055535760c1aa2fe7f4033ea51a36ac8a963fb6f5363f54833e0f",
+  "exp/dai2_grad.py": "b7dd2da915a8acc6118036a4b41b5d34e7a741884326bdb13cc6d3f690fee4e1",
+  "exp/dai2_select.py": "32eb4a3cd36c38d9f8bb2e1879ab753769df9ac20bc378f8bce9daee031a84f6",
+  "exp/dai3.py": "28d774df7f0629f96521fc4a19470beec677707c3cb7acf11a8da03576a195d2",
+  "docs/設計/前半/proposal_v8.md": "673a3a8124e6f8629956e394cb826b23cf145b2a6db8a1740803e1762854924d",
+  "exp/compare_dai.py": "ae673f9ac4daf9614f047a57aab14701db1cfcc9bd74bc028834bcfd14123fda",
+  "exp/compare_dai2.py": "84af8c1384e5753ee2b43b09ff547e38c8ba0b4fbe10bdcab65828855ccdc07e",
+  "frozen/dai1_frozen.json": "6926fb3e12638dd946ddfda8a260a33f089a400094ebdefdf37132fa1329dfdc",
+  "exp/dai2_stats.py": "102ef1d492051055706b2c5b009b96bdfdf2a8aeadd14d0fafbe3354f2098a5a",
+  "exp/dai1_desc.py": "446d5121bc7d968bbad59e2d34f4617a81b07f012710faef842270e5acb1e50a",
+  "run/dai_eval.sh": "7bc0bf6bfd71ea854d457ce855003637ef547e3db4dcfd9d1b17b2058d69c397",
+  "run/eval_procedure.md": "947d92c2ab4f838f1a62ae76c02f677d499ed6e7e992767262132aa425a89360",
+  "checks/DAI-1/code_v6.md": "96b60cfa038cd289a91dd9da44dbde8d2d5e9818c8595b679f05379d1eaf79fd",
+  "checks/DAI-1/compare_v5.md": "8b339bd85ddb3a3f763b90a0a967ec925bf7971a7273fb7ffb535bf9045d823e",
+  "checks/DAI-1/define_v5.md": "8600e0dc62a2361dae91ed3bdf053f47f3baf05647fbc4c766973b66dd2d944b",
+  "checks/DAI-1/leak_v5.md": "9665f8365ab6172c26c7bd6b123cb7b43d945231d2268984ae6ee8f9f98845cf",
+  "checks/DAI-1/review_affect_v4.md": "3deb662b69106446eae9eb59c0d7bfccfa9b8242665784c92633ef6fc836fbfb",
+  "checks/DAI-1/review_ml_v6.md": "e0ef990c32fd4c07fdc361c5c8ee9ad5882223af11bb73e47689a908780f5b3e",
+  "checks/DAI-1/stats_v6.md": "c58e806f0a022a58a3b715252d9f44aa88b21a8fa9163d586f2475cc2547f140",
+  "checks/DAI-2/code_v4.md": "d5766fb2736d75f855725cec1e36dbc6bc57d2f4905a74abcbdc8fab287d5cd9",
+  "checks/DAI-2_3/compare_v5.md": "ae872d8554dab4ffd8b05fcb9b0d342da8fe392299733cda7182cb7fa0d2a14d",
+  "checks/DAI-2_3/define_v5.md": "83054a2f70202b893714837a05b4d46355cc0817bc6e0f22c12e4b45c839b06e",
+  "checks/DAI-2_3/leak_v4.md": "b828c40b1657491512c1f7e56faaac58a73fe3c30b1ece04f09871ee2b06d29e",
+  "checks/DAI-2_3/review_affect_v6.md": "0995720812e880c31f7116a81fd5123b0be86ca10b1e0aa80949482331fe34fc",
+  "checks/DAI-2_3/review_ml_v5.md": "a5b6444f6e8fd6064f27e43ed1eb7e4684f049809a7376287c25d830b6cddf93",
+  "checks/DAI-2_3/stats_v4.md": "8243aefff5db749e8c5619d4dd11a06695dba7448a7c1c3eb404fd5f488254c8",
+  "checks/DAI-3/code_v2.md": "1b97463fe5d845e2c47b51acccfc77fbae1391ce6f835f0164a5a3e96eca4c96"
+ },
+ "approvals": {
+  "DAI-1": {
+   "review_ml": "checks/DAI-1/review_ml_v6.md",
+   "review_affect": "checks/DAI-1/review_affect_v4.md",
+   "stats": "checks/DAI-1/stats_v6.md",
+   "leak": "checks/DAI-1/leak_v5.md",
+   "compare": "checks/DAI-1/compare_v5.md",
+   "define": "checks/DAI-1/define_v5.md",
+   "code": "checks/DAI-1/code_v6.md"
+  },
+  "DAI-2": {
+   "review_ml": "checks/DAI-2_3/review_ml_v5.md",
+   "review_affect": "checks/DAI-2_3/review_affect_v6.md",
+   "stats": "checks/DAI-2_3/stats_v4.md",
+   "leak": "checks/DAI-2_3/leak_v4.md",
+   "compare": "checks/DAI-2_3/compare_v5.md",
+   "define": "checks/DAI-2_3/define_v5.md",
+   "code": "checks/DAI-2/code_v4.md"
+  },
+  "DAI-3": {
+   "review_ml": "checks/DAI-2_3/review_ml_v5.md",
+   "review_affect": "checks/DAI-2_3/review_affect_v6.md",
+   "stats": "checks/DAI-2_3/stats_v4.md",
+   "leak": "checks/DAI-2_3/leak_v4.md",
+   "compare": "checks/DAI-2_3/compare_v5.md",
+   "define": "checks/DAI-2_3/define_v5.md",
+   "code": "checks/DAI-3/code_v2.md"
+  }
+ }
+}

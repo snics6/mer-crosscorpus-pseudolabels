@@ -1,0 +1,25 @@
+{
+ "kind": "fuse-audio-video-text",
+ "rule": "researchvision.md 6.5.1 共通の決まり 6",
+ "pad_saturated": 1.9,
+ "raw": {
+  "pairs": 12,
+  "unsaturated": 2,
+  "zero_pad_median": 0.060833333333333295,
+  "pad_median": 1.9665000000000004
+ },
+ "pca64": {
+  "pairs": 12,
+  "unsaturated": 2,
+  "zero_pad_median": 0.061833333333333296,
+  "pad_median": 1.9658333333333333
+ },
+ "logit": {
+  "pairs": 12,
+  "unsaturated": 12,
+  "zero_pad_median": 0.01516666666666665,
+  "pad_median": 0.3248333333333333
+ },
+ "choice": "logit",
+ "decided": "2026-09-30T17:17:40+0900"
+}

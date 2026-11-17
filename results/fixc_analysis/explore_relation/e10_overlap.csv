@@ -1,0 +1,13 @@
+setting,other,rho_resid
+audio 7 groups,align,0.49465154133246414
+audio 7 groups,pad,-0.4125273478648408
+audio 7 groups,coverage_t_by_s,0.3815736164006159
+audio 6 groups,align,0.7041156840934372
+audio 6 groups,pad,-0.16751946607341492
+audio 6 groups,coverage_t_by_s,0.2631813125695217
+video,align,0.8537401725869838
+video,pad,-0.3704115684093437
+video,coverage_t_by_s,0.6440489432703003
+audio+video,align,0.7448799524057491
+audio+video,pad,-0.06206896551724137
+audio+video,coverage_t_by_s,0.507007786429366

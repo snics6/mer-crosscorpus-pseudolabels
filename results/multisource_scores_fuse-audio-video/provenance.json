@@ -1,0 +1,27 @@
+{
+ "script": "exp/multisource_scores.py",
+ "argv": [
+  "--kind",
+  "fuse-audio-video"
+ ],
+ "commit": "f444e53390d28a0b7e6bff41f5cf1a23685f05ed",
+ "dirty": false,
+ "started": "2026-10-10T21:40:15+0900",
+ "K": [
+  "1",
+  "5",
+  "10"
+ ],
+ "reps": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+ ]
+}

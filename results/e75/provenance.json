@@ -1,0 +1,1780 @@
+{
+ "script": "exp/reanalysis_e75.py",
+ "argv": [],
+ "started": "2026-11-01T06:19:09+0900",
+ "commit": "c452b3808b5106039b1d4a625a937e19f003e9c0",
+ "dirty": true,
+ "script_status": "",
+ "script_sha256": "5a03b5ccd4ed4dbc236edcf6da72d3b7759787db855875a93c2e75ed9f3c6d0f",
+ "code_snapshot": "code/2026-11-01T061909+0900",
+ "settings": {
+  "kinds": [
+   "audio_wavlm",
+   "audio_hubert",
+   "video",
+   "fuse-audio-video",
+   "text_roberta",
+   "fuse-audio-text",
+   "fuse-video-text",
+   "fuse-audio-video-text"
+  ],
+  "items": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "n_perm": 2000,
+  "n_boot": 1000,
+  "n_boot_targets": 2000,
+  "seed": 0,
+  "fixc_root": "results/fixc_map",
+  "cv_map_prefix": "results/map_",
+  "stageb_main": "results/fixc_analysis/explore_relation",
+  "stageb_text": "results/fixc_text/explore_relation",
+  "e29_pairs": "results/explore_relation/snapshots/20261011-1524_e29/e29_pairs.csv",
+  "e29_tests": "results/explore_relation/snapshots/20261011-1524_e29/e29_tests.csv",
+  "e28t9_targets": "results/explore_relation/snapshots/20261011-0139_e28t9/e28t9_targets.csv",
+  "e28t9_pairs": "results/explore_relation/snapshots/20261011-0139_e28t9/e28t9_pairs.csv",
+  "decomp_share_main": "results/fixc_analysis/explore_relation/decomp_share.csv",
+  "decomp_share_text": "results/text30/explore_relation/decomp_share.csv",
+  "kstar_cluster_main": "results/explore_relation/kstar_cluster.csv",
+  "kstar_cluster_text": "results/text30/explore_relation/kstar_cluster.csv",
+  "e12_wt": "results/fixc_analysis/explore_relation/e12_wt.csv",
+  "shift_prefix": "results/shift_",
+  "tgt_scores_prefix": "results/tgt_scores_",
+  "transfer_scores_prefix": "results/transfer_scores_",
+  "mech_prefix": "results/mech_",
+  "interventions_prefix": "results/interventions_",
+  "den_small_points": 0.5,
+  "loc_min_points": 0.1,
+  "delta_min": 0.1,
+  "q_grid": "logspace(-1,3,400)",
+  "beta_grid": "linspace(0.25,3,56)",
+  "scale_grid": "linspace(0.5,2,61)",
+  "loko_better": 0.8,
+  "interval_main": "IEMOCAP がターゲットの組は話者を共有するテストの集合をつないだ単位の t，ほかは補正した resampled t（rho = n_test/n_pool）",
+  "holm_family": "種類 × K の中の，同じコーパスの組を除いた組",
+  "reps_stage_b": "0-9",
+  "gh_nodes": 40,
+  "o_min_lambda": 0.3,
+  "hubert_e13": "explore_pairs.measure('audio_hubert') が results/shift_audio_hubert から作る"
+ },
+ "versions": {
+  "python": "3.12.3",
+  "numpy": "2.5.2",
+  "pandas": "3.0.6",
+  "scipy": "1.18.1",
+  "scikit-learn": "1.9.1",
+  "torch": "2.11.0+cu126"
+ },
+ "cuda_visible_devices": "",
+ "elapsed_sec": {
+  "1": 17.6,
+  "2": 0.1,
+  "3": 18.4,
+  "4": 13.0,
+  "5": 0.9,
+  "6": 62.2,
+  "7": 21.3,
+  "8": 217.3,
+  "9": 0.3,
+  "10": 29.7,
+  "11": 9.4,
+  "12": 2.2,
+  "13": 1.6,
+  "total": 393.9
+ },
+ "ended": "2026-11-01T06:25:43+0900",
+ "inputs": {
+  "/home/snics/MER-DA/results/fixc_map/audio_wavlm/AFEW.csv": {
+   "bytes": 365446,
+   "mtime": "2026-10-09T00:55:48",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_audio_wavlm/AFEW.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/audio_wavlm/CREMA-D.csv": {
+   "bytes": 376260,
+   "mtime": "2026-10-09T00:55:48",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_audio_wavlm/CREMA-D.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/audio_wavlm/IEMOCAP-impro.csv": {
+   "bytes": 382280,
+   "mtime": "2026-10-09T00:55:48",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_audio_wavlm/IEMOCAP-impro.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/audio_wavlm/IEMOCAP-script.csv": {
+   "bytes": 379748,
+   "mtime": "2026-10-09T00:55:48",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_audio_wavlm/IEMOCAP-script.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/audio_wavlm/MELD.csv": {
+   "bytes": 365775,
+   "mtime": "2026-10-09T00:55:48",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_audio_wavlm/MELD.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/audio_wavlm/MOSEI.csv": {
+   "bytes": 366848,
+   "mtime": "2026-10-09T00:55:48",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_audio_wavlm/MOSEI.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/audio_wavlm/RAVDESS.csv": {
+   "bytes": 288178,
+   "mtime": "2026-10-09T00:55:48",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_audio_wavlm/RAVDESS.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/audio_wavlm/summary/pairs.csv": {
+   "bytes": 74683,
+   "mtime": "2026-10-09T00:55:59"
+  },
+  "/home/snics/MER-DA/results/fixc_map/audio_hubert/AFEW.csv": {
+   "bytes": 365100,
+   "mtime": "2026-10-09T00:55:48",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_audio_hubert/AFEW.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/audio_hubert/CREMA-D.csv": {
+   "bytes": 375873,
+   "mtime": "2026-10-09T00:55:48",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_audio_hubert/CREMA-D.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/audio_hubert/IEMOCAP-impro.csv": {
+   "bytes": 381684,
+   "mtime": "2026-10-09T00:55:48",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_audio_hubert/IEMOCAP-impro.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/audio_hubert/IEMOCAP-script.csv": {
+   "bytes": 378009,
+   "mtime": "2026-10-09T00:55:48",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_audio_hubert/IEMOCAP-script.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/audio_hubert/MELD.csv": {
+   "bytes": 365917,
+   "mtime": "2026-10-09T00:55:48",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_audio_hubert/MELD.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/audio_hubert/MOSEI.csv": {
+   "bytes": 366331,
+   "mtime": "2026-10-09T00:55:48",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_audio_hubert/MOSEI.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/audio_hubert/RAVDESS.csv": {
+   "bytes": 287909,
+   "mtime": "2026-10-09T00:55:48",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_audio_hubert/RAVDESS.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/audio_hubert/summary/pairs.csv": {
+   "bytes": 74849,
+   "mtime": "2026-10-09T00:56:06"
+  },
+  "/home/snics/MER-DA/results/fixc_map/video/AFEW.csv": {
+   "bytes": 310896,
+   "mtime": "2026-10-09T00:55:49",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_video/AFEW.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/video/CREMA-D.csv": {
+   "bytes": 312403,
+   "mtime": "2026-10-09T00:55:49",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_video/CREMA-D.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/video/IEMOCAP-impro.csv": {
+   "bytes": 317305,
+   "mtime": "2026-10-09T00:55:49",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_video/IEMOCAP-impro.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/video/IEMOCAP-script.csv": {
+   "bytes": 315978,
+   "mtime": "2026-10-09T00:55:49",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_video/IEMOCAP-script.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/video/MELD.csv": {
+   "bytes": 306576,
+   "mtime": "2026-10-09T00:55:49",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_video/MELD.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/video/MOSEI.csv": {
+   "bytes": 308108,
+   "mtime": "2026-10-09T00:55:49",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_video/MOSEI.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/video/summary/pairs.csv": {
+   "bytes": 53739,
+   "mtime": "2026-10-09T00:56:11"
+  },
+  "/home/snics/MER-DA/results/fixc_map/fuse-audio-video/AFEW.csv": {
+   "bytes": 324440,
+   "mtime": "2026-10-09T00:55:49",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_fuse-audio-video/AFEW.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/fuse-audio-video/CREMA-D.csv": {
+   "bytes": 329258,
+   "mtime": "2026-10-09T00:55:49",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_fuse-audio-video/CREMA-D.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/fuse-audio-video/IEMOCAP-impro.csv": {
+   "bytes": 335397,
+   "mtime": "2026-10-09T00:55:49",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_fuse-audio-video/IEMOCAP-impro.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/fuse-audio-video/IEMOCAP-script.csv": {
+   "bytes": 332587,
+   "mtime": "2026-10-09T00:55:49",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_fuse-audio-video/IEMOCAP-script.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/fuse-audio-video/MELD.csv": {
+   "bytes": 320944,
+   "mtime": "2026-10-09T00:55:49",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_fuse-audio-video/MELD.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/fuse-audio-video/MOSEI.csv": {
+   "bytes": 321104,
+   "mtime": "2026-10-09T00:55:49",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_fuse-audio-video/MOSEI.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/fuse-audio-video/summary/pairs.csv": {
+   "bytes": 53291,
+   "mtime": "2026-10-09T00:56:15"
+  },
+  "/home/snics/MER-DA/results/fixc_map/text_roberta/IEMOCAP-impro.csv": {
+   "bytes": 168311,
+   "mtime": "2026-10-18T15:49:33",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_text_roberta/IEMOCAP-impro.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/text_roberta/IEMOCAP-script.csv": {
+   "bytes": 168433,
+   "mtime": "2026-10-18T16:05:06",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_text_roberta/IEMOCAP-script.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/text_roberta/MELD.csv": {
+   "bytes": 163654,
+   "mtime": "2026-10-18T16:30:24",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_text_roberta/MELD.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/text_roberta/MOSEI.csv": {
+   "bytes": 163809,
+   "mtime": "2026-10-18T16:16:30",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_text_roberta/MOSEI.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/text_roberta/summary/pairs.csv": {
+   "bytes": 21819,
+   "mtime": "2026-10-19T10:39:35"
+  },
+  "/home/snics/MER-DA/results/fixc_map/fuse-audio-text/IEMOCAP-impro.csv": {
+   "bytes": 170219,
+   "mtime": "2026-10-18T18:15:43",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_fuse-audio-text/IEMOCAP-impro.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/fuse-audio-text/IEMOCAP-script.csv": {
+   "bytes": 171069,
+   "mtime": "2026-10-18T18:29:36",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_fuse-audio-text/IEMOCAP-script.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/fuse-audio-text/MELD.csv": {
+   "bytes": 165635,
+   "mtime": "2026-10-18T20:31:32",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_fuse-audio-text/MELD.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/fuse-audio-text/MOSEI.csv": {
+   "bytes": 166106,
+   "mtime": "2026-10-18T19:42:39",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_fuse-audio-text/MOSEI.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/fuse-audio-text/summary/pairs.csv": {
+   "bytes": 21670,
+   "mtime": "2026-10-19T10:39:37"
+  },
+  "/home/snics/MER-DA/results/fixc_map/fuse-video-text/IEMOCAP-impro.csv": {
+   "bytes": 170511,
+   "mtime": "2026-10-18T16:45:20",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_fuse-video-text/IEMOCAP-impro.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/fuse-video-text/IEMOCAP-script.csv": {
+   "bytes": 171256,
+   "mtime": "2026-10-18T16:56:49",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_fuse-video-text/IEMOCAP-script.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/fuse-video-text/MELD.csv": {
+   "bytes": 165998,
+   "mtime": "2026-10-18T17:59:21",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_fuse-video-text/MELD.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/fuse-video-text/MOSEI.csv": {
+   "bytes": 166305,
+   "mtime": "2026-10-18T17:30:46",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_fuse-video-text/MOSEI.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/fuse-video-text/summary/pairs.csv": {
+   "bytes": 21815,
+   "mtime": "2026-10-19T10:39:40"
+  },
+  "/home/snics/MER-DA/results/fixc_map/fuse-audio-video-text/IEMOCAP-impro.csv": {
+   "bytes": 175791,
+   "mtime": "2026-10-18T20:57:44",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_fuse-audio-video-text/IEMOCAP-impro.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/fuse-audio-video-text/IEMOCAP-script.csv": {
+   "bytes": 175746,
+   "mtime": "2026-10-18T21:22:23",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_fuse-audio-video-text/IEMOCAP-script.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/fuse-audio-video-text/MELD.csv": {
+   "bytes": 170271,
+   "mtime": "2026-10-18T23:30:00",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_fuse-audio-video-text/MELD.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/fuse-audio-video-text/MOSEI.csv": {
+   "bytes": 171286,
+   "mtime": "2026-10-18T22:43:40",
+   "first_comment": "# {\"script\": \"exp/fixc_map.py\", \"commit\": \"c75b518\", \"dirty\": false, \"rule\": \"merged の C を同じ（source, rep）の src_only の C に固定し，uar を test_uar_C<C> に置き換えた\", \"derived_from\": \"results/map_fuse-audio-video-text/MOSEI.csv\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_map/fuse-audio-video-text/summary/pairs.csv": {
+   "bytes": 21766,
+   "mtime": "2026-10-19T10:39:42"
+  },
+  "/home/snics/MER-DA/results/fixc_map/audio_hubert/summary/kstar.csv": {
+   "bytes": 1511,
+   "mtime": "2026-10-09T00:56:06"
+  },
+  "/home/snics/MER-DA/results/explore_relation/kstar_cluster.csv": {
+   "bytes": 84798,
+   "mtime": "2026-10-11T15:25:49"
+  },
+  "/home/snics/MER-DA/results/text30/explore_relation/kstar_cluster.csv": {
+   "bytes": 14668,
+   "mtime": "2026-10-19T10:46:05"
+  },
+  "/home/snics/MER-DA/results/fixc_map/audio_wavlm/summary/kstar.csv": {
+   "bytes": 1513,
+   "mtime": "2026-10-09T00:55:59"
+  },
+  "/home/snics/MER-DA/results/fixc_map/fuse-audio-text/summary/kstar.csv": {
+   "bytes": 540,
+   "mtime": "2026-10-19T10:39:37"
+  },
+  "/home/snics/MER-DA/results/fixc_map/fuse-audio-video/summary/kstar.csv": {
+   "bytes": 1129,
+   "mtime": "2026-10-09T00:56:15"
+  },
+  "/home/snics/MER-DA/results/fixc_map/fuse-audio-video-text/summary/kstar.csv": {
+   "bytes": 542,
+   "mtime": "2026-10-19T10:39:42"
+  },
+  "/home/snics/MER-DA/results/fixc_map/fuse-video-text/summary/kstar.csv": {
+   "bytes": 541,
+   "mtime": "2026-10-19T10:39:40"
+  },
+  "/home/snics/MER-DA/results/fixc_map/text_roberta/summary/kstar.csv": {
+   "bytes": 539,
+   "mtime": "2026-10-19T10:39:35"
+  },
+  "/home/snics/MER-DA/results/fixc_map/video/summary/kstar.csv": {
+   "bytes": 1138,
+   "mtime": "2026-10-09T00:56:11"
+  },
+  "/home/snics/MER-DA/results/fixc_analysis/explore_relation/decomp_share.csv": {
+   "bytes": 14635,
+   "mtime": "2026-10-09T01:05:08"
+  },
+  "/home/snics/MER-DA/results/text30/explore_relation/decomp_share.csv": {
+   "bytes": 14655,
+   "mtime": "2026-10-19T10:40:31"
+  },
+  "/home/snics/MER-DA/results/map_audio_wavlm/AFEW.csv": {
+   "bytes": 378158,
+   "mtime": "2026-10-02T20:43:49",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [], \"commit\": \"6845855490a6b3545ba7d1f1ca2e88d2e5870044\", \"dirty\": true, \"started\": \"2026-09-30T02:26:10+0900\", \"kind\": \"audio_wavlm\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"reps\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1"
+  },
+  "/home/snics/MER-DA/results/map_audio_wavlm/CREMA-D.csv": {
+   "bytes": 379653,
+   "mtime": "2026-10-02T20:56:25",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [], \"commit\": \"6845855490a6b3545ba7d1f1ca2e88d2e5870044\", \"dirty\": true, \"started\": \"2026-09-30T02:26:10+0900\", \"kind\": \"audio_wavlm\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"reps\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1"
+  },
+  "/home/snics/MER-DA/results/map_audio_wavlm/IEMOCAP-impro.csv": {
+   "bytes": 384287,
+   "mtime": "2026-10-02T20:15:32",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [], \"commit\": \"6845855490a6b3545ba7d1f1ca2e88d2e5870044\", \"dirty\": true, \"started\": \"2026-09-30T02:26:10+0900\", \"kind\": \"audio_wavlm\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"reps\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1"
+  },
+  "/home/snics/MER-DA/results/map_audio_wavlm/IEMOCAP-script.csv": {
+   "bytes": 388327,
+   "mtime": "2026-10-02T20:21:59",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [], \"commit\": \"6845855490a6b3545ba7d1f1ca2e88d2e5870044\", \"dirty\": true, \"started\": \"2026-09-30T02:26:10+0900\", \"kind\": \"audio_wavlm\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"reps\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1"
+  },
+  "/home/snics/MER-DA/results/map_audio_wavlm/MELD.csv": {
+   "bytes": 378747,
+   "mtime": "2026-10-02T20:37:45",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [], \"commit\": \"6845855490a6b3545ba7d1f1ca2e88d2e5870044\", \"dirty\": true, \"started\": \"2026-09-30T02:26:10+0900\", \"kind\": \"audio_wavlm\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"reps\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1"
+  },
+  "/home/snics/MER-DA/results/map_audio_wavlm/MOSEI.csv": {
+   "bytes": 382010,
+   "mtime": "2026-10-02T20:30:00",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [], \"commit\": \"6845855490a6b3545ba7d1f1ca2e88d2e5870044\", \"dirty\": true, \"started\": \"2026-09-30T02:26:10+0900\", \"kind\": \"audio_wavlm\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"reps\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1"
+  },
+  "/home/snics/MER-DA/results/map_audio_wavlm/RAVDESS.csv": {
+   "bytes": 292659,
+   "mtime": "2026-10-02T20:49:32",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [], \"commit\": \"6845855490a6b3545ba7d1f1ca2e88d2e5870044\", \"dirty\": true, \"started\": \"2026-09-30T02:26:10+0900\", \"kind\": \"audio_wavlm\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"reps\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1"
+  },
+  "/home/snics/MER-DA/results/map_audio_wavlm/summary/pairs.csv": {
+   "bytes": 74758,
+   "mtime": "2026-10-09T05:15:47"
+  },
+  "/home/snics/MER-DA/results/map_audio_hubert/AFEW.csv": {
+   "bytes": 377332,
+   "mtime": "2026-10-04T12:03:09",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [\"--kind\", \"audio_hubert\"], \"commit\": \"adf38c1440ea907f930af33af7dfa96e360f4ae1\", \"dirty\": false, \"started\": \"2026-10-02T21:08:45+0900\", \"kind\": \"audio_hubert\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"reps\": [0, 1,"
+  },
+  "/home/snics/MER-DA/results/map_audio_hubert/CREMA-D.csv": {
+   "bytes": 378750,
+   "mtime": "2026-10-04T12:23:47",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [\"--kind\", \"audio_hubert\"], \"commit\": \"adf38c1440ea907f930af33af7dfa96e360f4ae1\", \"dirty\": false, \"started\": \"2026-10-02T21:08:45+0900\", \"kind\": \"audio_hubert\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"reps\": [0, 1,"
+  },
+  "/home/snics/MER-DA/results/map_audio_hubert/IEMOCAP-impro.csv": {
+   "bytes": 384175,
+   "mtime": "2026-10-04T11:14:34",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [\"--kind\", \"audio_hubert\"], \"commit\": \"adf38c1440ea907f930af33af7dfa96e360f4ae1\", \"dirty\": false, \"started\": \"2026-10-02T21:08:45+0900\", \"kind\": \"audio_hubert\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"reps\": [0, 1,"
+  },
+  "/home/snics/MER-DA/results/map_audio_hubert/IEMOCAP-script.csv": {
+   "bytes": 387066,
+   "mtime": "2026-10-04T11:25:18",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [\"--kind\", \"audio_hubert\"], \"commit\": \"adf38c1440ea907f930af33af7dfa96e360f4ae1\", \"dirty\": false, \"started\": \"2026-10-02T21:08:45+0900\", \"kind\": \"audio_hubert\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"reps\": [0, 1,"
+  },
+  "/home/snics/MER-DA/results/map_audio_hubert/MELD.csv": {
+   "bytes": 378821,
+   "mtime": "2026-10-04T11:52:13",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [\"--kind\", \"audio_hubert\"], \"commit\": \"adf38c1440ea907f930af33af7dfa96e360f4ae1\", \"dirty\": false, \"started\": \"2026-10-02T21:08:45+0900\", \"kind\": \"audio_hubert\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"reps\": [0, 1,"
+  },
+  "/home/snics/MER-DA/results/map_audio_hubert/MOSEI.csv": {
+   "bytes": 380947,
+   "mtime": "2026-10-04T11:37:44",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [\"--kind\", \"audio_hubert\"], \"commit\": \"adf38c1440ea907f930af33af7dfa96e360f4ae1\", \"dirty\": false, \"started\": \"2026-10-02T21:08:45+0900\", \"kind\": \"audio_hubert\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"reps\": [0, 1,"
+  },
+  "/home/snics/MER-DA/results/map_audio_hubert/RAVDESS.csv": {
+   "bytes": 292420,
+   "mtime": "2026-10-04T12:12:57",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [\"--kind\", \"audio_hubert\"], \"commit\": \"adf38c1440ea907f930af33af7dfa96e360f4ae1\", \"dirty\": false, \"started\": \"2026-10-02T21:08:45+0900\", \"kind\": \"audio_hubert\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"reps\": [0, 1,"
+  },
+  "/home/snics/MER-DA/results/map_audio_hubert/summary/pairs.csv": {
+   "bytes": 74908,
+   "mtime": "2026-10-09T05:15:52"
+  },
+  "/home/snics/MER-DA/results/map_video/AFEW.csv": {
+   "bytes": 313393,
+   "mtime": "2026-10-07T02:31:50",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [\"--kind\", \"video\", \"--reps\", \"0\"], \"commit\": \"5154b248c50d2634421d1377e562e618a032b4f8\", \"dirty\": true, \"started\": \"2026-09-30T15:07:49+0900\", \"kind\": \"video\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"CREMA-D\"], \"reps\": [0], \"K\": [\"1\", \"5\", \"10\", \""
+  },
+  "/home/snics/MER-DA/results/map_video/CREMA-D.csv": {
+   "bytes": 315064,
+   "mtime": "2026-10-07T02:36:25",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [\"--kind\", \"video\", \"--reps\", \"0\"], \"commit\": \"5154b248c50d2634421d1377e562e618a032b4f8\", \"dirty\": true, \"started\": \"2026-09-30T15:07:49+0900\", \"kind\": \"video\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"CREMA-D\"], \"reps\": [0], \"K\": [\"1\", \"5\", \"10\", \""
+  },
+  "/home/snics/MER-DA/results/map_video/IEMOCAP-impro.csv": {
+   "bytes": 325900,
+   "mtime": "2026-10-07T02:14:10",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [\"--kind\", \"video\", \"--reps\", \"0\"], \"commit\": \"5154b248c50d2634421d1377e562e618a032b4f8\", \"dirty\": true, \"started\": \"2026-09-30T15:07:49+0900\", \"kind\": \"video\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"CREMA-D\"], \"reps\": [0], \"K\": [\"1\", \"5\", \"10\", \""
+  },
+  "/home/snics/MER-DA/results/map_video/IEMOCAP-script.csv": {
+   "bytes": 327696,
+   "mtime": "2026-10-07T02:18:30",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [\"--kind\", \"video\", \"--reps\", \"0\"], \"commit\": \"5154b248c50d2634421d1377e562e618a032b4f8\", \"dirty\": true, \"started\": \"2026-09-30T15:07:49+0900\", \"kind\": \"video\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"CREMA-D\"], \"reps\": [0], \"K\": [\"1\", \"5\", \"10\", \""
+  },
+  "/home/snics/MER-DA/results/map_video/MELD.csv": {
+   "bytes": 317648,
+   "mtime": "2026-10-07T02:27:30",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [\"--kind\", \"video\", \"--reps\", \"0\"], \"commit\": \"5154b248c50d2634421d1377e562e618a032b4f8\", \"dirty\": true, \"started\": \"2026-09-30T15:07:49+0900\", \"kind\": \"video\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"CREMA-D\"], \"reps\": [0], \"K\": [\"1\", \"5\", \"10\", \""
+  },
+  "/home/snics/MER-DA/results/map_video/MOSEI.csv": {
+   "bytes": 320716,
+   "mtime": "2026-10-07T02:23:09",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [\"--kind\", \"video\", \"--reps\", \"0\"], \"commit\": \"5154b248c50d2634421d1377e562e618a032b4f8\", \"dirty\": true, \"started\": \"2026-09-30T15:07:49+0900\", \"kind\": \"video\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"CREMA-D\"], \"reps\": [0], \"K\": [\"1\", \"5\", \"10\", \""
+  },
+  "/home/snics/MER-DA/results/map_video/summary/pairs.csv": {
+   "bytes": 53793,
+   "mtime": "2026-10-09T05:15:56"
+  },
+  "/home/snics/MER-DA/results/map_fuse-audio-video/AFEW.csv": {
+   "bytes": 326215,
+   "mtime": "2026-10-08T12:51:43",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [\"--kind\", \"fuse-audio-video\", \"--reps\", \"0\"], \"commit\": \"65313f338105fc0cec0296e84963d5610d02954b\", \"dirty\": true, \"started\": \"2026-09-30T15:56:44+0900\", \"kind\": \"fuse-audio-video\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"CREMA-D\"], \"reps\": [0], \""
+  },
+  "/home/snics/MER-DA/results/map_fuse-audio-video/CREMA-D.csv": {
+   "bytes": 329512,
+   "mtime": "2026-10-08T13:05:33",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [\"--kind\", \"fuse-audio-video\", \"--reps\", \"0\"], \"commit\": \"65313f338105fc0cec0296e84963d5610d02954b\", \"dirty\": true, \"started\": \"2026-09-30T15:56:44+0900\", \"kind\": \"fuse-audio-video\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"CREMA-D\"], \"reps\": [0], \""
+  },
+  "/home/snics/MER-DA/results/map_fuse-audio-video/IEMOCAP-impro.csv": {
+   "bytes": 336123,
+   "mtime": "2026-10-08T11:57:20",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [\"--kind\", \"fuse-audio-video\", \"--reps\", \"0\"], \"commit\": \"65313f338105fc0cec0296e84963d5610d02954b\", \"dirty\": true, \"started\": \"2026-09-30T15:56:44+0900\", \"kind\": \"fuse-audio-video\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"CREMA-D\"], \"reps\": [0], \""
+  },
+  "/home/snics/MER-DA/results/map_fuse-audio-video/IEMOCAP-script.csv": {
+   "bytes": 338574,
+   "mtime": "2026-10-08T12:11:09",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [\"--kind\", \"fuse-audio-video\", \"--reps\", \"0\"], \"commit\": \"65313f338105fc0cec0296e84963d5610d02954b\", \"dirty\": true, \"started\": \"2026-09-30T15:56:44+0900\", \"kind\": \"fuse-audio-video\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"CREMA-D\"], \"reps\": [0], \""
+  },
+  "/home/snics/MER-DA/results/map_fuse-audio-video/MELD.csv": {
+   "bytes": 332698,
+   "mtime": "2026-10-08T12:38:42",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [\"--kind\", \"fuse-audio-video\", \"--reps\", \"0\"], \"commit\": \"65313f338105fc0cec0296e84963d5610d02954b\", \"dirty\": true, \"started\": \"2026-09-30T15:56:44+0900\", \"kind\": \"fuse-audio-video\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"CREMA-D\"], \"reps\": [0], \""
+  },
+  "/home/snics/MER-DA/results/map_fuse-audio-video/MOSEI.csv": {
+   "bytes": 333003,
+   "mtime": "2026-10-08T12:25:54",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [\"--kind\", \"fuse-audio-video\", \"--reps\", \"0\"], \"commit\": \"65313f338105fc0cec0296e84963d5610d02954b\", \"dirty\": true, \"started\": \"2026-09-30T15:56:44+0900\", \"kind\": \"fuse-audio-video\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"CREMA-D\"], \"reps\": [0], \""
+  },
+  "/home/snics/MER-DA/results/map_fuse-audio-video/summary/pairs.csv": {
+   "bytes": 53341,
+   "mtime": "2026-10-09T05:16:02"
+  },
+  "/home/snics/MER-DA/results/map_text_roberta/IEMOCAP-impro.csv": {
+   "bytes": 38399,
+   "mtime": "2026-10-01T04:29:46",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [\"--kind\", \"text_roberta\", \"--reps\", \"0\"], \"commit\": \"65313f338105fc0cec0296e84963d5610d02954b\", \"dirty\": true, \"started\": \"2026-09-30T15:37:12+0900\", \"kind\": \"text_roberta\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\"], \"reps\": [0], \"K\": [\"1\", \"5\", \"10\", \"25\", \"50\", \"all\"], \"warm"
+  },
+  "/home/snics/MER-DA/results/map_text_roberta/IEMOCAP-script.csv": {
+   "bytes": 38039,
+   "mtime": "2026-10-01T04:32:31",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [\"--kind\", \"text_roberta\", \"--reps\", \"0\"], \"commit\": \"65313f338105fc0cec0296e84963d5610d02954b\", \"dirty\": true, \"started\": \"2026-09-30T15:37:12+0900\", \"kind\": \"text_roberta\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\"], \"reps\": [0], \"K\": [\"1\", \"5\", \"10\", \"25\", \"50\", \"all\"], \"warm"
+  },
+  "/home/snics/MER-DA/results/map_text_roberta/MELD.csv": {
+   "bytes": 37589,
+   "mtime": "2026-10-01T04:37:50",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [\"--kind\", \"text_roberta\", \"--reps\", \"0\"], \"commit\": \"65313f338105fc0cec0296e84963d5610d02954b\", \"dirty\": true, \"started\": \"2026-09-30T15:37:12+0900\", \"kind\": \"text_roberta\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\"], \"reps\": [0], \"K\": [\"1\", \"5\", \"10\", \"25\", \"50\", \"all\"], \"warm"
+  },
+  "/home/snics/MER-DA/results/map_text_roberta/MOSEI.csv": {
+   "bytes": 37538,
+   "mtime": "2026-10-01T04:35:17",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [\"--kind\", \"text_roberta\", \"--reps\", \"0\"], \"commit\": \"65313f338105fc0cec0296e84963d5610d02954b\", \"dirty\": true, \"started\": \"2026-09-30T15:37:12+0900\", \"kind\": \"text_roberta\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\"], \"reps\": [0], \"K\": [\"1\", \"5\", \"10\", \"25\", \"50\", \"all\"], \"warm"
+  },
+  "/home/snics/MER-DA/results/map_text_roberta/summary/pairs.csv": {
+   "bytes": 21806,
+   "mtime": "2026-10-09T05:15:59"
+  },
+  "/home/snics/MER-DA/results/map_fuse-audio-text/IEMOCAP-impro.csv": {
+   "bytes": 38212,
+   "mtime": "2026-10-01T07:03:47",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [\"--kind\", \"fuse-audio-text\", \"--reps\", \"0\"], \"commit\": \"d8a16c89e62a91df4233add9dafbe7dbd4b4e350\", \"dirty\": false, \"started\": \"2026-09-30T17:46:25+0900\", \"kind\": \"fuse-audio-text\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\"], \"reps\": [0], \"K\": [\"1\", \"5\", \"10\", \"25\", \"50\", \"all\"]"
+  },
+  "/home/snics/MER-DA/results/map_fuse-audio-text/IEMOCAP-script.csv": {
+   "bytes": 38501,
+   "mtime": "2026-10-01T07:15:04",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [\"--kind\", \"fuse-audio-text\", \"--reps\", \"0\"], \"commit\": \"d8a16c89e62a91df4233add9dafbe7dbd4b4e350\", \"dirty\": false, \"started\": \"2026-09-30T17:46:25+0900\", \"kind\": \"fuse-audio-text\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\"], \"reps\": [0], \"K\": [\"1\", \"5\", \"10\", \"25\", \"50\", \"all\"]"
+  },
+  "/home/snics/MER-DA/results/map_fuse-audio-text/MELD.csv": {
+   "bytes": 37832,
+   "mtime": "2026-10-01T07:36:28",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [\"--kind\", \"fuse-audio-text\", \"--reps\", \"0\"], \"commit\": \"d8a16c89e62a91df4233add9dafbe7dbd4b4e350\", \"dirty\": false, \"started\": \"2026-09-30T17:46:25+0900\", \"kind\": \"fuse-audio-text\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\"], \"reps\": [0], \"K\": [\"1\", \"5\", \"10\", \"25\", \"50\", \"all\"]"
+  },
+  "/home/snics/MER-DA/results/map_fuse-audio-text/MOSEI.csv": {
+   "bytes": 37886,
+   "mtime": "2026-10-01T07:26:53",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [\"--kind\", \"fuse-audio-text\", \"--reps\", \"0\"], \"commit\": \"d8a16c89e62a91df4233add9dafbe7dbd4b4e350\", \"dirty\": false, \"started\": \"2026-09-30T17:46:25+0900\", \"kind\": \"fuse-audio-text\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\"], \"reps\": [0], \"K\": [\"1\", \"5\", \"10\", \"25\", \"50\", \"all\"]"
+  },
+  "/home/snics/MER-DA/results/map_fuse-audio-text/summary/pairs.csv": {
+   "bytes": 21632,
+   "mtime": "2026-10-09T05:16:05"
+  },
+  "/home/snics/MER-DA/results/map_fuse-video-text/IEMOCAP-impro.csv": {
+   "bytes": 38459,
+   "mtime": "2026-10-01T08:57:32",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [\"--kind\", \"fuse-video-text\", \"--reps\", \"0\"], \"commit\": \"d8a16c89e62a91df4233add9dafbe7dbd4b4e350\", \"dirty\": false, \"started\": \"2026-09-30T18:31:47+0900\", \"kind\": \"fuse-video-text\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\"], \"reps\": [0], \"K\": [\"1\", \"5\", \"10\", \"25\", \"50\", \"all\"]"
+  },
+  "/home/snics/MER-DA/results/map_fuse-video-text/IEMOCAP-script.csv": {
+   "bytes": 38848,
+   "mtime": "2026-10-01T09:03:47",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [\"--kind\", \"fuse-video-text\", \"--reps\", \"0\"], \"commit\": \"d8a16c89e62a91df4233add9dafbe7dbd4b4e350\", \"dirty\": false, \"started\": \"2026-09-30T18:31:47+0900\", \"kind\": \"fuse-video-text\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\"], \"reps\": [0], \"K\": [\"1\", \"5\", \"10\", \"25\", \"50\", \"all\"]"
+  },
+  "/home/snics/MER-DA/results/map_fuse-video-text/MELD.csv": {
+   "bytes": 37869,
+   "mtime": "2026-10-01T09:14:55",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [\"--kind\", \"fuse-video-text\", \"--reps\", \"0\"], \"commit\": \"d8a16c89e62a91df4233add9dafbe7dbd4b4e350\", \"dirty\": false, \"started\": \"2026-09-30T18:31:47+0900\", \"kind\": \"fuse-video-text\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\"], \"reps\": [0], \"K\": [\"1\", \"5\", \"10\", \"25\", \"50\", \"all\"]"
+  },
+  "/home/snics/MER-DA/results/map_fuse-video-text/MOSEI.csv": {
+   "bytes": 37860,
+   "mtime": "2026-10-01T09:09:47",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [\"--kind\", \"fuse-video-text\", \"--reps\", \"0\"], \"commit\": \"d8a16c89e62a91df4233add9dafbe7dbd4b4e350\", \"dirty\": false, \"started\": \"2026-09-30T18:31:47+0900\", \"kind\": \"fuse-video-text\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\"], \"reps\": [0], \"K\": [\"1\", \"5\", \"10\", \"25\", \"50\", \"all\"]"
+  },
+  "/home/snics/MER-DA/results/map_fuse-video-text/summary/pairs.csv": {
+   "bytes": 21715,
+   "mtime": "2026-10-09T05:16:08"
+  },
+  "/home/snics/MER-DA/results/map_fuse-audio-video-text/IEMOCAP-impro.csv": {
+   "bytes": 39250,
+   "mtime": "2026-10-01T13:41:17",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [\"--kind\", \"fuse-audio-video-text\", \"--reps\", \"0\"], \"commit\": \"a9895a9f71389e7d8b247f618c8316dd21922e29\", \"dirty\": false, \"started\": \"2026-09-30T18:57:56+0900\", \"kind\": \"fuse-audio-video-text\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\"], \"reps\": [0], \"K\": [\"1\", \"5\", \"10\", \"25\", "
+  },
+  "/home/snics/MER-DA/results/map_fuse-audio-video-text/IEMOCAP-script.csv": {
+   "bytes": 39376,
+   "mtime": "2026-10-01T14:03:05",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [\"--kind\", \"fuse-audio-video-text\", \"--reps\", \"0\"], \"commit\": \"a9895a9f71389e7d8b247f618c8316dd21922e29\", \"dirty\": false, \"started\": \"2026-09-30T18:57:56+0900\", \"kind\": \"fuse-audio-video-text\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\"], \"reps\": [0], \"K\": [\"1\", \"5\", \"10\", \"25\", "
+  },
+  "/home/snics/MER-DA/results/map_fuse-audio-video-text/MELD.csv": {
+   "bytes": 38933,
+   "mtime": "2026-10-01T14:37:31",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [\"--kind\", \"fuse-audio-video-text\", \"--reps\", \"0\"], \"commit\": \"a9895a9f71389e7d8b247f618c8316dd21922e29\", \"dirty\": false, \"started\": \"2026-09-30T18:57:56+0900\", \"kind\": \"fuse-audio-video-text\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\"], \"reps\": [0], \"K\": [\"1\", \"5\", \"10\", \"25\", "
+  },
+  "/home/snics/MER-DA/results/map_fuse-audio-video-text/MOSEI.csv": {
+   "bytes": 38845,
+   "mtime": "2026-10-01T14:20:05",
+   "first_comment": "# {\"script\": \"exp/map.py\", \"argv\": [\"--kind\", \"fuse-audio-video-text\", \"--reps\", \"0\"], \"commit\": \"a9895a9f71389e7d8b247f618c8316dd21922e29\", \"dirty\": false, \"started\": \"2026-09-30T18:57:56+0900\", \"kind\": \"fuse-audio-video-text\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\"], \"reps\": [0], \"K\": [\"1\", \"5\", \"10\", \"25\", "
+  },
+  "/home/snics/MER-DA/results/map_fuse-audio-video-text/summary/pairs.csv": {
+   "bytes": 21648,
+   "mtime": "2026-10-09T05:16:10"
+  },
+  "/home/snics/MER-DA/results/fixc_analysis/explore_relation/e15b_rows.csv": {
+   "bytes": 2092499,
+   "mtime": "2026-10-09T01:35:22"
+  },
+  "/home/snics/MER-DA/results/fixc_text/explore_relation/e15b_rows.csv": {
+   "bytes": 2312015,
+   "mtime": "2026-10-09T18:16:14"
+  },
+  "/home/snics/MER-DA/results/explore_relation/snapshots/20261011-1524_e29/e29_pairs.csv": {
+   "bytes": 200953,
+   "mtime": "2026-10-11T15:24:20"
+  },
+  "/home/snics/MER-DA/results/shift_audio_wavlm/labeling.csv": {
+   "bytes": 40967,
+   "mtime": "2026-09-30T15:38:39",
+   "first_comment": "# {\"script\": \"exp/shift_map.py\", \"stage\": \"gpu\", \"kind\": \"audio_wavlm\", \"argv\": [\"gpu\", \"--kind\", \"audio_wavlm\"], \"commit\": \"65313f338105fc0cec0296e84963d5610d02954b\", \"dirty\": true, \"started\": \"2026-09-30T15:34:41+0900\", \"n\": 300, \"n_balanced\": 160, \"reps\": 20, \"pca_dim\": 64, \"pad_tol\": 1e-08, \"code\": \"results/shift_audio_wavlm/code/2026-09-30T153441+0900\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_analysis/explore_relation/e13_pairs.csv": {
+   "bytes": 213023,
+   "mtime": "2026-10-09T01:15:54"
+  },
+  "/home/snics/MER-DA/results/shift_audio_wavlm/logits/IEMOCAP-impro.npz": {
+   "bytes": 1308461,
+   "mtime": "2026-09-30T15:35:41"
+  },
+  "/home/snics/MER-DA/results/interventions_audio_wavlm/MOSEI.csv": {
+   "bytes": 104806,
+   "mtime": "2026-10-09T18:21:47",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"audio_wavlm\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"9960e22df452d26f8c4f649cba6e1152629b06ca\", \"dirty\": false, \"started\": \"2026-10-09T18:05:54+0900\", \"map_dir\": \"results/fixc_map/audio_wavlm\"}"
+  },
+  "/home/snics/MER-DA/results/interventions_audio_wavlm/MELD.csv": {
+   "bytes": 103623,
+   "mtime": "2026-10-09T18:26:57",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"audio_wavlm\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"9960e22df452d26f8c4f649cba6e1152629b06ca\", \"dirty\": false, \"started\": \"2026-10-09T18:05:54+0900\", \"map_dir\": \"results/fixc_map/audio_wavlm\"}"
+  },
+  "/home/snics/MER-DA/results/interventions_audio_wavlm/AFEW.csv": {
+   "bytes": 103562,
+   "mtime": "2026-10-09T18:30:03",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"audio_wavlm\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"9960e22df452d26f8c4f649cba6e1152629b06ca\", \"dirty\": false, \"started\": \"2026-10-09T18:05:54+0900\", \"map_dir\": \"results/fixc_map/audio_wavlm\"}"
+  },
+  "/home/snics/MER-DA/results/interventions_audio_wavlm/RAVDESS.csv": {
+   "bytes": 92410,
+   "mtime": "2026-10-09T18:32:48",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"audio_wavlm\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"9960e22df452d26f8c4f649cba6e1152629b06ca\", \"dirty\": false, \"started\": \"2026-10-09T18:05:54+0900\", \"map_dir\": \"results/fixc_map/audio_wavlm\"}"
+  },
+  "/home/snics/MER-DA/results/interventions_audio_wavlm/CREMA-D.csv": {
+   "bytes": 106710,
+   "mtime": "2026-10-09T18:37:17",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"audio_wavlm\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"9960e22df452d26f8c4f649cba6e1152629b06ca\", \"dirty\": false, \"started\": \"2026-10-09T18:05:54+0900\", \"map_dir\": \"results/fixc_map/audio_wavlm\"}"
+  },
+  "/home/snics/MER-DA/results/shift_audio_wavlm/logits/IEMOCAP-script.npz": {
+   "bytes": 1306686,
+   "mtime": "2026-09-30T15:36:46"
+  },
+  "/home/snics/MER-DA/results/shift_audio_wavlm/logits/MOSEI.npz": {
+   "bytes": 1300425,
+   "mtime": "2026-09-30T15:37:21"
+  },
+  "/home/snics/MER-DA/results/interventions_audio_wavlm/IEMOCAP-impro.csv": {
+   "bytes": 113594,
+   "mtime": "2026-10-09T18:10:34",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"audio_wavlm\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"9960e22df452d26f8c4f649cba6e1152629b06ca\", \"dirty\": false, \"started\": \"2026-10-09T18:05:54+0900\", \"map_dir\": \"results/fixc_map/audio_wavlm\"}"
+  },
+  "/home/snics/MER-DA/results/interventions_audio_wavlm/IEMOCAP-script.csv": {
+   "bytes": 114912,
+   "mtime": "2026-10-09T18:15:48",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"audio_wavlm\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"9960e22df452d26f8c4f649cba6e1152629b06ca\", \"dirty\": false, \"started\": \"2026-10-09T18:05:54+0900\", \"map_dir\": \"results/fixc_map/audio_wavlm\"}"
+  },
+  "/home/snics/MER-DA/results/shift_audio_wavlm/logits/MELD.npz": {
+   "bytes": 1300400,
+   "mtime": "2026-09-30T15:38:15"
+  },
+  "/home/snics/MER-DA/results/shift_audio_wavlm/logits/AFEW.npz": {
+   "bytes": 1302946,
+   "mtime": "2026-09-30T15:38:19"
+  },
+  "/home/snics/MER-DA/results/shift_audio_wavlm/logits/RAVDESS.npz": {
+   "bytes": 1307306,
+   "mtime": "2026-09-30T15:38:26"
+  },
+  "/home/snics/MER-DA/results/shift_audio_wavlm/logits/CREMA-D.npz": {
+   "bytes": 1309328,
+   "mtime": "2026-09-30T15:38:39"
+  },
+  "/home/snics/MER-DA/results/shift_audio_hubert/labeling.csv": {
+   "bytes": 40932,
+   "mtime": "2026-10-02T21:00:24",
+   "first_comment": "# {\"script\": \"exp/shift_map.py\", \"stage\": \"gpu\", \"kind\": \"audio_hubert\", \"argv\": [\"gpu\", \"--kind\", \"audio_hubert\"], \"commit\": \"3d80cfca20dcf50708ef667965c6a90dfa8019e1\", \"dirty\": false, \"started\": \"2026-10-02T20:56:45+0900\", \"n\": 300, \"n_balanced\": 160, \"reps\": 20, \"pca_dim\": 64, \"pad_tol\": 1e-08, \"code\": \"results/shift_audio_hubert/code/2026-10-02T205645+0900\"}"
+  },
+  "/home/snics/MER-DA/results/shift_audio_hubert/logits/IEMOCAP-impro.npz": {
+   "bytes": 1307836,
+   "mtime": "2026-10-02T20:57:44"
+  },
+  "/home/snics/MER-DA/results/interventions_audio_hubert/MOSEI.csv": {
+   "bytes": 105026,
+   "mtime": "2026-10-09T18:54:25",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"audio_hubert\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"add78943e64f34f26f23b4b1441ae32430016990\", \"dirty\": false, \"started\": \"2026-10-09T18:37:20+0900\", \"map_dir\": \"results/fixc_map/audio_hubert\"}"
+  },
+  "/home/snics/MER-DA/results/interventions_audio_hubert/MELD.csv": {
+   "bytes": 103876,
+   "mtime": "2026-10-09T19:00:43",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"audio_hubert\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"add78943e64f34f26f23b4b1441ae32430016990\", \"dirty\": false, \"started\": \"2026-10-09T18:37:20+0900\", \"map_dir\": \"results/fixc_map/audio_hubert\"}"
+  },
+  "/home/snics/MER-DA/results/interventions_audio_hubert/AFEW.csv": {
+   "bytes": 103875,
+   "mtime": "2026-10-09T19:04:55",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"audio_hubert\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"add78943e64f34f26f23b4b1441ae32430016990\", \"dirty\": false, \"started\": \"2026-10-09T18:37:20+0900\", \"map_dir\": \"results/fixc_map/audio_hubert\"}"
+  },
+  "/home/snics/MER-DA/results/interventions_audio_hubert/RAVDESS.csv": {
+   "bytes": 92725,
+   "mtime": "2026-10-09T19:08:15",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"audio_hubert\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"add78943e64f34f26f23b4b1441ae32430016990\", \"dirty\": false, \"started\": \"2026-10-09T18:37:20+0900\", \"map_dir\": \"results/fixc_map/audio_hubert\"}"
+  },
+  "/home/snics/MER-DA/results/interventions_audio_hubert/CREMA-D.csv": {
+   "bytes": 106847,
+   "mtime": "2026-10-09T19:13:01",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"audio_hubert\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"add78943e64f34f26f23b4b1441ae32430016990\", \"dirty\": false, \"started\": \"2026-10-09T18:37:20+0900\", \"map_dir\": \"results/fixc_map/audio_hubert\"}"
+  },
+  "/home/snics/MER-DA/results/shift_audio_hubert/logits/IEMOCAP-script.npz": {
+   "bytes": 1306017,
+   "mtime": "2026-10-02T20:58:16"
+  },
+  "/home/snics/MER-DA/results/shift_audio_hubert/logits/MOSEI.npz": {
+   "bytes": 1299609,
+   "mtime": "2026-10-02T20:59:01"
+  },
+  "/home/snics/MER-DA/results/interventions_audio_hubert/IEMOCAP-impro.csv": {
+   "bytes": 113822,
+   "mtime": "2026-10-09T18:42:06",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"audio_hubert\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"add78943e64f34f26f23b4b1441ae32430016990\", \"dirty\": false, \"started\": \"2026-10-09T18:37:20+0900\", \"map_dir\": \"results/fixc_map/audio_hubert\"}"
+  },
+  "/home/snics/MER-DA/results/interventions_audio_hubert/IEMOCAP-script.csv": {
+   "bytes": 115190,
+   "mtime": "2026-10-09T18:47:20",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"audio_hubert\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"add78943e64f34f26f23b4b1441ae32430016990\", \"dirty\": false, \"started\": \"2026-10-09T18:37:20+0900\", \"map_dir\": \"results/fixc_map/audio_hubert\"}"
+  },
+  "/home/snics/MER-DA/results/shift_audio_hubert/logits/MELD.npz": {
+   "bytes": 1297999,
+   "mtime": "2026-10-02T21:00:10"
+  },
+  "/home/snics/MER-DA/results/shift_audio_hubert/logits/AFEW.npz": {
+   "bytes": 1300159,
+   "mtime": "2026-10-02T21:00:15"
+  },
+  "/home/snics/MER-DA/results/shift_audio_hubert/logits/RAVDESS.npz": {
+   "bytes": 1298777,
+   "mtime": "2026-10-02T21:00:18"
+  },
+  "/home/snics/MER-DA/results/shift_audio_hubert/logits/CREMA-D.npz": {
+   "bytes": 1309607,
+   "mtime": "2026-10-02T21:00:24"
+  },
+  "/home/snics/MER-DA/results/shift_video/labeling.csv": {
+   "bytes": 30352,
+   "mtime": "2026-09-30T16:15:02",
+   "first_comment": "# {\"script\": \"exp/shift_map.py\", \"stage\": \"gpu\", \"kind\": \"video\", \"argv\": [\"gpu\", \"--kind\", \"video\"], \"commit\": \"65313f338105fc0cec0296e84963d5610d02954b\", \"dirty\": true, \"started\": \"2026-09-30T16:07:28+0900\", \"n\": 300, \"n_balanced\": 160, \"reps\": 20, \"pca_dim\": 64, \"pad_tol\": 1e-08, \"code\": \"results/shift_video/code/2026-09-30T160728+0900\"}"
+  },
+  "/home/snics/MER-DA/results/shift_video/logits/IEMOCAP-impro.npz": {
+   "bytes": 1276881,
+   "mtime": "2026-09-30T16:09:54"
+  },
+  "/home/snics/MER-DA/results/interventions_video/MOSEI.csv": {
+   "bytes": 87863,
+   "mtime": "2026-10-09T19:18:18",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"video\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"add78943e64f34f26f23b4b1441ae32430016990\", \"dirty\": false, \"started\": \"2026-10-09T19:13:04+0900\", \"map_dir\": \"results/fixc_map/video\"}"
+  },
+  "/home/snics/MER-DA/results/interventions_video/MELD.csv": {
+   "bytes": 86907,
+   "mtime": "2026-10-09T19:20:02",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"video\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"add78943e64f34f26f23b4b1441ae32430016990\", \"dirty\": false, \"started\": \"2026-10-09T19:13:04+0900\", \"map_dir\": \"results/fixc_map/video\"}"
+  },
+  "/home/snics/MER-DA/results/interventions_video/AFEW.csv": {
+   "bytes": 86581,
+   "mtime": "2026-10-09T19:21:20",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"video\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"add78943e64f34f26f23b4b1441ae32430016990\", \"dirty\": false, \"started\": \"2026-10-09T19:13:04+0900\", \"map_dir\": \"results/fixc_map/video\"}"
+  },
+  "/home/snics/MER-DA/results/interventions_video/CREMA-D.csv": {
+   "bytes": 89270,
+   "mtime": "2026-10-09T19:22:52",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"video\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"add78943e64f34f26f23b4b1441ae32430016990\", \"dirty\": false, \"started\": \"2026-10-09T19:13:04+0900\", \"map_dir\": \"results/fixc_map/video\"}"
+  },
+  "/home/snics/MER-DA/results/shift_video/logits/IEMOCAP-script.npz": {
+   "bytes": 1276545,
+   "mtime": "2026-09-30T16:13:21"
+  },
+  "/home/snics/MER-DA/results/shift_video/logits/MOSEI.npz": {
+   "bytes": 1264907,
+   "mtime": "2026-09-30T16:13:58"
+  },
+  "/home/snics/MER-DA/results/interventions_video/IEMOCAP-impro.csv": {
+   "bytes": 95043,
+   "mtime": "2026-10-09T19:14:38",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"video\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"add78943e64f34f26f23b4b1441ae32430016990\", \"dirty\": false, \"started\": \"2026-10-09T19:13:04+0900\", \"map_dir\": \"results/fixc_map/video\"}"
+  },
+  "/home/snics/MER-DA/results/interventions_video/IEMOCAP-script.csv": {
+   "bytes": 96118,
+   "mtime": "2026-10-09T19:16:17",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"video\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"add78943e64f34f26f23b4b1441ae32430016990\", \"dirty\": false, \"started\": \"2026-10-09T19:13:04+0900\", \"map_dir\": \"results/fixc_map/video\"}"
+  },
+  "/home/snics/MER-DA/results/shift_video/logits/MELD.npz": {
+   "bytes": 1262946,
+   "mtime": "2026-09-30T16:14:25"
+  },
+  "/home/snics/MER-DA/results/shift_video/logits/AFEW.npz": {
+   "bytes": 1272800,
+   "mtime": "2026-09-30T16:14:31"
+  },
+  "/home/snics/MER-DA/results/shift_video/logits/CREMA-D.npz": {
+   "bytes": 1276920,
+   "mtime": "2026-09-30T16:15:02"
+  },
+  "/home/snics/MER-DA/results/shift_fuse-audio-video/labeling.csv": {
+   "bytes": 30727,
+   "mtime": "2026-09-30T16:37:55",
+   "first_comment": "# {\"script\": \"exp/shift_map.py\", \"stage\": \"gpu\", \"kind\": \"fuse-audio-video\", \"argv\": [\"gpu\", \"--kind\", \"fuse-audio-video\"], \"commit\": \"d8a16c89e62a91df4233add9dafbe7dbd4b4e350\", \"dirty\": false, \"started\": \"2026-09-30T16:30:20+0900\", \"n\": 300, \"n_balanced\": 160, \"reps\": 20, \"pca_dim\": 64, \"pad_tol\": 1e-08, \"code\": \"results/shift_fuse-audio-video/code/2026-09-30T163020+0900\"}"
+  },
+  "/home/snics/MER-DA/results/shift_fuse-audio-video/logits/IEMOCAP-impro.npz": {
+   "bytes": 1276911,
+   "mtime": "2026-09-30T16:31:36"
+  },
+  "/home/snics/MER-DA/results/interventions_fuse-audio-video/MOSEI.csv": {
+   "bytes": 87853,
+   "mtime": "2026-10-09T19:40:35",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"fuse-audio-video\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"add78943e64f34f26f23b4b1441ae32430016990\", \"dirty\": false, \"started\": \"2026-10-09T19:22:54+0900\", \"map_dir\": \"results/fixc_map/fuse-audio-video\"}"
+  },
+  "/home/snics/MER-DA/results/interventions_fuse-audio-video/MELD.csv": {
+   "bytes": 86955,
+   "mtime": "2026-10-09T19:46:56",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"fuse-audio-video\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"add78943e64f34f26f23b4b1441ae32430016990\", \"dirty\": false, \"started\": \"2026-10-09T19:22:54+0900\", \"map_dir\": \"results/fixc_map/fuse-audio-video\"}"
+  },
+  "/home/snics/MER-DA/results/interventions_fuse-audio-video/AFEW.csv": {
+   "bytes": 86530,
+   "mtime": "2026-10-09T19:51:02",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"fuse-audio-video\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"add78943e64f34f26f23b4b1441ae32430016990\", \"dirty\": false, \"started\": \"2026-10-09T19:22:54+0900\", \"map_dir\": \"results/fixc_map/fuse-audio-video\"}"
+  },
+  "/home/snics/MER-DA/results/interventions_fuse-audio-video/CREMA-D.csv": {
+   "bytes": 89179,
+   "mtime": "2026-10-09T19:56:48",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"fuse-audio-video\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"add78943e64f34f26f23b4b1441ae32430016990\", \"dirty\": false, \"started\": \"2026-10-09T19:22:54+0900\", \"map_dir\": \"results/fixc_map/fuse-audio-video\"}"
+  },
+  "/home/snics/MER-DA/results/shift_fuse-audio-video/logits/IEMOCAP-script.npz": {
+   "bytes": 1277411,
+   "mtime": "2026-09-30T16:33:12"
+  },
+  "/home/snics/MER-DA/results/shift_fuse-audio-video/logits/MOSEI.npz": {
+   "bytes": 1272073,
+   "mtime": "2026-09-30T16:35:24"
+  },
+  "/home/snics/MER-DA/results/interventions_fuse-audio-video/IEMOCAP-impro.csv": {
+   "bytes": 94781,
+   "mtime": "2026-10-09T19:28:15",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"fuse-audio-video\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"add78943e64f34f26f23b4b1441ae32430016990\", \"dirty\": false, \"started\": \"2026-10-09T19:22:54+0900\", \"map_dir\": \"results/fixc_map/fuse-audio-video\"}"
+  },
+  "/home/snics/MER-DA/results/interventions_fuse-audio-video/IEMOCAP-script.csv": {
+   "bytes": 95902,
+   "mtime": "2026-10-09T19:33:36",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"fuse-audio-video\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"add78943e64f34f26f23b4b1441ae32430016990\", \"dirty\": false, \"started\": \"2026-10-09T19:22:54+0900\", \"map_dir\": \"results/fixc_map/fuse-audio-video\"}"
+  },
+  "/home/snics/MER-DA/results/shift_fuse-audio-video/logits/MELD.npz": {
+   "bytes": 1272478,
+   "mtime": "2026-09-30T16:37:34"
+  },
+  "/home/snics/MER-DA/results/shift_fuse-audio-video/logits/AFEW.npz": {
+   "bytes": 1276388,
+   "mtime": "2026-09-30T16:37:40"
+  },
+  "/home/snics/MER-DA/results/shift_fuse-audio-video/logits/CREMA-D.npz": {
+   "bytes": 1277731,
+   "mtime": "2026-09-30T16:37:55"
+  },
+  "/home/snics/MER-DA/results/shift_text_roberta/labeling.csv": {
+   "bytes": 12830,
+   "mtime": "2026-09-30T16:27:45",
+   "first_comment": "# {\"script\": \"exp/shift_map.py\", \"stage\": \"gpu\", \"kind\": \"text_roberta\", \"argv\": [\"gpu\", \"--kind\", \"text_roberta\"], \"commit\": \"d8a16c89e62a91df4233add9dafbe7dbd4b4e350\", \"dirty\": false, \"started\": \"2026-09-30T16:20:44+0900\", \"n\": 300, \"n_balanced\": 160, \"reps\": 20, \"pca_dim\": 64, \"pad_tol\": 1e-08, \"code\": \"results/shift_text_roberta/code/2026-09-30T162044+0900\"}"
+  },
+  "/home/snics/MER-DA/results/shift_text_roberta/logits/IEMOCAP-impro.npz": {
+   "bytes": 1088360,
+   "mtime": "2026-09-30T16:24:18"
+  },
+  "/home/snics/MER-DA/results/interventions_text_roberta/MOSEI.csv": {
+   "bytes": 54185,
+   "mtime": "2026-10-09T20:00:38",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"text_roberta\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"add78943e64f34f26f23b4b1441ae32430016990\", \"dirty\": false, \"started\": \"2026-10-09T19:56:50+0900\", \"map_dir\": \"results/fixc_map/text_roberta\"}"
+  },
+  "/home/snics/MER-DA/results/interventions_text_roberta/MELD.csv": {
+   "bytes": 53731,
+   "mtime": "2026-10-09T20:01:53",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"text_roberta\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"add78943e64f34f26f23b4b1441ae32430016990\", \"dirty\": false, \"started\": \"2026-10-09T19:56:50+0900\", \"map_dir\": \"results/fixc_map/text_roberta\"}"
+  },
+  "/home/snics/MER-DA/results/shift_text_roberta/logits/IEMOCAP-script.npz": {
+   "bytes": 1086473,
+   "mtime": "2026-09-30T16:26:58"
+  },
+  "/home/snics/MER-DA/results/shift_text_roberta/logits/MOSEI.npz": {
+   "bytes": 1075888,
+   "mtime": "2026-09-30T16:27:18"
+  },
+  "/home/snics/MER-DA/results/interventions_text_roberta/IEMOCAP-impro.csv": {
+   "bytes": 57850,
+   "mtime": "2026-10-09T19:58:05",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"text_roberta\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"add78943e64f34f26f23b4b1441ae32430016990\", \"dirty\": false, \"started\": \"2026-10-09T19:56:50+0900\", \"map_dir\": \"results/fixc_map/text_roberta\"}"
+  },
+  "/home/snics/MER-DA/results/interventions_text_roberta/IEMOCAP-script.csv": {
+   "bytes": 58313,
+   "mtime": "2026-10-09T19:59:21",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"text_roberta\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"add78943e64f34f26f23b4b1441ae32430016990\", \"dirty\": false, \"started\": \"2026-10-09T19:56:50+0900\", \"map_dir\": \"results/fixc_map/text_roberta\"}"
+  },
+  "/home/snics/MER-DA/results/shift_text_roberta/logits/MELD.npz": {
+   "bytes": 1086279,
+   "mtime": "2026-09-30T16:27:45"
+  },
+  "/home/snics/MER-DA/results/shift_fuse-audio-text/labeling.csv": {
+   "bytes": 12851,
+   "mtime": "2026-09-30T16:53:55",
+   "first_comment": "# {\"script\": \"exp/shift_map.py\", \"stage\": \"gpu\", \"kind\": \"fuse-audio-text\", \"argv\": [\"gpu\", \"--kind\", \"fuse-audio-text\"], \"commit\": \"d8a16c89e62a91df4233add9dafbe7dbd4b4e350\", \"dirty\": false, \"started\": \"2026-09-30T16:45:55+0900\", \"n\": 300, \"n_balanced\": 160, \"reps\": 20, \"pca_dim\": 64, \"pad_tol\": 1e-08, \"code\": \"results/shift_fuse-audio-text/code/2026-09-30T164555+0900\"}"
+  },
+  "/home/snics/MER-DA/results/shift_fuse-audio-text/logits/IEMOCAP-impro.npz": {
+   "bytes": 1111110,
+   "mtime": "2026-09-30T16:47:46"
+  },
+  "/home/snics/MER-DA/results/interventions_fuse-audio-text/MOSEI.csv": {
+   "bytes": 54188,
+   "mtime": "2026-10-09T20:28:04",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"fuse-audio-text\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"add78943e64f34f26f23b4b1441ae32430016990\", \"dirty\": false, \"started\": \"2026-10-09T20:11:46+0900\", \"map_dir\": \"results/fixc_map/fuse-audio-text\"}"
+  },
+  "/home/snics/MER-DA/results/interventions_fuse-audio-text/MELD.csv": {
+   "bytes": 53722,
+   "mtime": "2026-10-09T20:33:49",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"fuse-audio-text\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"add78943e64f34f26f23b4b1441ae32430016990\", \"dirty\": false, \"started\": \"2026-10-09T20:11:46+0900\", \"map_dir\": \"results/fixc_map/fuse-audio-text\"}"
+  },
+  "/home/snics/MER-DA/results/shift_fuse-audio-text/logits/IEMOCAP-script.npz": {
+   "bytes": 1110939,
+   "mtime": "2026-09-30T16:49:18"
+  },
+  "/home/snics/MER-DA/results/shift_fuse-audio-text/logits/MOSEI.npz": {
+   "bytes": 1108523,
+   "mtime": "2026-09-30T16:51:35"
+  },
+  "/home/snics/MER-DA/results/interventions_fuse-audio-text/IEMOCAP-impro.csv": {
+   "bytes": 57610,
+   "mtime": "2026-10-09T20:16:46",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"fuse-audio-text\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"add78943e64f34f26f23b4b1441ae32430016990\", \"dirty\": false, \"started\": \"2026-10-09T20:11:46+0900\", \"map_dir\": \"results/fixc_map/fuse-audio-text\"}"
+  },
+  "/home/snics/MER-DA/results/interventions_fuse-audio-text/IEMOCAP-script.csv": {
+   "bytes": 58212,
+   "mtime": "2026-10-09T20:22:07",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"fuse-audio-text\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"add78943e64f34f26f23b4b1441ae32430016990\", \"dirty\": false, \"started\": \"2026-10-09T20:11:46+0900\", \"map_dir\": \"results/fixc_map/fuse-audio-text\"}"
+  },
+  "/home/snics/MER-DA/results/shift_fuse-audio-text/logits/MELD.npz": {
+   "bytes": 1110544,
+   "mtime": "2026-09-30T16:53:55"
+  },
+  "/home/snics/MER-DA/results/shift_fuse-video-text/labeling.csv": {
+   "bytes": 12755,
+   "mtime": "2026-09-30T17:02:00",
+   "first_comment": "# {\"script\": \"exp/shift_map.py\", \"stage\": \"gpu\", \"kind\": \"fuse-video-text\", \"argv\": [\"gpu\", \"--kind\", \"fuse-video-text\"], \"commit\": \"d8a16c89e62a91df4233add9dafbe7dbd4b4e350\", \"dirty\": false, \"started\": \"2026-09-30T16:57:31+0900\", \"n\": 300, \"n_balanced\": 160, \"reps\": 20, \"pca_dim\": 64, \"pad_tol\": 1e-08, \"code\": \"results/shift_fuse-video-text/code/2026-09-30T165731+0900\"}"
+  },
+  "/home/snics/MER-DA/results/shift_fuse-video-text/logits/IEMOCAP-impro.npz": {
+   "bytes": 1100150,
+   "mtime": "2026-09-30T16:58:39"
+  },
+  "/home/snics/MER-DA/results/interventions_fuse-video-text/MOSEI.csv": {
+   "bytes": 54180,
+   "mtime": "2026-10-09T20:09:11",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"fuse-video-text\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"add78943e64f34f26f23b4b1441ae32430016990\", \"dirty\": false, \"started\": \"2026-10-09T20:01:55+0900\", \"map_dir\": \"results/fixc_map/fuse-video-text\"}"
+  },
+  "/home/snics/MER-DA/results/interventions_fuse-video-text/MELD.csv": {
+   "bytes": 53711,
+   "mtime": "2026-10-09T20:11:44",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"fuse-video-text\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"add78943e64f34f26f23b4b1441ae32430016990\", \"dirty\": false, \"started\": \"2026-10-09T20:01:55+0900\", \"map_dir\": \"results/fixc_map/fuse-video-text\"}"
+  },
+  "/home/snics/MER-DA/results/shift_fuse-video-text/logits/IEMOCAP-script.npz": {
+   "bytes": 1100426,
+   "mtime": "2026-09-30T16:59:28"
+  },
+  "/home/snics/MER-DA/results/shift_fuse-video-text/logits/MOSEI.npz": {
+   "bytes": 1094538,
+   "mtime": "2026-09-30T17:00:40"
+  },
+  "/home/snics/MER-DA/results/interventions_fuse-video-text/IEMOCAP-impro.csv": {
+   "bytes": 57738,
+   "mtime": "2026-10-09T20:04:08",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"fuse-video-text\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"add78943e64f34f26f23b4b1441ae32430016990\", \"dirty\": false, \"started\": \"2026-10-09T20:01:55+0900\", \"map_dir\": \"results/fixc_map/fuse-video-text\"}"
+  },
+  "/home/snics/MER-DA/results/interventions_fuse-video-text/IEMOCAP-script.csv": {
+   "bytes": 58278,
+   "mtime": "2026-10-09T20:06:31",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"fuse-video-text\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"add78943e64f34f26f23b4b1441ae32430016990\", \"dirty\": false, \"started\": \"2026-10-09T20:01:55+0900\", \"map_dir\": \"results/fixc_map/fuse-video-text\"}"
+  },
+  "/home/snics/MER-DA/results/shift_fuse-video-text/logits/MELD.npz": {
+   "bytes": 1097793,
+   "mtime": "2026-09-30T17:02:00"
+  },
+  "/home/snics/MER-DA/results/shift_fuse-audio-video-text/labeling.csv": {
+   "bytes": 12938,
+   "mtime": "2026-09-30T17:13:33",
+   "first_comment": "# {\"script\": \"exp/shift_map.py\", \"stage\": \"gpu\", \"kind\": \"fuse-audio-video-text\", \"argv\": [\"gpu\", \"--kind\", \"fuse-audio-video-text\"], \"commit\": \"d8a16c89e62a91df4233add9dafbe7dbd4b4e350\", \"dirty\": false, \"started\": \"2026-09-30T17:04:50+0900\", \"n\": 300, \"n_balanced\": 160, \"reps\": 20, \"pca_dim\": 64, \"pad_tol\": 1e-08, \"code\": \"results/shift_fuse-audio-video-text/code/2026-09-30T170450+0900\"}"
+  },
+  "/home/snics/MER-DA/results/shift_fuse-audio-video-text/logits/IEMOCAP-impro.npz": {
+   "bytes": 1099902,
+   "mtime": "2026-09-30T17:06:21"
+  },
+  "/home/snics/MER-DA/results/interventions_fuse-audio-video-text/MOSEI.csv": {
+   "bytes": 54181,
+   "mtime": "2026-10-09T20:52:50",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"fuse-audio-video-text\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"add78943e64f34f26f23b4b1441ae32430016990\", \"dirty\": false, \"started\": \"2026-10-09T20:33:51+0900\", \"map_dir\": \"results/fixc_map/fuse-audio-video-text\"}"
+  },
+  "/home/snics/MER-DA/results/interventions_fuse-audio-video-text/MELD.csv": {
+   "bytes": 53710,
+   "mtime": "2026-10-09T20:59:49",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"fuse-audio-video-text\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"add78943e64f34f26f23b4b1441ae32430016990\", \"dirty\": false, \"started\": \"2026-10-09T20:33:51+0900\", \"map_dir\": \"results/fixc_map/fuse-audio-video-text\"}"
+  },
+  "/home/snics/MER-DA/results/shift_fuse-audio-video-text/logits/IEMOCAP-script.npz": {
+   "bytes": 1100642,
+   "mtime": "2026-09-30T17:07:14"
+  },
+  "/home/snics/MER-DA/results/shift_fuse-audio-video-text/logits/MOSEI.npz": {
+   "bytes": 1098899,
+   "mtime": "2026-09-30T17:11:08"
+  },
+  "/home/snics/MER-DA/results/interventions_fuse-audio-video-text/IEMOCAP-impro.csv": {
+   "bytes": 57609,
+   "mtime": "2026-10-09T20:39:47",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"fuse-audio-video-text\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"add78943e64f34f26f23b4b1441ae32430016990\", \"dirty\": false, \"started\": \"2026-10-09T20:33:51+0900\", \"map_dir\": \"results/fixc_map/fuse-audio-video-text\"}"
+  },
+  "/home/snics/MER-DA/results/interventions_fuse-audio-video-text/IEMOCAP-script.csv": {
+   "bytes": 58228,
+   "mtime": "2026-10-09T20:46:00",
+   "first_comment": "# {\"script\": \"exp/interventions.py\", \"argv\": [\"--kind\", \"fuse-audio-video-text\", \"--reps\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"], \"commit\": \"add78943e64f34f26f23b4b1441ae32430016990\", \"dirty\": false, \"started\": \"2026-10-09T20:33:51+0900\", \"map_dir\": \"results/fixc_map/fuse-audio-video-text\"}"
+  },
+  "/home/snics/MER-DA/results/shift_fuse-audio-video-text/logits/MELD.npz": {
+   "bytes": 1100156,
+   "mtime": "2026-09-30T17:13:33"
+  },
+  "/home/snics/MER-DA/results/tgt_scores_audio_wavlm/AFEW.npz": {
+   "bytes": 86291,
+   "mtime": "2026-10-11T01:36:47"
+  },
+  "/home/snics/MER-DA/results/tgt_scores_audio_wavlm/CREMA-D.npz": {
+   "bytes": 463428,
+   "mtime": "2026-10-11T01:36:51"
+  },
+  "/home/snics/MER-DA/results/tgt_scores_audio_wavlm/IEMOCAP-impro.npz": {
+   "bytes": 283704,
+   "mtime": "2026-10-11T01:36:40"
+  },
+  "/home/snics/MER-DA/results/tgt_scores_audio_wavlm/IEMOCAP-script.npz": {
+   "bytes": 251434,
+   "mtime": "2026-10-11T01:36:41"
+  },
+  "/home/snics/MER-DA/results/tgt_scores_audio_wavlm/MELD.npz": {
+   "bytes": 1066951,
+   "mtime": "2026-10-11T01:36:45"
+  },
+  "/home/snics/MER-DA/results/tgt_scores_audio_wavlm/MOSEI.npz": {
+   "bytes": 1769962,
+   "mtime": "2026-10-11T01:36:44"
+  },
+  "/home/snics/MER-DA/results/tgt_scores_audio_wavlm/RAVDESS.npz": {
+   "bytes": 73766,
+   "mtime": "2026-10-11T01:36:49"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_audio_wavlm/AFEW.npz": {
+   "bytes": 636465,
+   "mtime": "2026-10-10T17:53:35"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_audio_wavlm/CREMA-D.npz": {
+   "bytes": 3567192,
+   "mtime": "2026-10-10T17:54:21"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_audio_wavlm/IEMOCAP-impro.npz": {
+   "bytes": 2168179,
+   "mtime": "2026-10-10T17:51:12"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_audio_wavlm/IEMOCAP-script.npz": {
+   "bytes": 1914246,
+   "mtime": "2026-10-10T17:51:48"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_audio_wavlm/MELD.npz": {
+   "bytes": 8192162,
+   "mtime": "2026-10-10T17:53:13"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_audio_wavlm/MOSEI.npz": {
+   "bytes": 13616646,
+   "mtime": "2026-10-10T17:52:34"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_audio_wavlm/RAVDESS.npz": {
+   "bytes": 547149,
+   "mtime": "2026-10-10T17:53:54"
+  },
+  "/home/snics/MER-DA/results/tgt_scores_audio_hubert/AFEW.npz": {
+   "bytes": 86337,
+   "mtime": "2026-10-11T01:37:07"
+  },
+  "/home/snics/MER-DA/results/tgt_scores_audio_hubert/CREMA-D.npz": {
+   "bytes": 463070,
+   "mtime": "2026-10-11T01:37:12"
+  },
+  "/home/snics/MER-DA/results/tgt_scores_audio_hubert/IEMOCAP-impro.npz": {
+   "bytes": 283675,
+   "mtime": "2026-10-11T01:36:56"
+  },
+  "/home/snics/MER-DA/results/tgt_scores_audio_hubert/IEMOCAP-script.npz": {
+   "bytes": 251399,
+   "mtime": "2026-10-11T01:36:58"
+  },
+  "/home/snics/MER-DA/results/tgt_scores_audio_hubert/MELD.npz": {
+   "bytes": 1067753,
+   "mtime": "2026-10-11T01:37:03"
+  },
+  "/home/snics/MER-DA/results/tgt_scores_audio_hubert/MOSEI.npz": {
+   "bytes": 1771600,
+   "mtime": "2026-10-11T01:37:00"
+  },
+  "/home/snics/MER-DA/results/tgt_scores_audio_hubert/RAVDESS.npz": {
+   "bytes": 73823,
+   "mtime": "2026-10-11T01:37:10"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_audio_hubert/AFEW.npz": {
+   "bytes": 636456,
+   "mtime": "2026-10-10T17:58:01"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_audio_hubert/CREMA-D.npz": {
+   "bytes": 3567873,
+   "mtime": "2026-10-10T17:58:47"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_audio_hubert/IEMOCAP-impro.npz": {
+   "bytes": 2168295,
+   "mtime": "2026-10-10T17:54:58"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_audio_hubert/IEMOCAP-script.npz": {
+   "bytes": 1914006,
+   "mtime": "2026-10-10T17:55:52"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_audio_hubert/MELD.npz": {
+   "bytes": 8186790,
+   "mtime": "2026-10-10T17:57:36"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_audio_hubert/MOSEI.npz": {
+   "bytes": 13620726,
+   "mtime": "2026-10-10T17:56:44"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_audio_hubert/RAVDESS.npz": {
+   "bytes": 547323,
+   "mtime": "2026-10-10T17:58:19"
+  },
+  "/home/snics/MER-DA/results/tgt_scores_video/AFEW.npz": {
+   "bytes": 86193,
+   "mtime": "2026-10-11T01:37:25"
+  },
+  "/home/snics/MER-DA/results/tgt_scores_video/CREMA-D.npz": {
+   "bytes": 462653,
+   "mtime": "2026-10-11T01:37:28"
+  },
+  "/home/snics/MER-DA/results/tgt_scores_video/IEMOCAP-impro.npz": {
+   "bytes": 283343,
+   "mtime": "2026-10-11T01:37:17"
+  },
+  "/home/snics/MER-DA/results/tgt_scores_video/IEMOCAP-script.npz": {
+   "bytes": 247630,
+   "mtime": "2026-10-11T01:37:18"
+  },
+  "/home/snics/MER-DA/results/tgt_scores_video/MELD.npz": {
+   "bytes": 1063666,
+   "mtime": "2026-10-11T01:37:23"
+  },
+  "/home/snics/MER-DA/results/tgt_scores_video/MOSEI.npz": {
+   "bytes": 1744934,
+   "mtime": "2026-10-11T01:37:21"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_video/AFEW.npz": {
+   "bytes": 532240,
+   "mtime": "2026-10-10T18:00:04"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_video/CREMA-D.npz": {
+   "bytes": 2977201,
+   "mtime": "2026-10-10T18:00:14"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_video/IEMOCAP-impro.npz": {
+   "bytes": 1808618,
+   "mtime": "2026-10-10T17:59:05"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_video/IEMOCAP-script.npz": {
+   "bytes": 1573716,
+   "mtime": "2026-10-10T17:59:20"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_video/MELD.npz": {
+   "bytes": 6817339,
+   "mtime": "2026-10-10T17:59:53"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_video/MOSEI.npz": {
+   "bytes": 11199031,
+   "mtime": "2026-10-10T17:59:40"
+  },
+  "/home/snics/MER-DA/results/tgt_scores_fuse-audio-video/AFEW.npz": {
+   "bytes": 86242,
+   "mtime": "2026-10-11T01:37:42"
+  },
+  "/home/snics/MER-DA/results/tgt_scores_fuse-audio-video/CREMA-D.npz": {
+   "bytes": 462611,
+   "mtime": "2026-10-11T01:37:44"
+  },
+  "/home/snics/MER-DA/results/tgt_scores_fuse-audio-video/IEMOCAP-impro.npz": {
+   "bytes": 283454,
+   "mtime": "2026-10-11T01:37:33"
+  },
+  "/home/snics/MER-DA/results/tgt_scores_fuse-audio-video/IEMOCAP-script.npz": {
+   "bytes": 247761,
+   "mtime": "2026-10-11T01:37:35"
+  },
+  "/home/snics/MER-DA/results/tgt_scores_fuse-audio-video/MELD.npz": {
+   "bytes": 1063617,
+   "mtime": "2026-10-11T01:37:41"
+  },
+  "/home/snics/MER-DA/results/tgt_scores_fuse-audio-video/MOSEI.npz": {
+   "bytes": 1743292,
+   "mtime": "2026-10-11T01:37:39"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_fuse-audio-video/AFEW.npz": {
+   "bytes": 531936,
+   "mtime": "2026-10-10T18:03:48"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_fuse-audio-video/CREMA-D.npz": {
+   "bytes": 2974075,
+   "mtime": "2026-10-10T18:04:21"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_fuse-audio-video/IEMOCAP-impro.npz": {
+   "bytes": 1809379,
+   "mtime": "2026-10-10T18:00:58"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_fuse-audio-video/IEMOCAP-script.npz": {
+   "bytes": 1574728,
+   "mtime": "2026-10-10T18:01:42"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_fuse-audio-video/MELD.npz": {
+   "bytes": 6817122,
+   "mtime": "2026-10-10T18:03:25"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_fuse-audio-video/MOSEI.npz": {
+   "bytes": 11198714,
+   "mtime": "2026-10-10T18:02:40"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_text_roberta/IEMOCAP-impro.npz": {
+   "bytes": 1058187,
+   "mtime": "2026-10-10T18:04:35"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_text_roberta/IEMOCAP-script.npz": {
+   "bytes": 918123,
+   "mtime": "2026-10-10T18:04:45"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_text_roberta/MELD.npz": {
+   "bytes": 3995564,
+   "mtime": "2026-10-10T18:05:09"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_text_roberta/MOSEI.npz": {
+   "bytes": 6833481,
+   "mtime": "2026-10-10T18:04:58"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_fuse-audio-text/IEMOCAP-impro.npz": {
+   "bytes": 1092545,
+   "mtime": "2026-10-10T18:05:42"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_fuse-audio-text/IEMOCAP-script.npz": {
+   "bytes": 965331,
+   "mtime": "2026-10-10T18:06:21"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_fuse-audio-text/MELD.npz": {
+   "bytes": 4129627,
+   "mtime": "2026-10-10T18:07:28"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_fuse-audio-text/MOSEI.npz": {
+   "bytes": 6856315,
+   "mtime": "2026-10-10T18:06:58"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_fuse-video-text/IEMOCAP-impro.npz": {
+   "bytes": 1092275,
+   "mtime": "2026-10-10T18:07:46"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_fuse-video-text/IEMOCAP-script.npz": {
+   "bytes": 951315,
+   "mtime": "2026-10-10T18:08:05"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_fuse-video-text/MELD.npz": {
+   "bytes": 4114759,
+   "mtime": "2026-10-10T18:08:46"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_fuse-video-text/MOSEI.npz": {
+   "bytes": 6751946,
+   "mtime": "2026-10-10T18:08:28"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_fuse-audio-video-text/IEMOCAP-impro.npz": {
+   "bytes": 1092093,
+   "mtime": "2026-10-10T18:09:28"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_fuse-audio-video-text/IEMOCAP-script.npz": {
+   "bytes": 950898,
+   "mtime": "2026-10-10T18:10:19"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_fuse-audio-video-text/MELD.npz": {
+   "bytes": 4114412,
+   "mtime": "2026-10-10T18:11:46"
+  },
+  "/home/snics/MER-DA/results/transfer_scores_fuse-audio-video-text/MOSEI.npz": {
+   "bytes": 6752066,
+   "mtime": "2026-10-10T18:11:09"
+  },
+  "/home/snics/MER-DA/results/explore_relation/snapshots/20261011-0139_e28t9/e28t9_targets.csv": {
+   "bytes": 5055,
+   "mtime": "2026-10-11T01:39:14"
+  },
+  "/home/snics/MER-DA/results/explore_relation/snapshots/20261011-1524_e29/e29_tests.csv": {
+   "bytes": 2651,
+   "mtime": "2026-10-11T15:24:20"
+  },
+  "/home/snics/MER-DA/results/shift_audio_wavlm/label.csv": {
+   "bytes": 14893,
+   "mtime": "2026-09-30T15:38:39",
+   "first_comment": "# {\"script\": \"exp/shift_map.py\", \"stage\": \"gpu\", \"kind\": \"audio_wavlm\", \"argv\": [\"gpu\", \"--kind\", \"audio_wavlm\"], \"commit\": \"65313f338105fc0cec0296e84963d5610d02954b\", \"dirty\": true, \"started\": \"2026-09-30T15:34:41+0900\", \"n\": 300, \"n_balanced\": 160, \"reps\": 20, \"pca_dim\": 64, \"pad_tol\": 1e-08, \"code\": \"results/shift_audio_wavlm/code/2026-09-30T153441+0900\"}"
+  },
+  "/home/snics/MER-DA/results/shift_audio_hubert/label.csv": {
+   "bytes": 14914,
+   "mtime": "2026-10-02T21:00:24",
+   "first_comment": "# {\"script\": \"exp/shift_map.py\", \"stage\": \"gpu\", \"kind\": \"audio_hubert\", \"argv\": [\"gpu\", \"--kind\", \"audio_hubert\"], \"commit\": \"3d80cfca20dcf50708ef667965c6a90dfa8019e1\", \"dirty\": false, \"started\": \"2026-10-02T20:56:45+0900\", \"n\": 300, \"n_balanced\": 160, \"reps\": 20, \"pca_dim\": 64, \"pad_tol\": 1e-08, \"code\": \"results/shift_audio_hubert/code/2026-10-02T205645+0900\"}"
+  },
+  "/home/snics/MER-DA/results/shift_video/label.csv": {
+   "bytes": 10565,
+   "mtime": "2026-09-30T16:15:02",
+   "first_comment": "# {\"script\": \"exp/shift_map.py\", \"stage\": \"gpu\", \"kind\": \"video\", \"argv\": [\"gpu\", \"--kind\", \"video\"], \"commit\": \"65313f338105fc0cec0296e84963d5610d02954b\", \"dirty\": true, \"started\": \"2026-09-30T16:07:28+0900\", \"n\": 300, \"n_balanced\": 160, \"reps\": 20, \"pca_dim\": 64, \"pad_tol\": 1e-08, \"code\": \"results/shift_video/code/2026-09-30T160728+0900\"}"
+  },
+  "/home/snics/MER-DA/results/shift_fuse-audio-video/label.csv": {
+   "bytes": 10885,
+   "mtime": "2026-09-30T16:37:55",
+   "first_comment": "# {\"script\": \"exp/shift_map.py\", \"stage\": \"gpu\", \"kind\": \"fuse-audio-video\", \"argv\": [\"gpu\", \"--kind\", \"fuse-audio-video\"], \"commit\": \"d8a16c89e62a91df4233add9dafbe7dbd4b4e350\", \"dirty\": false, \"started\": \"2026-09-30T16:30:20+0900\", \"n\": 300, \"n_balanced\": 160, \"reps\": 20, \"pca_dim\": 64, \"pad_tol\": 1e-08, \"code\": \"results/shift_fuse-audio-video/code/2026-09-30T163020+0900\"}"
+  },
+  "/home/snics/MER-DA/results/shift_text_roberta/label.csv": {
+   "bytes": 4654,
+   "mtime": "2026-09-30T16:27:45",
+   "first_comment": "# {\"script\": \"exp/shift_map.py\", \"stage\": \"gpu\", \"kind\": \"text_roberta\", \"argv\": [\"gpu\", \"--kind\", \"text_roberta\"], \"commit\": \"d8a16c89e62a91df4233add9dafbe7dbd4b4e350\", \"dirty\": false, \"started\": \"2026-09-30T16:20:44+0900\", \"n\": 300, \"n_balanced\": 160, \"reps\": 20, \"pca_dim\": 64, \"pad_tol\": 1e-08, \"code\": \"results/shift_text_roberta/code/2026-09-30T162044+0900\"}"
+  },
+  "/home/snics/MER-DA/results/shift_fuse-audio-text/label.csv": {
+   "bytes": 4689,
+   "mtime": "2026-09-30T16:53:55",
+   "first_comment": "# {\"script\": \"exp/shift_map.py\", \"stage\": \"gpu\", \"kind\": \"fuse-audio-text\", \"argv\": [\"gpu\", \"--kind\", \"fuse-audio-text\"], \"commit\": \"d8a16c89e62a91df4233add9dafbe7dbd4b4e350\", \"dirty\": false, \"started\": \"2026-09-30T16:45:55+0900\", \"n\": 300, \"n_balanced\": 160, \"reps\": 20, \"pca_dim\": 64, \"pad_tol\": 1e-08, \"code\": \"results/shift_fuse-audio-text/code/2026-09-30T164555+0900\"}"
+  },
+  "/home/snics/MER-DA/results/shift_fuse-video-text/label.csv": {
+   "bytes": 4659,
+   "mtime": "2026-09-30T17:02:00",
+   "first_comment": "# {\"script\": \"exp/shift_map.py\", \"stage\": \"gpu\", \"kind\": \"fuse-video-text\", \"argv\": [\"gpu\", \"--kind\", \"fuse-video-text\"], \"commit\": \"d8a16c89e62a91df4233add9dafbe7dbd4b4e350\", \"dirty\": false, \"started\": \"2026-09-30T16:57:31+0900\", \"n\": 300, \"n_balanced\": 160, \"reps\": 20, \"pca_dim\": 64, \"pad_tol\": 1e-08, \"code\": \"results/shift_fuse-video-text/code/2026-09-30T165731+0900\"}"
+  },
+  "/home/snics/MER-DA/results/shift_fuse-audio-video-text/label.csv": {
+   "bytes": 4747,
+   "mtime": "2026-09-30T17:13:33",
+   "first_comment": "# {\"script\": \"exp/shift_map.py\", \"stage\": \"gpu\", \"kind\": \"fuse-audio-video-text\", \"argv\": [\"gpu\", \"--kind\", \"fuse-audio-video-text\"], \"commit\": \"d8a16c89e62a91df4233add9dafbe7dbd4b4e350\", \"dirty\": false, \"started\": \"2026-09-30T17:04:50+0900\", \"n\": 300, \"n_balanced\": 160, \"reps\": 20, \"pca_dim\": 64, \"pad_tol\": 1e-08, \"code\": \"results/shift_fuse-audio-video-text/code/2026-09-30T170450+0900\"}"
+  },
+  "/home/snics/MER-DA/results/fixc_analysis/explore_relation/e12_wt.csv": {
+   "bytes": 2825,
+   "mtime": "2026-10-09T01:16:19"
+  },
+  "/home/snics/MER-DA/results/fixc_analysis/explore_relation/e12_state.json": {
+   "bytes": 483,
+   "mtime": "2026-10-09T01:16:19"
+  },
+  "/home/snics/MER-DA/results/mech_audio_wavlm/AFEW.csv": {
+   "bytes": 107127,
+   "mtime": "2026-10-02T09:33:34",
+   "first_comment": "# {\"script\": \"exp/mech.py\", \"argv\": [\"--kind\", \"audio_wavlm\", \"--reps\", \"0\", \"1\", \"2\"], \"commit\": \"cbca444dc79f8398e2127336b1d8cd514e85027c\", \"dirty\": true, \"started\": \"2026-10-02T01:42:10+0900\", \"kind\": \"audio_wavlm\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CR"
+  },
+  "/home/snics/MER-DA/results/mech_audio_wavlm/CREMA-D.csv": {
+   "bytes": 107587,
+   "mtime": "2026-10-02T10:14:28",
+   "first_comment": "# {\"script\": \"exp/mech.py\", \"argv\": [\"--kind\", \"audio_wavlm\", \"--reps\", \"0\", \"1\", \"2\"], \"commit\": \"cbca444dc79f8398e2127336b1d8cd514e85027c\", \"dirty\": true, \"started\": \"2026-10-02T01:42:10+0900\", \"kind\": \"audio_wavlm\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CR"
+  },
+  "/home/snics/MER-DA/results/mech_audio_wavlm/IEMOCAP-impro.csv": {
+   "bytes": 108434,
+   "mtime": "2026-10-02T07:46:09",
+   "first_comment": "# {\"script\": \"exp/mech.py\", \"argv\": [\"--kind\", \"audio_wavlm\", \"--reps\", \"0\", \"1\", \"2\"], \"commit\": \"cbca444dc79f8398e2127336b1d8cd514e85027c\", \"dirty\": true, \"started\": \"2026-10-02T01:42:10+0900\", \"kind\": \"audio_wavlm\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CR"
+  },
+  "/home/snics/MER-DA/results/mech_audio_wavlm/IEMOCAP-script.csv": {
+   "bytes": 108486,
+   "mtime": "2026-10-02T08:09:35",
+   "first_comment": "# {\"script\": \"exp/mech.py\", \"argv\": [\"--kind\", \"audio_wavlm\", \"--reps\", \"0\", \"1\", \"2\"], \"commit\": \"cbca444dc79f8398e2127336b1d8cd514e85027c\", \"dirty\": true, \"started\": \"2026-10-02T01:42:10+0900\", \"kind\": \"audio_wavlm\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CR"
+  },
+  "/home/snics/MER-DA/results/mech_audio_wavlm/MELD.csv": {
+   "bytes": 106852,
+   "mtime": "2026-10-02T09:15:13",
+   "first_comment": "# {\"script\": \"exp/mech.py\", \"argv\": [\"--kind\", \"audio_wavlm\", \"--reps\", \"0\", \"1\", \"2\"], \"commit\": \"cbca444dc79f8398e2127336b1d8cd514e85027c\", \"dirty\": true, \"started\": \"2026-10-02T01:42:10+0900\", \"kind\": \"audio_wavlm\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CR"
+  },
+  "/home/snics/MER-DA/results/mech_audio_wavlm/MOSEI.csv": {
+   "bytes": 108318,
+   "mtime": "2026-10-02T08:46:22",
+   "first_comment": "# {\"script\": \"exp/mech.py\", \"argv\": [\"--kind\", \"audio_wavlm\", \"--reps\", \"0\", \"1\", \"2\"], \"commit\": \"cbca444dc79f8398e2127336b1d8cd514e85027c\", \"dirty\": true, \"started\": \"2026-10-02T01:42:10+0900\", \"kind\": \"audio_wavlm\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CR"
+  },
+  "/home/snics/MER-DA/results/mech_audio_wavlm/RAVDESS.csv": {
+   "bytes": 88301,
+   "mtime": "2026-10-02T09:51:40",
+   "first_comment": "# {\"script\": \"exp/mech.py\", \"argv\": [\"--kind\", \"audio_wavlm\", \"--reps\", \"0\", \"1\", \"2\"], \"commit\": \"cbca444dc79f8398e2127336b1d8cd514e85027c\", \"dirty\": true, \"started\": \"2026-10-02T01:42:10+0900\", \"kind\": \"audio_wavlm\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CR"
+  },
+  "/home/snics/MER-DA/results/mech_audio_hubert/AFEW.csv": {
+   "bytes": 107909,
+   "mtime": "2026-10-09T04:09:05",
+   "first_comment": "# {\"script\": \"exp/mech.py\", \"argv\": [\"--kind\", \"audio_hubert\", \"--reps\", \"0\", \"1\", \"2\"], \"commit\": \"642af8b4e908b34a499dbd13604cb3b97155b107\", \"dirty\": false, \"started\": \"2026-10-08T13:08:09+0900\", \"kind\": \"audio_hubert\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", "
+  },
+  "/home/snics/MER-DA/results/mech_audio_hubert/CREMA-D.csv": {
+   "bytes": 106748,
+   "mtime": "2026-10-09T05:12:27",
+   "first_comment": "# {\"script\": \"exp/mech.py\", \"argv\": [\"--kind\", \"audio_hubert\", \"--reps\", \"0\", \"1\", \"2\"], \"commit\": \"642af8b4e908b34a499dbd13604cb3b97155b107\", \"dirty\": false, \"started\": \"2026-10-08T13:08:09+0900\", \"kind\": \"audio_hubert\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", "
+  },
+  "/home/snics/MER-DA/results/mech_audio_hubert/IEMOCAP-impro.csv": {
+   "bytes": 109310,
+   "mtime": "2026-10-09T00:34:22",
+   "first_comment": "# {\"script\": \"exp/mech.py\", \"argv\": [\"--kind\", \"audio_hubert\", \"--reps\", \"0\", \"1\", \"2\"], \"commit\": \"642af8b4e908b34a499dbd13604cb3b97155b107\", \"dirty\": false, \"started\": \"2026-10-08T13:08:09+0900\", \"kind\": \"audio_hubert\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", "
+  },
+  "/home/snics/MER-DA/results/mech_audio_hubert/IEMOCAP-script.csv": {
+   "bytes": 109893,
+   "mtime": "2026-10-09T01:42:58",
+   "first_comment": "# {\"script\": \"exp/mech.py\", \"argv\": [\"--kind\", \"audio_hubert\", \"--reps\", \"0\", \"1\", \"2\"], \"commit\": \"642af8b4e908b34a499dbd13604cb3b97155b107\", \"dirty\": false, \"started\": \"2026-10-08T13:08:09+0900\", \"kind\": \"audio_hubert\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", "
+  },
+  "/home/snics/MER-DA/results/mech_audio_hubert/MELD.csv": {
+   "bytes": 107664,
+   "mtime": "2026-10-09T03:33:05",
+   "first_comment": "# {\"script\": \"exp/mech.py\", \"argv\": [\"--kind\", \"audio_hubert\", \"--reps\", \"0\", \"1\", \"2\"], \"commit\": \"642af8b4e908b34a499dbd13604cb3b97155b107\", \"dirty\": false, \"started\": \"2026-10-08T13:08:09+0900\", \"kind\": \"audio_hubert\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", "
+  },
+  "/home/snics/MER-DA/results/mech_audio_hubert/MOSEI.csv": {
+   "bytes": 107842,
+   "mtime": "2026-10-09T02:32:44",
+   "first_comment": "# {\"script\": \"exp/mech.py\", \"argv\": [\"--kind\", \"audio_hubert\", \"--reps\", \"0\", \"1\", \"2\"], \"commit\": \"642af8b4e908b34a499dbd13604cb3b97155b107\", \"dirty\": false, \"started\": \"2026-10-08T13:08:09+0900\", \"kind\": \"audio_hubert\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", "
+  },
+  "/home/snics/MER-DA/results/mech_audio_hubert/RAVDESS.csv": {
+   "bytes": 87758,
+   "mtime": "2026-10-09T04:38:13",
+   "first_comment": "# {\"script\": \"exp/mech.py\", \"argv\": [\"--kind\", \"audio_hubert\", \"--reps\", \"0\", \"1\", \"2\"], \"commit\": \"642af8b4e908b34a499dbd13604cb3b97155b107\", \"dirty\": false, \"started\": \"2026-10-08T13:08:09+0900\", \"kind\": \"audio_hubert\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"RAVDESS\", "
+  },
+  "/home/snics/MER-DA/results/mech_video/AFEW.csv": {
+   "bytes": 86557,
+   "mtime": "2026-10-02T13:47:00",
+   "first_comment": "# {\"script\": \"exp/mech.py\", \"argv\": [\"--kind\", \"video\", \"--reps\", \"0\", \"1\", \"2\"], \"commit\": \"def1045fcc8c33d3580730a983960fd26abecb63\", \"dirty\": false, \"started\": \"2026-10-02T10:14:30+0900\", \"kind\": \"video\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"CREMA-D\"], \"reps\": [0, 1, 2], \"K\": "
+  },
+  "/home/snics/MER-DA/results/mech_video/CREMA-D.csv": {
+   "bytes": 86839,
+   "mtime": "2026-10-02T13:59:08",
+   "first_comment": "# {\"script\": \"exp/mech.py\", \"argv\": [\"--kind\", \"video\", \"--reps\", \"0\", \"1\", \"2\"], \"commit\": \"def1045fcc8c33d3580730a983960fd26abecb63\", \"dirty\": false, \"started\": \"2026-10-02T10:14:30+0900\", \"kind\": \"video\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"CREMA-D\"], \"reps\": [0, 1, 2], \"K\": "
+  },
+  "/home/snics/MER-DA/results/mech_video/IEMOCAP-impro.csv": {
+   "bytes": 89961,
+   "mtime": "2026-10-02T12:56:55",
+   "first_comment": "# {\"script\": \"exp/mech.py\", \"argv\": [\"--kind\", \"video\", \"--reps\", \"0\", \"1\", \"2\"], \"commit\": \"def1045fcc8c33d3580730a983960fd26abecb63\", \"dirty\": false, \"started\": \"2026-10-02T10:14:30+0900\", \"kind\": \"video\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"CREMA-D\"], \"reps\": [0, 1, 2], \"K\": "
+  },
+  "/home/snics/MER-DA/results/mech_video/IEMOCAP-script.csv": {
+   "bytes": 89993,
+   "mtime": "2026-10-02T13:11:24",
+   "first_comment": "# {\"script\": \"exp/mech.py\", \"argv\": [\"--kind\", \"video\", \"--reps\", \"0\", \"1\", \"2\"], \"commit\": \"def1045fcc8c33d3580730a983960fd26abecb63\", \"dirty\": false, \"started\": \"2026-10-02T10:14:30+0900\", \"kind\": \"video\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"CREMA-D\"], \"reps\": [0, 1, 2], \"K\": "
+  },
+  "/home/snics/MER-DA/results/mech_video/MELD.csv": {
+   "bytes": 87429,
+   "mtime": "2026-10-02T13:36:40",
+   "first_comment": "# {\"script\": \"exp/mech.py\", \"argv\": [\"--kind\", \"video\", \"--reps\", \"0\", \"1\", \"2\"], \"commit\": \"def1045fcc8c33d3580730a983960fd26abecb63\", \"dirty\": false, \"started\": \"2026-10-02T10:14:30+0900\", \"kind\": \"video\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"CREMA-D\"], \"reps\": [0, 1, 2], \"K\": "
+  },
+  "/home/snics/MER-DA/results/mech_video/MOSEI.csv": {
+   "bytes": 87605,
+   "mtime": "2026-10-02T13:25:09",
+   "first_comment": "# {\"script\": \"exp/mech.py\", \"argv\": [\"--kind\", \"video\", \"--reps\", \"0\", \"1\", \"2\"], \"commit\": \"def1045fcc8c33d3580730a983960fd26abecb63\", \"dirty\": false, \"started\": \"2026-10-02T10:14:30+0900\", \"kind\": \"video\", \"targets\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"CREMA-D\"], \"sources\": [\"IEMOCAP-impro\", \"IEMOCAP-script\", \"MOSEI\", \"MELD\", \"AFEW\", \"CREMA-D\"], \"reps\": [0, 1, 2], \"K\": "
+  },
+  "/home/snics/MER-DA/results/fixc_analysis/explore_relation/e15b_pairs.csv": {
+   "bytes": 73977,
+   "mtime": "2026-10-09T01:35:23"
+  },
+  "/home/snics/MER-DA/results/fixc_analysis/explore_relation/e15b_tests.csv": {
+   "bytes": 1579,
+   "mtime": "2026-10-09T01:35:23"
+  },
+  "/home/snics/MER-DA/results/fixc_text/explore_relation/e15b_pairs.csv": {
+   "bytes": 25963,
+   "mtime": "2026-10-09T18:16:14"
+  },
+  "/home/snics/MER-DA/results/fixc_text/explore_relation/e15b_tests.csv": {
+   "bytes": 1596,
+   "mtime": "2026-10-09T18:16:14"
+  },
+  "/home/snics/MER-DA/results/explore_relation/snapshots/20261011-0139_e28t9/e28t9_pairs.csv": {
+   "bytes": 144373,
+   "mtime": "2026-10-11T01:39:14"
+  }
+ },
+ "modules": {
+  "exp/reanalysis_e75.py": {
+   "status": "clean",
+   "sha256": "5a03b5ccd4ed4dbc236edcf6da72d3b7759787db855875a93c2e75ed9f3c6d0f"
+  },
+  "measure/ablate.py": {
+   "status": "clean",
+   "sha256": "0146fe591aedfa498a35272fb2c8da9bbd030847533d1f54833492c7dc541ce8"
+  },
+  "features/common.py": {
+   "status": "clean",
+   "sha256": "90b2231d151f76602dac713556eaacfbe8658c46c546800adcce3b5d15fe9e5e"
+  },
+  "measure/data.py": {
+   "status": "clean",
+   "sha256": "079e525bb5e82fd5a1dc81c64d58783ce4fb3bd1e4258227dcb1aac67a7d55b2"
+  },
+  "exp/explore_direction_bound.py": {
+   "status": "clean",
+   "sha256": "5d23b34160315d4bbc3e81b6a6ee2a4888d94473f2387a53e05f77bf2cdf1d99"
+  },
+  "exp/explore_factor.py": {
+   "status": "clean",
+   "sha256": "57744e8ecf79946c39a51669426752135863a40716c8bf1caa03c9272389135f"
+  },
+  "exp/explore_geometry.py": {
+   "status": "clean",
+   "sha256": "17baf181bd9f40a1846a7cb84c5b96fdee2496e667d1faf70f6d4381b02b850e"
+  },
+  "exp/explore_mechanism.py": {
+   "status": "clean",
+   "sha256": "baf0f0be532fa2f1f372e2d1bb7e17b057813194d749e431dc17c8d041c47cb2"
+  },
+  "exp/explore_pairs.py": {
+   "status": "clean",
+   "sha256": "0d23c7a496565ccec00f24fbb665cece41688007a0edfe53c1a0944bfe4b05f3"
+  },
+  "exp/explore_synergy.py": {
+   "status": "clean",
+   "sha256": "3bc0141478a79cf74aed706dd09e9a6797c76500a3140e8a42ddb99e61a6c7bd"
+  },
+  "exp/explore_uar_link.py": {
+   "status": "clean",
+   "sha256": "cf642d8c5ac46790b55c8b7e5926148dd036764fc7c8e561357174c4db3e282c"
+  },
+  "exp/logreg.py": {
+   "status": "clean",
+   "sha256": "cf8727d4ff0c113859576de541fb1ae2837b2c14e97bf6371c340fc3852d50fc"
+  },
+  "exp/map.py": {
+   "status": "clean",
+   "sha256": "993b38fa939cf080375a66fdb4f4956425c241d16a2231cf928a2901a6bb9c4a"
+  },
+  "exp/pair_table.py": {
+   "status": "clean",
+   "sha256": "62e543284abb9b83b31cbd782aca1b4cceef33b69ae6c8fbef221ba4a2af2ba0"
+  },
+  "measure/shift.py": {
+   "status": "clean",
+   "sha256": "04b763328d4c7abfbc0eb5d6e9fdf01d5fe799ab7786c12a26b39c493eb59216"
+  },
+  "measure/split.py": {
+   "status": "clean",
+   "sha256": "2bae48dd89de94c689e4486f35f60f3159788552fb53730a374293b43d75ce0d"
+  },
+  "exp/summarize_map.py": {
+   "status": "clean",
+   "sha256": "d1d8c197572d038a930de37472d460d39430e3dac8e0c33e95dd706dc49476cd"
+  }
+ },
+ "e13_computed_on_the_fly": [
+  "audio_hubert"
+ ],
+ "written": [
+  {
+   "file": "e75_1_pairs.csv",
+   "rows": 1152
+  },
+  {
+   "file": "e75_1_counts.csv",
+   "rows": 48
+  },
+  {
+   "file": "e75_1_by_target.csv",
+   "rows": 252
+  },
+  {
+   "file": "e75_1_kstar.csv",
+   "rows": 192
+  },
+  {
+   "file": "e75_1_kstar_dist.csv",
+   "rows": 24
+  },
+  {
+   "file": "e75_1_testsets.csv",
+   "rows": 42
+  },
+  {
+   "file": "e75_2_script_excluded.csv",
+   "rows": 96
+  },
+  {
+   "file": "e75_2_kstar_dist.csv",
+   "rows": 16
+  },
+  {
+   "file": "e75_2_targets.csv",
+   "rows": 252
+  },
+  {
+   "file": "e75_3_additive.csv",
+   "rows": 136
+  },
+  {
+   "file": "e75_4_c_rule.csv",
+   "rows": 480
+  },
+  {
+   "file": "e75_4_tgt_c_rule_share.csv",
+   "rows": 48
+  },
+  {
+   "file": "e75_4_first_negative_K.csv",
+   "rows": 80
+  },
+  {
+   "file": "e75_4_pairs.csv",
+   "rows": 8832
+  },
+  {
+   "file": "e75_5_pairs.csv",
+   "rows": 528
+  },
+  {
+   "file": "e75_5_summary.csv",
+   "rows": 54
+  },
+  {
+   "file": "e75_5_by_target.csv",
+   "rows": 126
+  },
+  {
+   "file": "e75_5_neutral_pairs.csv",
+   "rows": 48
+  },
+  {
+   "file": "e75_5_by_emotion_pair.csv",
+   "rows": 144
+  },
+  {
+   "file": "e75_6_pairs.csv",
+   "rows": 176
+  },
+  {
+   "file": "e75_6_summary.csv",
+   "rows": 8
+  },
+  {
+   "file": "e75_7_rows.csv",
+   "rows": 36360
+  },
+  {
+   "file": "e75_7_summary.csv",
+   "rows": 36
+  },
+  {
+   "file": "e75_7_test_sets.csv",
+   "rows": 68
+  },
+  {
+   "file": "e75_8_negative_direction.csv",
+   "rows": 16
+  },
+  {
+   "file": "e75_8_p29_3.csv",
+   "rows": 108
+  },
+  {
+   "file": "e75_8_pairs.csv",
+   "rows": 176
+  },
+  {
+   "file": "e75_8_shrinkage.csv",
+   "rows": 84
+  },
+  {
+   "file": "e75_8_delta_halves.csv",
+   "rows": 252
+  },
+  {
+   "file": "e75_8_delta_halves_summary.csv",
+   "rows": 8
+  },
+  {
+   "file": "e75_9_centering_prior.csv",
+   "rows": 8
+  },
+  {
+   "file": "e75_9_pairs.csv",
+   "rows": 176
+  },
+  {
+   "file": "e75_10_e12_wt.csv",
+   "rows": 18
+  },
+  {
+   "file": "e75_10_pairs.csv",
+   "rows": 342
+  },
+  {
+   "file": "e75_11_targets.csv",
+   "rows": 26
+  },
+  {
+   "file": "e75_11_residuals.csv",
+   "rows": 468
+  },
+  {
+   "file": "e75_11_summary.csv",
+   "rows": 4
+  },
+  {
+   "file": "e75_11_boot.csv",
+   "rows": 26000
+  },
+  {
+   "file": "e75_12_lambda.csv",
+   "rows": 32
+  },
+  {
+   "file": "e75_12_within_target.csv",
+   "rows": 78
+  },
+  {
+   "file": "e75_13_pairs.csv",
+   "rows": 176
+  },
+  {
+   "file": "e75_13_within_target.csv",
+   "rows": 78
+  },
+  {
+   "file": "e75_13_summary.csv",
+   "rows": 24
+  },
+  {
+   "file": "gaps.csv",
+   "rows": 16
+  },
+  {
+   "file": "checks.csv",
+   "rows": 550
+  },
+  {
+   "file": "e75_assumptions.csv",
+   "rows": 96
+  },
+  {
+   "file": "records.csv",
+   "rows": 11
+  }
+ ],
+ "n_gaps": 16,
+ "n_checks": 550,
+ "n_checks_failed": 0
+}

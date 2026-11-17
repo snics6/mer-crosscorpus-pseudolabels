@@ -1,0 +1,11 @@
+{
+ "script": "exp/check_mh.py",
+ "commit": "6d0b6882cd912b04c009e6a9d1af310558235bd3",
+ "dirty": false,
+ "run": "2026-10-09T01:32:01+09:00",
+ "n_reps": {
+  "audio_hubert": 30,
+  "audio_wavlm": 30
+ },
+ "e11_reproduction_max_abs_diff": 9.75781955236954e-17
+}

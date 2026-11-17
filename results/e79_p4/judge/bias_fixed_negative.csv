@@ -1,0 +1,6 @@
+run,n_rows,n_negative,n_fit_failed
+audio_wavlm,7200,1807,0
+video,6370,1724,0
+text_roberta,4420,1583,0
+fuse-audio-video-text,17300,4655,0
+fuse-audio-video,18440,4619,0

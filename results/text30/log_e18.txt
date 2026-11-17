@@ -1,0 +1,25 @@
+setting     test   stat     p  p_holm  partial  coef_dist_alone  spearman_raw
+      T       D1  0.196 0.271   1.000    0.491              NaN           NaN
+      T       D2  0.497 0.050   0.302    0.231              NaN           NaN
+      T       D3 -0.133 0.340   1.000   -0.011              NaN           NaN
+      T       D4 -0.217 0.751   1.000   -0.315              NaN           NaN
+      T    D5 距離 -0.160 0.313   1.000      NaN           -0.238        -0.238
+      T D5 位置の直り -0.317 0.829   1.000      NaN              NaN           NaN
+     AT       D1 -0.014 0.517   1.000    0.671              NaN           NaN
+     AT       D2  0.238 0.228   1.000   -0.227              NaN           NaN
+     AT       D3  0.014 0.517   1.000    0.253              NaN           NaN
+     AT       D4 -0.308 0.835   1.000   -0.103              NaN           NaN
+     AT    D5 距離  0.143 0.662   1.000      NaN            0.042         0.042
+     AT D5 位置の直り  0.337 0.168   1.000      NaN              NaN           NaN
+     VT       D1  0.273 0.196   0.782   -0.044              NaN           NaN
+     VT       D2  0.203 0.264   0.782   -0.012              NaN           NaN
+     VT       D3 -0.643 0.012   0.072   -0.839              NaN           NaN
+     VT       D4  0.224 0.242   0.782    0.458              NaN           NaN
+     VT    D5 距離 -0.406 0.070   0.349      NaN           -0.559        -0.559
+     VT D5 位置の直り -0.458 0.950   0.950      NaN              NaN           NaN
+    AVT       D1  0.140 0.332   1.000   -0.063              NaN           NaN
+    AVT       D2 -0.420 0.913   1.000   -0.401              NaN           NaN
+    AVT       D3 -0.280 0.189   0.946   -0.188              NaN           NaN
+    AVT       D4 -0.196 0.729   1.000   -0.577              NaN           NaN
+    AVT    D5 距離 -0.370 0.102   0.614      NaN           -0.357        -0.357
+    AVT D5 位置の直り -0.465 0.940   1.000      NaN              NaN           NaN

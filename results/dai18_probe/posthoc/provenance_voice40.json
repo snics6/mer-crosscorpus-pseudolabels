@@ -1,0 +1,23 @@
+{
+ "script": "DAI/docs/tools_pending/dai18_posthoc_voice40.py",
+ "script_sha256": "b48699b5cccaa2048cdf30626f8bc5bc7f99ce00c6e0860ec1ef2f34837572e8",
+ "time": "2026-11-14 23:34:07",
+ "head_commit_when_run": "918ebea27443504b5653851c131a9e8866376a75",
+ "students_commit": "e02689cb0378922c8dfd6ad151333528f9a0c9a0",
+ "dai18_probe_sha256": "290bf037bd1976216535fae1d5c20e8b069ebaeb00f2560365b7920b5e008cb0",
+ "students_sel_sha256": "6d51101f3b8c4c3af568ea860f85a8e35522c320e8ceda57586644e5ed765262",
+ "students_effects_sha256": "1e6e13a97ac9453d2c86b8cd159a77fcd27ebed0310ee9cf93d773e44c130888",
+ "n_student_files": 300,
+ "n_rows": 15,
+ "n_changed": 2,
+ "reproduce_max_abs_diff": 2.220446049250313e-16,
+ "g_eff": {
+  "AFEW": 14.99159260148931,
+  "IEMOCAP": 4.907259373581788,
+  "MOSEI": 783.2187976505193,
+  "MELD": 8.588438524693032,
+  "CREMA-D": 90.98256940205998
+ },
+ "device": "cpu",
+ "sec": 5.345335960388184
+}

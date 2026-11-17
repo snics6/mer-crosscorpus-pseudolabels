@@ -1,0 +1,16 @@
+{
+ "script": "exp/e80_teacher_j.py",
+ "script_sha256": "86dbbc020878f9564337af8a48208ac91157183a51f6d70c6f1a5a7b4b03b666",
+ "commit": "66eacca2d31c697ce33255b4432111ca014cdbf6",
+ "dirty": false,
+ "rule": "R3⁗：uar_diff_median > 0（コーパスごとの中央値のコーパスの平均）",
+ "inputs": {
+  "results/e80/avt/j_units.csv": "3c2cf3731532c0d6f08ec82b1693002007ed72322dc12afdf0d6af20b1d9083c",
+  "results/e80/av/j_units.csv": "d555125c549c4b00db32ede6dcbb2e8d49dfe36261e50c6a8b84d6608c196c07"
+ },
+ "unit_commits": [
+  "365ae18f3ec6c99a56ed8c2591e5ce49645aafd9"
+ ],
+ "kept_sha256": "83d82f05e1009b74162eef1852d43ab5029b465f11731527c5a40e5045c1971c",
+ "made": "2026-11-01T13:10:02+0000"
+}

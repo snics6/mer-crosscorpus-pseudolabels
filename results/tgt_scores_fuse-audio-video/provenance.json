@@ -1,0 +1,28 @@
+{
+ "script": "exp/tgt_scores.py",
+ "argv": [
+  "--kind",
+  "fuse-audio-video"
+ ],
+ "commit": "1502b5e35bd105253774e1c5231aea147eff1e1e",
+ "dirty": false,
+ "started": "2026-10-11T01:37:30+0900",
+ "map_dir": "results/fixc_map/fuse-audio-video",
+ "K": [
+  "1",
+  "5",
+  "10"
+ ],
+ "reps": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+ ]
+}

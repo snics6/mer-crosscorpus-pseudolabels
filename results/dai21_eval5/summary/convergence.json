@@ -1,0 +1,32 @@
+{
+ "students4": {
+  "n_units": 200,
+  "grad_max": 9.99996811028558e-07,
+  "stalled": 0,
+  "joint_repro_min": 0.9994633753689296,
+  "joint_repro_mean": 0.9999934966732387,
+  "joint_repro_ok": true,
+  "n_joint_repro_below": 0,
+  "agree_min": 1.0,
+  "kd_repro_min": 0.9995247148288974,
+  "agree_repro_min": 1.0,
+  "mix_repro_min": 1.0,
+  "n_kd_repro_below": 0,
+  "n_agree_repro_below": 0,
+  "n_mix_repro_below": 0,
+  "commits": [
+   "07c5d6726d3da45ed701ad05abd66629936bfff5"
+  ]
+ },
+ "cremad": {
+  "n_units": 50,
+  "grad_max": 9.999905131527357e-07,
+  "stalled": 0,
+  "adj_resid_max": 9.999972960805792e-09,
+  "wf_n_capped": 0,
+  "commits": [
+   "5aa36040ce6178e61b3ab13db3201f207de74b09"
+  ]
+ },
+ "summary_commit": "f6b280aed52842a613647c3d07aaf990e1618fde"
+}

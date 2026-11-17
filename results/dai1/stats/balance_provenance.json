@@ -1,0 +1,58 @@
+{
+ "script": "tools/dai1_balance_shares.py",
+ "script_sha256": "8f4b450d676324af2e8b684fe8971c8b7cf9e743fc8028541573d7d2037b8244",
+ "commit": "2b09ac40ca0535a90c76e07425e168a44c209930",
+ "dirty": false,
+ "targets": [
+  "AFEW",
+  "IEMOCAP",
+  "MOSEI",
+  "MELD"
+ ],
+ "units": {
+  "AFEW": {
+   "commit": "ba98974583dfee3504d54f31a5d303ff5394562e",
+   "frozen_sha256": "6926fb3e12638dd946ddfda8a260a33f089a400094ebdefdf37132fa1329dfdc"
+  },
+  "IEMOCAP": {
+   "commit": "ba98974583dfee3504d54f31a5d303ff5394562e",
+   "frozen_sha256": "6926fb3e12638dd946ddfda8a260a33f089a400094ebdefdf37132fa1329dfdc"
+  },
+  "MOSEI": {
+   "commit": "ba98974583dfee3504d54f31a5d303ff5394562e",
+   "frozen_sha256": "6926fb3e12638dd946ddfda8a260a33f089a400094ebdefdf37132fa1329dfdc"
+  },
+  "MELD": {
+   "commit": "ba98974583dfee3504d54f31a5d303ff5394562e",
+   "frozen_sha256": "6926fb3e12638dd946ddfda8a260a33f089a400094ebdefdf37132fa1329dfdc"
+  }
+ },
+ "inputs": {
+  "frozen": {
+   "path": "results/dai1/select/frozen.json",
+   "sha256": "6926fb3e12638dd946ddfda8a260a33f089a400094ebdefdf37132fa1329dfdc"
+  },
+  "ablation": {
+   "path": "results/dai1/stats/desc/ablation.csv",
+   "sha256": "9a370d7bb6384e34af97cf94569275e074067605dba36833c928c8540ab03358"
+  },
+  "recall": {
+   "path": "results/dai1/stats/desc/recall.csv",
+   "sha256": "6210ab07c815dda44ca78654d2247b92a0d34aa2f689c83e7bc5047738e36f90"
+  },
+  "emotion_margin_confusion": {
+   "path": "results/dai1/stats/emotion_margin_confusion.csv.gz",
+   "sha256": "4714b1c288afde653185cc5c6cb913580fec590433f23bfef642c9c78ea11ab5"
+  },
+  "dai1_desc": {
+   "path": "exp/dai1_desc.py",
+   "sha256": "446d5121bc7d968bbad59e2d34f4617a81b07f012710faef842270e5acb1e50a"
+  },
+  "dai1_stats": {
+   "path": "exp/dai1_stats.py",
+   "sha256": "939057b04d737183a8e322db061dc15fbda59893b3f6b580f5e0c00a4d8f3181"
+  }
+ },
+ "numpy": "2.5.2",
+ "pandas": "3.0.6"
+}

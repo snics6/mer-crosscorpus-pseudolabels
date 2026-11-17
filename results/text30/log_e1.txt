@@ -1,0 +1,2 @@
+種類: ['audio_wavlm', 'video', 'text_roberta', 'fuse-audio-video', 'fuse-audio-text', 'fuse-video-text', 'fuse-audio-video-text']
+書いた: results/text30/explore_relation

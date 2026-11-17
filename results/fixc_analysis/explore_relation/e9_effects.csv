@@ -1,0 +1,241 @@
+setting,K,effect,quantity,rho,n
+audio 7 groups,1,source,reliability,0.5,7
+audio 7 groups,1,source,dprime,0.21428571428571433,7
+audio 7 groups,1,source,eff_dim,-0.7857142857142859,7
+audio 7 groups,1,source,spread,0.25,7
+audio 7 groups,1,source,typicality,0.7500000000000002,7
+audio 7 groups,1,target,reliability,-0.07142857142857144,7
+audio 7 groups,1,target,dprime,0.28571428571428575,7
+audio 7 groups,1,target,eff_dim,-0.3571428571428572,7
+audio 7 groups,1,target,spread,0.5357142857142858,7
+audio 7 groups,1,target,typicality,0.8571428571428573,7
+audio 7 groups,5,source,reliability,0.4642857142857144,7
+audio 7 groups,5,source,dprime,0.39285714285714296,7
+audio 7 groups,5,source,eff_dim,-0.8571428571428573,7
+audio 7 groups,5,source,spread,0.39285714285714296,7
+audio 7 groups,5,source,typicality,0.7142857142857144,7
+audio 7 groups,5,target,reliability,-0.14285714285714288,7
+audio 7 groups,5,target,dprime,-0.3571428571428572,7
+audio 7 groups,5,target,eff_dim,-0.10714285714285716,7
+audio 7 groups,5,target,spread,0.8214285714285715,7
+audio 7 groups,5,target,typicality,0.1785714285714286,7
+audio 7 groups,10,source,reliability,0.4642857142857144,7
+audio 7 groups,10,source,dprime,0.6785714285714287,7
+audio 7 groups,10,source,eff_dim,-0.7500000000000002,7
+audio 7 groups,10,source,spread,0.28571428571428575,7
+audio 7 groups,10,source,typicality,0.5357142857142858,7
+audio 7 groups,10,target,reliability,-0.3571428571428572,7
+audio 7 groups,10,target,dprime,-0.6071428571428572,7
+audio 7 groups,10,target,eff_dim,0.07142857142857144,7
+audio 7 groups,10,target,spread,0.8214285714285715,7
+audio 7 groups,10,target,typicality,0.21428571428571433,7
+audio 7 groups,25,source,reliability,0.4642857142857144,7
+audio 7 groups,25,source,dprime,0.6785714285714287,7
+audio 7 groups,25,source,eff_dim,-0.7500000000000002,7
+audio 7 groups,25,source,spread,0.28571428571428575,7
+audio 7 groups,25,source,typicality,0.5357142857142858,7
+audio 7 groups,25,target,reliability,-0.7142857142857144,7
+audio 7 groups,25,target,dprime,-0.8928571428571429,7
+audio 7 groups,25,target,eff_dim,0.5,7
+audio 7 groups,25,target,spread,0.6785714285714287,7
+audio 7 groups,25,target,typicality,0.0,7
+audio 7 groups,50,source,reliability,0.42857142857142866,7
+audio 7 groups,50,source,dprime,0.6785714285714287,7
+audio 7 groups,50,source,eff_dim,-0.5357142857142858,7
+audio 7 groups,50,source,spread,0.21428571428571433,7
+audio 7 groups,50,source,typicality,0.39285714285714296,7
+audio 7 groups,50,target,reliability,-0.7142857142857144,7
+audio 7 groups,50,target,dprime,-0.8928571428571429,7
+audio 7 groups,50,target,eff_dim,0.5,7
+audio 7 groups,50,target,spread,0.6785714285714287,7
+audio 7 groups,50,target,typicality,0.0,7
+audio 7 groups,all,source,reliability,-0.07142857142857144,7
+audio 7 groups,all,source,dprime,0.28571428571428575,7
+audio 7 groups,all,source,eff_dim,-0.3571428571428572,7
+audio 7 groups,all,source,spread,0.5357142857142858,7
+audio 7 groups,all,source,typicality,0.8571428571428573,7
+audio 7 groups,all,target,reliability,-0.9285714285714288,7
+audio 7 groups,all,target,dprime,-0.8571428571428573,7
+audio 7 groups,all,target,eff_dim,0.642857142857143,7
+audio 7 groups,all,target,spread,0.7500000000000002,7
+audio 7 groups,all,target,typicality,-0.14285714285714288,7
+audio 6 groups,1,source,reliability,0.5428571428571429,6
+audio 6 groups,1,source,dprime,0.3714285714285715,6
+audio 6 groups,1,source,eff_dim,-0.6571428571428573,6
+audio 6 groups,1,source,spread,0.14285714285714288,6
+audio 6 groups,1,source,typicality,0.7714285714285715,6
+audio 6 groups,1,target,reliability,0.3714285714285715,6
+audio 6 groups,1,target,dprime,0.5428571428571429,6
+audio 6 groups,1,target,eff_dim,-0.48571428571428577,6
+audio 6 groups,1,target,spread,0.14285714285714288,6
+audio 6 groups,1,target,typicality,0.942857142857143,6
+audio 6 groups,5,source,reliability,0.4285714285714286,6
+audio 6 groups,5,source,dprime,0.2,6
+audio 6 groups,5,source,eff_dim,-0.6,6
+audio 6 groups,5,source,spread,0.3142857142857143,6
+audio 6 groups,5,source,typicality,0.6,6
+audio 6 groups,5,target,reliability,-0.14285714285714288,6
+audio 6 groups,5,target,dprime,-0.3714285714285715,6
+audio 6 groups,5,target,eff_dim,0.028571428571428574,6
+audio 6 groups,5,target,spread,0.7142857142857143,6
+audio 6 groups,5,target,typicality,0.028571428571428574,6
+audio 6 groups,10,source,reliability,0.48571428571428577,6
+audio 6 groups,10,source,dprime,0.3142857142857143,6
+audio 6 groups,10,source,eff_dim,-0.7142857142857143,6
+audio 6 groups,10,source,spread,0.3714285714285715,6
+audio 6 groups,10,source,typicality,0.48571428571428577,6
+audio 6 groups,10,target,reliability,-0.028571428571428574,6
+audio 6 groups,10,target,dprime,-0.3714285714285715,6
+audio 6 groups,10,target,eff_dim,-0.028571428571428574,6
+audio 6 groups,10,target,spread,0.5428571428571429,6
+audio 6 groups,10,target,typicality,0.2571428571428572,6
+audio 6 groups,25,source,reliability,0.4285714285714286,6
+audio 6 groups,25,source,dprime,0.5428571428571429,6
+audio 6 groups,25,source,eff_dim,-0.7714285714285715,6
+audio 6 groups,25,source,spread,0.48571428571428577,6
+audio 6 groups,25,source,typicality,0.48571428571428577,6
+audio 6 groups,25,target,reliability,-0.6,6
+audio 6 groups,25,target,dprime,-0.8285714285714287,6
+audio 6 groups,25,target,eff_dim,0.6,6
+audio 6 groups,25,target,spread,0.48571428571428577,6
+audio 6 groups,25,target,typicality,-0.2,6
+audio 6 groups,50,source,reliability,-0.028571428571428574,6
+audio 6 groups,50,source,dprime,0.5428571428571429,6
+audio 6 groups,50,source,eff_dim,-0.3714285714285715,6
+audio 6 groups,50,source,spread,0.6571428571428573,6
+audio 6 groups,50,source,typicality,0.7142857142857143,6
+audio 6 groups,50,target,reliability,-0.6,6
+audio 6 groups,50,target,dprime,-0.8285714285714287,6
+audio 6 groups,50,target,eff_dim,0.6,6
+audio 6 groups,50,target,spread,0.48571428571428577,6
+audio 6 groups,50,target,typicality,-0.2,6
+audio 6 groups,all,source,reliability,-0.08571428571428573,6
+audio 6 groups,all,source,dprime,0.4285714285714286,6
+audio 6 groups,all,source,eff_dim,-0.2571428571428572,6
+audio 6 groups,all,source,spread,0.6,6
+audio 6 groups,all,source,typicality,0.8285714285714287,6
+audio 6 groups,all,target,reliability,-0.8285714285714287,6
+audio 6 groups,all,target,dprime,-0.8857142857142858,6
+audio 6 groups,all,target,eff_dim,0.7142857142857143,6
+audio 6 groups,all,target,spread,0.5428571428571429,6
+audio 6 groups,all,target,typicality,-0.3714285714285715,6
+video,1,source,reliability,0.2,6
+video,1,source,dprime,0.942857142857143,6
+video,1,source,eff_dim,0.48571428571428577,6
+video,1,source,spread,0.08571428571428573,6
+video,1,source,typicality,0.48571428571428577,6
+video,1,target,reliability,-0.08571428571428573,6
+video,1,target,dprime,0.028571428571428574,6
+video,1,target,eff_dim,-0.6,6
+video,1,target,spread,-0.6,6
+video,1,target,typicality,0.3714285714285715,6
+video,5,source,reliability,0.2,6
+video,5,source,dprime,0.942857142857143,6
+video,5,source,eff_dim,0.48571428571428577,6
+video,5,source,spread,0.08571428571428573,6
+video,5,source,typicality,0.48571428571428577,6
+video,5,target,reliability,-0.7714285714285715,6
+video,5,target,dprime,-0.7142857142857143,6
+video,5,target,eff_dim,-0.7714285714285715,6
+video,5,target,spread,-0.7714285714285715,6
+video,5,target,typicality,0.3142857142857143,6
+video,10,source,reliability,0.08571428571428573,6
+video,10,source,dprime,0.8857142857142858,6
+video,10,source,eff_dim,0.2571428571428572,6
+video,10,source,spread,-0.08571428571428573,6
+video,10,source,typicality,0.5428571428571429,6
+video,10,target,reliability,-0.7714285714285715,6
+video,10,target,dprime,-0.7142857142857143,6
+video,10,target,eff_dim,-0.7714285714285715,6
+video,10,target,spread,-0.7714285714285715,6
+video,10,target,typicality,0.3142857142857143,6
+video,25,source,reliability,0.08571428571428573,6
+video,25,source,dprime,0.8857142857142858,6
+video,25,source,eff_dim,0.2571428571428572,6
+video,25,source,spread,-0.08571428571428573,6
+video,25,source,typicality,0.5428571428571429,6
+video,25,target,reliability,-0.48571428571428577,6
+video,25,target,dprime,-0.942857142857143,6
+video,25,target,eff_dim,-0.7714285714285715,6
+video,25,target,spread,-0.4285714285714286,6
+video,25,target,typicality,-0.14285714285714288,6
+video,50,source,reliability,0.08571428571428573,6
+video,50,source,dprime,0.8857142857142858,6
+video,50,source,eff_dim,0.2571428571428572,6
+video,50,source,spread,-0.08571428571428573,6
+video,50,source,typicality,0.5428571428571429,6
+video,50,target,reliability,-0.48571428571428577,6
+video,50,target,dprime,-0.942857142857143,6
+video,50,target,eff_dim,-0.7714285714285715,6
+video,50,target,spread,-0.4285714285714286,6
+video,50,target,typicality,-0.14285714285714288,6
+video,all,source,reliability,-0.3714285714285715,6
+video,all,source,dprime,0.7714285714285715,6
+video,all,source,eff_dim,0.3714285714285715,6
+video,all,source,spread,-0.3142857142857143,6
+video,all,source,typicality,0.7714285714285715,6
+video,all,target,reliability,-0.7142857142857143,6
+video,all,target,dprime,-0.48571428571428577,6
+video,all,target,eff_dim,-0.3714285714285715,6
+video,all,target,spread,-0.6571428571428573,6
+video,all,target,typicality,0.4285714285714286,6
+audio+video,1,source,reliability,-0.2571428571428572,6
+audio+video,1,source,dprime,0.5428571428571429,6
+audio+video,1,source,eff_dim,-0.6571428571428573,6
+audio+video,1,source,spread,-0.4285714285714286,6
+audio+video,1,source,typicality,0.48571428571428577,6
+audio+video,1,target,reliability,-0.5428571428571429,6
+audio+video,1,target,dprime,0.4285714285714286,6
+audio+video,1,target,eff_dim,-0.5428571428571429,6
+audio+video,1,target,spread,-0.14285714285714288,6
+audio+video,1,target,typicality,0.48571428571428577,6
+audio+video,5,source,reliability,-0.2,6
+audio+video,5,source,dprime,0.7714285714285715,6
+audio+video,5,source,eff_dim,-0.7714285714285715,6
+audio+video,5,source,spread,0.2,6
+audio+video,5,source,typicality,0.8285714285714287,6
+audio+video,5,target,reliability,-0.6,6
+audio+video,5,target,dprime,-0.6571428571428573,6
+audio+video,5,target,eff_dim,-0.14285714285714288,6
+audio+video,5,target,spread,-0.6,6
+audio+video,5,target,typicality,-0.5428571428571429,6
+audio+video,10,source,reliability,-0.2,6
+audio+video,10,source,dprime,0.7714285714285715,6
+audio+video,10,source,eff_dim,-0.7714285714285715,6
+audio+video,10,source,spread,0.2,6
+audio+video,10,source,typicality,0.8285714285714287,6
+audio+video,10,target,reliability,-0.6571428571428573,6
+audio+video,10,target,dprime,-0.7714285714285715,6
+audio+video,10,target,eff_dim,-0.08571428571428573,6
+audio+video,10,target,spread,-0.3714285714285715,6
+audio+video,10,target,typicality,-0.6,6
+audio+video,25,source,reliability,-0.3142857142857143,6
+audio+video,25,source,dprime,0.7142857142857143,6
+audio+video,25,source,eff_dim,-0.5428571428571429,6
+audio+video,25,source,spread,0.3142857142857143,6
+audio+video,25,source,typicality,0.7714285714285715,6
+audio+video,25,target,reliability,-0.4285714285714286,6
+audio+video,25,target,dprime,-0.8857142857142858,6
+audio+video,25,target,eff_dim,0.14285714285714288,6
+audio+video,25,target,spread,-0.4285714285714286,6
+audio+video,25,target,typicality,-0.7714285714285715,6
+audio+video,50,source,reliability,-0.3142857142857143,6
+audio+video,50,source,dprime,0.7142857142857143,6
+audio+video,50,source,eff_dim,-0.5428571428571429,6
+audio+video,50,source,spread,0.3142857142857143,6
+audio+video,50,source,typicality,0.7714285714285715,6
+audio+video,50,target,reliability,-0.3142857142857143,6
+audio+video,50,target,dprime,-0.942857142857143,6
+audio+video,50,target,eff_dim,0.3142857142857143,6
+audio+video,50,target,spread,-0.3714285714285715,6
+audio+video,50,target,typicality,-0.8857142857142858,6
+audio+video,all,source,reliability,-0.48571428571428577,6
+audio+video,all,source,dprime,0.5428571428571429,6
+audio+video,all,source,eff_dim,-0.4285714285714286,6
+audio+video,all,source,spread,0.14285714285714288,6
+audio+video,all,source,typicality,0.6,6
+audio+video,all,target,reliability,-0.4285714285714286,6
+audio+video,all,target,dprime,-0.8857142857142858,6
+audio+video,all,target,eff_dim,0.2571428571428572,6
+audio+video,all,target,spread,-0.2571428571428572,6
+audio+video,all,target,typicality,-0.8285714285714287,6

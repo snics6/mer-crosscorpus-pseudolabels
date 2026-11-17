@@ -1,0 +1,59 @@
+{
+ "script": "exp/compare_b1.py",
+ "argv": [
+  "--kind",
+  "video"
+ ],
+ "commit": "41bd0f0a5ea8cf7113a278e5d68d8dc0d4d9abfb",
+ "dirty": true,
+ "started": "2026-10-14T13:47:20+0900",
+ "map_dir": "results/fixc_map/video",
+ "K": [
+  "1",
+  "5",
+  "10",
+  "25"
+ ],
+ "reps": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "CPS": [
+  0.001,
+  0.01,
+  0.1,
+  1.0
+ ],
+ "CBS": [
+  "2",
+  "8",
+  "free"
+ ],
+ "ALPHAS": [
+  0.1,
+  0.25,
+  0.5,
+  0.75,
+  0.9
+ ],
+ "O7": [
+  10,
+  0.5,
+  300,
+  0.01,
+  4,
+  256
+ ],
+ "parts": "all",
+ "tag": "",
+ "O2_C": "src_only",
+ "MAX_ROWS": 6000
+}

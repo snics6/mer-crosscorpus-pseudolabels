@@ -1,0 +1,233 @@
+{
+ "four": {
+  "AFEW": {
+   "5": {
+    "prop_grid": 6,
+    "student_main": 6,
+    "student_prop_sel": 10,
+    "student_prod_sel": 11
+   },
+   "10": {
+    "prop_grid": 2,
+    "student_main": 6,
+    "student_prop_sel": 10,
+    "student_prod_sel": 10
+   },
+   "25": {
+    "prop_grid": 6,
+    "student_main": 6,
+    "student_prop_sel": 9,
+    "student_prod_sel": 10
+   }
+  },
+  "IEMOCAP": {
+   "5": {
+    "prop_grid": 2,
+    "student_main": 6,
+    "student_prop_sel": 11,
+    "student_prod_sel": 6
+   },
+   "10": {
+    "prop_grid": 2,
+    "student_main": 6,
+    "student_prop_sel": 9,
+    "student_prod_sel": 10
+   },
+   "25": {
+    "prop_grid": 2,
+    "student_main": 6,
+    "student_prop_sel": 9,
+    "student_prod_sel": 6
+   }
+  },
+  "MOSEI": {
+   "5": {
+    "prop_grid": 2,
+    "student_main": 6,
+    "student_prop_sel": 10,
+    "student_prod_sel": 10
+   },
+   "10": {
+    "prop_grid": 2,
+    "student_main": 6,
+    "student_prop_sel": 9,
+    "student_prod_sel": 11
+   },
+   "25": {
+    "prop_grid": 2,
+    "student_main": 6,
+    "student_prop_sel": 9,
+    "student_prod_sel": 6
+   }
+  },
+  "MELD": {
+   "5": {
+    "prop_grid": 7,
+    "student_main": 6,
+    "student_prop_sel": 6,
+    "student_prod_sel": 8
+   },
+   "10": {
+    "prop_grid": 7,
+    "student_main": 6,
+    "student_prop_sel": 6,
+    "student_prod_sel": 6
+   },
+   "25": {
+    "prop_grid": 2,
+    "student_main": 6,
+    "student_prop_sel": 9,
+    "student_prod_sel": 7
+   }
+  }
+ },
+ "cremad": {
+  "5": {
+   "prop_grid": 2,
+   "noprof_sel": 0,
+   "n_units": 40,
+   "corpora_in_units": [
+    "AFEW",
+    "IEMOCAP",
+    "MELD",
+    "MOSEI",
+    "RAVDESS"
+   ],
+   "student_main": 8,
+   "student_prop_sel": 11,
+   "tether": {
+    "A": [
+     0.003,
+     1.0
+    ],
+    "V": [
+     0.001,
+     1.0
+    ],
+    "AV": [
+     0.003,
+     1.0
+    ]
+   }
+  },
+  "10": {
+   "prop_grid": 2,
+   "noprof_sel": 0,
+   "n_units": 40,
+   "corpora_in_units": [
+    "AFEW",
+    "IEMOCAP",
+    "MELD",
+    "MOSEI",
+    "RAVDESS"
+   ],
+   "student_main": 9,
+   "student_prop_sel": 10,
+   "tether": {
+    "A": [
+     0.003,
+     1.0
+    ],
+    "V": [
+     0.001,
+     1.0
+    ],
+    "AV": [
+     0.003,
+     1.0
+    ]
+   }
+  },
+  "25": {
+   "prop_grid": 2,
+   "noprof_sel": 4,
+   "n_units": 40,
+   "corpora_in_units": [
+    "AFEW",
+    "IEMOCAP",
+    "MELD",
+    "MOSEI",
+    "RAVDESS"
+   ],
+   "student_main": 9,
+   "student_prop_sel": 9,
+   "tether": {
+    "A": [
+     0.003,
+     10.0
+    ],
+    "V": [
+     0.001,
+     1.0
+    ],
+    "AV": [
+     0.003,
+     1.0
+    ]
+   }
+  }
+ },
+ "sgrid": [
+  [
+   0.0625,
+   1
+  ],
+  [
+   0.0625,
+   4
+  ],
+  [
+   0.0625,
+   16
+  ],
+  [
+   0.25,
+   1
+  ],
+  [
+   0.25,
+   4
+  ],
+  [
+   0.25,
+   16
+  ],
+  [
+   1.0,
+   1
+  ],
+  [
+   1.0,
+   4
+  ],
+  [
+   1.0,
+   16
+  ],
+  [
+   4.0,
+   1
+  ],
+  [
+   4.0,
+   4
+  ],
+  [
+   4.0,
+   16
+  ]
+ ],
+ "n_student_points": 42,
+ "n_student_points_at_rho_edge": 21,
+ "source_sha256": {
+  "results/dai18_probe/summary/students_sel.csv": "6d51101f3b8c4c3af568ea860f85a8e35522c320e8ceda57586644e5ed765262",
+  "results/dai18_probe/frozen_sel.json": "b108c80b2f15ada7acdcc9558e8005a4ed1a426cacc99873322fe121b231b84f",
+  "results/dai18_probe/tether.json": "64b254bb282e070e8e256bc3c1baa18594fe28bc2cf93d22c6b3c55ab4e7689a",
+  "DAI/frozen/dai20_frozen.json": "faa2391d2d81bb2b6d82cc7e76e2211fe7c9a4c2fd762cd49f0d264919bbe9f1",
+  "results/dai1/select/frozen.json": "6926fb3e12638dd946ddfda8a260a33f089a400094ebdefdf37132fa1329dfdc"
+ },
+ "wf_tables2_sha256": "bca8dbbcdb99c07863d6dfa494b2fcc65c05f238a8656aa750291597809e4e83",
+ "rule": "学び直しの主の設定は，積を疑似ラベルにした学び直しのために選ばれた値（4 コーパスは実験 1，CREMA-D は実験 18 が CREMA-D を含まない単位で選んだ値）．提案の設定と引き戻しの強さも，評価するコーパスを含まない単位で選んだ値",
+ "time": "2026-11-15 03:10:03",
+ "commit": "86c38f152a209100fd6063dd9112ca7cc27d5bab"
+}

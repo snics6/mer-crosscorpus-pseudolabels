@@ -1,0 +1,10 @@
+{
+ "inputs": {
+  "results/dai20_eval/summary/levels.csv": "dd36305e694b5593419585532d11fccdcca0f7e3b0c9ca46beef9ae4ae6831d9",
+  "results/dai20_eval/summary/effects.csv": "0e252da4fd1ee7d132449ba2c0e5c19feb4f624b4241a9f10d0461ab793dc0fc",
+  "results/dai21_eval5/summary/levels.csv": "373e3e640b6d11718b39e857a2a1eac5b40a3ca8ee179c2f211479a80cf261f9",
+  "results/dai21_eval5/summary/effects.csv": "34e5d8f0bf3029183f53eab9b3286b286c6dd94e6dc159b0853b78263df9f09d"
+ },
+ "script": "paper/scripts/make_fig_corpus_types.py",
+ "script_sha256": "b4f37d6b7126fe31746f037105798a4f5e10d39037c76798f77ab863d6c581bd"
+}

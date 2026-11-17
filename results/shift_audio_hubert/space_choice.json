@@ -1,0 +1,25 @@
+{
+ "kind": "audio_hubert",
+ "rule": "researchvision.md 6.5.1 共通の決まり 6",
+ "pad_saturated": 1.9,
+ "raw": {
+  "pairs": 42,
+  "unsaturated": 20,
+  "zero_pad_median": 0.0106666666666666,
+  "pad_median": 1.976
+ },
+ "pca64": {
+  "pairs": 42,
+  "unsaturated": 20,
+  "zero_pad_median": 0.0166666666666666,
+  "pad_median": 1.9761666666666666
+ },
+ "logit": {
+  "pairs": 42,
+  "unsaturated": 42,
+  "zero_pad_median": 0.0256666666666666,
+  "pad_median": 0.616
+ },
+ "choice": "logit",
+ "decided": "2026-10-02T21:08:43+0900"
+}

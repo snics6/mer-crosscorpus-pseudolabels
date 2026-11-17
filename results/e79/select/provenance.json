@@ -1,0 +1,336 @@
+{
+ "script": "exp/analyze_e79.py",
+ "experiment": "E79",
+ "stage": "select",
+ "argv": [
+  "--stage",
+  "select",
+  "--runs",
+  "fuse-audio-video-text",
+  "fuse-audio-video",
+  "--out",
+  "results/e79"
+ ],
+ "commit": "ddf22dafd59e2aaa8aaad1bbd62b5ba423e8be4c",
+ "dirty": false,
+ "dirty_files": [],
+ "script_sha256": "09f3a345b9455249f203e7691e4953594833bf8cad893b351282740e7ff8c1b3",
+ "started": "2026-11-02T06:34:07+0900",
+ "seconds": 150.9,
+ "consts": {
+  "KS": [
+   "0",
+   "5",
+   "25"
+  ],
+  "DISAGREE_MIN": 0.01,
+  "MODEL_RATIO_MAX": 0.3333333333333333,
+  "MODEL_UNIT_FRAC": 0.5,
+  "VR_RANGE": [
+   0.5,
+   2.0
+  ],
+  "NULL_DRAWS": 100,
+  "CORAL_FIX_R": 64,
+  "TOL_LOGP": 1e-05,
+  "TOL_UAR": 1e-09,
+  "P4_KS": [
+   "0",
+   "5"
+  ],
+  "P5_KS": [
+   "0",
+   "5",
+   "25"
+  ],
+  "GROUP_B": [
+   "entmin",
+   "self",
+   "im",
+   "t3a",
+   "lp",
+   "coral",
+   "dann",
+   "mme"
+  ],
+  "SEEN": {
+   "P4": [
+    "coral",
+    "entmin",
+    "massbal",
+    "self"
+   ],
+   "P4'": [
+    "coral",
+    "entmin",
+    "im",
+    "massbal",
+    "self"
+   ]
+  },
+  "SEEDED": [
+   "dann",
+   "entmin",
+   "im",
+   "mapctl",
+   "mme",
+   "xmuda"
+  ],
+  "NC_SEEDED": [
+   "entmin",
+   "im"
+  ],
+  "GEFF_MIN": 20,
+  "CLUSTER_COLS": {
+   "MELD": [
+    "split",
+    "dialogue_id"
+   ],
+   "IEMOCAP": [
+    "session"
+   ]
+  },
+  "COREG": {
+   "uni": "coreg",
+   "fused": "coreg_sum"
+  },
+  "KEPT_FAMS": [
+   "oursx",
+   "kd",
+   "abl_bal",
+   "abl_raw",
+   "abl_hard"
+  ],
+  "R6_DRAWS": 20,
+  "CONV_MAX_ITER": 20000,
+  "CONV_TOL": 1e-06,
+  "LP_CG_MAX": 50,
+  "NOJ_DIST": {
+   "uni": [
+    "pF",
+    "pFK",
+    "ref"
+   ],
+   "fused": [
+    "poe0",
+    "ref",
+    "ref0"
+   ]
+  },
+  "NOJ_KD": {
+   "uni": [
+    "pF",
+    "pFK",
+    "ref"
+   ],
+   "fused": [
+    "poe0",
+    "ref"
+   ]
+  },
+  "EXCLUDED": [
+   "no_teacher",
+   "identical",
+   "other_class"
+  ],
+  "CLUSTER_JK_MAX": 10
+ },
+ "threads": {
+  "OMP_NUM_THREADS": "4",
+  "OPENBLAS_NUM_THREADS": "4",
+  "MKL_NUM_THREADS": "4"
+ },
+ "allow_incomplete": false,
+ "skip_commit_check": false,
+ "allow_dirty": false,
+ "families": "all",
+ "e80c_dirs": {
+  "fuse-audio-video-text": "/home/snics/MER-DA/results/e80c_fuse-audio-video-text",
+  "fuse-audio-video": "/home/snics/MER-DA/results/e80c_fuse-audio-video"
+ },
+ "delta": {
+  "sha16": "80e6cd05bc4a7ea7",
+  "committed": true,
+  "files": [
+   "HEAD:docs/exploratory-analyses.md"
+  ]
+ },
+ "chain": {
+  "delta": {
+   "sha16": "80e6cd05bc4a7ea7",
+   "committed": true,
+   "files": [
+    "HEAD:docs/exploratory-analyses.md"
+   ]
+  },
+  "script_sha256": "09f3a345b9455249f203e7691e4953594833bf8cad893b351282740e7ff8c1b3"
+ },
+ "n_issues": 593,
+ "inputs_sha256": {
+  "/home/snics/MER-DA/results/e77_fuse-audio-video-text/IEMOCAP-impro_pseudo.csv": "6e05328d12be2ff4e9932487804b6ed0c42ab455c169b4a3b894f712c3006bc2",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video-text/IEMOCAP-impro_settings.json": "5ed0c987f0870cc11f7ff4cb08272ebe424076b5355c74f245932a6e42d11593",
+  "/home/snics/MER-DA/results/e78_fuse-audio-video-text/IEMOCAP-impro_pseudo.csv": "9af671b88d8dba3332d0fedc059709ec47f0dd665f8894095b9860d534fb01e7",
+  "/home/snics/MER-DA/results/e78_fuse-audio-video-text/IEMOCAP-impro_chosen.csv": "6c2cb57739fb0954096bc1924d1f8a22bcb250e88deb01e60ef838bdeeb812f9",
+  "/home/snics/MER-DA/results/e78_fuse-audio-video-text/IEMOCAP-impro_settings.json": "5ed0c987f0870cc11f7ff4cb08272ebe424076b5355c74f245932a6e42d11593",
+  "/home/snics/MER-DA/results/e80c_fuse-audio-video-text/IEMOCAP-impro_pseudo.csv": "12443fa268657ab28192b25260da221d537d1a0a7168382f19a3dcb64232249b",
+  "/home/snics/MER-DA/results/e80c_fuse-audio-video-text/IEMOCAP-impro_settings.json": "2170c468ba673f785d41586549224964676b10893f803a26b8d6b172a06aa451",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video-text/IEMOCAP-script_pseudo.csv": "ba8b384c8100ffdaffe02ff4b09c47d020e7722307050124d8ece2bc7b24df6d",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video-text/IEMOCAP-script_settings.json": "5ed0c987f0870cc11f7ff4cb08272ebe424076b5355c74f245932a6e42d11593",
+  "/home/snics/MER-DA/results/e78_fuse-audio-video-text/IEMOCAP-script_pseudo.csv": "26a7ae24ccf38ff7873d45ceb62c18432351003f5dc3d79e1085ceba0c00bb4f",
+  "/home/snics/MER-DA/results/e78_fuse-audio-video-text/IEMOCAP-script_chosen.csv": "6c2cb57739fb0954096bc1924d1f8a22bcb250e88deb01e60ef838bdeeb812f9",
+  "/home/snics/MER-DA/results/e78_fuse-audio-video-text/IEMOCAP-script_settings.json": "5ed0c987f0870cc11f7ff4cb08272ebe424076b5355c74f245932a6e42d11593",
+  "/home/snics/MER-DA/results/e80c_fuse-audio-video-text/IEMOCAP-script_pseudo.csv": "a7f23ee9d779196490d7c1a658ed7268237cc5555192ba55075159f617cebbec",
+  "/home/snics/MER-DA/results/e80c_fuse-audio-video-text/IEMOCAP-script_settings.json": "2170c468ba673f785d41586549224964676b10893f803a26b8d6b172a06aa451",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video-text/MOSEI_pseudo.csv": "8e82fd90ce7e15e284c4bcc7e158a3913e1978eca5f505f08f1d0f063ea48eb6",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video-text/MOSEI_settings.json": "35911a2717ac968b35e37104a74415c0e2dca4f871aeca99d49c7b8caa27ffd3",
+  "/home/snics/MER-DA/results/e78_fuse-audio-video-text/MOSEI_pseudo.csv": "14fc382273d7c4ef7924ad1230094d181808cf8b19cebbec89f916f3ebe78389",
+  "/home/snics/MER-DA/results/e78_fuse-audio-video-text/MOSEI_chosen.csv": "ca596902af285869b21c6cfa60b3abd66d749e5a71bd06804c4e1e8d4bdcea39",
+  "/home/snics/MER-DA/results/e78_fuse-audio-video-text/MOSEI_settings.json": "35911a2717ac968b35e37104a74415c0e2dca4f871aeca99d49c7b8caa27ffd3",
+  "/home/snics/MER-DA/results/e80c_fuse-audio-video-text/MOSEI_pseudo.csv": "ec9125b351304c52e2854802426fafa90004a9584c573cdd5f5d135187918a81",
+  "/home/snics/MER-DA/results/e80c_fuse-audio-video-text/MOSEI_settings.json": "88d8ca8d8cb0e589283a52f6d9841df6e8a004eb87d8268b0ff5a3955d967f6d",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video-text/MELD_pseudo.csv": "62397d6936cddf0bfe57663a63856df0f0b06e7bac0acacb233f9fe300ce7211",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video-text/MELD_settings.json": "2c400bba35537d5182d13c80ba001f00a7ddf2d075b1ea88970ddaa845145b78",
+  "/home/snics/MER-DA/results/e78_fuse-audio-video-text/MELD_pseudo.csv": "9ca5822d429b67545879d17ea1c6d230bbdcb2b1c631aada61e80ab9a423ad6b",
+  "/home/snics/MER-DA/results/e78_fuse-audio-video-text/MELD_chosen.csv": "7cf3f28aa8c2ff2d809e7b99c814a2730928e745bc9037ef5df3896391b1091a",
+  "/home/snics/MER-DA/results/e78_fuse-audio-video-text/MELD_settings.json": "2c400bba35537d5182d13c80ba001f00a7ddf2d075b1ea88970ddaa845145b78",
+  "/home/snics/MER-DA/results/e80c_fuse-audio-video-text/MELD_pseudo.csv": "9915e6b9786ce1cb423ba5e45c34b42c81747669998db34a4c200699be144ed7",
+  "/home/snics/MER-DA/results/e80c_fuse-audio-video-text/MELD_settings.json": "e00361da787049c54fd58a81f0ca7f015fc66cea280c399240bbe6cf802f1a2a",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video/IEMOCAP-impro_pseudo.csv": "014be6b74fa696312a39ee963cf5afb1c7ad75b26ff1374274f9c7237c4b5bbc",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video/IEMOCAP-impro_settings.json": "fc6cf587f52b60d386ca8be0fc04f7014aec56b442c221fc9c7462fd807e584c",
+  "/home/snics/MER-DA/results/e78_fuse-audio-video/IEMOCAP-impro_pseudo.csv": "36007c76f36ec395d1efc26625961f6986e93bcf29d7e00a5729292ee459173e",
+  "/home/snics/MER-DA/results/e78_fuse-audio-video/IEMOCAP-impro_chosen.csv": "274a440ad4a173f218dbd70c4b9ae874333b2bdfc2223ce46887cef298907873",
+  "/home/snics/MER-DA/results/e78_fuse-audio-video/IEMOCAP-impro_settings.json": "fc6cf587f52b60d386ca8be0fc04f7014aec56b442c221fc9c7462fd807e584c",
+  "/home/snics/MER-DA/results/e80c_fuse-audio-video/IEMOCAP-impro_pseudo.csv": "136eb80ddbb082c176066d4d25f3653e63c3bdfe54be1b4e340feeab8a9e6275",
+  "/home/snics/MER-DA/results/e80c_fuse-audio-video/IEMOCAP-impro_settings.json": "7df5aa93de3a896e454081e91195b7754fe5c291b4f789eb13469a96856895ad",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video/IEMOCAP-script_pseudo.csv": "63291783f84e126011e281dc47326140db57d706a0d8c6e42d7aa56923fcf223",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video/IEMOCAP-script_settings.json": "fc6cf587f52b60d386ca8be0fc04f7014aec56b442c221fc9c7462fd807e584c",
+  "/home/snics/MER-DA/results/e78_fuse-audio-video/IEMOCAP-script_pseudo.csv": "63c60ef0b933132c1eddfdb59601d68925c51b540c64e358e3473d63940cc250",
+  "/home/snics/MER-DA/results/e78_fuse-audio-video/IEMOCAP-script_chosen.csv": "274a440ad4a173f218dbd70c4b9ae874333b2bdfc2223ce46887cef298907873",
+  "/home/snics/MER-DA/results/e78_fuse-audio-video/IEMOCAP-script_settings.json": "fc6cf587f52b60d386ca8be0fc04f7014aec56b442c221fc9c7462fd807e584c",
+  "/home/snics/MER-DA/results/e80c_fuse-audio-video/IEMOCAP-script_pseudo.csv": "8cdbb5c581518920c22a1b40c504ef999d63485f019206b223e107596a0e8363",
+  "/home/snics/MER-DA/results/e80c_fuse-audio-video/IEMOCAP-script_settings.json": "7df5aa93de3a896e454081e91195b7754fe5c291b4f789eb13469a96856895ad",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video/MOSEI_pseudo.csv": "4b7130445b04026c30ca872addba27becfd776f2799f26a416adb6158213f122",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video/MOSEI_settings.json": "d5268a507aad6e9a5b1c1b6b3a0fba1174150cea83453e1ce5ca6903b547ee61",
+  "/home/snics/MER-DA/results/e78_fuse-audio-video/MOSEI_pseudo.csv": "eca25540274f3877768839bc288d924723a30871302cd512a33b63aa005e7274",
+  "/home/snics/MER-DA/results/e78_fuse-audio-video/MOSEI_chosen.csv": "5c4260fda57a32a4bbd69b9719cf7274cd58530a4b53b48d26bd8ddf71b1f7be",
+  "/home/snics/MER-DA/results/e78_fuse-audio-video/MOSEI_settings.json": "d5268a507aad6e9a5b1c1b6b3a0fba1174150cea83453e1ce5ca6903b547ee61",
+  "/home/snics/MER-DA/results/e80c_fuse-audio-video/MOSEI_pseudo.csv": "db39702bd43fcc093acc741b46be9bd3ceda08143cd1d20fd3c194e1eff88fd6",
+  "/home/snics/MER-DA/results/e80c_fuse-audio-video/MOSEI_settings.json": "9941ee3a6c8142c4643a956425ffea45acf6ea4bd1f2b4e0b2b8dcb06fc2f27a",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video/MELD_pseudo.csv": "7d68f311de1d6e7286ca202b0a9a3d0760a77172caac4a004c4332246157f6da",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video/MELD_settings.json": "94adef742982781e16d35e5f8078e09f11f137d5bc81ecba482722db1b451b11",
+  "/home/snics/MER-DA/results/e78_fuse-audio-video/MELD_pseudo.csv": "6861d39f6a1980efb5b0002eed4ca7943edceb698766662c5085cc9c8d6e78d7",
+  "/home/snics/MER-DA/results/e78_fuse-audio-video/MELD_chosen.csv": "4d6c5d68b012348d791216137d78d3ab9145ee3b57e3746f5f0bbb575ac1e9f8",
+  "/home/snics/MER-DA/results/e78_fuse-audio-video/MELD_settings.json": "94adef742982781e16d35e5f8078e09f11f137d5bc81ecba482722db1b451b11",
+  "/home/snics/MER-DA/results/e80c_fuse-audio-video/MELD_pseudo.csv": "c70c58b4ef23e4a914dbb353b6f5d0425ea782650e0f4e7b1e7570cb67edc5ee",
+  "/home/snics/MER-DA/results/e80c_fuse-audio-video/MELD_settings.json": "283585ba2d32bc5b3665cdd61e989547e2bfd16dea99e0a7357b786e6681659b",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video/AFEW_pseudo.csv": "3c8a1ec709fc9a152041c4e8c12235bda605872b08746794d4c6df316a198c14",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video/AFEW_settings.json": "ae81da190c868e1b0598cd314d353a4e7c1a72f78921b18c98fd5601ccb41b21",
+  "/home/snics/MER-DA/results/e78_fuse-audio-video/AFEW_pseudo.csv": "c7d6304e8f7b139b4a8ad36676c1ebe8630ae1ea209eb698baed89456969845a",
+  "/home/snics/MER-DA/results/e78_fuse-audio-video/AFEW_chosen.csv": "e4d224ae0a311acf496ffe387df406da120aab13d07d4aad1c983a6c494625aa",
+  "/home/snics/MER-DA/results/e78_fuse-audio-video/AFEW_settings.json": "ae81da190c868e1b0598cd314d353a4e7c1a72f78921b18c98fd5601ccb41b21",
+  "/home/snics/MER-DA/results/e80c_fuse-audio-video/AFEW_pseudo.csv": "42fc9bd2b5abf52d08c8653d9ac9854abdc078f7f3625966a217b9ed89546994",
+  "/home/snics/MER-DA/results/e80c_fuse-audio-video/AFEW_settings.json": "6f7d27bc1db03cabe8d4c29cec89dbd308f5950ea5d97d5408ed1d8b1f82d058",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video/CREMA-D_pseudo.csv": "3e4cdc788932042d773d4ec619ec4d06aed87e87d8c83f885b02cc9c4ce01136",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video/CREMA-D_settings.json": "ca93081171ccfedea95427387ea99d3e845b201802704abb5f20f9cdbd25ef32",
+  "/home/snics/MER-DA/results/e78_fuse-audio-video/CREMA-D_pseudo.csv": "cfba8d9314fd3fa3dbf767dc3912ff6227ecc34482492b7607a7389d3ff832cd",
+  "/home/snics/MER-DA/results/e78_fuse-audio-video/CREMA-D_chosen.csv": "460bc4a2abc027ca35cab737b88dbcc5c10f9ad3d79e61cdf7dfc15b068894d2",
+  "/home/snics/MER-DA/results/e78_fuse-audio-video/CREMA-D_settings.json": "ca93081171ccfedea95427387ea99d3e845b201802704abb5f20f9cdbd25ef32",
+  "/home/snics/MER-DA/results/e80c_fuse-audio-video/CREMA-D_pseudo.csv": "be640fde240a7e26245e0ca3f4c9c330e29f828ec0be54b30c51ca56d92cfdb0",
+  "/home/snics/MER-DA/results/e80c_fuse-audio-video/CREMA-D_settings.json": "d9d4fafbacac9ab1ef435022d177c3eadd65a790e8e57359783ca1487b158423"
+ },
+ "e80_kept": {
+  "path": "/home/snics/MER-DA/results/e80/kept.csv",
+  "sha256": "83d82f05e1009b74162eef1852d43ab5029b465f11731527c5a40e5045c1971c",
+  "commit_check": {
+   "sha16": "83d82f05e1009b74",
+   "committed": true,
+   "files": [
+    "HEAD:docs/exploratory-analyses.md"
+   ]
+  },
+  "provenance": {
+   "path": "/home/snics/MER-DA/results/e80/kept.csv",
+   "sha256": "83d82f05e1009b74162eef1852d43ab5029b465f11731527c5a40e5045c1971c",
+   "bytes": 97610,
+   "mtime": 1793538602.0,
+   "script": "exp/e80_teacher_j.py",
+   "script_sha256_now": "86dbbc020878f9564337af8a48208ac91157183a51f6d70c6f1a5a7b4b03b666",
+   "script_last_commit": "8757dc94409d83d2ed73d402f194dcfa845bd6fa",
+   "script_dirty": false,
+   "note": "script_sha256_now・script_last_commit は E79 を流したときの台本．kept.csv を作ったときの版は sidecar（E80 が書く provenance）か j_units の commit で読む",
+   "sidecar": {
+    "kept_provenance.json": {
+     "script": "exp/e80_teacher_j.py",
+     "script_sha256": "86dbbc020878f9564337af8a48208ac91157183a51f6d70c6f1a5a7b4b03b666",
+     "commit": "66eacca2d31c697ce33255b4432111ca014cdbf6",
+     "dirty": false,
+     "rule": "R3⁗：uar_diff_median > 0（コーパスごとの中央値のコーパスの平均）",
+     "inputs": {
+      "results/e80/avt/j_units.csv": "3c2cf3731532c0d6f08ec82b1693002007ed72322dc12afdf0d6af20b1d9083c",
+      "results/e80/av/j_units.csv": "d555125c549c4b00db32ede6dcbb2e8d49dfe36261e50c6a8b84d6608c196c07"
+     },
+     "unit_commits": [
+      "365ae18f3ec6c99a56ed8c2591e5ce49645aafd9"
+     ],
+     "kept_sha256": "83d82f05e1009b74162eef1852d43ab5029b465f11731527c5a40e5045c1971c",
+     "made": "2026-11-01T13:10:02+0000"
+    }
+   },
+   "made_by_script_sha256": "86dbbc020878f9564337af8a48208ac91157183a51f6d70c6f1a5a7b4b03b666",
+   "made_by_commit": "66eacca2d31c697ce33255b4432111ca014cdbf6",
+   "made_by_dirty": false,
+   "rule": "R3⁗：uar_diff_median > 0（コーパスごとの中央値のコーパスの平均）",
+   "inputs": {
+    "results/e80/avt/j_units.csv": "3c2cf3731532c0d6f08ec82b1693002007ed72322dc12afdf0d6af20b1d9083c",
+    "results/e80/av/j_units.csv": "d555125c549c4b00db32ede6dcbb2e8d49dfe36261e50c6a8b84d6608c196c07"
+   },
+   "unit_commits": [
+    "365ae18f3ec6c99a56ed8c2591e5ce49645aafd9"
+   ],
+   "made": "2026-11-01T13:10:02+0000"
+  }
+ },
+ "e80c_provenance": {
+  "fuse-audio-video-text": {
+   "path": "/home/snics/MER-DA/results/e80c_fuse-audio-video-text",
+   "commit": "f26fad01d63261fd18db337e826941b4f341152b",
+   "dirty": false,
+   "script_sha256": "9ba2bd158b259b485ed11b193de5decd0a872351362980fe9ae93a768a7cd0a9",
+   "KS": [
+    "0",
+    "5",
+    "25"
+   ],
+   "kept_sha256": "83d82f05e1009b74162eef1852d43ab5029b465f11731527c5a40e5045c1971c",
+   "n_records_checked": 3
+  },
+  "fuse-audio-video": {
+   "path": "/home/snics/MER-DA/results/e80c_fuse-audio-video",
+   "commit": "f26fad01d63261fd18db337e826941b4f341152b",
+   "dirty": false,
+   "script_sha256": "9ba2bd158b259b485ed11b193de5decd0a872351362980fe9ae93a768a7cd0a9",
+   "KS": [
+    "0",
+    "5",
+    "25"
+   ],
+   "kept_sha256": "83d82f05e1009b74162eef1852d43ab5029b465f11731527c5a40e5045c1971c",
+   "n_records_checked": 3
+  }
+ },
+ "copied_pseudo": {
+  "fuse-audio-video-text|IEMOCAP-script": {
+   "e77": "IEMOCAP-impro",
+   "e78": "IEMOCAP-impro",
+   "e80c": "IEMOCAP-impro"
+  },
+  "fuse-audio-video|IEMOCAP-script": {
+   "e77": "IEMOCAP-impro",
+   "e78": "IEMOCAP-impro",
+   "e80c": "IEMOCAP-impro"
+  }
+ },
+ "rule": "仮のターゲット × 反復の全行（種のある手法は種 0）の UAR の単純平均の最大．同点は 'method|pnorm|meff' の文字列の順で先頭．none を含む版は none と同点なら none．oursx は E80 の R4（kept.csv で（世界, T, 生徒, K）ごとに残した教師 × 重みの付け方 5 × 総重み 4．残した教師が無い単位は none．R3‴），KD（kd と kdh）の教師も同じ集合（C1），除去実験の行の総重みは行ごとに選ぶ（R5．m_eff ＝ 500 に固定する行は置かない），R6′ は oursx の候補から KD の候補と同じ数を種 0〜19 で一様に引いた部分集合で選ぶ（oursx_r6s<種>．none を含む版だけ．r6_subsets.csv）．共正則化は選ばない（短縮 b．measure の段でテストで選んだ上限にする）．Co-teaching は回していない．copied_pseudo の評価のターゲット（IEMOCAP 台本）の仮のターゲットの行は写し元（即興）の写しである",
+ "chosen_csv_sha256": "5778c4b7cce7c71bd7a7c8927213b6f8ac853ee6ffd9a8961adcb0678d4de754",
+ "fixed_csv_sha256": "3d748088b30db032f09e21725e7ff4be7845e1112c5e3dcc48952027b83efa0c"
+}

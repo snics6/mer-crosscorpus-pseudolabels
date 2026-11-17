@@ -1,0 +1,391 @@
+world,target,pseudo,rep,student,what,key,n_iter,grad,commit
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,0,audio_wavlm,none,5,45,7.635771388653234e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,0,audio_wavlm,none,25,61,9.760949208067278e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,0,audio_wavlm,ref,"('ref', '0')",103,9.086040385990722e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,0,audio_wavlm,ref,"('ref', '5')",92,9.506666149668901e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,0,audio_wavlm,ref,"('ref', '25')",72,8.9769097066884e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,0,audio_wavlm,ref,"('ref0', '0')",103,9.085470181540659e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,0,audio_wavlm,ref,"('ref0', '5')",117,9.850693351812646e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,0,audio_wavlm,ref,"('ref0', '25')",112,9.875490596001767e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,0,video,none,5,21,5.183710602083003e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,0,video,none,25,21,2.983119221672704e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,0,video,ref,"('ref', '0')",16,5.477797016343049e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,0,video,ref,"('ref', '5')",16,7.745818871883524e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,0,video,ref,"('ref', '25')",17,4.765745466663604e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,0,video,ref,"('ref0', '0')",16,5.477797016486706e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,0,video,ref,"('ref0', '5')",13,7.322999131041501e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,0,video,ref,"('ref0', '25')",15,8.072731296308042e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,0,text_roberta,none,5,38,9.77746308338575e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,0,text_roberta,none,25,35,6.535159325074189e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,0,text_roberta,ref,"('ref', '0')",31,6.058400714610692e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,0,text_roberta,ref,"('ref', '5')",35,7.892371478717631e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,0,text_roberta,ref,"('ref', '25')",36,9.746663740757599e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,0,text_roberta,ref,"('ref0', '0')",31,6.058400717192618e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,0,text_roberta,ref,"('ref0', '5')",32,7.024759141330207e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,0,text_roberta,ref,"('ref0', '25')",33,7.872008038118153e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,0,fuse-audio-video-text,none,5,65,8.669462135833719e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,0,fuse-audio-video-text,none,25,74,9.877101127286924e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,1,audio_wavlm,none,5,48,8.226360825591694e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,1,audio_wavlm,none,25,63,9.990285835181564e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,1,audio_wavlm,ref,"('ref', '0')",117,9.25292409623352e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,1,audio_wavlm,ref,"('ref', '5')",110,6.438318399898347e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,1,audio_wavlm,ref,"('ref', '25')",107,8.664182353085022e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,1,audio_wavlm,ref,"('ref0', '0')",118,9.779364662619995e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,1,audio_wavlm,ref,"('ref0', '5')",108,9.627769425511702e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,1,audio_wavlm,ref,"('ref0', '25')",119,9.668478213126436e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,1,video,none,5,23,7.697984695052146e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,1,video,none,25,20,7.985961016357054e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,1,video,ref,"('ref', '0')",16,5.840777101506311e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,1,video,ref,"('ref', '5')",17,5.147070643474086e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,1,video,ref,"('ref', '25')",15,9.14190866363911e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,1,video,ref,"('ref0', '0')",16,5.840777101594674e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,1,video,ref,"('ref0', '5')",16,9.43198580546532e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,1,video,ref,"('ref0', '25')",18,8.796700045977175e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,1,text_roberta,none,5,34,9.813708693644577e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,1,text_roberta,none,25,34,9.627884039430101e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,1,text_roberta,ref,"('ref', '0')",30,5.900577219887211e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,1,text_roberta,ref,"('ref', '5')",35,6.946840770268264e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,1,text_roberta,ref,"('ref', '25')",37,8.017045633687694e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,1,text_roberta,ref,"('ref0', '0')",30,5.900577219426358e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,1,text_roberta,ref,"('ref0', '5')",32,6.461669113809096e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,1,text_roberta,ref,"('ref0', '25')",32,8.978642805425622e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,1,fuse-audio-video-text,none,5,62,9.237381057465577e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,1,fuse-audio-video-text,none,25,77,9.476452138070814e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,2,audio_wavlm,none,5,38,2.98868102004482e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,2,audio_wavlm,none,25,61,6.60128237057675e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,2,audio_wavlm,ref,"('ref', '0')",99,9.744253295698984e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,2,audio_wavlm,ref,"('ref', '5')",99,7.506132585668578e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,2,audio_wavlm,ref,"('ref', '25')",85,9.808130845070386e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,2,audio_wavlm,ref,"('ref0', '0')",99,9.151995503349291e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,2,audio_wavlm,ref,"('ref0', '5')",110,9.511364334079857e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,2,audio_wavlm,ref,"('ref0', '25')",102,7.58836977622255e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,2,video,none,5,23,3.1615493550907203e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,2,video,none,25,18,5.168581244802128e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,2,video,ref,"('ref', '0')",17,6.008729215427897e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,2,video,ref,"('ref', '5')",17,1.6792531436335325e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,2,video,ref,"('ref', '25')",18,7.010956644547435e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,2,video,ref,"('ref0', '0')",17,6.00872921538236e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,2,video,ref,"('ref0', '5')",17,3.4497211314822064e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,2,video,ref,"('ref0', '25')",17,8.28425605919295e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,2,text_roberta,none,5,27,7.32245251645414e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,2,text_roberta,none,25,33,9.928467444176442e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,2,text_roberta,ref,"('ref', '0')",31,8.547379876030505e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,2,text_roberta,ref,"('ref', '5')",34,7.230817703552436e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,2,text_roberta,ref,"('ref', '25')",35,7.334037936955641e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,2,text_roberta,ref,"('ref0', '0')",31,8.547379875628198e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,2,text_roberta,ref,"('ref0', '5')",32,4.310234591998772e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,2,text_roberta,ref,"('ref0', '25')",35,6.980923819532555e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,2,fuse-audio-video-text,none,5,51,5.191832678046182e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,2,fuse-audio-video-text,none,25,82,9.73726485083658e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,3,audio_wavlm,none,5,48,7.672430497318583e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,3,audio_wavlm,none,25,68,9.403160178425921e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,3,audio_wavlm,ref,"('ref', '0')",104,8.799455977743066e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,3,audio_wavlm,ref,"('ref', '5')",102,9.834200067133556e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,3,audio_wavlm,ref,"('ref', '25')",80,9.733764782598683e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,3,audio_wavlm,ref,"('ref0', '0')",104,8.788411927120043e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,3,audio_wavlm,ref,"('ref0', '5')",107,8.30083585723145e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,3,audio_wavlm,ref,"('ref0', '25')",118,9.86574657121063e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,3,video,none,5,16,8.037115986833654e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,3,video,none,25,19,5.720166491429007e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,3,video,ref,"('ref', '0')",15,9.62629322300945e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,3,video,ref,"('ref', '5')",17,3.660599210070833e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,3,video,ref,"('ref', '25')",18,2.800666793565526e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,3,video,ref,"('ref0', '0')",15,9.626293223076129e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,3,video,ref,"('ref0', '5')",16,7.669413169484598e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,3,video,ref,"('ref0', '25')",17,3.4053905398839053e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,3,text_roberta,none,5,39,4.3104831784143705e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,3,text_roberta,none,25,32,9.161714959963346e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,3,text_roberta,ref,"('ref', '0')",31,2.6480976671986074e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,3,text_roberta,ref,"('ref', '5')",31,7.427200191545153e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,3,text_roberta,ref,"('ref', '25')",37,7.06737431654955e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,3,text_roberta,ref,"('ref0', '0')",31,2.6480976669524935e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,3,text_roberta,ref,"('ref0', '5')",31,9.641349769645008e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,3,text_roberta,ref,"('ref0', '25')",30,8.313538252208239e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,3,fuse-audio-video-text,none,5,59,7.171429270841356e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,3,fuse-audio-video-text,none,25,89,6.099047665381052e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,4,audio_wavlm,none,5,48,4.5415074685205975e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,4,audio_wavlm,none,25,77,7.61582912091861e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,4,audio_wavlm,ref,"('ref', '0')",117,8.402101731266225e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,4,audio_wavlm,ref,"('ref', '5')",90,7.408483939056344e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,4,audio_wavlm,ref,"('ref', '25')",87,9.285142817875409e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,4,audio_wavlm,ref,"('ref0', '0')",117,8.403780797921903e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,4,audio_wavlm,ref,"('ref0', '5')",101,9.108999989272887e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,4,audio_wavlm,ref,"('ref0', '25')",106,9.415034815366983e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,4,video,none,5,23,9.585779660800653e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,4,video,none,25,21,6.418129378845533e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,4,video,ref,"('ref', '0')",16,6.360979033550045e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,4,video,ref,"('ref', '5')",17,4.0086033891703404e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,4,video,ref,"('ref', '25')",17,5.256357045336363e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,4,video,ref,"('ref0', '0')",16,6.360979033378741e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,4,video,ref,"('ref0', '5')",16,4.5858604806684735e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,4,video,ref,"('ref0', '25')",17,2.960061443008869e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,4,text_roberta,none,5,39,6.235242788577922e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,4,text_roberta,none,25,39,9.880049062337831e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,4,text_roberta,ref,"('ref', '0')",31,8.899413920386204e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,4,text_roberta,ref,"('ref', '5')",36,9.418119155026947e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,4,text_roberta,ref,"('ref', '25')",38,8.844498731648304e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,4,text_roberta,ref,"('ref0', '0')",31,8.899413920055285e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,4,text_roberta,ref,"('ref0', '5')",30,7.17805201690175e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,4,text_roberta,ref,"('ref0', '25')",32,7.854859605285251e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,4,fuse-audio-video-text,none,5,67,8.321633525737449e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-impro,4,fuse-audio-video-text,none,25,117,9.167190224399792e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,0,audio_wavlm,none,5,36,5.472610099740982e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,0,audio_wavlm,none,25,75,9.374132422992204e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,0,audio_wavlm,ref,"('ref', '0')",90,9.077244149582226e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,0,audio_wavlm,ref,"('ref', '5')",83,8.604203259876542e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,0,audio_wavlm,ref,"('ref', '25')",97,4.1775429657933227e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,0,audio_wavlm,ref,"('ref0', '0')",90,9.077246177607784e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,0,audio_wavlm,ref,"('ref0', '5')",103,9.482100622698435e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,0,audio_wavlm,ref,"('ref0', '25')",84,8.99777570044437e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,0,video,none,5,21,8.200728323227015e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,0,video,none,25,19,8.384442171933786e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,0,video,ref,"('ref', '0')",16,3.720281874270044e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,0,video,ref,"('ref', '5')",16,7.29239740796645e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,0,video,ref,"('ref', '25')",17,5.464862872410839e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,0,video,ref,"('ref0', '0')",16,3.7202818747123986e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,0,video,ref,"('ref0', '5')",15,4.718753985032142e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,0,video,ref,"('ref0', '25')",17,7.780046023358176e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,0,text_roberta,none,5,38,4.955232380428332e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,0,text_roberta,none,25,37,9.943738308610534e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,0,text_roberta,ref,"('ref', '0')",30,7.804456732344851e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,0,text_roberta,ref,"('ref', '5')",33,9.865389842644672e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,0,text_roberta,ref,"('ref', '25')",41,4.680351120840806e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,0,text_roberta,ref,"('ref0', '0')",30,7.804456732113781e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,0,text_roberta,ref,"('ref0', '5')",31,9.374509757926607e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,0,text_roberta,ref,"('ref0', '25')",34,8.150112906970945e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,0,fuse-audio-video-text,none,5,59,6.930147493392977e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,0,fuse-audio-video-text,none,25,103,9.532443595508663e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,1,audio_wavlm,none,5,44,9.328297763356794e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,1,audio_wavlm,none,25,89,7.059221728963547e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,1,audio_wavlm,ref,"('ref', '0')",93,7.597752252397122e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,1,audio_wavlm,ref,"('ref', '5')",92,9.767150513637947e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,1,audio_wavlm,ref,"('ref', '25')",105,9.570576408058631e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,1,audio_wavlm,ref,"('ref0', '0')",93,7.597243857639623e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,1,audio_wavlm,ref,"('ref0', '5')",94,8.47351026540843e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,1,audio_wavlm,ref,"('ref0', '25')",109,9.861024405213303e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,1,video,none,5,20,7.462908972327709e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,1,video,none,25,19,2.5153569014127464e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,1,video,ref,"('ref', '0')",16,2.1789415592096467e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,1,video,ref,"('ref', '5')",17,2.006115637815005e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,1,video,ref,"('ref', '25')",16,9.039959834853978e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,1,video,ref,"('ref0', '0')",16,2.178941559645496e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,1,video,ref,"('ref0', '5')",16,5.069094771381838e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,1,video,ref,"('ref0', '25')",14,8.268631932676729e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,1,text_roberta,none,5,38,6.66451650178923e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,1,text_roberta,none,25,33,8.248393408758457e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,1,text_roberta,ref,"('ref', '0')",29,7.395610834406351e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,1,text_roberta,ref,"('ref', '5')",32,9.085289041694156e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,1,text_roberta,ref,"('ref', '25')",37,8.681103105238506e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,1,text_roberta,ref,"('ref0', '0')",29,7.395610834778232e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,1,text_roberta,ref,"('ref0', '5')",31,7.443642431132966e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,1,text_roberta,ref,"('ref0', '25')",32,9.104872216767574e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,1,fuse-audio-video-text,none,5,67,9.923484687243689e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,1,fuse-audio-video-text,none,25,91,7.579046653661582e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,2,audio_wavlm,none,5,45,5.902694625893601e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,2,audio_wavlm,none,25,71,9.526034812881896e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,2,audio_wavlm,ref,"('ref', '0')",107,8.5081258430382e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,2,audio_wavlm,ref,"('ref', '5')",107,7.363451815324876e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,2,audio_wavlm,ref,"('ref', '25')",97,9.554581923802707e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,2,audio_wavlm,ref,"('ref0', '0')",107,8.511056935670263e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,2,audio_wavlm,ref,"('ref0', '5')",96,9.699954609621118e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,2,audio_wavlm,ref,"('ref0', '25')",86,9.60311515050237e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,2,video,none,5,23,6.692786509443494e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,2,video,none,25,19,8.543676882179826e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,2,video,ref,"('ref', '0')",14,7.740510177392849e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,2,video,ref,"('ref', '5')",14,3.6852434442697507e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,2,video,ref,"('ref', '25')",15,4.615380120379098e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,2,video,ref,"('ref0', '0')",14,7.740510177307739e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,2,video,ref,"('ref0', '5')",13,6.53135343922981e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,2,video,ref,"('ref0', '25')",14,5.282227416958754e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,2,text_roberta,none,5,33,9.582543399125343e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,2,text_roberta,none,25,35,8.345336788709648e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,2,text_roberta,ref,"('ref', '0')",29,9.821806798901694e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,2,text_roberta,ref,"('ref', '5')",32,6.636477722837602e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,2,text_roberta,ref,"('ref', '25')",36,6.778669463665908e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,2,text_roberta,ref,"('ref0', '0')",29,9.821806799159192e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,2,text_roberta,ref,"('ref0', '5')",30,8.951395525174613e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,2,text_roberta,ref,"('ref0', '25')",32,9.827171668459815e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,2,fuse-audio-video-text,none,5,68,9.847750684762943e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,2,fuse-audio-video-text,none,25,138,9.890185553259635e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,3,audio_wavlm,none,5,43,6.499603645519075e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,3,audio_wavlm,none,25,78,6.672544853028248e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,3,audio_wavlm,ref,"('ref', '0')",103,8.261405417358506e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,3,audio_wavlm,ref,"('ref', '5')",91,9.013831317998154e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,3,audio_wavlm,ref,"('ref', '25')",127,8.904138775008745e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,3,audio_wavlm,ref,"('ref0', '0')",103,8.261381278719962e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,3,audio_wavlm,ref,"('ref0', '5')",93,6.647550985384304e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,3,audio_wavlm,ref,"('ref0', '25')",81,9.47922812177533e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,3,video,none,5,22,8.480574137798014e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,3,video,none,25,17,9.20430495145565e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,3,video,ref,"('ref', '0')",13,7.437635817404969e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,3,video,ref,"('ref', '5')",15,8.437883868976138e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,3,video,ref,"('ref', '25')",17,4.924291901270363e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,3,video,ref,"('ref0', '0')",13,7.437635817446168e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,3,video,ref,"('ref0', '5')",15,8.42836915780252e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,3,video,ref,"('ref0', '25')",15,6.497073685704838e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,3,text_roberta,none,5,29,9.547236019019807e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,3,text_roberta,none,25,41,8.312519035881777e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,3,text_roberta,ref,"('ref', '0')",28,7.961776266084196e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,3,text_roberta,ref,"('ref', '5')",33,8.404377980492496e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,3,text_roberta,ref,"('ref', '25')",32,9.747082604347516e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,3,text_roberta,ref,"('ref0', '0')",28,7.961776266132036e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,3,text_roberta,ref,"('ref0', '5')",30,7.939178484167001e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,3,text_roberta,ref,"('ref0', '25')",32,8.579085867545483e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,3,fuse-audio-video-text,none,5,69,4.1231564848129287e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,3,fuse-audio-video-text,none,25,124,9.852054915871302e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,4,audio_wavlm,none,5,40,7.131371806377851e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,4,audio_wavlm,none,25,63,7.631624923225278e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,4,audio_wavlm,ref,"('ref', '0')",91,8.614383815428762e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,4,audio_wavlm,ref,"('ref', '5')",102,6.983991042334254e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,4,audio_wavlm,ref,"('ref', '25')",110,8.98219475018543e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,4,audio_wavlm,ref,"('ref0', '0')",91,8.609804870130747e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,4,audio_wavlm,ref,"('ref0', '5')",98,9.382266329941878e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,4,audio_wavlm,ref,"('ref0', '25')",96,9.505148554845222e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,4,video,none,5,18,6.4178928219083e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,4,video,none,25,20,2.4384028233376265e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,4,video,ref,"('ref', '0')",13,3.8837878047967567e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,4,video,ref,"('ref', '5')",15,9.264840523966872e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,4,video,ref,"('ref', '25')",15,2.987775755899924e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,4,video,ref,"('ref0', '0')",13,3.8837878048054303e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,4,video,ref,"('ref0', '5')",13,4.5745990786584534e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,4,video,ref,"('ref0', '25')",14,5.127224889478303e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,4,text_roberta,none,5,37,6.696415038431186e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,4,text_roberta,none,25,38,9.723476526243705e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,4,text_roberta,ref,"('ref', '0')",29,7.984376663372554e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,4,text_roberta,ref,"('ref', '5')",34,4.544399210234303e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,4,text_roberta,ref,"('ref', '25')",36,7.772862527231136e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,4,text_roberta,ref,"('ref0', '0')",29,7.984376663172925e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,4,text_roberta,ref,"('ref0', '5')",31,5.398692758612971e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,4,text_roberta,ref,"('ref0', '25')",31,9.580649824492311e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,4,fuse-audio-video-text,none,5,83,7.047051209059171e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,IEMOCAP-script,4,fuse-audio-video-text,none,25,77,7.855060948455564e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,0,audio_wavlm,none,5,51,4.181813189549355e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,0,audio_wavlm,none,25,88,9.913670611693196e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,0,audio_wavlm,ref,"('ref', '0')",92,9.792198538637574e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,0,audio_wavlm,ref,"('ref', '5')",110,7.172368979626318e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,0,audio_wavlm,ref,"('ref', '25')",94,7.284690382610001e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,0,audio_wavlm,ref,"('ref0', '0')",92,9.792199281493871e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,0,audio_wavlm,ref,"('ref0', '5')",99,9.930543199696603e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,0,audio_wavlm,ref,"('ref0', '25')",106,6.809901679229961e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,0,video,none,5,39,4.165288399436695e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,0,video,none,25,31,6.626159794910621e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,0,video,ref,"('ref', '0')",36,7.660623900559299e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,0,video,ref,"('ref', '5')",37,8.638286619998671e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,0,video,ref,"('ref', '25')",38,7.661839233579068e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,0,video,ref,"('ref0', '0')",36,7.660623900038882e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,0,video,ref,"('ref0', '5')",33,8.703568556199612e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,0,video,ref,"('ref0', '25')",37,9.161030196922805e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,0,text_roberta,none,5,43,5.596358414149127e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,0,text_roberta,none,25,36,9.365476354504347e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,0,text_roberta,ref,"('ref', '0')",30,7.984942158678707e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,0,text_roberta,ref,"('ref', '5')",34,6.588744513036913e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,0,text_roberta,ref,"('ref', '25')",33,6.946980544885926e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,0,text_roberta,ref,"('ref0', '0')",30,7.984942158712589e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,0,text_roberta,ref,"('ref0', '5')",32,7.375611919103824e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,0,text_roberta,ref,"('ref0', '25')",36,3.017760770511165e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,0,fuse-audio-video-text,none,5,87,4.130165391913465e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,0,fuse-audio-video-text,none,25,104,7.640323278637964e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,1,audio_wavlm,none,5,44,5.065950013389414e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,1,audio_wavlm,none,25,54,5.763594930387065e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,1,audio_wavlm,ref,"('ref', '0')",93,8.488064382355422e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,1,audio_wavlm,ref,"('ref', '5')",108,9.82154513519233e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,1,audio_wavlm,ref,"('ref', '25')",109,9.844731879479068e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,1,audio_wavlm,ref,"('ref0', '0')",93,8.488870632799433e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,1,audio_wavlm,ref,"('ref0', '5')",101,7.734574465258909e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,1,audio_wavlm,ref,"('ref0', '25')",93,7.072119242502485e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,1,video,none,5,30,5.638831511445286e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,1,video,none,25,33,3.4350696148655047e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,1,video,ref,"('ref', '0')",32,8.459500929502463e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,1,video,ref,"('ref', '5')",41,5.531698079246994e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,1,video,ref,"('ref', '25')",40,4.591686420504825e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,1,video,ref,"('ref0', '0')",32,8.459500929755895e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,1,video,ref,"('ref0', '5')",32,8.198870870973485e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,1,video,ref,"('ref0', '25')",33,6.561625459965755e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,1,text_roberta,none,5,36,7.387101355164905e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,1,text_roberta,none,25,38,2.884500593259426e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,1,text_roberta,ref,"('ref', '0')",30,9.329622665356428e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,1,text_roberta,ref,"('ref', '5')",31,9.436819295851684e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,1,text_roberta,ref,"('ref', '25')",32,8.678994733751126e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,1,text_roberta,ref,"('ref0', '0')",30,9.329622665390038e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,1,text_roberta,ref,"('ref0', '5')",33,6.884052475481829e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,1,text_roberta,ref,"('ref0', '25')",33,9.291772681010947e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,1,fuse-audio-video-text,none,5,62,5.560832688053432e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,1,fuse-audio-video-text,none,25,142,8.48557664379372e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,2,audio_wavlm,none,5,46,4.678158526984222e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,2,audio_wavlm,none,25,64,9.439261752716699e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,2,audio_wavlm,ref,"('ref', '0')",92,8.301889223231562e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,2,audio_wavlm,ref,"('ref', '5')",106,9.702487609064992e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,2,audio_wavlm,ref,"('ref', '25')",98,9.619664523537533e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,2,audio_wavlm,ref,"('ref0', '0')",92,8.301716111454912e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,2,audio_wavlm,ref,"('ref0', '5')",90,9.053717409191267e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,2,audio_wavlm,ref,"('ref0', '25')",105,6.951727110988872e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,2,video,none,5,31,9.698358734606949e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,2,video,none,25,30,4.457759550414997e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,2,video,ref,"('ref', '0')",37,8.432590033124413e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,2,video,ref,"('ref', '5')",34,6.816685982587774e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,2,video,ref,"('ref', '25')",40,3.8678606885216016e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,2,video,ref,"('ref0', '0')",37,8.432590032916788e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,2,video,ref,"('ref0', '5')",38,6.969884100954237e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,2,video,ref,"('ref0', '25')",40,5.18145418073766e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,2,text_roberta,none,5,43,6.713118503066939e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,2,text_roberta,none,25,36,9.87903323433452e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,2,text_roberta,ref,"('ref', '0')",32,8.358568461454968e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,2,text_roberta,ref,"('ref', '5')",33,8.403672747222981e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,2,text_roberta,ref,"('ref', '25')",33,7.420767339506558e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,2,text_roberta,ref,"('ref0', '0')",32,8.35856846152761e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,2,text_roberta,ref,"('ref0', '5')",31,8.980155816045734e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,2,text_roberta,ref,"('ref0', '25')",33,8.041699448728184e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,2,fuse-audio-video-text,none,5,49,6.241585179343062e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,2,fuse-audio-video-text,none,25,130,9.217371380735358e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,3,audio_wavlm,none,5,37,2.582937015938036e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,3,audio_wavlm,none,25,55,5.065705862439956e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,3,audio_wavlm,ref,"('ref', '0')",107,9.427066358894294e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,3,audio_wavlm,ref,"('ref', '5')",96,8.48084155919554e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,3,audio_wavlm,ref,"('ref', '25')",109,9.70650841321469e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,3,audio_wavlm,ref,"('ref0', '0')",107,9.426974237323506e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,3,audio_wavlm,ref,"('ref0', '5')",107,9.701783933893475e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,3,audio_wavlm,ref,"('ref0', '25')",101,9.760221461639976e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,3,video,none,5,31,6.65992000464799e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,3,video,none,25,33,3.9576237138416043e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,3,video,ref,"('ref', '0')",42,9.495040376245251e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,3,video,ref,"('ref', '5')",37,8.173415406087178e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,3,video,ref,"('ref', '25')",37,7.37504426044625e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,3,video,ref,"('ref0', '0')",42,9.495040376431327e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,3,video,ref,"('ref0', '5')",31,8.681833078717088e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,3,video,ref,"('ref0', '25')",35,9.16954118554132e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,3,text_roberta,none,5,42,6.958035489012387e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,3,text_roberta,none,25,35,9.583140787394295e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,3,text_roberta,ref,"('ref', '0')",31,8.035397637282463e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,3,text_roberta,ref,"('ref', '5')",30,9.906140996462183e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,3,text_roberta,ref,"('ref', '25')",33,7.206114156620841e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,3,text_roberta,ref,"('ref0', '0')",31,8.035397636999486e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,3,text_roberta,ref,"('ref0', '5')",32,8.931439199322527e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,3,text_roberta,ref,"('ref0', '25')",34,6.834571271446566e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,3,fuse-audio-video-text,none,5,44,5.807957210641514e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,3,fuse-audio-video-text,none,25,132,8.935978030442287e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,4,audio_wavlm,none,5,56,7.852133512174439e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,4,audio_wavlm,none,25,60,8.749092040571949e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,4,audio_wavlm,ref,"('ref', '0')",100,9.909945368064e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,4,audio_wavlm,ref,"('ref', '5')",100,9.994260221366305e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,4,audio_wavlm,ref,"('ref', '25')",105,9.61840248781421e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,4,audio_wavlm,ref,"('ref0', '0')",100,9.910572227041052e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,4,audio_wavlm,ref,"('ref0', '5')",94,8.839941140863228e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,4,audio_wavlm,ref,"('ref0', '25')",107,8.367960779120769e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,4,video,none,5,37,2.927552615536455e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,4,video,none,25,28,4.360595386085613e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,4,video,ref,"('ref', '0')",34,9.461767400318309e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,4,video,ref,"('ref', '5')",38,5.492181295654874e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,4,video,ref,"('ref', '25')",38,9.53990090660651e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,4,video,ref,"('ref0', '0')",34,9.461767400747653e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,4,video,ref,"('ref0', '5')",34,8.979872151633787e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,4,video,ref,"('ref0', '25')",33,8.257975665467213e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,4,text_roberta,none,5,32,6.235250251144728e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,4,text_roberta,none,25,37,4.0938379645191064e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,4,text_roberta,ref,"('ref', '0')",32,7.578641281902473e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,4,text_roberta,ref,"('ref', '5')",31,8.458727318542015e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,4,text_roberta,ref,"('ref', '25')",33,5.741318555187299e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,4,text_roberta,ref,"('ref0', '0')",32,7.578641282076216e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,4,text_roberta,ref,"('ref0', '5')",33,6.125954793166405e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,4,text_roberta,ref,"('ref0', '25')",33,9.204157016780073e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,4,fuse-audio-video-text,none,5,80,5.926672742573302e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video-text,MOSEI,MELD,4,fuse-audio-video-text,none,25,176,9.15015677965857e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9

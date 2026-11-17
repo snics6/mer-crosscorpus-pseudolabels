@@ -1,0 +1,6 @@
+method,knobs,n_points,versions,mode,commit,dirty,frozen_sha256,units_commit
+kd,"temp,rho",12,"sel,one",pseudo,ba98974583dfee3504d54f31a5d303ff5394562e,False,6926fb3e12638dd946ddfda8a260a33f089a400094ebdefdf37132fa1329dfdc,
+agree,"tau,f",9,"sel,one",pseudo,ba98974583dfee3504d54f31a5d303ff5394562e,False,6926fb3e12638dd946ddfda8a260a33f089a400094ebdefdf37132fa1329dfdc,
+mix,"alpha,f",9,"sel,one",pseudo,ba98974583dfee3504d54f31a5d303ff5394562e,False,6926fb3e12638dd946ddfda8a260a33f089a400094ebdefdf37132fa1329dfdc,
+cotrain,rho,4,ct,pseudo,ba98974583dfee3504d54f31a5d303ff5394562e,False,6926fb3e12638dd946ddfda8a260a33f089a400094ebdefdf37132fa1329dfdc,
+coreg,rho,5,cr,pseudo,ba98974583dfee3504d54f31a5d303ff5394562e,False,6926fb3e12638dd946ddfda8a260a33f089a400094ebdefdf37132fa1329dfdc,

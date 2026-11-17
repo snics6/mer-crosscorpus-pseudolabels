@@ -1,0 +1,541 @@
+T,c,corpus,method,student,K,role,point,n_units,n_units_disc,n_units_expand,marked,mode,commit,dirty
+AFEW,ALL,AFEW,dann,A,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,A,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,A,1,selected,"{""lr"": 0.001, ""iters"": 200.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,A,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,A,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,A,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,A,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,A,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,A,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,A,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,V,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,V,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,V,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,V,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,V,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,V,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,V,10,selected,"{""lr"": 0.001, ""iters"": 200.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,V,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,V,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,V,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,T,0,selected,"{""lr"": 0.001, ""iters"": 200.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,T,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,T,1,selected,"{""lr"": 0.001, ""iters"": 200.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,T,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,T,5,selected,"{""lr"": 0.001, ""iters"": 200.0, ""lam"": 0.1, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,T,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,T,10,selected,"{""lr"": 0.001, ""iters"": 200.0, ""lam"": 0.1, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,T,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,T,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,T,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,AVT,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,AVT,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,AVT,1,selected,"{""lr"": 0.001, ""iters"": 200.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,AVT,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,AVT,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,AVT,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,AVT,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,AVT,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,AVT,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,dann,AVT,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,A,0,selected,"{""lr"": 0.001, ""iters"": 200.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,A,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,A,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,A,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,A,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,A,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,A,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,A,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,A,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,A,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,V,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,V,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,V,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,V,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,V,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,V,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,V,10,selected,"{""lr"": 0.001, ""iters"": 200.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,V,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,V,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,V,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,T,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 1.0, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,T,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,T,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 1.0, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,T,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,T,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,T,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,T,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,T,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,T,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,T,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,AVT,0,selected,"{""lr"": 0.001, ""iters"": 200.0, ""lam"": 0.01, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,AVT,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,AVT,1,selected,"{""lr"": 0.001, ""iters"": 200.0, ""lam"": 0.01, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,AVT,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,AVT,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,AVT,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,AVT,10,selected,"{""lr"": 0.001, ""iters"": 200.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,AVT,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,AVT,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mme,AVT,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,A,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,A,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,A,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,A,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,A,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,A,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,A,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,A,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,A,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,A,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,V,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,V,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,V,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,V,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,V,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,V,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,V,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,V,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,V,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,V,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,T,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,T,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,T,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,T,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,T,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,T,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,T,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,T,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,T,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,T,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,AVT,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,AVT,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,AVT,1,selected,"{""lr"": 0.001, ""iters"": 200.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,AVT,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,AVT,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,AVT,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,AVT,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,AVT,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,AVT,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,mapctl,AVT,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,xmuda,A,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""kap"": 0.1, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,xmuda,A,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""kap"": 1.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,xmuda,A,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""kap"": 1.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,xmuda,A,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""kap"": 1.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,xmuda,A,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""kap"": 1.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,xmuda,V,0,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 0.1, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,xmuda,V,1,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 0.1, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,xmuda,V,5,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 1.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,xmuda,V,10,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 1.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,xmuda,V,25,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 1.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,xmuda,T,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""kap"": 0.1, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,xmuda,T,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""kap"": 1.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,xmuda,T,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""kap"": 1.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,xmuda,T,10,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 1.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+AFEW,ALL,AFEW,xmuda,T,25,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 1.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,A,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,A,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,A,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,A,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,A,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,A,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,A,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,A,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,A,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,A,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,V,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,V,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,V,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,V,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,V,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,V,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,V,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,V,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,V,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,V,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,T,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,T,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,T,1,selected,"{""lr"": 0.001, ""iters"": 200.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,T,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,T,5,selected,"{""lr"": 0.001, ""iters"": 200.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,T,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,T,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,T,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,T,25,selected,"{""lr"": 0.001, ""iters"": 200.0, ""lam"": 0.1, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,T,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,AVT,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,AVT,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,AVT,1,selected,"{""lr"": 0.001, ""iters"": 200.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,AVT,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,AVT,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,AVT,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,AVT,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,AVT,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,AVT,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,dann,AVT,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,A,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,A,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,A,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,A,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,A,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,A,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,A,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,A,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,A,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,A,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,V,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,V,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,V,1,selected,"{""lr"": 0.001, ""iters"": 200.0, ""lam"": 0.01, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,V,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,V,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,V,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,V,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,V,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,V,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,V,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,T,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,T,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,T,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,T,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,T,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,T,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,T,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,T,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,T,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,T,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,AVT,0,selected,"{""lr"": 0.001, ""iters"": 200.0, ""lam"": 0.01, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,AVT,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,AVT,1,selected,"{""lr"": 0.01, ""iters"": 200.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,AVT,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,AVT,5,selected,"{""lr"": 0.001, ""iters"": 200.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,AVT,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,AVT,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,AVT,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,AVT,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mme,AVT,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,7,True,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,A,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,A,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,A,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,A,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,A,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,A,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,A,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,A,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,A,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,A,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,V,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,V,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,V,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,V,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,V,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,V,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,V,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,V,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,V,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,V,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,T,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,T,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,T,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,T,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,T,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,T,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,T,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,T,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,T,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,T,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,AVT,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,AVT,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,AVT,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,AVT,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,AVT,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,AVT,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,AVT,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,AVT,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,AVT,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,mapctl,AVT,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,xmuda,A,0,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 0.1, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,xmuda,A,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""kap"": 1.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,xmuda,A,5,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 1.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,xmuda,A,10,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 1.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,xmuda,A,25,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 1.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,xmuda,V,0,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 0.1, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,xmuda,V,1,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 0.1, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,xmuda,V,5,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 1.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,xmuda,V,10,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 1.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,xmuda,V,25,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 0.1, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,xmuda,T,0,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 0.1, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,xmuda,T,1,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 0.1, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,xmuda,T,5,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 1.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,xmuda,T,10,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 0.1, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+IEMOCAP,ALL,IEMOCAP,xmuda,T,25,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 0.1, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,A,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,A,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,A,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,A,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,A,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,A,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,A,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,A,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,A,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,A,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,V,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,V,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,V,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,V,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,V,5,selected,"{""lr"": 0.001, ""iters"": 200.0, ""lam"": 0.1, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,V,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,V,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,V,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,V,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,V,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,T,0,selected,"{""lr"": 0.001, ""iters"": 200.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,T,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,T,1,selected,"{""lr"": 0.001, ""iters"": 200.0, ""lam"": 0.1, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,T,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,T,5,selected,"{""lr"": 0.001, ""iters"": 200.0, ""lam"": 0.1, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,T,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,T,10,selected,"{""lr"": 0.001, ""iters"": 200.0, ""lam"": 0.1, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,T,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,T,25,selected,"{""lr"": 0.001, ""iters"": 200.0, ""lam"": 0.1, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,T,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,AVT,0,selected,"{""lr"": 0.001, ""iters"": 200.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,AVT,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,1,True,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,AVT,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,AVT,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,AVT,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,AVT,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,AVT,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,AVT,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,AVT,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,dann,AVT,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,A,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,A,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,A,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,A,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,A,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,A,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,A,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,A,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,A,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,A,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,V,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,V,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,V,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,V,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,V,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,V,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,V,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,V,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,V,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,V,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,T,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,T,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,T,1,selected,"{""lr"": 0.001, ""iters"": 200.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,T,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,T,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,T,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,T,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,T,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,T,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,T,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,AVT,0,selected,"{""lr"": 0.001, ""iters"": 200.0, ""lam"": 0.01, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,AVT,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,AVT,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,AVT,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,AVT,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,AVT,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,AVT,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,AVT,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,AVT,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mme,AVT,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,A,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,A,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,A,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,A,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,A,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,A,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,A,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,A,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,A,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,A,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,V,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,V,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,V,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,V,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,V,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,V,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,V,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,V,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,V,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,V,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,T,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,T,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,T,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,T,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,T,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,T,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,T,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,T,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,T,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,T,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,AVT,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,AVT,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,AVT,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,AVT,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,AVT,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,AVT,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,AVT,10,selected,"{""lr"": 0.001, ""iters"": 200.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,AVT,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,AVT,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,mapctl,AVT,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,xmuda,A,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""kap"": 0.1, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,xmuda,A,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""kap"": 1.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,xmuda,A,5,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 1.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,xmuda,A,10,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 1.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,xmuda,A,25,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 1.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,xmuda,V,0,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 0.1, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,xmuda,V,1,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 0.1, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,xmuda,V,5,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 1.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,xmuda,V,10,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 10.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,xmuda,V,25,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 1.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,xmuda,T,0,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 0.1, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,xmuda,T,1,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 0.1, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,xmuda,T,5,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 0.1, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,xmuda,T,10,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 0.1, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MOSEI,ALL,MOSEI,xmuda,T,25,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 1.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,A,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,A,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,A,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,A,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,A,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,A,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,A,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,A,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,A,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,A,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,V,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,V,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,V,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,V,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,V,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,V,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,V,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,V,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,V,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,V,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,T,0,selected,"{""lr"": 0.001, ""iters"": 200.0, ""lam"": 0.01, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,T,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,T,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,T,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,T,5,selected,"{""lr"": 0.001, ""iters"": 200.0, ""lam"": 0.1, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,T,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,T,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,T,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,T,25,selected,"{""lr"": 0.001, ""iters"": 200.0, ""lam"": 0.1, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,T,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,AVT,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,AVT,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,AVT,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,AVT,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,AVT,5,selected,"{""lr"": 0.001, ""iters"": 200.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,AVT,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,AVT,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,AVT,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,AVT,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,dann,AVT,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0}",15,0.0,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,A,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,A,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,A,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,A,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,A,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,A,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,A,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,A,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,A,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,A,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,V,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,V,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,V,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,V,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,V,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,V,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,V,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,V,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,V,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,V,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,T,0,selected,"{""lr"": 0.001, ""iters"": 200.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,T,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,T,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,T,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,T,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,T,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,T,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,T,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,T,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,T,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,AVT,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,AVT,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,AVT,1,selected,"{""lr"": 0.001, ""iters"": 200.0, ""lam"": 0.01, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,AVT,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,AVT,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,AVT,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,AVT,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,AVT,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,AVT,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.01, ""mu"": 10.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mme,AVT,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""lam"": 0.1, ""mu"": 1.0, ""sw"": 0.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,A,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,A,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,A,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,A,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,A,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,A,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,A,10,selected,"{""lr"": 0.001, ""iters"": 200.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,A,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,A,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,A,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,V,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,V,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,V,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,V,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,V,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,V,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,V,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,V,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,V,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,V,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,T,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,T,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,T,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,T,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,T,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,T,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,T,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,T,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,T,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,T,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,AVT,0,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,AVT,0,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,AVT,1,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,AVT,1,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,AVT,5,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,AVT,5,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,AVT,10,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,AVT,10,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,AVT,25,selected,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,mapctl,AVT,25,default,"{""lr"": 0.001, ""iters"": 1000.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,xmuda,A,0,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 0.1, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,xmuda,A,1,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 0.1, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,xmuda,A,5,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 1.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,xmuda,A,10,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 1.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,xmuda,A,25,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 1.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,xmuda,V,0,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 0.1, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,xmuda,V,1,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 0.1, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,xmuda,V,5,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 1.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,xmuda,V,10,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 0.1, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,xmuda,V,25,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 0.1, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,xmuda,T,0,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 1.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,xmuda,T,1,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 1.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,xmuda,T,5,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 10.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,xmuda,T,10,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 1.0, ""mu"": 1.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False
+MELD,ALL,MELD,xmuda,T,25,selected,"{""lr"": 0.001, ""iters"": 200.0, ""kap"": 1.0, ""mu"": 10.0}",15,,0,False,eval,ba98974583dfee3504d54f31a5d303ff5394562e,False

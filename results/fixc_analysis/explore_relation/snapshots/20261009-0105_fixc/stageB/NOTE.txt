@@ -1,0 +1,1 @@
+E15 段階 A（rerun_main の後に explore_synergy.py），段階 B（merged_scores.py → explore_synergy.py --stage b），E16（explore_direction.py の予言と --stage diag）．コミット 6d0b688（merged_scores は f417d08）

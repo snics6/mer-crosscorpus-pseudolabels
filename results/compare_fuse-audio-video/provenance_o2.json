@@ -1,0 +1,80 @@
+{
+ "script": "exp/compare_b1.py",
+ "argv": [
+  "--kind",
+  "fuse-audio-video",
+  "--ks",
+  "1",
+  "5",
+  "10",
+  "25",
+  "50",
+  "all",
+  "--parts",
+  "o2",
+  "--tag",
+  "o2"
+ ],
+ "commit": "3eee6f4a3fd8f6387d5fc9b74c22eab6fdc23343",
+ "dirty": false,
+ "started": "2026-10-17T01:40:56+0900",
+ "targets": [
+  "IEMOCAP-impro",
+  "IEMOCAP-script",
+  "MOSEI",
+  "MELD",
+  "AFEW",
+  "CREMA-D"
+ ],
+ "map_dir": "results/fixc_map/fuse-audio-video",
+ "K": [
+  "1",
+  "5",
+  "10",
+  "25",
+  "50",
+  "all"
+ ],
+ "reps": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "CPS": [
+  0.001,
+  0.01,
+  0.1,
+  1.0
+ ],
+ "CBS": [
+  "2",
+  "8",
+  "free"
+ ],
+ "ALPHAS": [
+  0.1,
+  0.25,
+  0.5,
+  0.75,
+  0.9
+ ],
+ "O7": [
+  10,
+  0.5,
+  300,
+  0.01,
+  4,
+  256
+ ],
+ "parts": "o2",
+ "tag": "o2",
+ "O2_C": "src_only",
+ "MAX_ROWS": 6000
+}

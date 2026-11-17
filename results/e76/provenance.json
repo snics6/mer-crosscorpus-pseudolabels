@@ -1,0 +1,467 @@
+{
+ "runs": [
+  {
+   "script": "exp/relearn_e76.py",
+   "argv": [
+    "--gpu-fraction",
+    "0.15"
+   ],
+   "commit": "a14d43662536b2d91672e58b68e7a31fa657b69d",
+   "code_hash": "9891f06688489b66ee97f5b04814f87a7f888454f1bcbb0eda15b969671b7ee6",
+   "code_files": [
+    "exp/interventions.py",
+    "exp/logreg.py",
+    "exp/map.py",
+    "exp/pair_table.py",
+    "exp/relearn_e76.py",
+    "features/common.py",
+    "measure/ablate.py",
+    "measure/data.py",
+    "measure/shift.py",
+    "measure/split.py"
+   ],
+   "code_dirty": false,
+   "code_status": [],
+   "tree_dirty": true,
+   "started": "2026-11-01T06:29:35+0900",
+   "kinds": [
+    "audio_wavlm",
+    "video",
+    "text_roberta",
+    "fuse-audio-video",
+    "fuse-audio-text",
+    "fuse-video-text",
+    "fuse-audio-video-text",
+    "audio_hubert"
+   ],
+   "targets": null,
+   "reps": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "K": [
+    "1",
+    "5",
+    "10",
+    "25",
+    "50",
+    "all"
+   ],
+   "hands": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "merged_all_c": false,
+   "sources": null,
+   "C_grid": [
+    0.01,
+    0.1,
+    1.0,
+    10.0
+   ],
+   "K_hands": [
+    "1",
+    "5",
+    "10"
+   ],
+   "src_cv_seed": 0,
+   "n_test_folds": 5,
+   "n_cv_folds": 3,
+   "solver": {
+    "tol": 1e-06,
+    "max_iter": 20000,
+    "history": 10,
+    "dtype": "torch.float64"
+   },
+   "ablate_l2": 0.01,
+   "alphas": [
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    0.9
+   ],
+   "hand_spec": {
+    "common": "C ＝ 同じ反復の ② の C．学習データで標準化（手 9 はソースの統計），感情を均等にする重み（手 10 は下）．中心合わせはターゲットの全発話（テストを含む．ラベルは使わない）の平均と，使うソースの行の平均を引く",
+    "h2": "中心合わせしたソースのみ．logreg.fit（E25 と同じ）．冷えた出発点",
+    "h3": "中心合わせ＋合併．fit_batch．冷えた出発点（E25 と同じ）",
+    "h4": "② の点数 ＋ K 本で解いた切片のずらし（fit_class_bias，l2 = ABLATE_L2，ずらしの和は 0）",
+    "h5": "h2 の点数 ＋ K 本で解いた切片のずらし（同上）",
+    "h6": "特徴の末尾に「ターゲットか」の列（ターゲット 1，ソース 0）を足した合併．その列も C の罰則を受ける．冷えた出発点",
+    "h7": "仮説転移：K 本だけ．罰則 ‖W − W_②‖²/(2CS)（C′ ＝ C），切片は罰則なし（Cb なし），出発点 ＝ ② の解．中心合わせなし",
+    "h8": "CORAL＋合併：ソースの標準化した空間で，共分散に単位行列を足してターゲットの全発話の共分散に合わせる．平均は動かさない．冷えた出発点",
+    "h9": "AUGMENT（Daumé 2007．E31 の O2 と同じ）：② の統計で標準化した z から，ソースは [z, z, 0]，ターゲットは [z, 0, z]．切片は共通で罰則なし．C ＝ ② の C．冷えた出発点．保存する係数はターゲット側（共通 ＋ ターゲット用）",
+    "h10": "WEIGHTED（E31 の O1 と同じ）：K 本の重みの和を α S，ソースの重みの和を (1 − α) S（どちらも中で感情を均等．S は使う行の数）．α ∈ ALPHAS をすべて解いて残す（α は計算の後に仮のターゲットで選ぶ）．② の解から温め直す．中心合わせなし",
+    "h11": "中心合わせ＋仮説転移：中心合わせした K 本だけ．罰則の中心 ＝ h2 の解，C′ ＝ C，切片は罰則なし，出発点 ＝ h2 の解．E31 の P3 とは中心（P3 は候補の平均）と C′・C_b が違う"
+   },
+   "mem_fraction": 0.6,
+   "ref": {
+    "map": "/home/snics/MER-DA/results/fixc_map",
+    "e25": "/home/snics/MER-DA/results/interventions_{kind}",
+    "e31": "/home/snics/MER-DA/results/compare_{kind}",
+    "merged_scores": [
+     "/home/snics/MER-DA/results/fixc_analysis/merged_scores_{kind}",
+     "/home/snics/MER-DA/results/fixc_text/merged_scores_{kind}"
+    ],
+    "tgt_scores": [
+     "/home/snics/MER-DA/results/tgt_scores_{kind}"
+    ]
+   },
+   "gpu": "NVIDIA RTX A5000",
+   "numpy": "2.5.2",
+   "pandas": "3.0.6",
+   "torch": "2.11.0+cu126",
+   "code": "/home/snics/MER-DA/results/e76/code/2026-11-01T062935+0900",
+   "plan": {
+    "audio_wavlm": [
+     "IEMOCAP-impro",
+     "IEMOCAP-script",
+     "MOSEI",
+     "MELD",
+     "AFEW",
+     "RAVDESS",
+     "CREMA-D"
+    ],
+    "video": [
+     "IEMOCAP-impro",
+     "IEMOCAP-script",
+     "MOSEI",
+     "MELD",
+     "AFEW",
+     "CREMA-D"
+    ],
+    "text_roberta": [
+     "IEMOCAP-impro",
+     "IEMOCAP-script",
+     "MOSEI",
+     "MELD"
+    ],
+    "fuse-audio-video": [
+     "IEMOCAP-impro",
+     "IEMOCAP-script",
+     "MOSEI",
+     "MELD",
+     "AFEW",
+     "CREMA-D"
+    ],
+    "fuse-audio-text": [
+     "IEMOCAP-impro",
+     "IEMOCAP-script",
+     "MOSEI",
+     "MELD"
+    ],
+    "fuse-video-text": [
+     "IEMOCAP-impro",
+     "IEMOCAP-script",
+     "MOSEI",
+     "MELD"
+    ],
+    "fuse-audio-video-text": [
+     "IEMOCAP-impro",
+     "IEMOCAP-script",
+     "MOSEI",
+     "MELD"
+    ],
+    "audio_hubert": [
+     "IEMOCAP-impro",
+     "IEMOCAP-script",
+     "MOSEI",
+     "MELD",
+     "AFEW",
+     "RAVDESS",
+     "CREMA-D"
+    ]
+   }
+  },
+  {
+   "script": "exp/relearn_e76.py",
+   "argv": [
+    "--kinds",
+    "audio_hubert",
+    "--targets",
+    "AFEW",
+    "RAVDESS",
+    "CREMA-D",
+    "--gpu-fraction",
+    "0.3"
+   ],
+   "commit": "279034423dbd75cca50cff96537d98cfb7bfbd86",
+   "code_hash": "17f731311ff072231f844bfc7ceacb7850c6addddff87f4f86f1c76c959b9abf",
+   "code_files": [
+    "exp/interventions.py",
+    "exp/logreg.py",
+    "exp/map.py",
+    "exp/pair_table.py",
+    "exp/relearn_e76.py",
+    "exp/relearn_e76_finish.py",
+    "features/common.py",
+    "measure/ablate.py",
+    "measure/data.py",
+    "measure/shift.py",
+    "measure/split.py"
+   ],
+   "code_dirty": false,
+   "code_status": [],
+   "tree_dirty": true,
+   "started": "2026-11-02T01:22:28+0900",
+   "kinds": [
+    "audio_hubert"
+   ],
+   "targets": [
+    "AFEW",
+    "RAVDESS",
+    "CREMA-D"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "K": [
+    "1",
+    "5",
+    "10",
+    "25",
+    "50",
+    "all"
+   ],
+   "hands": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "merged_all_c": false,
+   "sources": null,
+   "C_grid": [
+    0.01,
+    0.1,
+    1.0,
+    10.0
+   ],
+   "K_hands": [
+    "1",
+    "5",
+    "10"
+   ],
+   "src_cv_seed": 0,
+   "n_test_folds": 5,
+   "n_cv_folds": 3,
+   "solver": {
+    "tol": 1e-06,
+    "max_iter": 20000,
+    "history": 10,
+    "dtype": "torch.float64"
+   },
+   "ablate_l2": 0.01,
+   "alphas": [
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    0.9
+   ],
+   "hand_spec": {
+    "common": "C ＝ 同じ反復の ② の C．学習データで標準化（手 9 はソースの統計），感情を均等にする重み（手 10 は下）．中心合わせはターゲットの全発話（テストを含む．ラベルは使わない）の平均と，使うソースの行の平均を引く",
+    "h2": "中心合わせしたソースのみ．logreg.fit（E25 と同じ）．冷えた出発点",
+    "h3": "中心合わせ＋合併．fit_batch．冷えた出発点（E25 と同じ）",
+    "h4": "② の点数 ＋ K 本で解いた切片のずらし（fit_class_bias，l2 = ABLATE_L2，ずらしの和は 0）",
+    "h5": "h2 の点数 ＋ K 本で解いた切片のずらし（同上）",
+    "h6": "特徴の末尾に「ターゲットか」の列（ターゲット 1，ソース 0）を足した合併．その列も C の罰則を受ける．冷えた出発点",
+    "h7": "仮説転移：K 本だけ．罰則 ‖W − W_②‖²/(2CS)（C′ ＝ C），切片は罰則なし（Cb なし），出発点 ＝ ② の解．中心合わせなし",
+    "h8": "CORAL＋合併：ソースの標準化した空間で，共分散に単位行列を足してターゲットの全発話の共分散に合わせる．平均は動かさない．冷えた出発点",
+    "h9": "AUGMENT（Daumé 2007．E31 の O2 と同じ）：② の統計で標準化した z から，ソースは [z, z, 0]，ターゲットは [z, 0, z]．切片は共通で罰則なし．C ＝ ② の C．冷えた出発点．保存する係数はターゲット側（共通 ＋ ターゲット用）",
+    "h10": "WEIGHTED（E31 の O1 と同じ）：K 本の重みの和を α S，ソースの重みの和を (1 − α) S（どちらも中で感情を均等．S は使う行の数）．α ∈ ALPHAS をすべて解いて残す（α は計算の後に仮のターゲットで選ぶ）．② の解から温め直す．中心合わせなし",
+    "h11": "中心合わせ＋仮説転移：中心合わせした K 本だけ．罰則の中心 ＝ h2 の解，C′ ＝ C，切片は罰則なし，出発点 ＝ h2 の解．E31 の P3 とは中心（P3 は候補の平均）と C′・C_b が違う"
+   },
+   "mem_fraction": 0.6,
+   "ref": {
+    "map": "/home/snics/MER-DA/results/fixc_map",
+    "e25": "/home/snics/MER-DA/results/interventions_{kind}",
+    "e31": "/home/snics/MER-DA/results/compare_{kind}",
+    "merged_scores": [
+     "/home/snics/MER-DA/results/fixc_analysis/merged_scores_{kind}",
+     "/home/snics/MER-DA/results/fixc_text/merged_scores_{kind}"
+    ],
+    "tgt_scores": [
+     "/home/snics/MER-DA/results/tgt_scores_{kind}"
+    ]
+   },
+   "gpu": "NVIDIA RTX A5000",
+   "numpy": "2.5.2",
+   "pandas": "3.0.6",
+   "torch": "2.11.0+cu126",
+   "code": "/home/snics/MER-DA/results/e76/code/2026-11-02T012228+0900",
+   "plan": {
+    "audio_hubert": [
+     "AFEW",
+     "RAVDESS",
+     "CREMA-D"
+    ]
+   }
+  },
+  {
+   "script": "exp/relearn_e76.py",
+   "argv": [
+    "--kinds",
+    "audio_hubert",
+    "--targets",
+    "CREMA-D",
+    "--gpu-fraction",
+    "0.3"
+   ],
+   "commit": "c4bf849439991d4bfd1323e6e88dd6a27f3c08bb",
+   "code_hash": "b5b36158ddd4f59264343960f82473a6e9c79c02cd6edcb910f483e02635b8c0",
+   "code_files": [
+    "exp/interventions.py",
+    "exp/logreg.py",
+    "exp/map.py",
+    "exp/pair_table.py",
+    "exp/relearn_e76.py",
+    "exp/relearn_e76_finish.py",
+    "features/common.py",
+    "measure/ablate.py",
+    "measure/data.py",
+    "measure/shift.py",
+    "measure/split.py"
+   ],
+   "code_dirty": false,
+   "code_status": [],
+   "tree_dirty": true,
+   "started": "2026-11-02T02:37:25+0900",
+   "kinds": [
+    "audio_hubert"
+   ],
+   "targets": [
+    "CREMA-D"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "K": [
+    "1",
+    "5",
+    "10",
+    "25",
+    "50",
+    "all"
+   ],
+   "hands": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "merged_all_c": false,
+   "sources": null,
+   "C_grid": [
+    0.01,
+    0.1,
+    1.0,
+    10.0
+   ],
+   "K_hands": [
+    "1",
+    "5",
+    "10"
+   ],
+   "src_cv_seed": 0,
+   "n_test_folds": 5,
+   "n_cv_folds": 3,
+   "solver": {
+    "tol": 1e-06,
+    "max_iter": 20000,
+    "history": 10,
+    "dtype": "torch.float64"
+   },
+   "ablate_l2": 0.01,
+   "alphas": [
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    0.9
+   ],
+   "hand_spec": {
+    "common": "C ＝ 同じ反復の ② の C．学習データで標準化（手 9 はソースの統計），感情を均等にする重み（手 10 は下）．中心合わせはターゲットの全発話（テストを含む．ラベルは使わない）の平均と，使うソースの行の平均を引く",
+    "h2": "中心合わせしたソースのみ．logreg.fit（E25 と同じ）．冷えた出発点",
+    "h3": "中心合わせ＋合併．fit_batch．冷えた出発点（E25 と同じ）",
+    "h4": "② の点数 ＋ K 本で解いた切片のずらし（fit_class_bias，l2 = ABLATE_L2，ずらしの和は 0）",
+    "h5": "h2 の点数 ＋ K 本で解いた切片のずらし（同上）",
+    "h6": "特徴の末尾に「ターゲットか」の列（ターゲット 1，ソース 0）を足した合併．その列も C の罰則を受ける．冷えた出発点",
+    "h7": "仮説転移：K 本だけ．罰則 ‖W − W_②‖²/(2CS)（C′ ＝ C），切片は罰則なし（Cb なし），出発点 ＝ ② の解．中心合わせなし",
+    "h8": "CORAL＋合併：ソースの標準化した空間で，共分散に単位行列を足してターゲットの全発話の共分散に合わせる．平均は動かさない．冷えた出発点",
+    "h9": "AUGMENT（Daumé 2007．E31 の O2 と同じ）：② の統計で標準化した z から，ソースは [z, z, 0]，ターゲットは [z, 0, z]．切片は共通で罰則なし．C ＝ ② の C．冷えた出発点．保存する係数はターゲット側（共通 ＋ ターゲット用）",
+    "h10": "WEIGHTED（E31 の O1 と同じ）：K 本の重みの和を α S，ソースの重みの和を (1 − α) S（どちらも中で感情を均等．S は使う行の数）．α ∈ ALPHAS をすべて解いて残す（α は計算の後に仮のターゲットで選ぶ）．② の解から温め直す．中心合わせなし",
+    "h11": "中心合わせ＋仮説転移：中心合わせした K 本だけ．罰則の中心 ＝ h2 の解，C′ ＝ C，切片は罰則なし，出発点 ＝ h2 の解．E31 の P3 とは中心（P3 は候補の平均）と C′・C_b が違う"
+   },
+   "mem_fraction": 0.6,
+   "ref": {
+    "map": "/home/snics/MER-DA/results/fixc_map",
+    "e25": "/home/snics/MER-DA/results/interventions_{kind}",
+    "e31": "/home/snics/MER-DA/results/compare_{kind}",
+    "merged_scores": [
+     "/home/snics/MER-DA/results/fixc_analysis/merged_scores_{kind}",
+     "/home/snics/MER-DA/results/fixc_text/merged_scores_{kind}"
+    ],
+    "tgt_scores": [
+     "/home/snics/MER-DA/results/tgt_scores_{kind}"
+    ]
+   },
+   "gpu": "NVIDIA RTX A5000",
+   "numpy": "2.5.2",
+   "pandas": "3.0.6",
+   "torch": "2.11.0+cu126",
+   "code": "/home/snics/MER-DA/results/e76/code/2026-11-02T023725+0900",
+   "plan": {
+    "audio_hubert": [
+     "CREMA-D"
+    ]
+   }
+  }
+ ]
+}

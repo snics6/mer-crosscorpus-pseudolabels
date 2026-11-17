@@ -1,0 +1,17 @@
+c,K,source,n_units,units_neg_tukey,units_neg_add,cells_neg_tukey,cells_neg_add
+AFEW,10,K,30,0,0,0,0
+AFEW,10,ext,30,0,0,0,0
+AFEW,10,mixsel,30,0,0,0,0
+AFEW,10,orc,30,0,0,0,0
+IEMOCAP,10,K,30,0,0,0,0
+IEMOCAP,10,ext,30,0,0,0,0
+IEMOCAP,10,mixsel,30,0,0,0,0
+IEMOCAP,10,orc,30,0,0,0,0
+MELD,10,K,30,2,6,2,6
+MELD,10,ext,30,0,0,0,0
+MELD,10,mixsel,30,0,0,0,0
+MELD,10,orc,30,0,0,0,0
+MOSEI,10,K,30,10,12,13,21
+MOSEI,10,ext,30,0,0,0,0
+MOSEI,10,mixsel,30,1,5,1,6
+MOSEI,10,orc,30,0,2,0,2

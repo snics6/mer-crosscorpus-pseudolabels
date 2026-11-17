@@ -1,0 +1,19 @@
+# {"script": "exp/analyze_e76.py", "commit": "e39e54a1cc9b5dae2bee4a68712b8b34a139dde9", "script_sha256": "4c51def793aa3c1fedacb71e4f1c234446bfbaaef8bb926900e8595aaebfc94a", "code_hash": "40f4f4f334add6c9f50917851b65d6defbe355e734fc1ddec5a4ff6408e776cd", "dirty": false, "B": 20000, "seed": 76, "kinds": ["audio_wavlm", "video", "text_roberta", "fuse-audio-video", "fuse-audio-text", "fuse-video-text", "fuse-audio-video-text", "audio_hubert"], "targets": null, "started": "2026-11-02T04:33:54+0900"}
+kind,target,source,method,K,rep,alpha,C,what
+audio_hubert,IEMOCAP-script,RAVDESS,h9,1,5,,10.0,tol を超えた照合
+audio_hubert,MOSEI,RAVDESS,merged,5,8,,10.0,tol を超えた照合
+audio_hubert,MOSEI,RAVDESS,h3,10,9,,10.0,tol を超えた照合
+audio_hubert,MOSEI,RAVDESS,h9,1,0,,10.0,tol を超えた照合
+audio_hubert,MELD,RAVDESS,h9,1,0,,10.0,tol を超えた照合
+audio_hubert,MELD,RAVDESS,h9,1,9,,10.0,tol を超えた照合
+audio_hubert,MELD,RAVDESS,h10,5,2,0.5,10.0,tol を超えた照合
+audio_hubert,MELD,RAVDESS,h10,5,2,0.9,10.0,tol を超えた照合
+audio_hubert,MELD,RAVDESS,h10,5,3,0.9,10.0,tol を超えた照合
+audio_hubert,MELD,RAVDESS,h10,1,6,0.9,10.0,tol を超えた照合
+audio_hubert,RAVDESS,,tgt_only,all,6,,10.0,① の C が地図と違う（地図 1.0，規則 tie）
+audio_hubert,CREMA-D,RAVDESS,merged,50,6,,10.0,tol を超えた照合
+audio_hubert,CREMA-D,RAVDESS,h4,5,4,,10.0,tol を超えた照合
+audio_hubert,CREMA-D,RAVDESS,h7,10,6,,10.0,tol を超えた照合
+audio_hubert,CREMA-D,RAVDESS,h7,5,8,,10.0,tol を超えた照合
+audio_hubert,CREMA-D,RAVDESS,h9,1,4,,10.0,tol を超えた照合
+audio_hubert,CREMA-D,RAVDESS,h10,10,9,0.1,10.0,tol を超えた照合

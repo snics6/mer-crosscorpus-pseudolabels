@@ -1,0 +1,33 @@
+{
+ "fc": 300,
+ "rule_met": false,
+ "code_commit": "a410eb03ac286ccddc9a0a529b166c5a8bf4e365",
+ "code_dirty": false,
+ "asr_check_sha256": "e7517a661a0443d2f4e421b1b1ac61eecac4afe8d8178d0754803fee57f9fa06",
+ "rev_ok": true,
+ "excess_max": 0.1,
+ "n_per_corpus": 100,
+ "max_sec": 30.0,
+ "min_words": 3,
+ "order": "sha256(sample_id)",
+ "norm_rule": "fix_mojibake; quotes to ' and \"; lower; drop [..] (..) {..}; non [a-z0-9'] -> space; strip apostrophes (both ref and hyp)",
+ "hit": "LCS / n_ref",
+ "chance": "mean over all mismatched (ref i, hyp j), i != j, same corpus and condition",
+ "model": "openai/whisper-large-v3",
+ "model_revision": "06f233fe06e710322aca913c1bc4249a0d71fce1",
+ "transformers": "4.44.0",
+ "scipy": "1.18.1",
+ "filter": "butter4 sosfiltfilt zero phase",
+ "decoding": {
+  "language": "en",
+  "task": "transcribe",
+  "num_beams": 5,
+  "do_sample": false,
+  "max_new_tokens": 200
+ },
+ "candidates": [
+  500,
+  400,
+  300
+ ]
+}

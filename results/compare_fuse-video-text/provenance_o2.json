@@ -1,0 +1,78 @@
+{
+ "script": "exp/compare_b1.py",
+ "argv": [
+  "--kind",
+  "fuse-video-text",
+  "--ks",
+  "1",
+  "5",
+  "10",
+  "25",
+  "50",
+  "all",
+  "--parts",
+  "o2",
+  "--tag",
+  "o2"
+ ],
+ "commit": "2273047c3774366539920144e007bcaf90ffdd69",
+ "dirty": false,
+ "started": "2026-10-17T02:20:10+0900",
+ "targets": [
+  "IEMOCAP-impro",
+  "IEMOCAP-script",
+  "MOSEI",
+  "MELD"
+ ],
+ "map_dir": "results/fixc_map/fuse-video-text",
+ "K": [
+  "1",
+  "5",
+  "10",
+  "25",
+  "50",
+  "all"
+ ],
+ "reps": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "CPS": [
+  0.001,
+  0.01,
+  0.1,
+  1.0
+ ],
+ "CBS": [
+  "2",
+  "8",
+  "free"
+ ],
+ "ALPHAS": [
+  0.1,
+  0.25,
+  0.5,
+  0.75,
+  0.9
+ ],
+ "O7": [
+  10,
+  0.5,
+  300,
+  0.01,
+  4,
+  256
+ ],
+ "parts": "o2",
+ "tag": "o2",
+ "O2_C": "src_only",
+ "MAX_ROWS": 6000
+}

@@ -1,0 +1,214 @@
+# {"script": "exp/analyze_e76.py", "commit": "e39e54a1cc9b5dae2bee4a68712b8b34a139dde9", "script_sha256": "4c51def793aa3c1fedacb71e4f1c234446bfbaaef8bb926900e8595aaebfc94a", "code_hash": "40f4f4f334add6c9f50917851b65d6defbe355e734fc1ddec5a4ff6408e776cd", "dirty": false, "B": 20000, "seed": 76, "kinds": ["audio_wavlm", "video", "text_roberta", "fuse-audio-video", "fuse-audio-text", "fuse-video-text", "fuse-audio-video-text", "audio_hubert"], "targets": null, "started": "2026-11-02T04:33:54+0900"}
+section,kind,what,value,note
+I,audio_wavlm,コードのハッシュの受け入れ IEMOCAP-impro,e76_main,9891f0668848
+I,audio_wavlm,コードのハッシュの受け入れ IEMOCAP-script,e76_main,9891f0668848
+I,audio_wavlm,コードのハッシュの受け入れ MOSEI,e76_main,9891f0668848
+I,audio_wavlm,コードのハッシュの受け入れ MELD,e76_main,9891f0668848
+I,audio_wavlm,コードのハッシュの受け入れ AFEW,e76_main,9891f0668848
+I,audio_wavlm,コードのハッシュの受け入れ RAVDESS,e76_main,9891f0668848
+I,audio_wavlm,コードのハッシュの受け入れ CREMA-D,e76_main,9891f0668848
+I,audio_wavlm,特徴の行列の sha256 IEMOCAP-impro,0db6c9a70a75608a,"(2943, 1024)"
+I,audio_wavlm,csv の uar と 1e-9 を超えて違う条件の数 IEMOCAP-impro,0,
+I,audio_wavlm,特徴の行列の sha256 IEMOCAP-script,85b0dc96aad17d62,"(2588, 1024)"
+I,audio_wavlm,csv の uar と 1e-9 を超えて違う条件の数 IEMOCAP-script,0,
+I,audio_wavlm,特徴の行列の sha256 MOSEI,0493f9cfdaa7142f,"(18919, 1024)"
+I,audio_wavlm,csv の uar と 1e-9 を超えて違う条件の数 MOSEI,0,
+I,audio_wavlm,特徴の行列の sha256 MELD,440e2eefd4392ac8,"(11343, 1024)"
+I,audio_wavlm,csv の uar と 1e-9 を超えて違う条件の数 MELD,0,
+I,audio_wavlm,特徴の行列の sha256 AFEW,799948a6670b7e57,"(795, 1024)"
+I,audio_wavlm,csv の uar と 1e-9 を超えて違う条件の数 AFEW,0,
+I,audio_wavlm,特徴の行列の sha256 RAVDESS,f75873a6dc492136,"(672, 1024)"
+I,audio_wavlm,csv の uar と 1e-9 を超えて違う条件の数 RAVDESS,0,
+I,audio_wavlm,特徴の行列の sha256 CREMA-D,9b1bf0b58db8b6ee,"(4900, 1024)"
+I,audio_wavlm,csv の uar と 1e-9 を超えて違う条件の数 CREMA-D,0,
+1,audio_wavlm,地図の反復の数（反復 0〜29 の補足）IEMOCAP-impro,30,
+1,audio_wavlm,地図の反復の数（反復 0〜29 の補足）IEMOCAP-script,30,
+1,audio_wavlm,地図の反復の数（反復 0〜29 の補足）MOSEI,30,
+1,audio_wavlm,地図の反復の数（反復 0〜29 の補足）MELD,30,
+1,audio_wavlm,地図の反復の数（反復 0〜29 の補足）AFEW,30,
+1,audio_wavlm,地図の反復の数（反復 0〜29 の補足）RAVDESS,30,
+1,audio_wavlm,地図の反復の数（反復 0〜29 の補足）CREMA-D,30,
+2,audio_wavlm,性別が混ざるか分からない人物の数 IEMOCAP-impro,0,
+2,audio_wavlm,性別が混ざるか分からない人物の数 IEMOCAP-script,0,
+2,audio_wavlm,性別が混ざるか分からない人物の数 AFEW,7,
+2,audio_wavlm,性別が混ざるか分からない人物の数 RAVDESS,0,
+2,audio_wavlm,性別の引き方で 1・2 段目を引き直した回数 IEMOCAP-impro,200,
+2,audio_wavlm,性別の引き方で 1・2 段目を引き直した回数 IEMOCAP-script,141,
+2,audio_wavlm,性別の引き方で 1・2 段目を引き直した回数 AFEW,0,
+2,audio_wavlm,性別の引き方で 1・2 段目を引き直した回数 RAVDESS,2,
+I,video,コードのハッシュの受け入れ IEMOCAP-impro,e76_main,9891f0668848
+I,video,コードのハッシュの受け入れ IEMOCAP-script,e76_main,9891f0668848
+I,video,コードのハッシュの受け入れ MOSEI,e76_main,9891f0668848
+I,video,コードのハッシュの受け入れ MELD,e76_main,9891f0668848
+I,video,コードのハッシュの受け入れ AFEW,e76_main,9891f0668848
+I,video,コードのハッシュの受け入れ CREMA-D,e76_main,9891f0668848
+I,video,特徴の行列の sha256 IEMOCAP-impro,2e706f8c4ce4c85e,"(2943, 512)"
+I,video,csv の uar と 1e-9 を超えて違う条件の数 IEMOCAP-impro,0,
+I,video,特徴の行列の sha256 IEMOCAP-script,e0bbb4d5170d4048,"(2549, 512)"
+I,video,csv の uar と 1e-9 を超えて違う条件の数 IEMOCAP-script,0,
+I,video,特徴の行列の sha256 MOSEI,0a69ffb25021d62d,"(18634, 512)"
+I,video,csv の uar と 1e-9 を超えて違う条件の数 MOSEI,0,
+I,video,特徴の行列の sha256 MELD,8b3b9bc2302808f6,"(11308, 512)"
+I,video,csv の uar と 1e-9 を超えて違う条件の数 MELD,0,
+I,video,特徴の行列の sha256 AFEW,3c64a272ab59a430,"(795, 512)"
+I,video,csv の uar と 1e-9 を超えて違う条件の数 AFEW,0,
+I,video,特徴の行列の sha256 CREMA-D,1a194cea1a77f0a8,"(4899, 512)"
+I,video,csv の uar と 1e-9 を超えて違う条件の数 CREMA-D,0,
+1,video,地図の反復の数（反復 0〜29 の補足）IEMOCAP-impro,30,
+1,video,地図の反復の数（反復 0〜29 の補足）IEMOCAP-script,30,
+1,video,地図の反復の数（反復 0〜29 の補足）MOSEI,30,
+1,video,地図の反復の数（反復 0〜29 の補足）MELD,30,
+1,video,地図の反復の数（反復 0〜29 の補足）AFEW,30,
+1,video,地図の反復の数（反復 0〜29 の補足）CREMA-D,30,
+2,video,性別が混ざるか分からない人物の数 IEMOCAP-impro,0,
+2,video,性別が混ざるか分からない人物の数 IEMOCAP-script,0,
+2,video,性別が混ざるか分からない人物の数 AFEW,7,
+2,video,性別の引き方で 1・2 段目を引き直した回数 IEMOCAP-impro,182,
+2,video,性別の引き方で 1・2 段目を引き直した回数 IEMOCAP-script,44,
+2,video,性別の引き方で 1・2 段目を引き直した回数 AFEW,0,
+I,text_roberta,コードのハッシュの受け入れ IEMOCAP-impro,e76_main,9891f0668848
+I,text_roberta,コードのハッシュの受け入れ IEMOCAP-script,e76_main,9891f0668848
+I,text_roberta,コードのハッシュの受け入れ MOSEI,e76_main,9891f0668848
+I,text_roberta,コードのハッシュの受け入れ MELD,e76_main,9891f0668848
+I,text_roberta,特徴の行列の sha256 IEMOCAP-impro,12912996d7d2fa6d,"(2943, 768)"
+I,text_roberta,csv の uar と 1e-9 を超えて違う条件の数 IEMOCAP-impro,0,
+I,text_roberta,特徴の行列の sha256 IEMOCAP-script,f34c6212ca43ba7a,"(2588, 768)"
+I,text_roberta,csv の uar と 1e-9 を超えて違う条件の数 IEMOCAP-script,0,
+I,text_roberta,特徴の行列の sha256 MOSEI,45e30a31b8b944d3,"(18919, 768)"
+I,text_roberta,csv の uar と 1e-9 を超えて違う条件の数 MOSEI,0,
+I,text_roberta,特徴の行列の sha256 MELD,be1edadae3c48f60,"(11344, 768)"
+I,text_roberta,csv の uar と 1e-9 を超えて違う条件の数 MELD,0,
+1,text_roberta,地図の反復の数（反復 0〜29 の補足）IEMOCAP-impro,30,
+1,text_roberta,地図の反復の数（反復 0〜29 の補足）IEMOCAP-script,30,
+1,text_roberta,地図の反復の数（反復 0〜29 の補足）MOSEI,30,
+1,text_roberta,地図の反復の数（反復 0〜29 の補足）MELD,30,
+2,text_roberta,性別が混ざるか分からない人物の数 IEMOCAP-impro,0,
+2,text_roberta,性別が混ざるか分からない人物の数 IEMOCAP-script,0,
+2,text_roberta,性別の引き方で 1・2 段目を引き直した回数 IEMOCAP-impro,177,
+2,text_roberta,性別の引き方で 1・2 段目を引き直した回数 IEMOCAP-script,116,
+I,fuse-audio-video,コードのハッシュの受け入れ IEMOCAP-impro,e76_main,9891f0668848
+I,fuse-audio-video,コードのハッシュの受け入れ IEMOCAP-script,e76_main,9891f0668848
+I,fuse-audio-video,コードのハッシュの受け入れ MOSEI,e76_main,9891f0668848
+I,fuse-audio-video,コードのハッシュの受け入れ MELD,e76_main,9891f0668848
+I,fuse-audio-video,コードのハッシュの受け入れ AFEW,e76_main,9891f0668848
+I,fuse-audio-video,コードのハッシュの受け入れ CREMA-D,e76_main,9891f0668848
+I,fuse-audio-video,特徴の行列の sha256 IEMOCAP-impro,a6c1313358f80854,"(2943, 1536)"
+I,fuse-audio-video,csv の uar と 1e-9 を超えて違う条件の数 IEMOCAP-impro,0,
+I,fuse-audio-video,特徴の行列の sha256 IEMOCAP-script,7cdf64a958d670a1,"(2549, 1536)"
+I,fuse-audio-video,csv の uar と 1e-9 を超えて違う条件の数 IEMOCAP-script,0,
+I,fuse-audio-video,特徴の行列の sha256 MOSEI,c4d6ac7dd000c9d7,"(18634, 1536)"
+I,fuse-audio-video,csv の uar と 1e-9 を超えて違う条件の数 MOSEI,0,
+I,fuse-audio-video,特徴の行列の sha256 MELD,0cebacde4d15de4e,"(11308, 1536)"
+I,fuse-audio-video,csv の uar と 1e-9 を超えて違う条件の数 MELD,0,
+I,fuse-audio-video,特徴の行列の sha256 AFEW,26ce594b6573e069,"(795, 1536)"
+I,fuse-audio-video,csv の uar と 1e-9 を超えて違う条件の数 AFEW,0,
+I,fuse-audio-video,特徴の行列の sha256 CREMA-D,021899058b97df26,"(4899, 1536)"
+I,fuse-audio-video,csv の uar と 1e-9 を超えて違う条件の数 CREMA-D,0,
+1,fuse-audio-video,地図の反復の数（反復 0〜29 の補足）IEMOCAP-impro,30,
+1,fuse-audio-video,地図の反復の数（反復 0〜29 の補足）IEMOCAP-script,30,
+1,fuse-audio-video,地図の反復の数（反復 0〜29 の補足）MOSEI,30,
+1,fuse-audio-video,地図の反復の数（反復 0〜29 の補足）MELD,30,
+1,fuse-audio-video,地図の反復の数（反復 0〜29 の補足）AFEW,30,
+1,fuse-audio-video,地図の反復の数（反復 0〜29 の補足）CREMA-D,30,
+2,fuse-audio-video,性別が混ざるか分からない人物の数 IEMOCAP-impro,0,
+2,fuse-audio-video,性別が混ざるか分からない人物の数 IEMOCAP-script,0,
+2,fuse-audio-video,性別が混ざるか分からない人物の数 AFEW,7,
+2,fuse-audio-video,性別の引き方で 1・2 段目を引き直した回数 IEMOCAP-impro,216,
+2,fuse-audio-video,性別の引き方で 1・2 段目を引き直した回数 IEMOCAP-script,47,
+2,fuse-audio-video,性別の引き方で 1・2 段目を引き直した回数 AFEW,0,
+I,fuse-audio-text,コードのハッシュの受け入れ IEMOCAP-impro,e76_main,9891f0668848
+I,fuse-audio-text,コードのハッシュの受け入れ IEMOCAP-script,e76_main,9891f0668848
+I,fuse-audio-text,コードのハッシュの受け入れ MOSEI,e76_main,9891f0668848
+I,fuse-audio-text,コードのハッシュの受け入れ MELD,e76_main,9891f0668848
+I,fuse-audio-text,特徴の行列の sha256 IEMOCAP-impro,ca41bea0e5c69309,"(2943, 1792)"
+I,fuse-audio-text,csv の uar と 1e-9 を超えて違う条件の数 IEMOCAP-impro,0,
+I,fuse-audio-text,特徴の行列の sha256 IEMOCAP-script,78e87ae4be133c71,"(2588, 1792)"
+I,fuse-audio-text,csv の uar と 1e-9 を超えて違う条件の数 IEMOCAP-script,0,
+I,fuse-audio-text,特徴の行列の sha256 MOSEI,a311dd92d52a11c1,"(18919, 1792)"
+I,fuse-audio-text,csv の uar と 1e-9 を超えて違う条件の数 MOSEI,0,
+I,fuse-audio-text,特徴の行列の sha256 MELD,016e504f65a46616,"(11343, 1792)"
+I,fuse-audio-text,csv の uar と 1e-9 を超えて違う条件の数 MELD,0,
+1,fuse-audio-text,地図の反復の数（反復 0〜29 の補足）IEMOCAP-impro,30,
+1,fuse-audio-text,地図の反復の数（反復 0〜29 の補足）IEMOCAP-script,30,
+1,fuse-audio-text,地図の反復の数（反復 0〜29 の補足）MOSEI,30,
+1,fuse-audio-text,地図の反復の数（反復 0〜29 の補足）MELD,30,
+2,fuse-audio-text,性別が混ざるか分からない人物の数 IEMOCAP-impro,0,
+2,fuse-audio-text,性別が混ざるか分からない人物の数 IEMOCAP-script,0,
+2,fuse-audio-text,性別の引き方で 1・2 段目を引き直した回数 IEMOCAP-impro,216,
+2,fuse-audio-text,性別の引き方で 1・2 段目を引き直した回数 IEMOCAP-script,146,
+I,fuse-video-text,コードのハッシュの受け入れ IEMOCAP-impro,e76_main,9891f0668848
+I,fuse-video-text,コードのハッシュの受け入れ IEMOCAP-script,e76_main,9891f0668848
+I,fuse-video-text,コードのハッシュの受け入れ MOSEI,e76_main,9891f0668848
+I,fuse-video-text,コードのハッシュの受け入れ MELD,e76_main,9891f0668848
+I,fuse-video-text,特徴の行列の sha256 IEMOCAP-impro,bbfcd6a8eb0bd456,"(2943, 1280)"
+I,fuse-video-text,csv の uar と 1e-9 を超えて違う条件の数 IEMOCAP-impro,0,
+I,fuse-video-text,特徴の行列の sha256 IEMOCAP-script,a3b599ea34c05a91,"(2549, 1280)"
+I,fuse-video-text,csv の uar と 1e-9 を超えて違う条件の数 IEMOCAP-script,0,
+I,fuse-video-text,特徴の行列の sha256 MOSEI,12a368284882d60e,"(18634, 1280)"
+I,fuse-video-text,csv の uar と 1e-9 を超えて違う条件の数 MOSEI,0,
+I,fuse-video-text,特徴の行列の sha256 MELD,10671221c1fcf0af,"(11308, 1280)"
+I,fuse-video-text,csv の uar と 1e-9 を超えて違う条件の数 MELD,0,
+1,fuse-video-text,地図の反復の数（反復 0〜29 の補足）IEMOCAP-impro,30,
+1,fuse-video-text,地図の反復の数（反復 0〜29 の補足）IEMOCAP-script,30,
+1,fuse-video-text,地図の反復の数（反復 0〜29 の補足）MOSEI,30,
+1,fuse-video-text,地図の反復の数（反復 0〜29 の補足）MELD,30,
+2,fuse-video-text,性別が混ざるか分からない人物の数 IEMOCAP-impro,0,
+2,fuse-video-text,性別が混ざるか分からない人物の数 IEMOCAP-script,0,
+2,fuse-video-text,性別の引き方で 1・2 段目を引き直した回数 IEMOCAP-impro,203,
+2,fuse-video-text,性別の引き方で 1・2 段目を引き直した回数 IEMOCAP-script,52,
+I,fuse-audio-video-text,コードのハッシュの受け入れ IEMOCAP-impro,e76_main,9891f0668848
+I,fuse-audio-video-text,コードのハッシュの受け入れ IEMOCAP-script,e76_main,9891f0668848
+I,fuse-audio-video-text,コードのハッシュの受け入れ MOSEI,e76_main,9891f0668848
+I,fuse-audio-video-text,コードのハッシュの受け入れ MELD,e76_main,9891f0668848
+I,fuse-audio-video-text,特徴の行列の sha256 IEMOCAP-impro,52a70132faa800a5,"(2943, 2304)"
+I,fuse-audio-video-text,csv の uar と 1e-9 を超えて違う条件の数 IEMOCAP-impro,0,
+I,fuse-audio-video-text,特徴の行列の sha256 IEMOCAP-script,3d1c755f9baf55b5,"(2549, 2304)"
+I,fuse-audio-video-text,csv の uar と 1e-9 を超えて違う条件の数 IEMOCAP-script,0,
+I,fuse-audio-video-text,特徴の行列の sha256 MOSEI,57a388701304e26c,"(18634, 2304)"
+I,fuse-audio-video-text,csv の uar と 1e-9 を超えて違う条件の数 MOSEI,0,
+I,fuse-audio-video-text,特徴の行列の sha256 MELD,e7bd32389a0f643d,"(11308, 2304)"
+I,fuse-audio-video-text,csv の uar と 1e-9 を超えて違う条件の数 MELD,0,
+1,fuse-audio-video-text,地図の反復の数（反復 0〜29 の補足）IEMOCAP-impro,30,
+1,fuse-audio-video-text,地図の反復の数（反復 0〜29 の補足）IEMOCAP-script,30,
+1,fuse-audio-video-text,地図の反復の数（反復 0〜29 の補足）MOSEI,30,
+1,fuse-audio-video-text,地図の反復の数（反復 0〜29 の補足）MELD,30,
+2,fuse-audio-video-text,性別が混ざるか分からない人物の数 IEMOCAP-impro,0,
+2,fuse-audio-video-text,性別が混ざるか分からない人物の数 IEMOCAP-script,0,
+2,fuse-audio-video-text,性別の引き方で 1・2 段目を引き直した回数 IEMOCAP-impro,209,
+2,fuse-audio-video-text,性別の引き方で 1・2 段目を引き直した回数 IEMOCAP-script,40,
+I,audio_hubert,コードのハッシュの受け入れ IEMOCAP-impro,e76_main,9891f0668848
+I,audio_hubert,コードのハッシュの受け入れ IEMOCAP-script,e76_main,9891f0668848
+I,audio_hubert,コードのハッシュの受け入れ MOSEI,e76_main,9891f0668848
+I,audio_hubert,コードのハッシュの受け入れ MELD,e76_main,9891f0668848
+I,audio_hubert,コードのハッシュの受け入れ AFEW,e76_finish_wrapper,17f731311ff0
+I,audio_hubert,コードのハッシュの受け入れ RAVDESS,e76_finish_wrapper,17f731311ff0
+I,audio_hubert,コードのハッシュの受け入れ CREMA-D,e76_finish_wrapper,b5b36158ddd4
+I,audio_hubert,特徴の行列の sha256 IEMOCAP-impro,e56e7e29ba49b7dc,"(2943, 1024)"
+I,audio_hubert,csv の uar と 1e-9 を超えて違う条件の数 IEMOCAP-impro,0,
+I,audio_hubert,特徴の行列の sha256 IEMOCAP-script,e4c2da1bf6136ac6,"(2588, 1024)"
+I,audio_hubert,csv の uar と 1e-9 を超えて違う条件の数 IEMOCAP-script,0,
+I,audio_hubert,特徴の行列の sha256 MOSEI,48cc8f0bfbc45eef,"(18919, 1024)"
+I,audio_hubert,csv の uar と 1e-9 を超えて違う条件の数 MOSEI,0,
+I,audio_hubert,特徴の行列の sha256 MELD,9d1e677ed9f2bc0c,"(11343, 1024)"
+I,audio_hubert,csv の uar と 1e-9 を超えて違う条件の数 MELD,0,
+I,audio_hubert,特徴の行列の sha256 AFEW,7ab6e6120952246c,"(795, 1024)"
+I,audio_hubert,csv の uar と 1e-9 を超えて違う条件の数 AFEW,0,
+I,audio_hubert,特徴の行列の sha256 RAVDESS,a7d116a1ee674a7e,"(672, 1024)"
+I,audio_hubert,csv の uar と 1e-9 を超えて違う条件の数 RAVDESS,0,
+I,audio_hubert,特徴の行列の sha256 CREMA-D,91ab50507e7b6fde,"(4900, 1024)"
+I,audio_hubert,csv の uar と 1e-9 を超えて違う条件の数 CREMA-D,0,
+1,audio_hubert,地図の反復の数（反復 0〜29 の補足）IEMOCAP-impro,30,
+1,audio_hubert,地図の反復の数（反復 0〜29 の補足）IEMOCAP-script,30,
+1,audio_hubert,地図の反復の数（反復 0〜29 の補足）MOSEI,30,
+1,audio_hubert,地図の反復の数（反復 0〜29 の補足）MELD,30,
+1,audio_hubert,地図の反復の数（反復 0〜29 の補足）AFEW,30,
+1,audio_hubert,地図の反復の数（反復 0〜29 の補足）RAVDESS,30,
+1,audio_hubert,地図の反復の数（反復 0〜29 の補足）CREMA-D,30,
+2,audio_hubert,性別が混ざるか分からない人物の数 IEMOCAP-impro,0,
+2,audio_hubert,性別が混ざるか分からない人物の数 IEMOCAP-script,0,
+2,audio_hubert,性別が混ざるか分からない人物の数 AFEW,7,
+2,audio_hubert,性別が混ざるか分からない人物の数 RAVDESS,0,
+2,audio_hubert,性別の引き方で 1・2 段目を引き直した回数 IEMOCAP-impro,206,
+2,audio_hubert,性別の引き方で 1・2 段目を引き直した回数 IEMOCAP-script,140,
+2,audio_hubert,性別の引き方で 1・2 段目を引き直した回数 AFEW,0,
+2,audio_hubert,性別の引き方で 1・2 段目を引き直した回数 RAVDESS,1,

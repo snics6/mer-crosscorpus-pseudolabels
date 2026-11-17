@@ -1,0 +1,27 @@
+{
+ "script": "exp/multisource_scores.py",
+ "argv": [
+  "--kind",
+  "audio_wavlm"
+ ],
+ "commit": "139fb1a5c1f9227f35bbb2d3a326ebfe5786fcd7",
+ "dirty": false,
+ "started": "2026-10-10T21:00:06+0900",
+ "K": [
+  "1",
+  "5",
+  "10"
+ ],
+ "reps": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "script": "exp/merged_scores.py",
+ "argv": [
+  "--kind",
+  "text_roberta",
+  "--reps",
+  "0",
+  "1",
+  "2",
+  "3",
+  "4"
+ ],
+ "commit": "b30f2f2f68f1d78db73e1554f4bf22a8d41c9b29",
+ "dirty": false,
+ "started": "2026-10-09T12:30:46+0900",
+ "K": [
+  "1",
+  "5",
+  "10"
+ ],
+ "reps": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "solver": {
+  "tol": 1e-06,
+  "device": "cuda"
+ }
+}

@@ -1,0 +1,234 @@
+{
+ "script": "exp/analyze_e79.py",
+ "experiment": "E79",
+ "stage": "judge",
+ "argv": [
+  "--stage",
+  "judge",
+  "--families",
+  "p4",
+  "--out",
+  "results/e79_p4"
+ ],
+ "commit": "c4d05b63db1b86bb4bbf8ba0972c10ed8cee8a3b",
+ "dirty": false,
+ "dirty_files": [],
+ "script_sha256": "09f3a345b9455249f203e7691e4953594833bf8cad893b351282740e7ff8c1b3",
+ "started": "2026-11-02T15:07:47+0900",
+ "seconds": 215.0,
+ "consts": {
+  "KS": [
+   "0",
+   "5",
+   "25"
+  ],
+  "DISAGREE_MIN": 0.01,
+  "MODEL_RATIO_MAX": 0.3333333333333333,
+  "MODEL_UNIT_FRAC": 0.5,
+  "VR_RANGE": [
+   0.5,
+   2.0
+  ],
+  "NULL_DRAWS": 100,
+  "CORAL_FIX_R": 64,
+  "TOL_LOGP": 1e-05,
+  "TOL_UAR": 1e-09,
+  "P4_KS": [
+   "0",
+   "5"
+  ],
+  "P5_KS": [
+   "0",
+   "5",
+   "25"
+  ],
+  "GROUP_B": [
+   "entmin",
+   "self",
+   "im",
+   "t3a",
+   "lp",
+   "coral",
+   "dann",
+   "mme"
+  ],
+  "SEEN": {
+   "P4": [
+    "coral",
+    "entmin",
+    "massbal",
+    "self"
+   ],
+   "P4'": [
+    "coral",
+    "entmin",
+    "im",
+    "massbal",
+    "self"
+   ]
+  },
+  "SEEDED": [
+   "dann",
+   "entmin",
+   "im",
+   "mapctl",
+   "mme",
+   "xmuda"
+  ],
+  "NC_SEEDED": [
+   "entmin",
+   "im"
+  ],
+  "GEFF_MIN": 20,
+  "CLUSTER_COLS": {
+   "MELD": [
+    "split",
+    "dialogue_id"
+   ],
+   "IEMOCAP": [
+    "session"
+   ]
+  },
+  "COREG": {
+   "uni": "coreg",
+   "fused": "coreg_sum"
+  },
+  "KEPT_FAMS": [
+   "oursx",
+   "kd",
+   "abl_bal",
+   "abl_raw",
+   "abl_hard"
+  ],
+  "R6_DRAWS": 20,
+  "CONV_MAX_ITER": 20000,
+  "CONV_TOL": 1e-06,
+  "LP_CG_MAX": 50,
+  "NOJ_DIST": {
+   "uni": [
+    "pF",
+    "pFK",
+    "ref"
+   ],
+   "fused": [
+    "poe0",
+    "ref",
+    "ref0"
+   ]
+  },
+  "NOJ_KD": {
+   "uni": [
+    "pF",
+    "pFK",
+    "ref"
+   ],
+   "fused": [
+    "poe0",
+    "ref"
+   ]
+  },
+  "EXCLUDED": [
+   "no_teacher",
+   "identical",
+   "other_class"
+  ],
+  "CLUSTER_JK_MAX": 10
+ },
+ "threads": {
+  "OMP_NUM_THREADS": "4",
+  "OPENBLAS_NUM_THREADS": "4",
+  "MKL_NUM_THREADS": "4"
+ },
+ "allow_incomplete": false,
+ "skip_commit_check": false,
+ "allow_dirty": false,
+ "families": "p4",
+ "e80c_dirs": {
+  "fuse-audio-video-text": "/home/snics/MER-DA/results/e80c_fuse-audio-video-text",
+  "fuse-audio-video": "/home/snics/MER-DA/results/e80c_fuse-audio-video"
+ },
+ "chain": {
+  "delta": {
+   "sha16": "fbc4d02298e5f231",
+   "committed": true,
+   "files": [
+    "HEAD:docs/exploratory-analyses.md"
+   ]
+  },
+  "chosen": {
+   "sha16": "3bdc21b8b1603fb1",
+   "committed": true,
+   "files": [
+    "HEAD:docs/exploratory-analyses.md"
+   ]
+  },
+  "fixed": {
+   "sha16": "c8557bb815d36e19",
+   "committed": true,
+   "files": [
+    "HEAD:docs/exploratory-analyses.md"
+   ]
+  },
+  "script_sha256": "09f3a345b9455249f203e7691e4953594833bf8cad893b351282740e7ff8c1b3"
+ },
+ "n_units": 79518,
+ "delta_csv_sha256": "fbc4d02298e5f2313ac8402d5a9db1066c13a4cf465f352e234a4966dd48edf0",
+ "convergence_inputs_sha256": {
+  "/home/snics/MER-DA/results/e77_audio_wavlm/IEMOCAP-impro_convp.csv": "3f149afb278de509098b75bc47b6d1cf9e1174c7d0dffdd2adededd2193ad646",
+  "/home/snics/MER-DA/results/e77_audio_wavlm/IEMOCAP-impro_diag.csv": "89b8f1f709af3f4efb2c79e5899843c436236eb33e380cbc515c5aec1e5277df",
+  "/home/snics/MER-DA/results/e77_audio_wavlm/IEMOCAP-script_convp.csv": "912e61310250fed335e006296bb0cb10bc5f4dfd0eaf28e73501f63f3f4b1ebc",
+  "/home/snics/MER-DA/results/e77_audio_wavlm/IEMOCAP-script_diag.csv": "a88911bb3b6abd8c74f703e30d56e1133d32fb9d4f037a2fab584930a9199486",
+  "/home/snics/MER-DA/results/e77_audio_wavlm/MOSEI_convp.csv": "c4f97e8d6d078f1a8c82168fc0a64f74727c54cdb76af24a12455450ba6c51f8",
+  "/home/snics/MER-DA/results/e77_audio_wavlm/MOSEI_diag.csv": "893cd3341d25e0fba862945ce4b5d89f874c4dbd199c7dfaa0027876ff3480be",
+  "/home/snics/MER-DA/results/e77_audio_wavlm/MELD_convp.csv": "fd90e1c3bcc59b4c7473d2a63ef77a3962f83241613f75e52160321cc1713fb5",
+  "/home/snics/MER-DA/results/e77_audio_wavlm/MELD_diag.csv": "1e08b5554ea515dcdf74fccb34d76bf756a2c2f4cf940f07a25e431cf63c5601",
+  "/home/snics/MER-DA/results/e77_audio_wavlm/AFEW_convp.csv": "759c90bf5c47e996c39b617d60c591eaddaaf8d8c24124c3b5313dc2128d9ff3",
+  "/home/snics/MER-DA/results/e77_audio_wavlm/AFEW_diag.csv": "64fa1554e6ea5c8c8530fb0c89bfcc5fa057c05ea4d7c69e85acc05a2330841e",
+  "/home/snics/MER-DA/results/e77_audio_wavlm/RAVDESS_convp.csv": "0d3a3981f60f357af2c5408ceb2c8edfbe05becd623b1212c190c2ce4cee80c6",
+  "/home/snics/MER-DA/results/e77_audio_wavlm/RAVDESS_diag.csv": "977feb1a0b15a5fa0a58165de67417148d1c82c266d5cd05ade2642c47b9bc5f",
+  "/home/snics/MER-DA/results/e77_audio_wavlm/CREMA-D_convp.csv": "780cb99b903535a930e711013690b3c76c4d06a526146b23cb4e1323e0f9f422",
+  "/home/snics/MER-DA/results/e77_audio_wavlm/CREMA-D_diag.csv": "e69788f3a748a7f94ebbf94caf9b2e9f3b17448fc89a6c2b3f9bb1673740e240",
+  "/home/snics/MER-DA/results/e77_video/IEMOCAP-impro_convp.csv": "f68993512104d59e9a95fc2fd36498fe0c4b7d1c8c1606fd2802df4e1b30928f",
+  "/home/snics/MER-DA/results/e77_video/IEMOCAP-impro_diag.csv": "29ea2dd9af2607bf8cc07c254bcb6a01e346e3c6f51c7c8af026b5b531e4fdf7",
+  "/home/snics/MER-DA/results/e77_video/IEMOCAP-script_convp.csv": "cda18d606c35867da3dd1cff09bbada34f9240e0949b18a86b28462f88aeeb40",
+  "/home/snics/MER-DA/results/e77_video/IEMOCAP-script_diag.csv": "0283a8ece427406154eaaae2eb6bb4afee85b09021d4dde9beacf7430d2e0044",
+  "/home/snics/MER-DA/results/e77_video/MOSEI_convp.csv": "71ae82e2ff103580b21d1dfd80bc93422400cedb3ed2ebf89773fb187a26b255",
+  "/home/snics/MER-DA/results/e77_video/MOSEI_diag.csv": "86d1e3816a2c3ff2eca73f98713d7ea5d851ab0bcb4bab1509997d642ad631a8",
+  "/home/snics/MER-DA/results/e77_video/MELD_convp.csv": "64138c4e8560984ff834760ec877c3c46055fad5c1c776408264ef3017090c96",
+  "/home/snics/MER-DA/results/e77_video/MELD_diag.csv": "3e792891c611a331aea60c26f4b659ebbfe2e61256e543b9c162114fe3ac92df",
+  "/home/snics/MER-DA/results/e77_video/AFEW_convp.csv": "a5660a2632b0c673acca8db2ddb12fafe7d85e6cdebcfa6c3d1feb8bca5b87c5",
+  "/home/snics/MER-DA/results/e77_video/AFEW_diag.csv": "71d2de617f5189e553d8420bdd3d6ecdc866657be38e036cf634b8b1e4bd8be6",
+  "/home/snics/MER-DA/results/e77_video/CREMA-D_convp.csv": "9656caaed2c1671a9d9b53662a403a5194a54551626dbecb12e9a16944211d18",
+  "/home/snics/MER-DA/results/e77_video/CREMA-D_diag.csv": "368f5bc0cec804a8b1f1734dd69aeceace1b2a501bdcfe0c39fb47f8dddbdede",
+  "/home/snics/MER-DA/results/e77_text_roberta/IEMOCAP-impro_convp.csv": "ec905bfeaa44d864b0d879edcff7187bb122433992412f12686a6ad38b92e531",
+  "/home/snics/MER-DA/results/e77_text_roberta/IEMOCAP-impro_diag.csv": "8f47c9d5f1eba3c295f34f9454a299afc54b4e7f9db755b8a92261598bae85ad",
+  "/home/snics/MER-DA/results/e77_text_roberta/IEMOCAP-script_convp.csv": "77c2bb5e41d7fed2629ebdc5c209e9efd5db11232161a0d8a516f8fbad3ddc2a",
+  "/home/snics/MER-DA/results/e77_text_roberta/IEMOCAP-script_diag.csv": "e89432fb0d07693fe6aa16fdf0eb77460c971c9fb6a977ab04bd6ae6f1bfacce",
+  "/home/snics/MER-DA/results/e77_text_roberta/MOSEI_convp.csv": "bf7852b113fbc934dbb1cf5be39159492e1f1f54af6df604538bf2e1a68f8582",
+  "/home/snics/MER-DA/results/e77_text_roberta/MOSEI_diag.csv": "ab820f037c94d1929d3032e52a7fb9cd11ce57ffecef45e64fbcedd7c607aea7",
+  "/home/snics/MER-DA/results/e77_text_roberta/MELD_convp.csv": "63e15eb9c6b41c8aa574909915a64ffcbaebfb8bed7ff76e0e915695701fd38a",
+  "/home/snics/MER-DA/results/e77_text_roberta/MELD_diag.csv": "34bc1b72b981db5355e42e9c0c2db75cc0336729bffa7289455767a19cfe0365",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video-text/IEMOCAP-impro_convp.csv": "4d0a61d7347b1f07d9d7155195765e4fc7e8294b80e060031c752c920a583185",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video-text/IEMOCAP-impro_diag.csv": "5916cbe8206f6f28c26e893ad0f0ed48d6a1156383e0dbbd50e84e99bf281405",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video-text/IEMOCAP-script_convp.csv": "dd8095946d5b6fa13174ba73fa09bfa29e334a2b2a808b762295c19320629db6",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video-text/IEMOCAP-script_diag.csv": "642719dabcbfdf3ae876b690453d2a81bfa3cf7a31abcc803be2e7717a7da989",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video-text/MOSEI_convp.csv": "fe63497a420f0149f330f778ffe7d872343d9fc551ac536aad4f5129e7e2553c",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video-text/MOSEI_diag.csv": "eddbbe589d472c096b7792e6d3e2f2cf815a6657749784db3bb62705c3148f6e",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video-text/MELD_convp.csv": "df3f543a419211b67740606067f3906b7772bac0e7c31844cff4c6f68e45c9d4",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video-text/MELD_diag.csv": "606c8a5c6fc2c4b93f9a7abe24d347c76ded2c4b02a4a734534e48a8970e9554",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video/IEMOCAP-impro_convp.csv": "56646389910e8a12d45a3fb86cf29ec5e03d1569b38c8d05a2cf21666aec32e0",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video/IEMOCAP-impro_diag.csv": "8c0c16049453ef0c5589656e099bb8a358e0fd934afbd4a9f1504abd0479c7e8",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video/IEMOCAP-script_convp.csv": "7daebee4ba0454abdd82bdde98d3de02e2354d07a6b690c5ed2e9f8e32ecb155",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video/IEMOCAP-script_diag.csv": "5a6d4f1710c528da67a1d8bc706db569581d75c4645d17463ef90c57b10d50bb",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video/MOSEI_convp.csv": "89ee4d634bd51efdd6e2289a94864b1505d35d426bd8704a312584577efbd4b9",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video/MOSEI_diag.csv": "deb76d52aff8acc3b6843788343c80a13847f8af2c5deecbd0d0aaaa56428714",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video/MELD_convp.csv": "817287fb7549ff208d86759ef72ff0f7e606a31fcc0bacae8cb4538342071b8a",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video/MELD_diag.csv": "17e58444405b09b82a46c2d2a2fcde34e2267d57a70dcedee80759d29d08cc0f",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video/AFEW_convp.csv": "6827ff7abb2eed08932fc42744faccd5a2760f75247739c8ab842ba0598afcc9",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video/AFEW_diag.csv": "1410b9785418e9ee9db310e1177899193f89076ffa4e2241e9c31eb5fe40c195",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video/CREMA-D_convp.csv": "b88662b65dbac1100630342588519ef68af6a6f82e0191002a2866fa7fd5f212",
+  "/home/snics/MER-DA/results/e77_fuse-audio-video/CREMA-D_diag.csv": "b1f323e9c36f094eba77da6a6af4374842a7fb0d51450edd336bce6e2fd51a67"
+ },
+ "chosen_csv_sha256": "3bdc21b8b1603fb17ed18cf1333ecd6f43728f55e81a853c6ab283ff24e9ba19",
+ "fixed_csv_sha256": "c8557bb815d36e194baf1c0fd6cdc9900c157db33a48fd7f0798e60c9a346a76"
+}

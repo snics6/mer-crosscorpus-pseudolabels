@@ -1,0 +1,14 @@
+check,run,wave,where,ks,ok
+ks_of_provenance,audio_wavlm,e77,provenance.json,"['0', '5', '25']",True
+ks_of_provenance,audio_wavlm,e77,provenance_log.jsonl:0,"['0', '5', '25']",True
+ks_of_provenance,audio_wavlm,e77,provenance_log.jsonl:1,"['0', '5', '25']",True
+ks_of_provenance,video,e77,provenance.json,"['0', '5', '25']",True
+ks_of_provenance,video,e77,provenance_log.jsonl:0,"['0', '5', '25']",True
+ks_of_provenance,text_roberta,e77,provenance.json,"['0', '5', '25']",True
+ks_of_provenance,text_roberta,e77,provenance_log.jsonl:0,"['0', '5', '25']",True
+ks_of_provenance,fuse-audio-video-text,e77,provenance.json,"['0', '5', '25']",True
+ks_of_provenance,fuse-audio-video-text,e77,provenance_log.jsonl:0,"['0', '5', '25']",True
+ks_of_provenance,fuse-audio-video-text,e77,provenance_log.jsonl:1,"['0', '5', '25']",True
+ks_of_provenance,fuse-audio-video,e77,provenance.json,"['0', '5', '25']",True
+ks_of_provenance,fuse-audio-video,e77,provenance_log.jsonl:0,"['0', '5', '25']",True
+ks_of_provenance,fuse-audio-video,e77,provenance_log.jsonl:1,"['0', '5', '25']",True

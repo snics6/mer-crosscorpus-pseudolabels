@@ -1,0 +1,121 @@
+{
+ "mode": "eval",
+ "argv": [
+  "DAI/exp/dai2_stats.py",
+  "eval",
+  "--jobs",
+  "12"
+ ],
+ "time": "2026-11-05 04:28:55",
+ "commit": "ba98974583dfee3504d54f31a5d303ff5394562e",
+ "dirty": false,
+ "script_sha256": "94a4b92e312b169b4b00498fa371f6796f8f926fc76059e524a18e80e688df21",
+ "dai1_stats_sha256": "221d5187864569100a44e6bf283cadf981754f15250a97003ea9a32f0e2ae8b0",
+ "guard": {
+  "dai2": "988557296267abeec794469579ceaf94ee5b93de7adc0cde00cf1ce171f6a69d",
+  "dai1": "6926fb3e12638dd946ddfda8a260a33f089a400094ebdefdf37132fa1329dfdc",
+  "eval_gate": "001629ecbd321b35dc1b7376ab54ac53964501a17520a4ae36ed937bbbefc385"
+ },
+ "dai1_frozen": "/home/snics/MER-DA-eval-ba98974/DAI/frozen/dai1_frozen.json",
+ "dai1_frozen_sha256": "6926fb3e12638dd946ddfda8a260a33f089a400094ebdefdf37132fa1329dfdc",
+ "dai2_frozen": "/home/snics/MER-DA-eval-ba98974/results/dai2/select/frozen.json",
+ "dai2_frozen_sha256": "988557296267abeec794469579ceaf94ee5b93de7adc0cde00cf1ce171f6a69d",
+ "dai2_frozen_dai1_sha256": "6926fb3e12638dd946ddfda8a260a33f089a400094ebdefdf37132fa1329dfdc",
+ "grad_cut": {
+  "mme_sw01": true,
+  "iter200": false
+ },
+ "dai1_frozen_matches_dai2_meta": true,
+ "families": "/home/snics/MER-DA-eval-ba98974/results/dai1/stats/families.csv",
+ "families_sha256": "d84bb7915eeaeee7a2d90bfb912e5443821ffc227fd10cb908a895eabfe3cc68",
+ "families_commit": [
+  "ba98974583dfee3504d54f31a5d303ff5394562e"
+ ],
+ "families_mismatch_sum": 0,
+ "jobs": [
+  {
+   "T": "AFEW",
+   "c": "ALL",
+   "n_lin_units": 50,
+   "n_grad_units": 15
+  },
+  {
+   "T": "IEMOCAP",
+   "c": "ALL",
+   "n_lin_units": 50,
+   "n_grad_units": 15
+  },
+  {
+   "T": "MOSEI",
+   "c": "ALL",
+   "n_lin_units": 50,
+   "n_grad_units": 15
+  },
+  {
+   "T": "MELD",
+   "c": "ALL",
+   "n_lin_units": 50,
+   "n_grad_units": 15
+  }
+ ],
+ "rows": {
+  "prop_minus_method": 1084,
+  "prop_one_minus_own": 80,
+  "xmuda9": 36,
+  "corpus_sentence": 4,
+  "fam3_cells": 48,
+  "ctl_decomp": 740,
+  "k0_ctl_none": 128,
+  "da_term": 440,
+  "da_quantities": 440,
+  "rep_shift": 670,
+  "prop_minus_method_rep": 1200,
+  "marks": 600,
+  "marks_points": 540,
+  "regret": 1004,
+  "source_mix": 64,
+  "null_counts": 136,
+  "coral_tether_curve": 2688,
+  "coral_tether_sign": 64,
+  "checks": 4
+ },
+ "checks_total": {
+  "unit_sample_mismatch": 0,
+  "tether_key_mismatch": 0,
+  "frozen_sha_mismatch": 0,
+  "rows_duplicate": 0,
+  "rows_without_pred": 0,
+  "rows_checked": 421260,
+  "rows_uar_mismatch": 0,
+  "dis_rep_checked": 10860,
+  "dis_rep_mismatch": 0,
+  "dis_ctl_checked": 79200,
+  "dis_ctl_mismatch": 0,
+  "preds_without_row": 0,
+  "d1_rows_checked": 12000,
+  "d1_rows_mismatch": 0,
+  "d1_frozen_sha_mismatch": 0,
+  "grid_mismatch": 0,
+  "prop_one_own_dup_mismatch": 0,
+  "ws_vseed_mismatch": 0,
+  "rows_dirty": 0,
+  "d1_rows_dirty": 0,
+  "degenerate_cells": 352,
+  "degenerate_interval_nonzero": 0,
+  "d1_tether_rows_checked": 44800,
+  "d1_tether_rows_mismatch": 0,
+  "d1_tether_missing": 0,
+  "coral_tether_cells": 64,
+  "coral_tether_missing": 0,
+  "coral_tether_main_mismatch": 0,
+  "split_mismatch": 0
+ },
+ "row_commits": [
+  "ba98974583dfee3504d54f31a5d303ff5394562e"
+ ],
+ "d1_row_commits": [
+  "ba98974583dfee3504d54f31a5d303ff5394562e"
+ ],
+ "sec": 1504.5935208797455,
+ "coral_tether_cells_expected": 64
+}

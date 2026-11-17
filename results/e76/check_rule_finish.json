@@ -1,0 +1,92 @@
+{
+ "runs": [
+  {
+   "script": "exp/relearn_e76_finish.py",
+   "argv": [
+    "--kinds",
+    "audio_hubert",
+    "--targets",
+    "AFEW",
+    "RAVDESS",
+    "CREMA-D",
+    "--gpu-fraction",
+    "0.3"
+   ],
+   "commit": "279034423dbd75cca50cff96537d98cfb7bfbd86",
+   "started": "2026-11-02T01:22:27+0900",
+   "kinds": [
+    "audio_hubert"
+   ],
+   "targets": [
+    "AFEW",
+    "RAVDESS",
+    "CREMA-D"
+   ],
+   "code_hash_without_wrapper": "9891f06688489b66ee97f5b04814f87a7f888454f1bcbb0eda15b969671b7ee6",
+   "code_hash_e76": "9891f06688489b66ee97f5b04814f87a7f888454f1bcbb0eda15b969671b7ee6",
+   "change": "h9 と h10 の照合で，数の基準（tol を超える条件が 1% 以下）を記録だけにし，大きさの基準（どの条件も tol の 2.5 倍以下）を残す．ほかの照合は E76 のまま",
+   "reason": "E76 は A(HuBERT) の MELD の h9 で 180 条件のうち 2 条件が tol を超えて止まった（差 ÷ tol の最大 2.33）．超えた条件はソース RAVDESS・K=1・C=10．相手の E31 は別の GPU で解いた値．ほかの 7 種類では h9・h10 の超過は 0",
+   "approved": "2026-11-02 研究者",
+   "accepted_existing": {
+    "audio_hubert/MELD": [
+     "h9：前の値との差が基準を超える {'n': 180, 'n_ref': 180, 'max_abs_diff': 0.005363147091053011, 'n_over_exact': 36, 'n_over_tol': 2, 'max_diff_over_tol': 2.327605837517007, 'n_not_converged': 0}"
+    ]
+   },
+   "finished": "2026-11-02T01:56:16+0900",
+   "result": "SystemExit: 再現の検算が基準を満たさない．止める：\ntgt_only：地図と一致しない {'n': 60, 'n_ref': 60, 'max_abs_diff': 0.006249999999999978, 'n_over_exact': 1, 'n_over_tol': 0, 'max_diff_over_tol': 0.2499999999999991, 'C_mismatch': 1, 'rule_mismatch': 1, 'max_abs_diff_allC': 8.326672684688674e-17, 'n_allC_over_exact': 0, 'max_allC_over_tol': 3.3306690738754696e-15, 'n_not_converged': 0}",
+   "written": {
+    "audio_hubert/AFEW": "17f731311ff072231f844bfc7ceacb7850c6addddff87f4f86f1c76c959b9abf",
+    "audio_hubert/RAVDESS": "17f731311ff072231f844bfc7ceacb7850c6addddff87f4f86f1c76c959b9abf"
+   },
+   "waived": {
+    "audio_hubert/AFEW": [],
+    "audio_hubert/RAVDESS": [
+     "tgt_only：地図と一致しない {'n': 60, 'n_ref': 60, 'max_abs_diff': 0.006249999999999978, 'n_over_exact': 1, 'n_over_tol': 0, 'max_diff_over_tol': 0.2499999999999991, 'C_mismatch': 1, 'rule_mismatch': 1, 'max_abs_diff_allC': 8.326672684688674e-17, 'n_allC_over_exact': 0, 'max_allC_over_tol': 3.3306690738754696e-15, 'n_not_converged': 0}"
+    ]
+   }
+  },
+  {
+   "script": "exp/relearn_e76_finish.py",
+   "argv": [
+    "--kinds",
+    "audio_hubert",
+    "--targets",
+    "CREMA-D",
+    "--gpu-fraction",
+    "0.3"
+   ],
+   "commit": "c4bf849439991d4bfd1323e6e88dd6a27f3c08bb",
+   "started": "2026-11-02T02:37:24+0900",
+   "kinds": [
+    "audio_hubert"
+   ],
+   "targets": [
+    "CREMA-D"
+   ],
+   "code_hash_without_wrapper": "9891f06688489b66ee97f5b04814f87a7f888454f1bcbb0eda15b969671b7ee6",
+   "code_hash_e76": "9891f06688489b66ee97f5b04814f87a7f888454f1bcbb0eda15b969671b7ee6",
+   "change": "h9 と h10 の照合で，数の基準（tol を超える条件が 1% 以下）を記録だけにし，大きさの基準（どの条件も tol の 2.5 倍以下）を残す．ほかの照合は E76 のまま",
+   "reason": "E76 は A(HuBERT) の MELD の h9 で 180 条件のうち 2 条件が tol を超えて止まった（差 ÷ tol の最大 2.33）．超えた条件はソース RAVDESS・K=1・C=10．相手の E31 は別の GPU で解いた値．ほかの 7 種類では h9・h10 の超過は 0",
+   "approved": "2026-11-02 研究者",
+   "change_c": "①・② で C か規則が地図と違っても，C の 4 つの値すべてのテストの UAR が地図と tol の中で一致し，選ばれた C の UAR の基準も満たすなら記録だけにする（2026-11-02 研究者の承認．RAVDESS の ① の後）",
+   "accepted_existing": {
+    "audio_hubert/MELD": [
+     "h9：前の値との差が基準を超える {'n': 180, 'n_ref': 180, 'max_abs_diff': 0.005363147091053011, 'n_over_exact': 36, 'n_over_tol': 2, 'max_diff_over_tol': 2.327605837517007, 'n_not_converged': 0}"
+    ],
+    "audio_hubert/RAVDESS": [
+     "tgt_only：地図と一致しない {'n': 60, 'n_ref': 60, 'max_abs_diff': 0.006249999999999978, 'n_over_exact': 1, 'n_over_tol': 0, 'max_diff_over_tol': 0.2499999999999991, 'C_mismatch': 1, 'rule_mismatch': 1, 'max_abs_diff_allC': 8.326672684688674e-17, 'n_allC_over_exact': 0, 'max_allC_over_tol': 3.3306690738754696e-15, 'n_not_converged': 0}"
+    ]
+   },
+   "finished": "2026-11-02T02:52:18+0900",
+   "result": "SystemExit: 再現の検算が基準を満たさない．止める：\nh7：前の値との差が基準を超える {'n': 180, 'n_ref': 180, 'max_abs_diff': 0.003000134084204964, 'n_over_exact': 17, 'n_over_tol': 2, 'max_diff_over_tol': 1.3560606060606437, 'n_not_converged': 0}",
+   "written": {
+    "audio_hubert/CREMA-D": "b5b36158ddd4f59264343960f82473a6e9c79c02cd6edcb910f483e02635b8c0"
+   },
+   "waived": {
+    "audio_hubert/CREMA-D": [
+     "h7：前の値との差が基準を超える {'n': 180, 'n_ref': 180, 'max_abs_diff': 0.003000134084204964, 'n_over_exact': 17, 'n_over_tol': 2, 'max_diff_over_tol': 1.3560606060606437, 'n_not_converged': 0}"
+    ]
+   }
+  }
+ ]
+}

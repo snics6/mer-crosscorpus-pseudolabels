@@ -1,0 +1,361 @@
+world,target,pseudo,rep,student,what,key,n_iter,grad,commit
+fuse-audio-video,IEMOCAP-impro,MOSEI,0,audio_wavlm,none,5,29,8.800979406069914e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,0,audio_wavlm,none,25,33,9.603609913144684e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,0,audio_wavlm,ref,"('ref', '0')",25,5.464164753338522e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,0,audio_wavlm,ref,"('ref', '5')",24,9.840025558831202e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,0,audio_wavlm,ref,"('ref', '25')",29,5.068647595900515e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,0,audio_wavlm,ref,"('ref0', '0')",25,5.464164753295154e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,0,audio_wavlm,ref,"('ref0', '5')",23,7.34954136706557e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,0,audio_wavlm,ref,"('ref0', '25')",28,7.677211881164294e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,0,video,none,5,27,9.064382996207265e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,0,video,none,25,26,7.94286346195161e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,0,video,ref,"('ref', '0')",32,3.79752717397314e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,0,video,ref,"('ref', '5')",36,5.907653507144107e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,0,video,ref,"('ref', '25')",32,7.670283756278443e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,0,video,ref,"('ref0', '0')",32,3.7975271742875585e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,0,video,ref,"('ref0', '5')",34,9.303867277272136e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,0,video,ref,"('ref0', '25')",34,9.3715037266306e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,0,fuse-audio-video,none,5,50,7.865336281998037e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,0,fuse-audio-video,none,25,60,8.086263940036524e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,1,audio_wavlm,none,5,26,3.2893542753487104e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,1,audio_wavlm,none,25,30,4.491888342950112e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,1,audio_wavlm,ref,"('ref', '0')",25,3.642311313240259e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,1,audio_wavlm,ref,"('ref', '5')",26,4.827885704619672e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,1,audio_wavlm,ref,"('ref', '25')",23,7.18298628133102e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,1,audio_wavlm,ref,"('ref0', '0')",25,3.6423113131318387e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,1,audio_wavlm,ref,"('ref0', '5')",26,4.699226209474265e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,1,audio_wavlm,ref,"('ref0', '25')",22,5.845270838235068e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,1,video,none,5,28,7.242339480836857e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,1,video,none,25,26,6.299796915642392e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,1,video,ref,"('ref', '0')",32,9.363048459374397e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,1,video,ref,"('ref', '5')",30,9.946009923060897e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,1,video,ref,"('ref', '25')",36,8.619604095070536e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,1,video,ref,"('ref0', '0')",32,9.36304845911202e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,1,video,ref,"('ref0', '5')",34,6.353993324756391e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,1,video,ref,"('ref0', '25')",33,6.415676728176167e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,1,fuse-audio-video,none,5,36,6.387056623907879e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,1,fuse-audio-video,none,25,51,9.170339184041282e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,2,audio_wavlm,none,5,29,3.0133267589146917e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,2,audio_wavlm,none,25,29,7.319778301934608e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,2,audio_wavlm,ref,"('ref', '0')",25,9.508051491524238e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,2,audio_wavlm,ref,"('ref', '5')",26,7.628866587575545e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,2,audio_wavlm,ref,"('ref', '25')",28,7.227927930732528e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,2,audio_wavlm,ref,"('ref0', '0')",25,9.50805149154809e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,2,audio_wavlm,ref,"('ref0', '5')",22,5.764469348944375e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,2,audio_wavlm,ref,"('ref0', '25')",23,7.150546848048436e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,2,video,none,5,32,8.822872432125151e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,2,video,none,25,27,7.822074275277979e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,2,video,ref,"('ref', '0')",28,8.433211317531797e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,2,video,ref,"('ref', '5')",35,4.277034381678507e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,2,video,ref,"('ref', '25')",36,8.735071964280621e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,2,video,ref,"('ref0', '0')",28,8.43321131763954e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,2,video,ref,"('ref0', '5')",30,7.217026472258531e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,2,video,ref,"('ref0', '25')",34,9.050746691580559e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,2,fuse-audio-video,none,5,37,6.494560229282137e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,2,fuse-audio-video,none,25,51,7.526059292439768e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,3,audio_wavlm,none,5,36,7.209128236526641e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,3,audio_wavlm,none,25,30,4.23501430302925e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,3,audio_wavlm,ref,"('ref', '0')",25,4.0598618124753835e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,3,audio_wavlm,ref,"('ref', '5')",24,8.205442902239034e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,3,audio_wavlm,ref,"('ref', '25')",26,8.717618330128518e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,3,audio_wavlm,ref,"('ref0', '0')",25,4.059861813121568e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,3,audio_wavlm,ref,"('ref0', '5')",23,2.308425067496303e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,3,audio_wavlm,ref,"('ref0', '25')",24,2.8805416746541593e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,3,video,none,5,32,9.858730044241815e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,3,video,none,25,29,7.680870321921662e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,3,video,ref,"('ref', '0')",30,5.159717741704689e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,3,video,ref,"('ref', '5')",35,7.700511158855936e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,3,video,ref,"('ref', '25')",32,8.415116421779667e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,3,video,ref,"('ref0', '0')",30,5.15971774175131e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,3,video,ref,"('ref0', '5')",30,9.450225525956674e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,3,video,ref,"('ref0', '25')",33,8.142950098811302e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,3,fuse-audio-video,none,5,41,8.167806124989574e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,3,fuse-audio-video,none,25,59,9.281095808642142e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,4,audio_wavlm,none,5,29,2.779284793211212e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,4,audio_wavlm,none,25,28,6.812373150757826e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,4,audio_wavlm,ref,"('ref', '0')",25,7.345069860402367e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,4,audio_wavlm,ref,"('ref', '5')",24,9.793494056336768e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,4,audio_wavlm,ref,"('ref', '25')",28,4.3236001118088577e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,4,audio_wavlm,ref,"('ref0', '0')",25,7.345069860480429e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,4,audio_wavlm,ref,"('ref0', '5')",24,8.135713785721761e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,4,audio_wavlm,ref,"('ref0', '25')",27,5.54032226147581e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,4,video,none,5,28,8.556781666661795e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,4,video,none,25,27,8.150030308129441e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,4,video,ref,"('ref', '0')",30,4.3976334931569716e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,4,video,ref,"('ref', '5')",35,7.751601810439442e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,4,video,ref,"('ref', '25')",32,9.043778799815681e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,4,video,ref,"('ref0', '0')",30,4.397633492918447e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,4,video,ref,"('ref0', '5')",29,7.771799471270602e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,4,video,ref,"('ref0', '25')",32,6.674576660309535e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,4,fuse-audio-video,none,5,49,4.1211731427459597e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MOSEI,4,fuse-audio-video,none,25,50,6.581369590072383e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,0,audio_wavlm,none,5,45,8.962660258404753e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,0,audio_wavlm,none,25,42,9.967779854361258e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,0,audio_wavlm,ref,"('ref', '0')",45,7.669585876794206e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,0,audio_wavlm,ref,"('ref', '5')",46,6.148953628107127e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,0,audio_wavlm,ref,"('ref', '25')",47,8.381264955629065e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,0,audio_wavlm,ref,"('ref0', '0')",45,7.669585877505443e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,0,audio_wavlm,ref,"('ref0', '5')",45,5.905876219191881e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,0,audio_wavlm,ref,"('ref0', '25')",48,9.325512775385219e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,0,video,none,5,27,6.786030410377286e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,0,video,none,25,26,8.457587168074487e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,0,video,ref,"('ref', '0')",28,8.396905320762725e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,0,video,ref,"('ref', '5')",37,8.036871431907214e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,0,video,ref,"('ref', '25')",36,8.354491137171644e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,0,video,ref,"('ref0', '0')",28,8.39690532075622e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,0,video,ref,"('ref0', '5')",34,6.675404351467063e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,0,video,ref,"('ref0', '25')",31,6.111328451473969e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,0,fuse-audio-video,none,5,51,8.729453086567251e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,0,fuse-audio-video,none,25,83,9.84120214135402e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,1,audio_wavlm,none,5,44,7.326930292310407e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,1,audio_wavlm,none,25,52,6.625130531054402e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,1,audio_wavlm,ref,"('ref', '0')",40,9.29962869205582e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,1,audio_wavlm,ref,"('ref', '5')",47,6.647765342835364e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,1,audio_wavlm,ref,"('ref', '25')",45,8.21490252899933e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,1,audio_wavlm,ref,"('ref0', '0')",40,9.299628692350723e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,1,audio_wavlm,ref,"('ref0', '5')",44,5.433151293803657e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,1,audio_wavlm,ref,"('ref0', '25')",47,7.868151425457093e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,1,video,none,5,31,4.74220936928782e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,1,video,none,25,32,9.516513806706595e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,1,video,ref,"('ref', '0')",33,9.476667211757214e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,1,video,ref,"('ref', '5')",34,8.91390261773163e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,1,video,ref,"('ref', '25')",32,8.906287059992895e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,1,video,ref,"('ref0', '0')",33,9.476667212487966e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,1,video,ref,"('ref0', '5')",35,6.75607055074072e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,1,video,ref,"('ref0', '25')",30,7.007820052680122e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,1,fuse-audio-video,none,5,50,7.157736298113448e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,1,fuse-audio-video,none,25,73,9.657892046962928e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,2,audio_wavlm,none,5,29,8.960810992636567e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,2,audio_wavlm,none,25,31,5.865126670549781e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,2,audio_wavlm,ref,"('ref', '0')",44,9.488980346474777e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,2,audio_wavlm,ref,"('ref', '5')",45,5.682261427293785e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,2,audio_wavlm,ref,"('ref', '25')",41,8.886761729927015e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,2,audio_wavlm,ref,"('ref0', '0')",44,9.488980346286126e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,2,audio_wavlm,ref,"('ref0', '5')",46,3.9546554395824066e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,2,audio_wavlm,ref,"('ref0', '25')",48,9.567633834459566e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,2,video,none,5,35,6.138666462096598e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,2,video,none,25,31,2.426922832777026e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,2,video,ref,"('ref', '0')",33,9.836894486556919e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,2,video,ref,"('ref', '5')",30,6.401648289545156e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,2,video,ref,"('ref', '25')",36,5.534681026041297e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,2,video,ref,"('ref0', '0')",33,9.83689448650054e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,2,video,ref,"('ref0', '5')",36,4.637856575768909e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,2,video,ref,"('ref0', '25')",31,9.646121209325002e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,2,fuse-audio-video,none,5,36,8.456000151434964e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,2,fuse-audio-video,none,25,86,9.796515365000091e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,3,audio_wavlm,none,5,34,4.1240594475175363e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,3,audio_wavlm,none,25,33,8.072859801052865e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,3,audio_wavlm,ref,"('ref', '0')",45,9.716459680182265e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,3,audio_wavlm,ref,"('ref', '5')",47,8.373240371474348e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,3,audio_wavlm,ref,"('ref', '25')",39,8.312590503976348e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,3,audio_wavlm,ref,"('ref0', '0')",45,9.716459681459455e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,3,audio_wavlm,ref,"('ref0', '5')",45,9.188769476385639e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,3,audio_wavlm,ref,"('ref0', '25')",45,8.226438293404675e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,3,video,none,5,32,3.9680608716896604e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,3,video,none,25,35,4.872721494665611e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,3,video,ref,"('ref', '0')",33,8.79170804261864e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,3,video,ref,"('ref', '5')",29,8.528315754490964e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,3,video,ref,"('ref', '25')",38,5.758467118647387e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,3,video,ref,"('ref0', '0')",33,8.791708042609966e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,3,video,ref,"('ref0', '5')",34,9.866209491520353e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,3,video,ref,"('ref0', '25')",35,7.038591327829377e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,3,fuse-audio-video,none,5,42,6.651514863204033e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,3,fuse-audio-video,none,25,61,9.857516006135658e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,4,audio_wavlm,none,5,39,7.998902395150304e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,4,audio_wavlm,none,25,29,8.717428694059084e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,4,audio_wavlm,ref,"('ref', '0')",45,9.82903687491224e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,4,audio_wavlm,ref,"('ref', '5')",39,9.882857766106527e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,4,audio_wavlm,ref,"('ref', '25')",46,7.791517830727781e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,4,audio_wavlm,ref,"('ref0', '0')",45,9.82903687587501e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,4,audio_wavlm,ref,"('ref0', '5')",46,4.1696588276834284e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,4,audio_wavlm,ref,"('ref0', '25')",45,9.872110081510926e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,4,video,none,5,32,1.5536060257725914e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,4,video,none,25,27,9.617248131494477e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,4,video,ref,"('ref', '0')",32,5.612343286047483e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,4,video,ref,"('ref', '5')",33,9.40557399756398e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,4,video,ref,"('ref', '25')",37,8.509205122559857e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,4,video,ref,"('ref0', '0')",32,5.612343286151567e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,4,video,ref,"('ref0', '5')",28,8.871398360723887e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,4,video,ref,"('ref0', '25')",31,9.307252910422379e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,4,fuse-audio-video,none,5,59,9.55498352411821e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,MELD,4,fuse-audio-video,none,25,87,7.773191455697631e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,0,audio_wavlm,none,5,40,7.006093099073962e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,0,audio_wavlm,none,25,36,6.68788242182139e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,0,audio_wavlm,ref,"('ref', '0')",45,9.361890252873855e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,0,audio_wavlm,ref,"('ref', '5')",50,7.710121805285007e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,0,audio_wavlm,ref,"('ref', '25')",47,5.578639331592665e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,0,audio_wavlm,ref,"('ref0', '0')",45,9.361890244352026e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,0,audio_wavlm,ref,"('ref0', '5')",43,9.722572761482109e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,0,audio_wavlm,ref,"('ref0', '25')",50,8.711950299345296e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,0,video,none,5,29,3.5239612981158297e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,0,video,none,25,28,9.762202077853548e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,0,video,ref,"('ref', '0')",40,9.434091204377172e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,0,video,ref,"('ref', '5')",34,4.2865810707276054e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,0,video,ref,"('ref', '25')",41,6.698230893999852e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,0,video,ref,"('ref0', '0')",40,9.43409120522285e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,0,video,ref,"('ref0', '5')",44,8.543571831113442e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,0,video,ref,"('ref0', '25')",36,8.297983175874256e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,0,fuse-audio-video,none,5,43,8.882697345152096e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,0,fuse-audio-video,none,25,44,8.007790964635782e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,1,audio_wavlm,none,5,37,9.307803921602964e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,1,audio_wavlm,none,25,42,9.895481245469039e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,1,audio_wavlm,ref,"('ref', '0')",41,9.249007408944354e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,1,audio_wavlm,ref,"('ref', '5')",45,7.428111163695732e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,1,audio_wavlm,ref,"('ref', '25')",41,8.002672946272067e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,1,audio_wavlm,ref,"('ref0', '0')",41,9.249007408659209e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,1,audio_wavlm,ref,"('ref0', '5')",43,9.366263366709969e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,1,audio_wavlm,ref,"('ref0', '25')",46,8.800569521819892e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,1,video,none,5,26,3.9636190511671554e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,1,video,none,25,29,7.408500125125755e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,1,video,ref,"('ref', '0')",39,9.302080077593523e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,1,video,ref,"('ref', '5')",39,9.887305434569437e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,1,video,ref,"('ref', '25')",42,9.858136681338515e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,1,video,ref,"('ref0', '0')",39,9.302080081912984e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,1,video,ref,"('ref0', '5')",41,7.713944868059023e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,1,video,ref,"('ref0', '25')",42,7.68727508477997e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,1,fuse-audio-video,none,5,39,7.449884857754427e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,1,fuse-audio-video,none,25,49,9.774375193025674e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,2,audio_wavlm,none,5,28,6.808214100539889e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,2,audio_wavlm,none,25,33,6.452133912088556e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,2,audio_wavlm,ref,"('ref', '0')",38,9.75031303171274e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,2,audio_wavlm,ref,"('ref', '5')",46,9.616430575102967e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,2,audio_wavlm,ref,"('ref', '25')",56,7.937475284807566e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,2,audio_wavlm,ref,"('ref0', '0')",38,9.750313031877539e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,2,audio_wavlm,ref,"('ref0', '5')",44,8.896396983716507e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,2,audio_wavlm,ref,"('ref0', '25')",49,8.736957705165896e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,2,video,none,5,27,8.667901409305234e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,2,video,none,25,33,6.99446846988503e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,2,video,ref,"('ref', '0')",44,9.335427990326018e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,2,video,ref,"('ref', '5')",34,8.293610409981387e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,2,video,ref,"('ref', '25')",36,8.829845007391878e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,2,video,ref,"('ref0', '0')",44,9.335427990012244e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,2,video,ref,"('ref0', '5')",35,7.963167018400566e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,2,video,ref,"('ref0', '25')",44,8.106766781350687e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,2,fuse-audio-video,none,5,48,7.319443601702669e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,2,fuse-audio-video,none,25,66,9.091346429811187e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,3,audio_wavlm,none,5,48,4.721921772476989e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,3,audio_wavlm,none,25,32,4.900881848263205e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,3,audio_wavlm,ref,"('ref', '0')",45,6.337999669755751e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,3,audio_wavlm,ref,"('ref', '5')",44,7.971721616545878e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,3,audio_wavlm,ref,"('ref', '25')",48,6.729272142962919e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,3,audio_wavlm,ref,"('ref0', '0')",45,6.337999704972806e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,3,audio_wavlm,ref,"('ref0', '5')",46,7.258776710617268e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,3,audio_wavlm,ref,"('ref0', '25')",48,6.800861462384448e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,3,video,none,5,27,1.6459149675823737e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,3,video,none,25,32,8.202553142960811e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,3,video,ref,"('ref', '0')",40,8.756803479290773e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,3,video,ref,"('ref', '5')",35,5.233733498954279e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,3,video,ref,"('ref', '25')",41,4.0342496465597e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,3,video,ref,"('ref0', '0')",40,8.756803479497517e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,3,video,ref,"('ref0', '5')",37,9.033316722271327e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,3,video,ref,"('ref0', '25')",42,7.928704702997924e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,3,fuse-audio-video,none,5,39,3.720992449787741e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,3,fuse-audio-video,none,25,54,7.75180342481134e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,4,audio_wavlm,none,5,34,8.525299170442438e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,4,audio_wavlm,none,25,32,7.883478766639376e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,4,audio_wavlm,ref,"('ref', '0')",37,9.552951325503094e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,4,audio_wavlm,ref,"('ref', '5')",44,5.376617369031193e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,4,audio_wavlm,ref,"('ref', '25')",46,8.089528129383945e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,4,audio_wavlm,ref,"('ref0', '0')",37,9.55295132550743e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,4,audio_wavlm,ref,"('ref0', '5')",45,6.778822687337994e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,4,audio_wavlm,ref,"('ref0', '25')",41,7.07779054502514e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,4,video,none,5,32,5.591282744039222e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,4,video,none,25,35,9.439246806165758e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,4,video,ref,"('ref', '0')",39,7.517471189694266e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,4,video,ref,"('ref', '5')",39,8.790453530916871e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,4,video,ref,"('ref', '25')",40,8.749356574335224e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,4,video,ref,"('ref0', '0')",39,7.517471189664586e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,4,video,ref,"('ref0', '5')",38,9.816174938704584e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,4,video,ref,"('ref0', '25')",40,8.146439264634468e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,4,fuse-audio-video,none,5,45,7.425844843356871e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,AFEW,4,fuse-audio-video,none,25,56,7.346704308649685e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,0,audio_wavlm,none,5,29,8.130406285167258e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,0,audio_wavlm,none,25,37,9.578437033280112e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,0,audio_wavlm,ref,"('ref', '0')",47,8.853362336554496e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,0,audio_wavlm,ref,"('ref', '5')",43,3.588276700549958e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,0,audio_wavlm,ref,"('ref', '25')",53,9.863747605161517e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,0,audio_wavlm,ref,"('ref0', '0')",47,8.853362343109582e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,0,audio_wavlm,ref,"('ref0', '5')",42,9.263840337017009e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,0,audio_wavlm,ref,"('ref0', '25')",47,5.211505879672979e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,0,video,none,5,29,8.098774415682408e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,0,video,none,25,29,9.506959644861243e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,0,video,ref,"('ref', '0')",39,8.912075423055685e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,0,video,ref,"('ref', '5')",43,8.819898540838656e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,0,video,ref,"('ref', '25')",45,6.733242311751913e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,0,video,ref,"('ref0', '0')",39,8.912075420664206e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,0,video,ref,"('ref0', '5')",41,9.260896924418935e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,0,video,ref,"('ref0', '25')",40,9.392516936518e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,0,fuse-audio-video,none,5,33,9.083142704828864e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,0,fuse-audio-video,none,25,73,9.355529622953954e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,1,audio_wavlm,none,5,29,2.721146632259086e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,1,audio_wavlm,none,25,43,7.68345502499281e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,1,audio_wavlm,ref,"('ref', '0')",44,9.385543489600972e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,1,audio_wavlm,ref,"('ref', '5')",46,8.398717683747023e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,1,audio_wavlm,ref,"('ref', '25')",48,8.223035550657815e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,1,audio_wavlm,ref,"('ref0', '0')",44,9.385543490544228e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,1,audio_wavlm,ref,"('ref0', '5')",45,8.504366813179439e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,1,audio_wavlm,ref,"('ref0', '25')",49,9.89215066895025e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,1,video,none,5,33,8.926930667660371e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,1,video,none,25,34,9.496649114042362e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,1,video,ref,"('ref', '0')",40,9.194727870196536e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,1,video,ref,"('ref', '5')",43,4.2978990206411245e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,1,video,ref,"('ref', '25')",41,9.389097109181645e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,1,video,ref,"('ref0', '0')",40,9.194727870667622e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,1,video,ref,"('ref0', '5')",36,9.369796376272502e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,1,video,ref,"('ref0', '25')",43,6.832756395045683e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,1,fuse-audio-video,none,5,52,8.768873965593615e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,1,fuse-audio-video,none,25,51,9.01118153277293e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,2,audio_wavlm,none,5,29,2.900308681483277e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,2,audio_wavlm,none,25,39,8.90920300839794e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,2,audio_wavlm,ref,"('ref', '0')",43,9.74721027502943e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,2,audio_wavlm,ref,"('ref', '5')",45,9.55438301401216e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,2,audio_wavlm,ref,"('ref', '25')",46,8.803094985876251e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,2,audio_wavlm,ref,"('ref0', '0')",43,9.74721027493619e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,2,audio_wavlm,ref,"('ref0', '5')",44,8.948209438780171e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,2,audio_wavlm,ref,"('ref0', '25')",46,9.331941656521431e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,2,video,none,5,35,5.124717744331431e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,2,video,none,25,38,3.9522075981303015e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,2,video,ref,"('ref', '0')",34,8.708229158414099e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,2,video,ref,"('ref', '5')",40,5.350741530873917e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,2,video,ref,"('ref', '25')",44,7.827898906718664e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,2,video,ref,"('ref0', '0')",34,8.708229158444457e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,2,video,ref,"('ref0', '5')",42,8.295496329895817e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,2,video,ref,"('ref0', '25')",42,9.933735672416704e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,2,fuse-audio-video,none,5,43,7.519167598453447e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,2,fuse-audio-video,none,25,62,5.325343465619262e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,3,audio_wavlm,none,5,28,9.468127716225072e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,3,audio_wavlm,none,25,37,9.426047592636687e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,3,audio_wavlm,ref,"('ref', '0')",44,9.405659156637783e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,3,audio_wavlm,ref,"('ref', '5')",44,8.822045257030238e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,3,audio_wavlm,ref,"('ref', '25')",49,7.139462484469531e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,3,audio_wavlm,ref,"('ref0', '0')",44,9.405659157409735e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,3,audio_wavlm,ref,"('ref0', '5')",49,5.934389164142942e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,3,audio_wavlm,ref,"('ref0', '25')",50,8.789721802753296e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,3,video,none,5,36,8.15437087173243e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,3,video,none,25,29,1.8145645113744335e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,3,video,ref,"('ref', '0')",39,8.740923701322056e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,3,video,ref,"('ref', '5')",41,7.985802405171888e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,3,video,ref,"('ref', '25')",40,9.375859593468072e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,3,video,ref,"('ref0', '0')",39,8.740923701358919e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,3,video,ref,"('ref0', '5')",36,8.35299770626536e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,3,video,ref,"('ref0', '25')",41,9.055017581581807e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,3,fuse-audio-video,none,5,33,7.44215235298773e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,3,fuse-audio-video,none,25,55,9.443364355436051e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,4,audio_wavlm,none,5,31,7.533047626762882e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,4,audio_wavlm,none,25,33,7.081877009739931e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,4,audio_wavlm,ref,"('ref', '0')",48,9.160111261989233e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,4,audio_wavlm,ref,"('ref', '5')",43,7.275636757070846e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,4,audio_wavlm,ref,"('ref', '25')",42,7.308053294117199e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,4,audio_wavlm,ref,"('ref0', '0')",48,9.160111260844315e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,4,audio_wavlm,ref,"('ref0', '5')",44,4.750612660133109e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,4,audio_wavlm,ref,"('ref0', '25')",48,5.527575248258712e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,4,video,none,5,29,6.286106970787575e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,4,video,none,25,31,3.652929471062438e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,4,video,ref,"('ref', '0')",36,6.012667485340989e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,4,video,ref,"('ref', '5')",47,8.295558459851403e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,4,video,ref,"('ref', '25')",44,7.441157505650624e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,4,video,ref,"('ref0', '0')",36,6.01266748414403e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,4,video,ref,"('ref0', '5')",35,9.792661605218165e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,4,video,ref,"('ref0', '25')",36,9.305296633135406e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,4,fuse-audio-video,none,5,33,6.369003973964379e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9
+fuse-audio-video,IEMOCAP-impro,CREMA-D,4,fuse-audio-video,none,25,58,9.798531149119577e-07,365ae18f3ec6c99a56ed8c2591e5ce49645aafd9

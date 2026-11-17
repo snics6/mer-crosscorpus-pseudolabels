@@ -1,0 +1,17 @@
+kind,target,n_p4,n_pooled,missing,dup,n_mismatch,max_abs_diff
+text_roberta,IEMOCAP-impro,40,40,0,0,0,0.0
+text_roberta,IEMOCAP-script,40,40,0,0,0,0.0
+text_roberta,MELD,40,40,0,0,0,0.0
+text_roberta,MOSEI,40,40,0,0,0,0.0
+fuse-audio-text,IEMOCAP-impro,40,40,0,0,0,0.0
+fuse-audio-text,IEMOCAP-script,40,40,0,0,0,0.0
+fuse-audio-text,MELD,40,40,0,0,0,0.0
+fuse-audio-text,MOSEI,40,40,0,0,0,0.0
+fuse-video-text,IEMOCAP-impro,40,40,0,0,0,0.0
+fuse-video-text,IEMOCAP-script,40,40,0,0,0,0.0
+fuse-video-text,MELD,40,40,0,0,0,0.0
+fuse-video-text,MOSEI,40,40,0,0,0,0.0
+fuse-audio-video-text,IEMOCAP-impro,40,40,0,0,0,0.0
+fuse-audio-video-text,IEMOCAP-script,40,40,0,0,0,0.0
+fuse-audio-video-text,MELD,40,40,0,0,0,0.0
+fuse-audio-video-text,MOSEI,40,40,0,0,0,0.0

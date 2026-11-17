@@ -1,0 +1,9 @@
+map,kind,iemocap,n_pairs,frac_same,n_clusters_min
+fixc,fuse-audio-text,False,6,1.0,25
+fixc,fuse-audio-text,True,6,0.6666666666666666,5
+fixc,fuse-audio-video-text,False,6,0.8333333333333334,25
+fixc,fuse-audio-video-text,True,6,0.6666666666666666,5
+fixc,fuse-video-text,False,6,1.0,25
+fixc,fuse-video-text,True,6,0.6666666666666666,5
+fixc,text_roberta,False,6,1.0,25
+fixc,text_roberta,True,6,0.6666666666666666,5

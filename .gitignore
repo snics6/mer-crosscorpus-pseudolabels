@@ -1,0 +1,13 @@
+# environment
+.venv/
+__pycache__/
+*.py[cod]
+# not distributed: corpora-derived data, features, weights, logs
+data/metadata/*_utterance_manifest.csv
+data/metadata/afew_transcript_whisper.csv
+data/cache/
+weights/
+logs/
+# regenerated figures
+paper/figures/*.pdf
+paper/figures/*.png

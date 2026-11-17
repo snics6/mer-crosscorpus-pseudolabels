@@ -1,0 +1,9 @@
+{
+ "inputs": {
+  "results/dai1/stats/families_flagged.csv": "5bc07e9b384fbcd7e8751f167eb755b1ea16c8caa61dfc769ee5dfff7ecfc31d",
+  "results/dai1/stats/desc/outside_families.csv": "48ca3cc2a3c8b547ae12d77e9591a4dbfdf62aaa79045fe4365d255f736c8824",
+  "results/dai20_eval/summary/effects.csv": "0e252da4fd1ee7d132449ba2c0e5c19feb4f624b4241a9f10d0461ab793dc0fc",
+  "results/dai21_eval5/summary/effects.csv": "34e5d8f0bf3029183f53eab9b3286b286c6dd94e6dc159b0853b78263df9f09d"
+ },
+ "script_sha256": "6c2ac03c59081b1bec4674f4e08ce15b9ba141b0fe26a6abc2e09518fb953c3c"
+}

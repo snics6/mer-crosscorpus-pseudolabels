@@ -1,0 +1,42 @@
+{
+ "time": "2026-11-15 03:37:19",
+ "commit": "a618df85c9aebf4b7d6284b66f06c7aecc95ca28",
+ "dirty": false,
+ "script_sha256": "156ec36a90154f1438e7788484758a5d89c4314cf999983d9b5738cfcf7baba0",
+ "modules_sha256": {
+  "dai1_stats.py": "221d5187864569100a44e6bf283cadf981754f15250a97003ea9a32f0e2ae8b0",
+  "dai12_probe.py": "bd287f689ba53839bab20aa4476711c307be28e976bc79c20c58253a99eb5a02",
+  "dai15.py": "f6fb459b0fdb7ff80e962b3f722cf1e2c599d67ef4f089386aad7f253931e758",
+  "dai16_probe.py": "62863fa8741277762357e9cc9401bde131c4059e3b1f89ebd3d38daffd390e34",
+  "dai_data.py": "f228e73baceb90e57f9f792492534d3c1199327796b3a13cb700eb8ee2dbe937",
+  "dai20_eval.py": "2d1b54806585a2efd9e30d85161f22c2bf97f3b1e6fae11059afaeac3f386474"
+ },
+ "units_dir": "/home/snics/MER-DA/results/dai20_eval/units",
+ "n_units": 200,
+ "units_per_corpus": {
+  "AFEW": 50,
+  "IEMOCAP": 50,
+  "MELD": 50,
+  "MOSEI": 50
+ },
+ "key": "T",
+ "grid": null,
+ "allow_partial": false,
+ "frozen_sha256": "faa2391d2d81bb2b6d82cc7e76e2211fe7c9a4c2fd762cd49f0d264919bbe9f1",
+ "summary_sha256": {
+  "levels.csv": "dd36305e694b5593419585532d11fccdcca0f7e3b0c9ca46beef9ae4ae6831d9",
+  "effects.csv": "0e252da4fd1ee7d132449ba2c0e5c19feb4f624b4241a9f10d0461ab793dc0fc",
+  "grid_levels.csv": "82010d7f5dc55fbcf053cc0afd86c914bde71d23b1037806924bace9157fe86b"
+ },
+ "additivity_dev_max": 1.4932499681208355e-14,
+ "levels_vs_summary": {
+  "n": 240,
+  "dev_max": 7.105427357601002e-15
+ },
+ "total_vs_summary": {
+  "n": 432,
+  "est_dev_max": 4.440892098500626e-16,
+  "ci_dev_max": 1.7763568394002505e-15
+ },
+ "n_rows": 5148
+}

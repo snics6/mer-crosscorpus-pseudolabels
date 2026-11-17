@@ -1,0 +1,290 @@
+{
+ "choice": {
+  "AFEW": {
+   "5": {
+    "grid": 6,
+    "n0": 20.0,
+    "beta": 1.0,
+    "prior": "eq",
+    "noprof_sel": 4
+   },
+   "10": {
+    "grid": 2,
+    "n0": 0.0,
+    "beta": 1.0,
+    "prior": "eq",
+    "noprof_sel": 0
+   },
+   "25": {
+    "grid": 6,
+    "n0": 20.0,
+    "beta": 1.0,
+    "prior": "eq",
+    "noprof_sel": 0
+   }
+  },
+  "IEMOCAP": {
+   "5": {
+    "grid": 2,
+    "n0": 0.0,
+    "beta": 1.0,
+    "prior": "eq",
+    "noprof_sel": 0
+   },
+   "10": {
+    "grid": 2,
+    "n0": 0.0,
+    "beta": 1.0,
+    "prior": "eq",
+    "noprof_sel": 0
+   },
+   "25": {
+    "grid": 2,
+    "n0": 0.0,
+    "beta": 1.0,
+    "prior": "eq",
+    "noprof_sel": 0
+   }
+  },
+  "MOSEI": {
+   "5": {
+    "grid": 2,
+    "n0": 0.0,
+    "beta": 1.0,
+    "prior": "eq",
+    "noprof_sel": 0
+   },
+   "10": {
+    "grid": 2,
+    "n0": 0.0,
+    "beta": 1.0,
+    "prior": "eq",
+    "noprof_sel": 0
+   },
+   "25": {
+    "grid": 2,
+    "n0": 0.0,
+    "beta": 1.0,
+    "prior": "eq",
+    "noprof_sel": 0
+   }
+  },
+  "MELD": {
+   "5": {
+    "grid": 7,
+    "n0": 20.0,
+    "beta": 1.0,
+    "prior": "ext",
+    "noprof_sel": 5
+   },
+   "10": {
+    "grid": 7,
+    "n0": 20.0,
+    "beta": 1.0,
+    "prior": "ext",
+    "noprof_sel": 0
+   },
+   "25": {
+    "grid": 2,
+    "n0": 0.0,
+    "beta": 1.0,
+    "prior": "eq",
+    "noprof_sel": 5
+   }
+  }
+ },
+ "source_sha256": {
+  "results/dai16_probe/summary/mixsel.csv": "471c6c91d767b846a45952a544980aa1cb15d369d8cd2a0df1d23f46a6772b70",
+  "results/dai16_probe_k10/summary/mixsel.csv": "c83eab966090949464cf9b82d9c7b3eb968373ff85d8a2626e36d38fdde6582b"
+ },
+ "reference_sha256": {
+  "results/dai16_probe/summary/reliability_src.csv": "580ced1b5116cdfab31c4a4e0a63460522d6927ce9132a06be7b71d3a5aa3a42",
+  "results/dai16_probe_k10/summary/reliability_src.csv": "580ced1b5116cdfab31c4a4e0a63460522d6927ce9132a06be7b71d3a5aa3a42"
+ },
+ "selfcheck": [
+  {
+   "T": "AFEW",
+   "K": 5,
+   "grid": 6,
+   "n_units": 30,
+   "corpora_in_units": [
+    "IEMOCAP",
+    "MELD",
+    "MOSEI"
+   ],
+   "noprof_sel": 4
+  },
+  {
+   "T": "IEMOCAP",
+   "K": 5,
+   "grid": 2,
+   "n_units": 30,
+   "corpora_in_units": [
+    "AFEW",
+    "MELD",
+    "MOSEI"
+   ],
+   "noprof_sel": 0
+  },
+  {
+   "T": "MOSEI",
+   "K": 5,
+   "grid": 2,
+   "n_units": 30,
+   "corpora_in_units": [
+    "AFEW",
+    "IEMOCAP",
+    "MELD"
+   ],
+   "noprof_sel": 0
+  },
+  {
+   "T": "MELD",
+   "K": 5,
+   "grid": 7,
+   "n_units": 30,
+   "corpora_in_units": [
+    "AFEW",
+    "IEMOCAP",
+    "MOSEI"
+   ],
+   "noprof_sel": 5
+  },
+  {
+   "T": "AFEW",
+   "K": 10,
+   "grid": 2,
+   "n_units": 30,
+   "corpora_in_units": [
+    "IEMOCAP",
+    "MELD",
+    "MOSEI"
+   ],
+   "noprof_sel": 0
+  },
+  {
+   "T": "IEMOCAP",
+   "K": 10,
+   "grid": 2,
+   "n_units": 30,
+   "corpora_in_units": [
+    "AFEW",
+    "MELD",
+    "MOSEI"
+   ],
+   "noprof_sel": 0
+  },
+  {
+   "T": "MOSEI",
+   "K": 10,
+   "grid": 2,
+   "n_units": 30,
+   "corpora_in_units": [
+    "AFEW",
+    "IEMOCAP",
+    "MELD"
+   ],
+   "noprof_sel": 0
+  },
+  {
+   "T": "MELD",
+   "K": 10,
+   "grid": 7,
+   "n_units": 30,
+   "corpora_in_units": [
+    "AFEW",
+    "IEMOCAP",
+    "MOSEI"
+   ],
+   "noprof_sel": 0
+  },
+  {
+   "T": "AFEW",
+   "K": 25,
+   "grid": 6,
+   "n_units": 30,
+   "corpora_in_units": [
+    "IEMOCAP",
+    "MELD",
+    "MOSEI"
+   ],
+   "noprof_sel": 0
+  },
+  {
+   "T": "IEMOCAP",
+   "K": 25,
+   "grid": 2,
+   "n_units": 30,
+   "corpora_in_units": [
+    "AFEW",
+    "MELD",
+    "MOSEI"
+   ],
+   "noprof_sel": 0
+  },
+  {
+   "T": "MOSEI",
+   "K": 25,
+   "grid": 2,
+   "n_units": 30,
+   "corpora_in_units": [
+    "AFEW",
+    "IEMOCAP",
+    "MELD"
+   ],
+   "noprof_sel": 0
+  },
+  {
+   "T": "MELD",
+   "K": 25,
+   "grid": 2,
+   "n_units": 30,
+   "corpora_in_units": [
+    "AFEW",
+    "IEMOCAP",
+    "MOSEI"
+   ],
+   "noprof_sel": 5
+  }
+ ],
+ "settings": {
+  "KS": [
+   5,
+   10,
+   25
+  ],
+  "layer": "adj（候補の上の確率の平均を積に合わせる切片のずらし．ラベルを使わない）",
+  "wf": {
+   "tables": "Dirichlet(1,1,1) を感情ごとに引いて 3 倍．表 0 は全部 1",
+   "seed": [
+    20261134,
+    1
+   ],
+   "ms": [
+    10,
+    100,
+    1000
+   ],
+   "select": "K 本の上の UAR（組 j の発話は，組 j を抜いて作った分類器の確率と，その分類器の候補の上の確率から決めた切片で判定）が最大の表",
+   "tie": "最大に並んだ表の平均を使う（最大が表 0 だけなら積の判定をそのまま使う）"
+  },
+  "temp": {
+   "fit": "K 本の抜いた確率（中心化した対数）の，感情ごとに等しい重みの対数尤度",
+   "tau": 0.01,
+   "bounds": [
+    0.0,
+    5.0
+   ],
+   "tcal": "分類器ごとに別々に，その分類器だけの対数尤度で重み 1 つを合わせる",
+   "temp": "3 つの重みを，まとめた答えの対数尤度で同時に合わせる",
+   "tempb": "切片 4 つも同時に合わせ，重みだけを使う"
+  },
+  "wf_tables_sha256": "ecae5f91efd7f5913684734d1007aa9d3a795570a16e3c71061798635bcebc81",
+  "conf": "発話ごとに，各分類器の重み ＝ その分類器の最大の確率",
+  "avg": "3 つの確率の平均",
+  "psel": "実験 1 が別のコーパスで選んだ指数（固定のファイルの w）を平均 1 に割って掛ける積"
+ },
+ "rule": "下調べ（実験 16 と K = 10 の追補）の M_F6_mixsel：評価するコーパスを含まない 30 単位の adj の UAR の平均が最大の格子の点",
+ "time": "2026-11-14 20:55:06",
+ "commit": "bfbd93918a1fcba3e2328dd2362b6b804ee3a3b7"
+}

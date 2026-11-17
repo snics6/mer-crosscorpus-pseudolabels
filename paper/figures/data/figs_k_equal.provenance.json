@@ -1,0 +1,40 @@
+{
+ "figures": {
+  "fig3_q1_retraining": {
+   "sources": [
+    {
+     "path": "results/dai1/stats/families_flagged.csv",
+     "sha256_16": "5bc07e9b384fbcd7"
+    },
+    {
+     "path": "results/dai1/stats/desc/outside_families.csv",
+     "sha256_16": "48ca3cc2a3c8b547"
+    }
+   ],
+   "first_edition": [],
+   "n_checked": 0,
+   "size_mm": [
+    174.0,
+    82.0
+   ]
+  },
+  "fig6_conditions": {
+   "sources": [
+    {
+     "path": "results/dai14/summary/conditions.csv",
+     "sha256_16": "ca618aa3978b7314"
+    },
+    {
+     "path": "results/dai3/eval/expl4_corpus_restored.csv",
+     "sha256_16": "bd0acf2f9c95e33d"
+    }
+   ],
+   "first_edition": [],
+   "n_checked": 0,
+   "size_mm": [
+    174.0,
+    92.0
+   ]
+  }
+ }
+}

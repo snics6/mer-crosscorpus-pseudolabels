@@ -1,0 +1,20 @@
+{
+ "n_units": 200,
+ "teacher_dev_max": 8.263957518817033e-05,
+ "grad_max": 9.99989445760347e-07,
+ "stalled": 0,
+ "adj_resid_max": 9.999987726772021e-09,
+ "recheck_agree_min": 1.0,
+ "eq_agree_min": 1.0,
+ "psel_agree_min": 1.0,
+ "others_B_dev_max": 7.105427357601002e-15,
+ "others_sha256": {
+  "results/dai1/stats/desc/levels.csv": "6cd22f762c58610de9187c95c7b7e6a6d0711a6b60f6396025019a0da1545b1a",
+  "results/dai2/stats/prop_minus_method.csv": "0c1009648d11c98dc66e8c8781681b97ad3221a80b06fe35ef58bbff171f20be"
+ },
+ "unit_commits": [
+  "341c62b93b7fa527d4da93a0b555487e557c9b39"
+ ],
+ "summary_commit": "423412cadde98fb56be38be7b5a02abe8215f523",
+ "sec_total": 19708.304315328598
+}

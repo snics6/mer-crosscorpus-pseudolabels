@@ -1,0 +1,199 @@
+{
+ "started": "2026-10-09T01:05:04+09:00",
+ "out_root": "results/fixc_analysis",
+ "git": {
+  "commit": "f417d080085cc1c6a9e1999941199c58b411b9b4",
+  "dirty": false
+ },
+ "reps": {
+  "map_audio_hubert": {
+   "targets": 7,
+   "reps_min": 30,
+   "reps_max": 30
+  },
+  "map_audio_wavlm": {
+   "targets": 7,
+   "reps_min": 30,
+   "reps_max": 30
+  },
+  "map_fuse-audio-text": {
+   "targets": 4,
+   "reps_min": 5,
+   "reps_max": 5
+  },
+  "map_fuse-audio-video": {
+   "targets": 6,
+   "reps_min": 30,
+   "reps_max": 30
+  },
+  "map_fuse-audio-video-text": {
+   "targets": 4,
+   "reps_min": 5,
+   "reps_max": 5
+  },
+  "map_fuse-video-text": {
+   "targets": 4,
+   "reps_min": 5,
+   "reps_max": 5
+  },
+  "map_text_roberta": {
+   "targets": 4,
+   "reps_min": 5,
+   "reps_max": 5
+  },
+  "map_video": {
+   "targets": 6,
+   "reps_min": 30,
+   "reps_max": 30
+  },
+  "mech_audio_hubert": {
+   "targets": 7,
+   "reps_min": 2,
+   "reps_max": 3
+  },
+  "mech_audio_wavlm": {
+   "targets": 7,
+   "reps_min": 3,
+   "reps_max": 3
+  },
+  "mech_video": {
+   "targets": 6,
+   "reps_min": 3,
+   "reps_max": 3
+  },
+  "mech2_audio_wavlm": {
+   "targets": 7,
+   "reps_min": 1,
+   "reps_max": 1
+  }
+ },
+ "steps": [
+  {
+   "step": "E2",
+   "script": "exp/explore_decomp.py",
+   "args": [],
+   "returncode": 0,
+   "seconds": 4.6,
+   "wrote": [
+    "explore_relation/decomp_corr.csv",
+    "explore_relation/decomp_partial.csv",
+    "explore_relation/decomp_share.csv",
+    "explore_relation/fig_decomp_resid_audio.png",
+    "explore_relation/fig_decomp_share.png",
+    "explore_relation/per_pair.csv"
+   ]
+  },
+  {
+   "step": "E8",
+   "script": "exp/explore_factor.py",
+   "args": [],
+   "returncode": 0,
+   "seconds": 191.9,
+   "wrote": [
+    "explore_relation/e8_axis.csv",
+    "explore_relation/e8_lowrank.csv",
+    "explore_relation/e8_scale.csv",
+    "explore_relation/e8_symmetry.csv",
+    "explore_relation/fig_e8.png"
+   ]
+  },
+  {
+   "step": "E9",
+   "script": "exp/explore_geometry.py",
+   "args": [],
+   "returncode": 0,
+   "seconds": 11.7,
+   "wrote": [
+    "explore_relation/e9_corpus.csv",
+    "explore_relation/e9_effects.csv",
+    "explore_relation/e9_modality.csv",
+    "explore_relation/e9_pair.csv",
+    "explore_relation/e9_partial.csv",
+    "explore_relation/fig_e9.png"
+   ]
+  },
+  {
+   "step": "E10",
+   "script": "exp/explore_shape.py",
+   "args": [],
+   "returncode": 0,
+   "seconds": 124.6,
+   "wrote": [
+    "explore_relation/e10_corpus.csv",
+    "explore_relation/e10_joint.csv",
+    "explore_relation/e10_modality.csv",
+    "explore_relation/e10_overlap.csv",
+    "explore_relation/e10_pair.csv",
+    "explore_relation/e10_partial.csv",
+    "explore_relation/fig_e10.png"
+   ]
+  },
+  {
+   "step": "E11",
+   "script": "exp/explore_mechanism.py",
+   "args": [],
+   "returncode": 0,
+   "seconds": 33.7,
+   "wrote": [
+    "explore_relation/e11_curves.csv",
+    "explore_relation/e11_h1.csv",
+    "explore_relation/e11_h2.csv",
+    "explore_relation/e11_h2_pair.csv",
+    "explore_relation/e11_h3.csv",
+    "explore_relation/e11_h3c.csv",
+    "explore_relation/e11_h4.csv",
+    "explore_relation/e11_h4_source.csv",
+    "explore_relation/e11_h5.csv",
+    "explore_relation/e11_model.csv",
+    "explore_relation/e11_primary.csv",
+    "explore_relation/e11_state.json",
+    "explore_relation/fig_e11.png"
+   ]
+  },
+  {
+   "step": "E13",
+   "script": "exp/explore_pairs.py",
+   "args": [],
+   "returncode": 0,
+   "seconds": 284.7,
+   "wrote": [
+    "explore_relation/e13_acted_natural.csv",
+    "explore_relation/e13_fit.csv",
+    "explore_relation/e13_mech.csv",
+    "explore_relation/e13_pairs.csv",
+    "explore_relation/e13_profile.csv",
+    "explore_relation/e13_summary.csv",
+    "explore_relation/fig_e13.png"
+   ]
+  },
+  {
+   "step": "E12",
+   "script": "exp/explore_relearn.py",
+   "args": [],
+   "returncode": 0,
+   "seconds": 24.2,
+   "wrote": [
+    "explore_relation/e12_center.csv",
+    "explore_relation/e12_cwt.csv",
+    "explore_relation/e12_cwt_alpha.csv",
+    "explore_relation/e12_cwt_pairs.csv",
+    "explore_relation/e12_d1.csv",
+    "explore_relation/e12_src.csv",
+    "explore_relation/e12_state.json",
+    "explore_relation/e12_wt.csv",
+    "explore_relation/e12_wt_alpha.csv",
+    "explore_relation/fig_e12.png"
+   ]
+  },
+  {
+   "step": "MH-HuBERT",
+   "script": "exp/check_mh.py",
+   "args": [],
+   "returncode": 1,
+   "seconds": 130.6,
+   "wrote": []
+  }
+ ],
+ "finished": "2026-10-09T01:18:30+09:00",
+ "ok": false
+}
