@@ -396,81 +396,114 @@ def pf_bars(ax, x, y, w, h, vals, color, fs, X):
 
 
 TPS = {
-    "ja": dict(a="ラベル無しの発話 1 つへの\n3 つの分類器の確率", b="重み（分類器 × 感情）", c="疑似ラベル q",
-               sumlab="感情ごとに\n掛けて足す", strength="強さ：K 本で測る", profile="感情ごとの形：ソースで測る",
-               clf={"A": "声", "V": "顔", "T": "言葉"}, retr="AVT の分類器を，K 本と q で学び直す"),
-    "en": dict(a="Probabilities for one\nunlabelled utterance", b="Weights (classifier × emotion)", c="Pseudo-label q",
-               sumlab="weight and\nsum per\nemotion", strength="Strength: K labels", profile="Profile: source corpora",
-               clf={"A": "Audio", "V": "Visual", "T": "Text"}, retr="Retrain the AVT classifier on the K labels and q"),
+    "ja": dict(ta="(a) 重みを作る", tb="(b) ラベル無しの発話に疑似ラベルを付ける",
+               st="強さ", st2="K 本で測る．\n分類器ごとに 1 つ", pr="感情ごとの形", pr2="ソースで測る", w="重み", w2="分類器 × 感情",
+               probs="3 つの分類器の確率", sumlab="重みを掛けて\n感情ごとに足す", q="疑似ラベル q",
+               retr="AVT の分類器を\nK 本と q で\n学び直す", clf={"A": "声", "V": "顔", "T": "言葉"}),
+    "en": dict(ta="(a) Making the weights", tb="(b) Pseudo-label for an unlabelled utterance",
+               st="Strength", st2="from the K labels;\none per classifier", pr="Per-emotion profile", pr2="from the source corpora",
+               w="Weights", w2="classifier × emotion",
+               probs="Probabilities of the\nthree classifiers", sumlab="multiply by the\nweights and sum\nper emotion", q="Pseudo-label q",
+               retr="Retrain the AVT\nclassifier on the\nK labels and q", clf={"A": "Audio", "V": "Visual", "T": "Text"}),
 }
+PF_STRENGTH = PF_OMEGA.mean(1)                      # 0.95, 1.10, 0.95: the example table = strength + profile
+PF_PROFILE = PF_OMEGA - PF_STRENGTH[:, None]
 
 
 def fig_prop_flow(lang="ja"):
-    """Simplified (2026-11-17 night; researcher: "図がbusy．もっとシンプルで本質的なところだけ．細かい字が多いのは良くない"):
-    probabilities of one unlabelled utterance x weight table (strength from the K labels, profile from the sources)
-    -> pseudo-label q -> retraining. No numbers on the bars; details are in the caption and Sect. 3.6."""
+    """Two rows (2026-11-17 night; researcher: "わからん．もうちょい伝わる画像．二段にしてもいいから"):
+    (a) the weight table = strength (one per classifier, from the K labels) + per-emotion profile (from the sources);
+    (b) for one unlabelled utterance, the three classifiers' probabilities are weighted and summed per emotion into q,
+    and the AVT classifier is retrained on the K labels and q. Illustrative values: the table of Fig. 1 split into its
+    row means (strength) and the deviations (profile); q from Eq. (5) with c = 0."""
     setup(lang)
     t = TPS[lang]
     Wf = W if lang == "ja" else W_EN
     k = Wf / W_EN
     X = lambda x: x * k
     fs = FS + 0.4 if lang == "ja" else 8.0
-    H = 60
+    H = 92
     fig, ax = canvas(H, Wf)
-    top = H - 1.0
-    # (a) three classifiers' probabilities for one unlabelled utterance
-    box(ax, X(0.6), 9.5, X(37.0), top - 9.5, fc="#F7F7F7", ec=C_U, lw=0.9, ls="--")
-    txt(ax, X(2.0), top - 1.4, t["a"], size=fs, ls=1.1)
-    bx0, bw, bh = 15.5, 19.5, 6.5
+    # ---------------- (a) making the weights
+    box(ax, X(0.6), 47.5, Wf - X(1.2), H - 48.1, fc="#FBFBFB", ec="#BBBBBB", lw=0.7)
+    txt(ax, X(2.0), H - 1.8, t["ta"], size=fs + 0.6, weight="bold")
+    cw, ch, gy = 7.6, 6.6, 52.0
+    rowy = [gy + (2 - r) * ch + ch / 2 for r in range(3)]
     for r, m in enumerate("AVT"):
-        yb = top - 19.0 - r * 10.4
-        col = MOD[m][0]
-        mark(ax, X(3.2), yb + 2.6, m, size=3.8)
-        txt(ax, X(5.0), yb + 2.6, t["clf"][m], va="center", size=fs, color=col, weight="bold")
-        for e, v in enumerate(PF_PROBS[m]):
-            cx = bx0 + (e + 0.5) * bw / 4
-            ax.add_patch(plt.Rectangle((X(cx - 1.7), yb), X(3.4), bh * v / 0.6, fc=col, ec="none", zorder=4))
-        ax.plot([X(bx0), X(bx0 + bw)], [yb, yb], color=GREY, lw=0.5, zorder=4)
-    for e in range(4):
-        txt(ax, X(bx0 + (e + 0.5) * bw / 4), top - 19.0 - 2 * 10.4 - 0.5, "NHSA"[e], ha="center", size=fs - 0.4, color=GREY)
-    # times
-    ym = 23.5 + 1.5 * 6.4
-    txt(ax, X(40.6), ym, "×", ha="center", va="center", size=fs + 6, weight="bold", color=GREY)
-    # (b) weight table and where its two parts come from
-    gx, cwh, chh = 52.0, 7.4, 6.4
-    gy = 23.5
-    txt(ax, X(gx - 8.5), gy + 3 * chh + 6.0, t["b"], size=fs, ls=1.1)
-    for r, m in enumerate("AVT"):
-        txt(ax, X(gx - 1.0), gy + (2 - r) * chh + chh / 2, t["clf"][m], ha="right", va="center", size=fs - 0.4,
-            color=MOD[m][0])
+        mark(ax, X(3.4), rowy[r], m, size=3.6)
+        txt(ax, X(5.2), rowy[r], t["clf"][m], va="center", size=fs, color=MOD[m][0], weight="bold")
+    # strength: one bar per classifier
+    sx = 18.0
+    txt(ax, X(sx), H - 9.0, t["st"], size=fs + 0.2, weight="bold", color=C_K)
+    txt(ax, X(sx), H - 13.0, t["st2"], size=fs - 0.6, color=C_K, ls=1.05)
+    for r, v in enumerate(PF_STRENGTH):
+        ax.add_patch(plt.Rectangle((X(sx), rowy[r] - 2.2), X(11.0 * v), 4.4, fc=C_K, ec="none", alpha=0.75, zorder=3))
+        txt(ax, X(sx + 11.0 * v + 0.8), rowy[r], f"{v:.2f}", va="center", size=fs - 0.4)
+    txt(ax, X(41.5), rowy[1], "+", ha="center", va="center", size=fs + 7, weight="bold", color=GREY)
+    # per-emotion profile: deviations, diverging colours
+    px = 46.0
+    txt(ax, X(px), H - 9.0, t["pr"], size=fs + 0.2, weight="bold", color=C_SRC)
+    txt(ax, X(px), H - 13.0, t["pr2"], size=fs - 0.6, color=C_SRC)
+    for r in range(3):
+        for c_ in range(4):
+            v = PF_PROFILE[r, c_]
+            fc = plt.cm.PuOr_r(0.5 + 1.6 * v)
+            ax.add_patch(plt.Rectangle((X(px + c_ * cw), rowy[r] - ch / 2 + 0.3), X(cw - 0.6), ch - 0.6, fc=fc, ec="none", zorder=3))
+            ax.text(X(px + c_ * cw + (cw - 0.6) / 2), rowy[r], f"{v:+.2f}".replace("-", "−"), ha="center", va="center",
+                    fontsize=fs - 1.0, zorder=5)
+    for c_ in range(4):
+        txt(ax, X(px + c_ * cw + (cw - 0.6) / 2), gy - 0.4, "NHSA"[c_], ha="center", size=fs - 0.4, color=GREY)
+    txt(ax, X(81.0), rowy[1], "=", ha="center", va="center", size=fs + 7, weight="bold", color=GREY)
+    # weights
+    wx = 86.0
+    txt(ax, X(wx), H - 9.0, t["w"], size=fs + 0.2, weight="bold", color=C_PROP)
+    txt(ax, X(wx), H - 13.0, t["w2"], size=fs - 0.6, color=C_PROP)
+    for r in range(3):
         for c_ in range(4):
             v = PF_OMEGA[r, c_]
-            ax.add_patch(plt.Rectangle((X(gx + c_ * cwh), gy + (2 - r) * chh), X(cwh - 0.6), chh - 0.6,
+            ax.add_patch(plt.Rectangle((X(wx + c_ * cw), rowy[r] - ch / 2 + 0.3), X(cw - 0.6), ch - 0.6,
                                        fc=plt.cm.Oranges(0.15 + 0.55 * (v - 0.8) / 0.5), ec="none", zorder=3))
-            ax.text(X(gx + c_ * cwh + (cwh - 0.6) / 2), gy + (2 - r) * chh + (chh - 0.6) / 2, f"{v:.1f}", ha="center",
-                    va="center", fontsize=fs - 0.4, color="black" if v < 1.15 else "white", zorder=5)
+            ax.text(X(wx + c_ * cw + (cw - 0.6) / 2), rowy[r], f"{v:.1f}", ha="center", va="center", fontsize=fs - 0.4,
+                    color="black" if v < 1.15 else "white", zorder=5)
     for c_ in range(4):
-        txt(ax, X(gx + c_ * cwh + (cwh - 0.6) / 2), gy - 0.4, "NHSA"[c_], ha="center", size=fs - 0.4, color=GREY)
-    txt(ax, X(gx - 8.5), 18.4, t["strength"], size=fs, color=C_K)
-    txt(ax, X(gx - 8.5), 14.0, t["profile"], size=fs, color=C_SRC)
-    # arrow to q
-    arrow(ax, (X(84.5), ym), (X(98.0), ym), lw=1.4, head=9, color=C_PROP)
-    txt(ax, X(91.2), ym - 2.5, t["sumlab"], ha="center", va="top", size=fs - 0.4, color=C_PROP, ls=1.05)
-    # (c) pseudo-label q
+        txt(ax, X(wx + c_ * cw + (cw - 0.6) / 2), gy - 0.4, "NHSA"[c_], ha="center", size=fs - 0.4, color=GREY)
+    # arrow from (a) to (b): the weights are used below
+    ax.plot([X(wx + 2 * cw), X(wx + 2 * cw), X(46.0)], [51.0, 37.5, 37.5], color=C_PROP, lw=1.2, zorder=6)
+    arrow(ax, (X(46.0), 37.5), (X(46.0), 23.6), lw=1.2, head=8, color=C_PROP, z=6)
+    # ---------------- (b) pseudo-label for one unlabelled utterance
+    box(ax, X(0.6), 0.6, Wf - X(1.2), 45.4, fc="#FBFBFB", ec="#BBBBBB", lw=0.7)
+    txt(ax, X(2.0), 44.2, t["tb"], size=fs + 0.6, weight="bold")
+    txt(ax, X(3.0), 37.6, t["probs"], size=fs - 0.4, color=GREY, ls=1.05)
+    bx0, bw = 15.5, 17.0
+    for r, m in enumerate("AVT"):
+        yb = 23.0 - r * 8.6 + 2.0
+        col = MOD[m][0]
+        mark(ax, X(3.4), yb + 2.2, m, size=3.4)
+        txt(ax, X(5.2), yb + 2.2, t["clf"][m], va="center", size=fs - 0.2, color=col, weight="bold")
+        for e, v in enumerate(PF_PROBS[m]):
+            cx = bx0 + (e + 0.5) * bw / 4
+            ax.add_patch(plt.Rectangle((X(cx - 1.5), yb), X(3.0), 6.0 * v / 0.6, fc=col, ec="none", zorder=4))
+        ax.plot([X(bx0), X(bx0 + bw)], [yb, yb], color=GREY, lw=0.5, zorder=4)
+    for e in range(4):
+        txt(ax, X(bx0 + (e + 0.5) * bw / 4), 23.0 - 2 * 8.6 + 1.6, "NHSA"[e], ha="center", size=fs - 0.6, color=GREY)
+    arrow(ax, (X(35.0), 21.5), (X(57.0), 21.5), lw=1.6, head=10, color=C_PROP)
+    txt(ax, X(46.0), 19.0, t["sumlab"], ha="center", va="top", size=fs - 0.4, color=C_PROP, ls=1.05)
     q = pf_q()
-    box(ax, X(99.0), 20.0, X(31.6), top - 20.0, fc="#FFF4EC", ec=C_PROP, lw=1.3)
-    txt(ax, X(100.6), top - 1.4, t["c"], size=fs, weight="bold", color=C_PROP)
-    qb, qw, qh = 26.5, 26.0, 20.0
+    box(ax, X(58.5), 4.0, X(31.0), 30.5, fc="#FFF4EC", ec=C_PROP, lw=1.3)
+    txt(ax, X(60.0), 33.0, t["q"], size=fs, weight="bold", color=C_PROP)
+    qb, qw, qh = 10.5, 27.0, 20.0
     for e, v in enumerate(q):
-        cx = 101.8 + (e + 0.5) * qw / 4
-        ax.add_patch(plt.Rectangle((X(cx - 2.4), qb), X(4.8), qh * v, fc=C_PROP, ec="none", zorder=4))
+        cx = 60.5 + (e + 0.5) * qw / 4
+        ax.add_patch(plt.Rectangle((X(cx - 2.6), qb), X(5.2), qh * v, fc=C_PROP, ec="none", zorder=4))
         txt(ax, X(cx), qb - 0.5, "NHSA"[e], ha="center", size=fs - 0.4, color=GREY)
-    ax.plot([X(101.8), X(101.8 + qw)], [qb, qb], color=GREY, lw=0.5, zorder=4)
-    # retraining
-    arrow(ax, (X(114.8), 20.0), (X(114.8), 9.6), lw=1.2, head=8, color=C_SRC)
-    box(ax, X(40.0), 1.0, X(90.6), 8.4, fc="white", ec=C_SRC, lw=1.2)
-    txt(ax, X(85.3), 5.2, t["retr"], ha="center", va="center", size=fs, weight="bold", color=C_SRC)
-    rows.append(dict(figure="fig_prop_flow", lang=lang, q=";".join(f"{v:.4f}" for v in q)))
+    ax.plot([X(60.5), X(60.5 + qw)], [qb, qb], color=GREY, lw=0.5, zorder=4)
+    arrow(ax, (X(91.0), 19.0), (X(97.0), 19.0), lw=1.4, head=9, color=C_SRC)
+    box(ax, X(98.0), 8.0, Wf / k - 98.0 - 1.8, 22.0, fc="white", ec=C_SRC, lw=1.3) if False else \
+        box(ax, X(98.0), 8.0, Wf - X(98.0) - X(1.8), 22.0, fc="white", ec=C_SRC, lw=1.3)
+    txt(ax, X(98.0) + (Wf - X(98.0) - X(1.8)) / 2, 19.0, t["retr"], ha="center", va="center", size=fs, weight="bold",
+        color=C_SRC, ls=1.1)
+    rows.append(dict(figure="fig_prop_flow", lang=lang, q=";".join(f"{v:.4f}" for v in q),
+                     strength=";".join(f"{v:.3f}" for v in PF_STRENGTH)))
     save(fig, f"fig_v4_prop_flow_{lang}")
 
 
