@@ -75,4 +75,4 @@ IEMOCAP, CMU-MOSEI, MELD, AFEW, CREMA-D and RAVDESS, obtained from their distrib
 
 ## Licence
 
-TBD.
+The code in this repository is released under the MIT License (`LICENSE`), with one exception: `features/resnet50_affectnet.py` is ported from the implementation of Ryumina et al. (https://github.com/ElenaRyumina/MER) without changing any value, and its copyright remains with the original authors. The weights it loads (`FER_static_ResNet50_AffectNet.pt`, not included) are distributed by the same authors in https://github.com/ElenaRyumina/EMO-AffectNetModel under the MIT License. The corpora, encoders and weights are subject to their own licences.
