@@ -49,7 +49,7 @@ TTOY = {
     ),
     "en": dict(
         rows=["Truth (used only\nin the analysis)", "Pseudo-label\nprovider", "Classifier before\nretraining (K-label\nbaseline)"],
-        head="(1) Judgments on target candidate utterances (K labels excluded; 8 shown as an example)",
+        head="(1) Decisions on target candidate utterances (K labels excluded; 8 shown as an example)",
         utt="{i}", utt_left="Utterance",
         rec="Recall per emotion →\nUAR (mean of the 4)", sep=", ",
         legend=("same as the truth,", "different. N: Neutral, H: Happy, S: Sad, A: Angry."),

@@ -64,11 +64,13 @@ IEMOCAP, CMU-MOSEI, MELD, AFEW, CREMA-D and RAVDESS, obtained from their distrib
 | Paper | Script | Results |
 |---|---|---|
 | Table 1, Table S1 | `features/build_manifest_*.py`, `exp/dai18_probe.py` | `results/dai18_probe/splits_new.csv` |
-| Sect. 4.1, Table 2, Fig. 3, Tables S3–S4 | `exp/dai1*.py`, `exp/dai2*.py`, `paper/scripts/make_figs_v4.py` | `results/dai1/stats/`, `results/dai2/stats/prop_minus_method.csv` |
+| Figs. 1, 2 and 5 (method figures, no data) | `paper/scripts/make_figs_v4.py` | — |
+| Fig. 3 (advantage and gain, illustrative) | `paper/scripts/make_fig_margin_detail.py` | — |
+| Sect. 3.6, Fig. 4, SI S5 | `exp/dai16_probe.py`, `paper/scripts/make_figs_prop_v2.py` | `results/dai16_probe*/` |
+| Sect. 4.1, Table 2, Fig. 6, Tables S3–S4 | `exp/dai1*.py`, `exp/dai2*.py`, `paper/scripts/make_figs_v4.py` | `results/dai1/stats/`, `results/dai2/stats/prop_minus_method.csv` |
 | Sect. 4.2, Table 3 | `exp/compare_dai.py`, `exp/compare_dai2.py`, `exp/e80_*.py`, `exp/analyze_e79.py` | `results/e79/judge/`, `results/e79_p4/judge/` |
-| Sect. 4.3, Fig. 4 | `tools/dai1_teacher_margin.py`, `paper/scripts/make_figs_slides.py` | `results/dai1/stats/teacher_margin*.csv` |
-| Sect. 3.6, Fig. 2, SI S5 | `exp/dai16_probe.py`, `paper/scripts/make_figs_prop_v2.py` | `results/dai16_probe*/` |
-| Sects. 4.4–4.6, Table 4, Fig. 5, Tables S6–S8, S10 | `exp/dai20_eval.py`, `exp/dai21_eval5.py`, `tools/dai20_*.py`, `paper/scripts/make_figs_v4.py` | `results/dai20_eval/`, `results/dai21_eval5/` |
+| Sect. 4.3, Fig. 7 | `tools/dai1_teacher_margin.py`, `paper/scripts/make_figs_slides.py` | `results/dai1/stats/teacher_margin*.csv` |
+| Sects. 4.4–4.6, Table 4, Fig. 8, Tables S6–S8, S10 | `exp/dai20_eval.py`, `exp/dai21_eval5.py`, `tools/dai20_*.py`, `paper/scripts/make_figs_v4.py` | `results/dai20_eval/`, `results/dai21_eval5/` |
 | SI S2 (single-source analysis, fit of the approximation) | `exp/reanalysis_e75.py`, `exp/*e76*.py` | `results/e75/`, `results/e76/`, `results/e76_analysis/` |
 | SI S3 | `exp/dai14.py`, `exp/dai23.py`, `features/build_audio_lowpass.py` | `results/dai14/summary/`, `results/dai23/summary/` |
 | SI S4 | `exp/dai1.py`, `exp/dai3.py` | `results/dai1/stats/`, `results/dai3/` |
